@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microbial Metallomics — The Field Guide to How Microbes Fight, Feed, and Function on Metal</title>
+<meta name="description" content="Microbial metallomics is the study of every metal a microbe uses, hoards, and battles over — a comprehensive, cited field guide to metals in the microbial world.">
+<link rel="canonical" href="https://microbialmetallomics.com/">
+<meta name="theme-color" content="#006f5b">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Microbial Metallomics">
+<meta name="keywords" content="microbial metallomics, metallome, metalloproteome, nutritional immunity, metal homeostasis, metallostasis, siderophores, metalloregulation, host-pathogen metals, bioinorganic microbiology, ICP-MS, XAS">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Microbial Metallomics">
+<meta property="og:title" content="Microbial Metallomics — The Field Guide to Metals in the Microbial World">
+<meta property="og:description" content="A comprehensive, cited field guide to microbial metallomics: the science of how microbes fight, feed, and function on metal.">
+<meta property="og:url" content="https://microbialmetallomics.com/">
+<meta property="og:image" content="https://microbialmetallomics.com/assets/og.svg?v=4">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Microbial Metallomics — The Field Guide to Metals in the Microbial World">
+<meta name="twitter:description" content="A comprehensive, cited field guide to microbial metallomics: how microbes fight, feed, and function on metal.">
+<meta name="twitter:image" content="https://microbialmetallomics.com/assets/og.svg?v=4">
+
+<link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css?v=4">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://microbialmetallomics.com/#website",
+      "url": "https://microbialmetallomics.com/",
+      "name": "Microbial Metallomics",
+      "description": "A comprehensive, cited field guide to microbial metallomics — the study of metals in the microbial world.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://microbialmetallomics.com/#org",
+      "name": "Microbial Metallomics",
+      "url": "https://microbialmetallomics.com/",
+      "logo": "https://microbialmetallomics.com/assets/favicon.svg?v=4",
+      "description": "An independent scientific resource mapping the field of microbial metallomics: metal homeostasis, nutritional immunity, and metals across the microbiome, environment, and clinic.",
+      "sameAs": ["https://zenodo.org/communities/metallomics/records", "https://karenpendergrass.com", "https://paleofoundation.com"],
+      "founder": {"@type": "Person", "name": "Karen Pendergrass", "url": "https://karenpendergrass.com"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://microbialmetallomics.com/#defn",
+      "name": "Microbial metallomics",
+      "description": "Microbial metallomics is the integrated study of the full complement of metal and metalloid species in a microorganism — their identity, quantity, location, coordination chemistry, and biological function — spanning metal acquisition, homeostasis, regulation, and the host–pathogen battle for metals.",
+      "inDefinedTermSet": "https://microbialmetallomics.com/glossary",
+      "sameAs": "https://en.wikipedia.org/wiki/Metallomics"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://microbialmetallomics.com/#faq",
+      "mainEntity": [
+        {"@type":"Question","name":"What is microbial metallomics?","acceptedAnswer":{"@type":"Answer","text":"Microbial metallomics is the integrated study of every metal and metalloid a microbe uses, stores, senses, and competes for. It combines bioinorganic chemistry, metalloproteomics, and systems biology to map the 'metallome' — the entirety of metal-containing molecules in a cell — and to explain how metals drive microbial metabolism, regulation, and infection."}},
+        {"@type":"Question","name":"Why do metals matter so much to microbes?","acceptedAnswer":{"@type":"Answer","text":"Nearly half of all enzymes require a metal to function, and roughly a quarter to a half of all proteins bind one. Iron, zinc, manganese, copper, nickel, cobalt, molybdenum and tungsten power respiration, DNA synthesis, nitrogen fixation and antioxidant defense. Without the right metal in the right place, core metabolism stops."}},
+        {"@type":"Question","name":"What is nutritional immunity?","acceptedAnswer":{"@type":"Answer","text":"Nutritional immunity is the host's strategy of controlling metal availability to defend against infection — either withholding essential metals like iron, zinc and manganese (using proteins such as calprotectin, transferrin and lactoferrin) or poisoning invaders with toxic surges of copper and zinc inside the phagosome. Pathogens fight back with metallophores, transporters and detoxification systems."}},
+        {"@type":"Question","name":"How is the metallome actually measured?","acceptedAnswer":{"@type":"Answer","text":"With a toolbox of elemental and structural methods: ICP-MS quantifies how much of each metal is present, LA-ICP-MS and synchrotron X-ray fluorescence map where metals sit, X-ray absorption spectroscopy (including HERFD-XAS) reveals oxidation state and coordination geometry, and native mass spectrometry plus SEC-ICP-MS link a metal to the protein that carries it."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="/" class="brand" aria-label="Microbial Metallomics — home">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g>
+        <g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g>
+        <circle cx="20" cy="20" r="4.6" fill="currentColor"/>
+      </svg>
+      <span>Microbial<b>Metallomics</b></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/science">The Science</a>
+      <a href="/microbiome">Microbiome</a>
+      <a href="/research">Research</a>
+      <a href="/blog">Blog</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="search-btn" data-search-toggle aria-label="Search">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <span>Search</span><kbd>⌘K</kbd>
+      </button>
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <span>Menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="mega-menu" id="mega-menu">
+    <div class="wrap"><div class="mega-grid">
+      <div class="mega-col"><h5>The Field</h5>
+        <a href="/science"><b>The Science</b><span>Metallome, homeostasis &amp; metal warfare</span></a>
+        <a href="/metals"><b>The Metals</b><span>Essential &amp; toxic, element by element</span></a>
+        <a href="/methods"><b>Methods</b><span>How the metallome is measured</span></a>
+        <a href="/glossary"><b>Glossary</b><span>Every term, defined</span></a>
+      </div>
+      <div class="mega-col"><h5>Health &amp; Applications</h5>
+        <a href="/microbiome"><b>Metals &amp; the Microbiome</b><span>Dietary metals, dysbiosis &amp; disease</span></a>
+        <a href="/applications"><b>Applications</b><span>Antibiotics, bioremediation, agriculture</span></a>
+        <a href="/landscape"><b>Research Landscape</b><span>Journals, labs &amp; milestones</span></a>
+        <a href="/people"><b>Who's Who</b><span>The people of the field</span></a>
+      </div>
+      <div class="mega-col"><h5>Research &amp; Writing</h5>
+        <a href="/research"><b>Research Hub</b><span>The full evidence base</span></a>
+        <a href="/library"><b>Paper Reviews</b><span>In-depth study reviews</span></a>
+        <a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
+        <a href="/faq"><b>FAQ</b><span>Common questions, answered</span></a>
+      </div>
+      <div class="mega-col mega-feature">
+        <h5>Start here</h5>
+        <p>New to the field? The pillar essay lays out the whole thesis — with the evidence.</p>
+        <a href="/blog/metal-microbiome-disease-axis" class="btn btn-primary btn-sm">Read the thesis →</a>
+      </div>
+    </div></div>
+  </div>
+</header>
+<div class="search-overlay" id="search-overlay" aria-hidden="true">
+  <div class="search-modal" role="dialog" aria-label="Search the site">
+    <input type="text" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
+    <div class="search-results" id="search-results"></div>
+    <div class="search-hint">Type to search · ↑ ↓ to navigate · Esc to close</div>
+  </div>
+</div>
+
+<main>
+<!-- ===================== HERO ===================== -->
+<section class="home-hero">
+  <div class="wrap">
+    <div class="kicker">
+      <span>Bioinorganic Microbiology</span>
+      <span class="hl">The Metallome</span>
+      <span>A Field Guide · 2026</span>
+    </div>
+    <h1>Every living cell runs on metal. Microbes fight wars over it.</h1>
+    <p class="lede"><strong>Microbial metallomics</strong> is the study of every metal a microbe uses, hoards, senses, and battles its host for — iron, zinc, manganese, copper, nickel and the rest. This is the comprehensive, cited field guide to that hidden metal economy: the science, the metals, the microbiome, and the people.</p>
+    <div class="hero-search">
+      <button data-search-toggle aria-label="Search the field">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        Search the field — terms, papers, metals…
+        <span class="k">⌘K</span>
+      </button>
+    </div>
+    <div class="cta" style="margin-top:26px;">
+      <a href="/science" class="btn btn-primary">Start with the science →</a>
+      <a href="/people" class="btn btn-ghost">See the who's who</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHAT IS (answer-first) ===================== -->
+<section style="padding:52px 0 8px;">
+  <div class="wrap">
+    <div class="answer-box">
+      <h2 class="q">What is microbial metallomics?</h2>
+      <p><strong>Microbial metallomics</strong> is the integrated study of the full complement of metal and metalloid species in a microorganism — their identity, quantity, location, coordination chemistry, and biological function. It maps the <a href="/glossary/metallome">metallome</a>, the entirety of metal-containing molecules in a cell, and explains how microbes acquire, allocate, sense, and compete for metals such as iron, zinc, manganese, copper and nickel.</p>
+      <p>Because roughly a third of all proteins are metalloproteins and nearly half of all enzymes need a metal to function, this hidden metal economy governs microbial metabolism, the host–pathogen battle for metals known as <a href="/glossary/nutritional-immunity">nutritional immunity</a>, and how metals reshape the microbiome and drive disease. <a href="/science">Read the full science →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== THESIS ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center; gap:56px;">
+      <div>
+        <p class="eyebrow">The Thesis</p>
+        <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem);">Life is a coordination chemistry problem, solved one atom at a time.</h2>
+      </div>
+      <div class="prose" style="max-width:none;">
+        <p>A protein is a chain of amino acids — but the chemistry that folds, cuts, breathes, and copies inside a cell mostly happens at <strong>metal centers</strong>. Nearly half of all enzymes must grip a specific metal ion to work at all. Get the wrong metal into the wrong site — a problem called <strong>mismetallation</strong> — and the machine seizes.</p>
+        <p>So every microbe runs a relentless internal logistics operation: scavenging metals when they are scarce, dumping them when they are toxic, and sensing, to a single free ion, exactly how much of each is available. Microbial metallomics is the field that reads that ledger — and increasingly, learns to exploit it.</p>
+        <a href="/science" class="more" style="font-family:var(--font-mono);">Read the full science →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== THE METALS STRIP ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow patina">The Working Metals</p>
+      <h2>Seven metals do almost all the work.</h2>
+      <p>The transition metals microbes truly need — plus the non-essential, toxic metals that reshape the microbiome and drive disease. Each links to its role in the microbial world.</p>
+    </div>
+    <div class="metal-strip">
+      <a href="/metals#fe" class="el ess"><span class="no">26</span><span class="sym">Fe</span><span class="nm">Iron</span></a>
+      <a href="/metals#zn" class="el ess"><span class="no">30</span><span class="sym">Zn</span><span class="nm">Zinc</span></a>
+      <a href="/metals#mn" class="el ess"><span class="no">25</span><span class="sym">Mn</span><span class="nm">Manganese</span></a>
+      <a href="/metals#cu" class="el ess"><span class="no">29</span><span class="sym">Cu</span><span class="nm">Copper</span></a>
+      <a href="/metals#co" class="el ess"><span class="no">27</span><span class="sym">Co</span><span class="nm">Cobalt</span></a>
+      <a href="/metals#mo" class="el ess"><span class="no">42</span><span class="sym">Mo</span><span class="nm">Molybdenum</span></a>
+      <a href="/metals#w" class="el ess"><span class="no">74</span><span class="sym">W</span><span class="nm">Tungsten</span></a>
+      <a href="/metals#ni" class="el tox"><span class="no">28</span><span class="sym">Ni</span><span class="nm">Nickel</span></a>
+      <a href="/metals#al" class="el tox"><span class="no">13</span><span class="sym">Al</span><span class="nm">Aluminum</span></a>
+      <a href="/metals#cr" class="el tox"><span class="no">24</span><span class="sym">Cr</span><span class="nm">Chromium VI</span></a>
+      <a href="/metals#sn" class="el tox"><span class="no">50</span><span class="sym">Sn</span><span class="nm">Tin</span></a>
+      <a href="/metals#as" class="el tox"><span class="no">33</span><span class="sym">As</span><span class="nm">Arsenic</span></a>
+      <a href="/metals#cd" class="el tox"><span class="no">48</span><span class="sym">Cd</span><span class="nm">Cadmium</span></a>
+      <a href="/metals#hg" class="el tox"><span class="no">80</span><span class="sym">Hg</span><span class="nm">Mercury</span></a>
+      <a href="/metals#pb" class="el tox"><span class="no">82</span><span class="sym">Pb</span><span class="nm">Lead</span></a>
+    </div>
+    <p style="margin-top:18px; font-size:0.9rem; color:var(--ink-mute); font-family:var(--font-mono); letter-spacing:.03em;"><span style="color:var(--copper)">■</span> essential &nbsp;&nbsp; <span style="color:var(--patina)">■</span> toxic / non-essential</p>
+  </div>
+</section>
+
+<!-- ===================== TWO SIDES ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Nutritional Immunity</p>
+      <h2>Your immune system is a metallurgist.</h2>
+      <p>Infection is, in large part, a fight over metal. The host attacks in two opposite directions at once — and pathogens have an answer for each.</p>
+    </div>
+    <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th></th><th>Metal withholding (starve)</th><th>Metal intoxication (poison)</th></tr></thead>
+      <tbody>
+        <tr><th>The move</th><td class="pos">Lock away iron, zinc, and manganese so invaders can't grow</td><td class="pos">Flood the phagosome with toxic copper and zinc to corrode the invader</td></tr>
+        <tr><th>Host weapons</th><td class="pos">Calprotectin (Mn/Zn), transferrin &amp; lactoferrin (Fe), NRAMP1</td><td class="pos">ATP7A copper pump, SLC30/39 zinc transporters</td></tr>
+        <tr><th>Why it works</th><td class="neg">Core enzymes lose their essential cofactor and stall</td><td class="neg">Cu and Zn out-compete other metals and wreck iron–sulfur clusters</td></tr>
+        <tr><th>Pathogen counter</th><td class="neg">Secrete metallophores; deploy high-affinity importers</td><td class="neg">Efflux pumps and metal-detox systems dump the excess</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div style="margin-top:22px;"><a href="/microbiome" class="more" style="font-family:var(--font-mono);">How this plays out in the human microbiome →</a></div>
+  </div>
+</section>
+
+<!-- ===================== WHY IT MATTERS ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow patina">Why It Matters</p>
+      <h2>The numbers behind a hidden field.</h2>
+      <p>Metallobiology is not niche. It sits under antibiotic resistance, malnutrition, and environmental cleanup. The figures below are sourced and kept honest.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="n">~½</div><div class="l">of all enzymes must bind a specific metal to function</div><div class="src">Waldron &amp; Robinson · Nature 2009</div></div>
+      <div class="stat"><div class="n">¼–½</div><div class="l">of all proteins are metalloproteins (≈⅓ midpoint estimate)</div><div class="src">Andreini et al. · Acc. Chem. Res. 2009</div></div>
+      <div class="stat"><div class="n">7</div><div class="l">essential transition metals microbes build their enzymes from</div><div class="src">Fe · Zn · Mn · Cu · Co · Mo · W</div></div>
+      <div class="stat"><div class="n">7</div><div class="l">structural families of metal-sensing regulators run the whole system</div><div class="src">Giedroc · J. Biol. Chem. 2019</div></div>
+      <div class="stat"><div class="n">1.27M</div><div class="l">deaths attributable to antibiotic resistance in 2019 — a metal-acquisition battleground</div><div class="src">GRAM · Lancet 2022</div></div>
+      <div class="stat"><div class="n">2019</div><div class="l">first "Trojan-horse" siderophore antibiotic (cefiderocol) reaches the clinic</div><div class="src">US FDA approval</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPLORE ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Explore</p>
+      <h2>Every way into the field.</h2>
+      <p>Whether you're a microbiologist, a clinician, an investor, or simply curious — the science, the papers, the people, and the thesis that ties it all together.</p>
+    </div>
+    <div class="grid grid-3">
+      <a href="/science" class="card link"><span class="num">01</span><h3>The Science</h3><p>The metallome, metalloproteome, the Irving–Williams problem, metalloregulation, and how a cell allocates metal to a single free ion.</p><span class="more">Read →</span></a>
+      <a href="/metals" class="card link"><span class="num">02</span><h3>The Metals</h3><p>An element-by-element field guide: what iron, zinc, manganese, copper, nickel, cobalt, molybdenum and tungsten actually do inside a microbe.</p><span class="more">Read →</span></a>
+      <a href="/methods" class="card link"><span class="num">03</span><h3>Methods &amp; Instruments</h3><p>How the metallome is measured — ICP-MS, laser-ablation imaging, synchrotron X-ray spectroscopy, native mass spec, and metalloproteomics.</p><span class="more">Read →</span></a>
+      <a href="/microbiome" class="card link"><span class="num">04</span><h3>Metals &amp; the Microbiome</h3><p>Dietary iron and the infant gut, arsenic and E. coli, calprotectin as a biomarker — where metallomics meets human health.</p><span class="more">Read →</span></a>
+      <a href="/applications" class="card link"><span class="num">05</span><h3>Applications</h3><p>Siderophore antibiotics, gallium therapy, bioremediation and biomining, biofortification, and metal-based diagnostics.</p><span class="more">Read →</span></a>
+      <a href="/landscape" class="card link"><span class="num">06</span><h3>Research Landscape</h3><p>The journals, societies, synchrotrons, milestones, and companies building the field — a map of where the work happens.</p><span class="more">Read →</span></a>
+      <a href="/people" class="card link"><span class="num">07</span><h3>Who's Who</h3><p>The pioneers and present-day leaders of microbial metal biology — every profile linked to a verifiable source.</p><span class="more">Read →</span></a>
+      <a href="/research" class="card link"><span class="num">+</span><h3>Research</h3><p>Original open-access papers, in-depth reviews of the key literature, methods, and the research landscape — the full evidence base.</p><span class="more">Explore →</span></a>
+      <a href="/blog" class="card link"><span class="num">+</span><h3>The Blog</h3><p>The metal–microbiome–disease axis: evidence-anchored essays on how heavy-metal exposure drives disease through the microbiome.</p><span class="more">Read →</span></a>
+      <a href="/glossary" class="card link"><span class="num">+</span><h3>Glossary</h3><p>Every core term with its own in-depth, cited page — metallome, siderophore, nutritional immunity, and more.</p><span class="more">Read →</span></a>
+      <a href="/library" class="card link"><span class="num">+</span><h3>Paper Reviews</h3><p>An indexed library of in-depth reviews of the studies linking metals, the microbiome, and disease.</p><span class="more">Browse →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DIRECTORY ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Explore the field</p>
+      <h2>Everything, organized.</h2>
+      <p>Jump straight to a concept, a paper, or a person — the whole site, laid out.</p>
+    </div>
+    <div class="directory">
+      <div class="dir-col">
+        <h5>The Field</h5>
+        <a href="/science">The Science</a>
+        <a href="/metals">The Metals</a>
+        <a href="/methods">Methods &amp; Instruments</a>
+        <a href="/glossary">Glossary</a>
+        <a href="/landscape">Research Landscape</a>
+        <a class="viewall" href="/science">Start with the science →</a>
+      </div>
+      <div class="dir-col">
+        <h5>Key Concepts</h5>
+        <a href="/glossary/nutritional-immunity">Nutritional immunity</a>
+        <a href="/glossary/siderophore">Siderophores</a>
+        <a href="/glossary/mismetallation">Mismetallation</a>
+        <a href="/glossary/metallostasis">Metallostasis</a>
+        <a href="/glossary/metallome">The metallome</a>
+        <a class="viewall" href="/glossary">All 15 terms →</a>
+      </div>
+      <div class="dir-col">
+        <h5>Health &amp; Applications</h5>
+        <a href="/microbiome">Metals &amp; the Microbiome</a>
+        <a href="/applications">Applications</a>
+        <a href="/blog/metal-microbiome-disease-axis">The metal–microbiome–disease axis</a>
+        <a href="/research/nickel-necrotizing-enterocolitis">Nickel &amp; NEC</a>
+        <a href="/people">Who's Who</a>
+        <a class="viewall" href="/blog">Read the blog →</a>
+      </div>
+      <div class="dir-col">
+        <h5>Research &amp; Reviews</h5>
+        <a href="/research">Original research</a>
+        <a href="/library">Paper reviews</a>
+        <a href="/library/iron-fortification-kenyan-infant-microbiome">Iron &amp; the infant gut</a>
+        <a href="/library/gallium-cystic-fibrosis-pseudomonas">Gallium therapy in CF</a>
+        <a href="/library/spatial-metallomics-colorectal-cancer">Spatial metallomics in cancer</a>
+        <a class="viewall" href="/research">The evidence base →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FLAGSHIP ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="grid grid-2" style="gap:52px; align-items:start;">
+      <div>
+        <p class="eyebrow patina">The Central Idea</p>
+        <h2 style="font-size:clamp(1.8rem,3.4vw,2.6rem);">Control the metal, and you control the microbe.</h2>
+        <p style="color:var(--ink-soft); font-size:1.08rem;">Every theme in this guide reduces to one lever. Starve a pathogen of iron and it dies; hand a gut a surplus and you can bloom the wrong species. Poison a biofilm with gallium and its iron machinery collapses. The reason metal is such a powerful lever is that microbes cannot live without it and cannot store much of it safely — so availability, not abundance, decides everything.</p>
+        <a href="/applications" class="more" style="font-family:var(--font-mono);">See how the lever is being pulled →</a>
+      </div>
+      <div>
+        <p class="eyebrow">The Evidence Chain</p>
+        <div class="chain">
+          <div class="step"><span class="k">01</span><p>Nearly half of all enzymes require a specific metal cofactor to catalyze their reaction.</p></div>
+          <div class="step"><span class="k">02</span><p>Free metal inside a cell is kept vanishingly low — often less than one free ion per cell for the tightest binders.</p></div>
+          <div class="step"><span class="k">03</span><p>So microbes compete fiercely for metal, and hosts exploit that dependence to starve or poison invaders.</p></div>
+          <div class="step"><span class="k">04</span><p>Reading and re-writing that metal economy is now yielding antibiotics, diagnostics, and cleanup technologies.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== THESIS FEATURE ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow patina">The Working Thesis</p>
+      <h2>Heavy metals reshape the microbiome. The microbiome drives disease.</h2>
+      <p>Follow that logic and a mechanistic pathway appears: heavy-metal exposure can drive disease <em>through</em> the microbiome. The blog builds the case one link at a time — and the research library and original papers supply the evidence.</p>
+    </div>
+    <div class="hub-grid">
+      <a class="feature-card" href="/blog/metal-microbiome-disease-axis"><span class="ct">Pillar Essay</span><h3>The Metal–Microbiome–Disease Axis</h3><p>The definitive, evidence-anchored statement of the thesis — the causal chain, the strength of evidence at each link, and what would confirm it.</p><span class="cnt">Read the thesis →</span></a>
+      <a class="feature-card" href="/research"><span class="ct">The Evidence</span><h3>Papers, Reviews &amp; Original Research</h3><p>Dozens of reviewed studies plus original open-access research developing the framework — from dietary nickel and NEC to metals and the obesity epidemic.</p><span class="cnt">Explore the research →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LATEST REVIEWS ===================== -->
+<section class="section-line">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The Research Library</p>
+      <h2>Dozens of studies, reviewed.</h2>
+      <p>In-depth, cited reviews of the key papers at the intersection of metals, the microbiome, and disease — the evidence behind the thesis. <a href="/library" style="color:var(--copper); font-weight:600;">Browse all reviews →</a></p>
+    </div>
+    <div class="post-list">
+      <!--LATEST_REVIEWS_START--><a class="post-card" href="/library/iron-fortification-kenyan-infant-microbiome"><div class="meta-row"><span class="pill pat">Case Study</span><span class="meta-date">Jul 17, 2026</span></div><h3>Iron Fortification and the Kenyan Infant Gut Microbiome</h3><p>A full review of Jaeggi et al. (Gut 2015): iron-fortified porridge increased pathogenic E. coli and enterobacteria, cut bifidobacteria, and inflamed the gut in Kenyan infants.</p></a>
+      <a class="post-card" href="/library/childhood-blood-metals-microbiome-geste"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>Childhood Blood Metals and the Gut Microbiome: Evidence from the GESTE Cohort</h3><p>GESTE cohort links childhood blood metals (Mn, Se, Cd, Hg, Pb) to gut microbiome composition in 6-7 year olds; manganese and selenium tied to bacterial phyla.</p></a>
+      <a class="post-card" href="/library/crohns-multiomics-mre-bowel-damage"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>A Multi-Omics + MR Enterography Model for Predicting Bowel Damage in Crohn's Disease</h3><p>Two-center study fusing gut microbiome, fecal and serum metabolomics, and MR enterography into a model predicting cumulative Crohn's bowel damage (AUC 0.857).</p></a>
+      <a class="post-card" href="/library/gut-microbiome-childhood-stunting-lmic"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>Gut Microbiome and Childhood Stunting in Low- and Middle-Income Countries</h3><p>Systematic review of 14 studies links childhood stunting in LMICs to inflammatory gut pathobionts and depleted butyrate producers, driving impaired linear growth.</p></a>
+      <a class="post-card" href="/library/herfd-xas-metallomics"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>HERFD-XAS: High-Resolution X-ray Speciation of Biological Metals</h3><p>HERFD-XAS sharpens X-ray absorption spectra by rejecting core-hole broadening, resolving mercury, selenium, and arsenic speciation in dilute biological samples for metallomics.</p></a>
+      <a class="post-card" href="/library/iron-fortification-infant-microbiome-diarrhea"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>Iron Fortification, the Infant Gut Microbiome, and Diarrhea Risk</h3><p>Iron fortification shifts the infant gut microbiome toward enterobacteria and pathogenic E. coli, cutting protective bifidobacteria and raising diarrhea risk.</p></a>
+      <a class="post-card" href="/library/iron-supplements-microbiome-reproductive-women"><div class="meta-row"><span class="pill pat">Case Study</span><span class="meta-date">Nov 14, 2025</span></div><h3>Iron Supplements and the Gut Microbiome in Reproductive-Age Women: A Randomized Controlled Trial</h3><p>A 21-day randomized placebo-controlled trial found ferrous fumarate did not significantly alter fecal microbiome composition in Australian reproductive-age women.</p></a>
+      <a class="post-card" href="/library/iron-zinc-biofortified-foods-gut-microbiota"><div class="meta-row"><span class="pill ">Review</span><span class="meta-date">Nov 14, 2025</span></div><h3>Iron- and Zinc-Biofortified Foods and the Gut Microbiota</h3><p>Systematic review of iron/zinc-biofortified bean and wheat diets in the Gallus gallus model: staples raised SCFA-producing Lactobacillus and cut enteric pathogens.</p></a><!--LATEST_REVIEWS_END-->
+    </div>
+    <div style="margin-top:26px;"><a href="/library" class="btn btn-ghost">See all 34 reviews →</a></div>
+  </div>
+</section>
+
+<!-- ===================== NEWSLETTER ===================== -->
+<section class="section-line" id="newsletter">
+  <div class="wrap">
+    <div class="band">
+      <p class="eyebrow patina" style="color:#a9d3cc;">Follow the field</p>
+      <h2>New to metallobiology? Start here — and stay current.</h2>
+      <p>This is an independent, open scientific resource. Join the list to follow new reviews, methods, and the people moving the field forward. No spam — just the science.</p>
+      <form data-waitlist style="display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; max-width:520px;">
+        <input type="email" required placeholder="you@institution.edu" aria-label="Email address" style="flex:1; min-width:220px; padding:13px 16px; border-radius:10px; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.08); color:#fff; font-size:15px;">
+        <button class="btn btn-primary" type="submit">Join the list</button>
+      </form>
+      <p data-note style="margin-top:14px; font-size:13px; color:#a9d3cc;">Interest registration only. This is a scientific and educational resource, not medical advice.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section-line">
+  <div class="wrap narrow">
+    <p class="eyebrow">Questions</p>
+    <h2 style="margin-bottom:26px;">Microbial metallomics, briefly.</h2>
+    <div class="faq">
+      <details open><summary>What is microbial metallomics?</summary><p>Microbial metallomics is the integrated study of every metal and metalloid a microbe uses, stores, senses, and competes for. It combines bioinorganic chemistry, metalloproteomics, and systems biology to map the "metallome" — the entirety of metal-containing molecules in a cell — and to explain how metals drive microbial metabolism, regulation, and infection.</p></details>
+      <details><summary>Why do metals matter so much to microbes?</summary><p>Nearly half of all enzymes require a metal to function, and roughly a quarter to a half of all proteins bind one. Iron, zinc, manganese, copper, nickel, cobalt, molybdenum and tungsten power respiration, DNA synthesis, nitrogen fixation, and antioxidant defense. Without the right metal in the right place, core metabolism stops.</p></details>
+      <details><summary>What is nutritional immunity?</summary><p>Nutritional immunity is the host's strategy of controlling metal availability to fight infection — either withholding essential metals like iron, zinc and manganese (using proteins such as calprotectin, transferrin and lactoferrin) or poisoning invaders with toxic surges of copper and zinc inside the phagosome. Pathogens counter with metallophores, transporters, and detoxification systems.</p></details>
+      <details><summary>How is the metallome actually measured?</summary><p>With a toolbox of elemental and structural methods: ICP-MS quantifies how much of each metal is present, LA-ICP-MS and synchrotron X-ray fluorescence map where metals sit, X-ray absorption spectroscopy (including HERFD-XAS) reveals oxidation state and coordination geometry, and native mass spectrometry plus SEC-ICP-MS link a metal to the protein that carries it.</p></details>
+      <details><summary>How is "microbial metallomics" different from "metallomics"?</summary><p>Metallomics is the parent field — the study of the metallome in any biological system. The microbial branch focuses on bacteria, archaea, and single-celled eukaryotes, which use a broader palette of metals (including nickel, cobalt, molybdenum and tungsten) in enzymes with no human counterpart, face wildly fluctuating environmental metal supply, and turn metal acquisition into a decisive front in host–pathogen conflict.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <a href="/" class="brand" style="margin-bottom:14px;">
+          <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true"><g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g><g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g><circle cx="20" cy="20" r="4.6" fill="currentColor"/></svg>
+          <span>Microbial<b>Metallomics</b></span>
+        </a>
+        <p>An independent, open field guide to the science of metals in the microbial world — from the metalloproteome to the microbiome to the clinic.</p>
+      </div>
+      <div>
+        <h5>The Field</h5>
+        <a href="/science">The Science</a>
+        <a href="/metals">The Metals</a>
+        <a href="/methods">Methods</a>
+        <a href="/glossary">Glossary</a>
+      </div>
+      <div>
+        <h5>In Context</h5>
+        <a href="/microbiome">Microbiome &amp; Health</a>
+        <a href="/applications">Applications</a>
+        <a href="/landscape">Research Landscape</a>
+        <a href="/people">Who's Who</a>
+      </div>
+      <div>
+        <h5>Research &amp; Writing</h5>
+        <a href="/research">Original Research</a>
+        <a href="/library">Paper Reviews</a>
+        <a href="/blog">The Blog</a>
+        <a href="#newsletter">Newsletter</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 Microbial Metallomics. An independent scientific resource.</p>
+      <p class="disclaimer">Scientific &amp; educational content only. Nothing here is medical advice. Cited figures link to peer-reviewed or authoritative sources.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js?v=4" defer></script>
+</body>
+</html>

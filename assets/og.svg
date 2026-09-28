@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#006f5b" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#fdfbf7"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <g transform="translate(90,96)">
+    <g stroke="#006f5b" stroke-width="3.2" fill="none">
+      <path d="M46 10 46 46 M84 30 46 46 M84 62 46 46 M46 82 46 46 M8 62 46 46 M8 30 46 46"/>
+    </g>
+    <g fill="#006f5b">
+      <circle cx="46" cy="10" r="6.4"/><circle cx="84" cy="30" r="6.4"/><circle cx="84" cy="62" r="6.4"/>
+      <circle cx="46" cy="82" r="6.4"/><circle cx="8" cy="62" r="6.4"/><circle cx="8" cy="30" r="6.4"/>
+    </g>
+    <circle cx="46" cy="46" r="11" fill="#ff6719"/>
+    <text x="118" y="60" font-family="Georgia, serif" font-size="40" font-weight="600" fill="#1a1a1a">Microbial<tspan fill="#006f5b">Metallomics</tspan></text>
+  </g>
+  <text x="90" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" fill="#1a1a1a">Every cell runs on metal.</text>
+  <text x="90" y="410" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" fill="#006f5b">Microbes fight wars over it.</text>
+  <text x="90" y="486" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#4a4a4a">The comprehensive, cited field guide to metals in the microbial world —</text>
+  <text x="90" y="526" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#4a4a4a">the science, the papers, the microbiome, and the who's who.</text>
+  <rect x="90" y="566" width="1020" height="3" fill="#ff6719"/>
+  <text x="90" y="602" font-family="'Courier New', monospace" font-size="22" letter-spacing="2" fill="#006f5b">BIOINORGANIC MICROBIOLOGY · THE METALLOME · 2026</text>
+</svg>
