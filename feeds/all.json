@@ -1,5 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
+  "language": "en-US",
   "title": "Microbial Metallomics",
   "home_page_url": "https://microbialmetallomics.com",
   "feed_url": "https://microbialmetallomics.com/feeds/all.json",
@@ -136,7 +137,7 @@
       "id": "https://microbialmetallomics.com/blog/dietary-iron-microbiome-enteric-infection",
       "url": "https://microbialmetallomics.com/blog/dietary-iron-microbiome-enteric-infection",
       "title": "Feeding the Enemy: How Dietary Iron Reshapes the Gut Microbiome and Raises Enteric Infection Risk",
-      "content_text": "Unabsorbed dietary and supplemental iron feeds gut enteropathogens like E. coli, Salmonella and Shigella, raising inflammation and diarrhea risk in the gut.",
+      "content_text": "Unabsorbed iron can alter the gut microbiome and intestinal inflammation. Human trials show that effects on diarrhea vary by setting and formulation.",
       "date_published": "2026-07-14T00:00:00Z",
       "authors": [
         {
@@ -940,7 +941,7 @@
       "id": "https://microbialmetallomics.com/library/heavy-metals-obesity-pregnancy-upbeat",
       "url": "https://microbialmetallomics.com/library/heavy-metals-obesity-pregnancy-upbeat",
       "title": "Maternal Metallomic Profiles in Pregnancy with Obesity: A Secondary Analysis of UPBEAT",
-      "content_text": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum haemorrhage, phosphorus to NICU care.",
+      "content_text": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum hemorrhage, phosphorus to NICU care.",
       "date_published": "2025-11-10T00:00:00Z",
       "authors": [
         {

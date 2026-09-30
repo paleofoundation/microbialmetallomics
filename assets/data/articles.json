@@ -150,11 +150,11 @@
   },
   {
     "title": "Feeding the Enemy: How Dietary Iron Reshapes the Gut Microbiome and Raises Enteric Infection Risk",
-    "description": "Unabsorbed dietary and supplemental iron feeds gut enteropathogens like E. coli, Salmonella and Shigella, raising inflammation and diarrhea risk in the gut.",
+    "description": "Unabsorbed iron can alter the gut microbiome and intestinal inflammation. Human trials show that effects on diarrhea vary by setting and formulation.",
     "url": "/blog/dietary-iron-microbiome-enteric-infection",
     "kind": "Essay",
     "date": "2026-07-14",
-    "updated": "2026-07-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -514,7 +514,7 @@
     "url": "/library/pediatric-gut-microbiome-health-review",
     "kind": "Paper review",
     "date": "2025-11-14",
-    "updated": "2025-11-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -533,7 +533,7 @@
     "url": "/library/lactoferrin-vs-ferrous-sulfate",
     "kind": "Paper review",
     "date": "2025-11-14",
-    "updated": "2025-11-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -552,7 +552,7 @@
     "url": "/library/lactobacillus-plantarum-299v-oral-iron",
     "kind": "Paper review",
     "date": "2025-11-14",
-    "updated": "2025-11-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -941,7 +941,7 @@
     "url": "/library/arsenic-gut-ecoli-children-bangladesh",
     "kind": "Paper review",
     "date": "2025-11-13",
-    "updated": "2025-11-13",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -1076,7 +1076,7 @@
   },
   {
     "title": "Maternal Metallomic Profiles in Pregnancy with Obesity: A Secondary Analysis of UPBEAT",
-    "description": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum haemorrhage, phosphorus to NICU care.",
+    "description": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum hemorrhage, phosphorus to NICU care.",
     "url": "/library/heavy-metals-obesity-pregnancy-upbeat",
     "kind": "Paper review",
     "date": "2025-11-10",

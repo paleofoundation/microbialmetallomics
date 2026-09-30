@@ -13,7 +13,7 @@
   let catalogue;
   function articles() {
     return catalogue ||= fetch(document.querySelector('meta[name="reading-catalogue"]')?.content || '/assets/data/articles.json').then(response => {
-      if (!response.ok) throw new Error('Catalogue unavailable');
+      if (!response.ok) throw new Error('Catalog unavailable');
       return response.json();
     });
   }
@@ -91,7 +91,7 @@
         catch {status.textContent += ' · Copy the page address from your browser to share these filters.';}
       });
       render(false);
-    }).catch(() => { $('[data-catalogue-count]', explorer).textContent = 'The interactive catalogue could not load. The reading links below remain available.'; });
+    }).catch(() => { $('[data-catalogue-count]', explorer).textContent = 'The interactive catalog could not load. The reading links below remain available.'; });
   }
   const topicRoot = $('[data-topic-explorer]');
   if (topicRoot) {
@@ -103,7 +103,7 @@
         $('[data-topic-title]',topicRoot).textContent = topic;
         status.textContent = matching.length + ' articles in this collection';
         results.replaceChildren(...matching.map(card));
-        if (!matching.length) results.append(el('p','No articles are catalogued under this topic yet. Browse the research library.'));
+        if (!matching.length) results.append(el('p','No articles are cataloged under this topic yet. Browse the research library.'));
         if (update) history.replaceState(null,'','/topics?topic='+encodeURIComponent(topic));
       }
       links.forEach(link => {

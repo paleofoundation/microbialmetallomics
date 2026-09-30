@@ -8,3 +8,17 @@
 @media(max-width:900px){.catalogue-form{grid-template-columns:1fr 1fr}.topic-layout{grid-template-columns:190px minmax(0,1fr)}.catalogue-results{grid-template-columns:1fr}.field-link-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.author-person{display:flex}.author-person+.author-person{margin:10px 0 0}.orcid-link{margin-left:5px}.article-meta .am-sep{display:none}.author-affiliations{font-size:.8125rem}.share-row .sh-label{flex-basis:auto}.share-row .share-status{flex-basis:100%}.field-intro{padding-top:28px}.field-intro h1{font-size:2.15rem}.field-content{padding-top:25px}.catalogue-form{grid-template-columns:1fr 1fr;gap:14px}.catalogue-form .search-wide{grid-column:1/-1}.catalogue-form .form-actions{grid-column:1/-1}.topic-layout{display:block}.topic-choices{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:28px}.topic-choices h2{width:100%;margin:20px 0 6px!important}.topic-choices a{display:inline-block;font-size:.875rem}.field-link-grid,.feed-list{grid-template-columns:1fr}.catalogue-meta{flex-wrap:wrap}.article-tools{gap:4px 20px}.citation-actions{gap:10px 20px}}
 @media print{.site-header,.site-footer,.skip-link,.search-overlay,.toc-sidebar,.share-row,.article-tools,.read-progress,.to-top,.related-module,.prevnext,.citation-actions,.tool-status{display:none!important}:root{--bg:#fff!important;--ink:#000!important;--ink-soft:#222!important;--ink-mute:#444!important}.hero-band,.hero,section{padding:10px 0!important;border:0!important}.wrap,.wrap.narrow,.article-body{max-width:none!important;width:100%!important;padding:0!important}.article-layout,.two-col{display:block!important}.article-body,.article-lead{font-size:11pt!important;line-height:1.6!important}h1{font-size:24pt!important}h2{font-size:16pt!important;break-after:avoid}h3{font-size:13pt!important;break-after:avoid}a{color:#000!important;text-decoration:none}.print-source{display:block;font-size:10pt;overflow-wrap:anywhere}.citation-panel{display:none}.article-format{background:none;border:1px solid #bbb}.orcid-link{font-size:9pt}.refs,.ref-list{break-before:auto}img{max-width:100%}}
+/* Numbered source citations remain usable without JavaScript and in print. */
+.citation{font-size:.72em;line-height:0;vertical-align:super;white-space:nowrap;margin-left:.12em;font-weight:600}
+.citation a{color:var(--patina);text-decoration:none;padding:2px 1px;scroll-margin-top:100px}
+.citation a:hover{text-decoration:underline;text-underline-offset:2px}
+.citation a:focus-visible,.reference-backlinks a:focus-visible{outline:2px solid var(--patina);outline-offset:3px}
+.references{border-top:1px solid var(--line);margin-top:36px;padding-top:24px!important}
+.reference-list{padding-left:2.5rem;margin:18px 0;font-size:.9375rem;color:var(--ink-soft)}
+.reference-list>li{padding:8px 8px 8px 4px;margin-bottom:12px;line-height:1.8;overflow-wrap:anywhere;scroll-margin-top:100px}
+.reference-list>li::marker{content:"[" counter(list-item) "] ";font-weight:600;color:var(--ink)}
+.reference-list>li:target{background:var(--patina-tint);outline:1px solid var(--line)}
+.reference-list>li>a{white-space:nowrap}
+.reference-backlinks{display:inline-flex;flex-wrap:wrap;gap:6px;margin-left:12px;font-size:.8125rem}
+.reference-backlinks a{padding:2px 4px;text-decoration:none;color:var(--patina)}
+@media print{.references,#references{display:block!important}.reference-backlinks{display:none!important}.reference-list>li{break-inside:avoid}.citation a{color:#000}.reference-list>li:target{background:none;outline:0}}
