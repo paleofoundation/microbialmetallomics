@@ -51,17 +51,6 @@
     if (e.shiftKey && document.activeElement===first) {e.preventDefault();last.focus();}
     else if (!e.shiftKey && document.activeElement===last) {e.preventDefault();first.focus();}
   });
-  // The original site has no newsletter endpoint. Never report a signup that was not saved.
-  document.querySelectorAll('form[data-waitlist]').forEach(form => {
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      let note = form.parentElement.querySelector('[data-note]');
-      if (!note) { note=document.createElement('p');form.after(note); }
-      note.setAttribute('role','status');
-      note.textContent='Email signup is not connected yet. Please check back for updates.';
-    }, true);
-  });
   document.querySelectorAll('[data-filter]').forEach(button => {
     button.setAttribute('aria-pressed',button.classList.contains('active')?'true':'false');
     button.addEventListener('click', () => {

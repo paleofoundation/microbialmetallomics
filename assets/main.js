@@ -177,13 +177,5 @@
     window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
   }
 
-  // ---- newsletter ----
-  document.querySelectorAll('form[data-waitlist]').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var note = form.querySelector('[data-note]');
-      if (note) { note.textContent = "Thanks — you're on the list. We'll be in touch."; note.style.color = 'var(--patina-deep)'; }
-      form.reset();
-    });
-  });
+
 })();

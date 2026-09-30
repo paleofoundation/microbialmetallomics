@@ -1,0 +1,1117 @@
+[
+  {
+    "title": "Tampon Metals and the Vaginal Microbiome: The Blind Spot in the Risk Assessment",
+    "description": "A toxicological risk assessment found tampon metals pose negligible systemic risk. But bioavailable there means absorbed into the blood, and the vaginal microbial community on the tampon surface was never assessed.",
+    "url": "/blog/tampon-metals-vaginal-microbiome-blind-spot",
+    "kind": "Critical Commentary",
+    "date": "2026-09-28",
+    "updated": "2026-09-28",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/toxsci/kfag065",
+    "sourceDoi": "10.1093/toxsci/kfag065",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Vaginal microbiome"
+    ]
+  },
+  {
+    "title": "Iron Fortification and the Kenyan Infant Gut Microbiome",
+    "description": "A full review of Jaeggi et al. (Gut 2015): iron-fortified porridge increased pathogenic E. coli and enterobacteria, cut bifidobacteria, and inflamed the gut in Kenyan infants.",
+    "url": "/library/iron-fortification-kenyan-infant-microbiome",
+    "kind": "Paper review",
+    "date": "2026-07-17",
+    "updated": "2026-07-17",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25143342/",
+    "sourceDoi": "",
+    "studyDesign": "Randomized trial",
+    "setting": "Human",
+    "topics": [
+      "Iron",
+      "Nutritional immunity",
+      "Early life"
+    ]
+  },
+  {
+    "title": "The Metal-Microbiome-Disease Axis: How Heavy Metals May Drive Disease Through the Gut",
+    "description": "The metal-microbiome-disease axis: heavy-metal exposure reshapes the gut microbiome, and that dysbiosis may drive metabolic, neurological and gut disease.",
+    "url": "/blog/metal-microbiome-disease-axis",
+    "kind": "Essay",
+    "date": "2026-07-16",
+    "updated": "2026-07-16",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Neurobiology",
+      "Metabolic health",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Metals, the Microbiome, and Parkinson's: A Gut-First Pathway to Neurodegeneration",
+    "description": "How heavy-metal exposure may reshape the gut microbiome and feed gut-first alpha-synuclein pathology in Parkinson's disease - a metallomic-microbiome view.",
+    "url": "/blog/metals-microbiome-parkinsons-neurodegeneration",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Manganese",
+      "Lead",
+      "Neurobiology",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Mercury, Methylmercury, and the Microbiome: How Gut Microbes Shape Neurotoxic Risk",
+    "description": "How gut microbes methylate and demethylate mercury via hgcAB and merB, how mercury reshapes the microbiome, and why this shapes methylmercury neurotoxic risk.",
+    "url": "/blog/mercury-methylmercury-microbiome",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Mercury",
+      "Neurobiology",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "How Low-Dose Heavy Metals May Reshape the Gut Microbiome to Drive Obesity",
+    "description": "Low-dose arsenic, cadmium, and lead may reshape the gut microbiome, depleting SCFA producers and promoting obesity and metabolic syndrome. Evidence examined.",
+    "url": "/blog/metals-microbiome-obesity-metabolic-syndrome",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Arsenic",
+      "Cadmium",
+      "Lead",
+      "Metabolic health",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "How Dietary Nickel Arms Gut Bacteria — and May Fuel Gut Disease",
+    "description": "Dietary nickel activates nickel-dependent virulence enzymes in gut Enterobacteriaceae — a mechanistic pathway that may link nickel exposure to NEC and IBD.",
+    "url": "/blog/nickel-gut-microbiome-disease",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Feeding the Enemy: How Dietary Iron Reshapes the Gut Microbiome and Raises Enteric Infection Risk",
+    "description": "Unabsorbed dietary and supplemental iron feeds gut enteropathogens like E. coli, Salmonella and Shigella, raising inflammation and diarrhea risk in the gut.",
+    "url": "/blog/dietary-iron-microbiome-enteric-infection",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Does Lead Harm the Developing Brain Through the Gut Microbiome?",
+    "description": "Animal and human cohort studies link lead exposure to gut microbiome dysbiosis, a candidate mediator of lead's neurodevelopmental harm via the gut-brain axis.",
+    "url": "/blog/lead-gut-microbiome-neurodevelopment",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Lead",
+      "Neurobiology",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Cadmium and the Gut Microbiome: A Hidden Route to Metabolic Disease",
+    "description": "Cadmium reshapes the gut microbiome, depletes Lachnospiraceae, weakens the gut barrier, and is linked to hepatic and metabolic dysfunction. An evidence review.",
+    "url": "/blog/cadmium-gut-microbiome-metabolic-disease",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Cadmium",
+      "Metabolic health",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Arsenic and the Gut Microbiome: A Two-Way Street",
+    "description": "Arsenic reshapes the gut microbiome, and gut bacteria shape arsenic's toxicity in return. See the bidirectional evidence linking metals, microbes, and disease.",
+    "url": "/blog/arsenic-gut-microbiome-two-way",
+    "kind": "Essay",
+    "date": "2026-07-14",
+    "updated": "2026-07-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Arsenic",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Six Decades of Fertilizer Use Built a Legacy of Cadmium, Nickel, and Lead in Soils and Diets",
+    "description": "A food metallomics review (1960–2025) showing how phosphate and urea fertilizers loaded soils, crops, and diets with cadmium, nickel, lead, and chromium.",
+    "url": "/research/heavy-metals-in-fertilizers-contamination-trends",
+    "kind": "Original research",
+    "date": "2026-01-31",
+    "updated": "2026-01-31",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Preprint",
+    "sourceUrl": "https://zenodo.org/records/18439158",
+    "sourceDoi": "10.5281/zenodo.18439158",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Cadmium",
+      "Lead",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Heavy Metals and Microbial Metallomics: A New Framework for the US Obesity Epidemic",
+    "description": "How dietary cadmium, arsenic, lead, and nickel may disrupt gut microbial metallomics—driving dysbiosis, inflammation, and insulin resistance behind obesity.",
+    "url": "/research/heavy-metals-microbial-metallomics-obesity-epidemic",
+    "kind": "Original research",
+    "date": "2026-01-30",
+    "updated": "2026-01-30",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Preprint",
+    "sourceUrl": "https://zenodo.org/records/18434951",
+    "sourceDoi": "10.5281/zenodo.18434951",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Arsenic",
+      "Cadmium",
+      "Lead",
+      "Metabolic health",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Developmental Readiness Is Not Toxicokinetic Safety: Heavy Metals in Vegetable-Based Baby Foods",
+    "description": "Developmental readiness for solids does not ensure toxicokinetic safety: leafy greens, brassicas and root crops concentrate lead, cadmium and arsenic in baby foods.",
+    "url": "/research/metal-vulnerability-vegetable-baby-foods",
+    "kind": "Original research",
+    "date": "2026-01-25",
+    "updated": "2026-01-25",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Preprint",
+    "sourceUrl": "https://zenodo.org/records/18366816",
+    "sourceDoi": "10.5281/zenodo.18366816",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Arsenic",
+      "Cadmium",
+      "Lead",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Concentration-Based Heavy Metal Standards to Reduce Real Exposure in Infant and Child Foods",
+    "description": "HMTc 2026 sets concentration-based, as-sold action levels for lead, arsenic, cadmium, mercury, nickel and other heavy metals in infant and child foods.",
+    "url": "/research/hmtc-infant-child-food-standards-2026",
+    "kind": "Original research",
+    "date": "2026-01-22",
+    "updated": "2026-01-22",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Standard",
+    "sourceUrl": "https://zenodo.org/records/18339570",
+    "sourceDoi": "10.5281/zenodo.18339570",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Arsenic",
+      "Cadmium",
+      "Lead",
+      "Mercury",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Nickel as a Catalytic Driver of Necrotizing Enterocolitis",
+    "description": "Dietary nickel in infant formula may activate nickel-dependent microbial enzymes (urease, glyoxalase I) that drive necrotizing enterocolitis in preterm infants.",
+    "url": "/research/nickel-necrotizing-enterocolitis",
+    "kind": "Original research",
+    "date": "2026-01-09",
+    "updated": "2026-01-09",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal article",
+    "sourceUrl": "https://zenodo.org/records/18200348",
+    "sourceDoi": "10.5281/zenodo.18200348",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Early life"
+    ]
+  },
+  {
+    "title": "A Unified Model for FIP-Associated Gingivitis in Cats: Disrupting Microbial Shielding and Restoring Nutritional Immunity",
+    "description": "How itraconazole and lactoferrin may treat FIP-linked gingivitis in cats by disrupting polymicrobial biofilms and restoring metal-based nutritional immunity.",
+    "url": "/research/lactoferrin-itraconazole-fip-gingivitis-cats",
+    "kind": "Original research",
+    "date": "2025-12-29",
+    "updated": "2025-12-29",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal article",
+    "sourceUrl": "https://zenodo.org/records/18085985",
+    "sourceDoi": "10.5281/zenodo.18085985",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Microbiome Medicine Journal: Restoring Causal Structure to Disease Through Microbial Metallomics",
+    "description": "Microbiome Medicine Journal Vol. I sets out a mechanism-first framework linking microbial ecology, host metallome regulation, and metal dyshomeostasis to disease.",
+    "url": "/research/microbiome-medicine-journal-volume-1",
+    "kind": "Original research",
+    "date": "2025-12-27",
+    "updated": "2025-12-27",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal",
+    "sourceUrl": "https://zenodo.org/records/18069668",
+    "sourceDoi": "10.5281/zenodo.18069668",
+    "studyDesign": "",
+    "setting": "",
+    "topics": []
+  },
+  {
+    "title": "From Dysbiosis to Dyshomeostasis: Reframing Parkinson's Through a Metallomic–Microbiome Lens",
+    "description": "A metallomics framework reframes Parkinson's as metal dyshomeostasis: iron, manganese, copper, zinc and nickel dysregulation drives dysbiosis and neuron loss.",
+    "url": "/research/parkinsons-dysbiosis-to-dyshomeostasis",
+    "kind": "Original research",
+    "date": "2025-12-27",
+    "updated": "2025-12-27",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal article",
+    "sourceUrl": "https://zenodo.org/records/18068369",
+    "sourceDoi": "10.5281/zenodo.18068369",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Zinc",
+      "Copper",
+      "Nickel",
+      "Manganese",
+      "Neurobiology"
+    ]
+  },
+  {
+    "title": "The MC1R–Parkinson's Link May Be a Metallomic Story, Not a Cosmetic One",
+    "description": "A hypothesis linking MC1R red-hair variants to Parkinson's risk via melanin-metal chemistry: how copper, zinc, and iron shape neuromelanin's redox buffering.",
+    "url": "/research/melanin-metal-parkinsons-redheads",
+    "kind": "Original research",
+    "date": "2025-12-18",
+    "updated": "2025-12-18",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal article",
+    "sourceUrl": "https://zenodo.org/records/17976306",
+    "sourceDoi": "10.5281/zenodo.17976306",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Zinc",
+      "Copper",
+      "Neurobiology"
+    ]
+  },
+  {
+    "title": "Parkinson's Disease as a Disorder of Metal Dyshomeostasis Amplified by Microbial Ecology",
+    "description": "A synthesis framework proposing Parkinson's disease begins with heavy-metal dyshomeostasis that drives ferroptosis, gut dysbiosis, and α-synuclein pathology.",
+    "url": "/research/microbial-metallomics-parkinsons-framework",
+    "kind": "Original research",
+    "date": "2025-12-05",
+    "updated": "2025-12-05",
+    "authors": [
+      "Karen Pendergrass"
+    ],
+    "status": "Journal article",
+    "sourceUrl": "https://zenodo.org/records/17830083",
+    "sourceDoi": "10.5281/zenodo.17830083",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Neurobiology"
+    ]
+  },
+  {
+    "title": "Prenatal Metal Exposure, the Gut Microbiome, and Childhood Intestinal Inflammation",
+    "description": "A 2024 PROGRESS cohort study links prenatal copper and cesium exposure, interacting with specific gut microbes, to elevated fecal calprotectin in children.",
+    "url": "/library/prenatal-metals-microbiome-child-inflammation",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11501044/",
+    "sourceDoi": "",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Copper",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Prenatal Acetaminophen, the Infant Gut Microbiome, and Childhood Cognition",
+    "description": "GESTE cohort links prenatal acetaminophen and caffeine to childhood gut microbiome shifts and cognition; Proteobacteria abundance modified WISC-IV scores.",
+    "url": "/library/prenatal-acetaminophen-microbiome-cognition",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.3390/ijerph19159357",
+    "sourceDoi": "10.3390/ijerph19159357",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Early life",
+      "Neurobiology"
+    ]
+  },
+  {
+    "title": "Perinatal Tobacco Exposure Reshapes the Child Gut Microbiota",
+    "description": "A Spanish birth-cohort study found prenatal tobacco smoke, a source of cadmium and lead, lowers gut Akkermansia and raises Dorea in children by age 7.",
+    "url": "/library/perinatal-tobacco-child-gut-microbiota",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10799562/",
+    "sourceDoi": "",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Cadmium",
+      "Lead",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Pediatric Gut Microbiome Composition in Health: What a Systematic Review Reveals",
+    "description": "A systematic review of 42 studies finds geography, diet, and 16S sequencing method, not age, shape healthy children's Firmicutes/Bacteroidetes gut profiles.",
+    "url": "/library/pediatric-gut-microbiome-health-review",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.3390/nu12010016",
+    "sourceDoi": "10.3390/nu12010016",
+    "studyDesign": "Systematic review",
+    "setting": "Human studies",
+    "topics": [
+      "Early life"
+    ]
+  },
+  {
+    "title": "Lactoferrin vs. Ferrous Sulfate Through a Metallomics Lens",
+    "description": "Meta-analyses show oral lactoferrin can match or outperform ferrous sulfate for iron repletion, lowering IL-6 and hepcidin with fewer gut side effects.",
+    "url": "/library/lactoferrin-vs-ferrous-sulfate",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8838920/",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron"
+    ]
+  },
+  {
+    "title": "Lactobacillus plantarum 299v and Oral Iron Therapy Tolerance",
+    "description": "A randomized trial shows the probiotic Lactobacillus plantarum 299v reduces oral iron side effects and improves iron status in iron-deficiency anemia patients.",
+    "url": "/library/lactobacillus-plantarum-299v-oral-iron",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1017/S0007114524002757",
+    "sourceDoi": "10.1017/S0007114524002757",
+    "studyDesign": "Randomized trial",
+    "setting": "Human",
+    "topics": [
+      "Iron"
+    ]
+  },
+  {
+    "title": "Iron- and Zinc-Biofortified Foods and the Gut Microbiota",
+    "description": "Systematic review of iron/zinc-biofortified bean and wheat diets in the Gallus gallus model: staples raised SCFA-producing Lactobacillus and cut enteric pathogens.",
+    "url": "/library/iron-zinc-biofortified-foods-gut-microbiota",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.3390/nu13010189",
+    "sourceDoi": "10.3390/nu13010189",
+    "studyDesign": "Systematic review",
+    "setting": "Animal studies",
+    "topics": [
+      "Iron",
+      "Zinc",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Iron Supplements and the Gut Microbiome in Reproductive-Age Women: A Randomized Controlled Trial",
+    "description": "A 21-day randomized placebo-controlled trial found ferrous fumarate did not significantly alter fecal microbiome composition in Australian reproductive-age women.",
+    "url": "/library/iron-supplements-microbiome-reproductive-women",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1016/j.tjnut.2024.03.014",
+    "sourceDoi": "10.1016/j.tjnut.2024.03.014",
+    "studyDesign": "Randomized trial",
+    "setting": "Human",
+    "topics": [
+      "Iron"
+    ]
+  },
+  {
+    "title": "Iron Fortification, the Infant Gut Microbiome, and Diarrhea Risk",
+    "description": "Iron fortification shifts the infant gut microbiome toward enterobacteria and pathogenic E. coli, cutting protective bifidobacteria and raising diarrhea risk.",
+    "url": "/library/iron-fortification-infant-microbiome-diarrhea",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29070552/",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Nutritional immunity",
+      "Early life"
+    ]
+  },
+  {
+    "title": "Intestinal Biomarkers and the Non-Motor Phenotype of Parkinson's Disease",
+    "description": "Parkinson's patients with constipation show higher fecal calprotectin, reduced SCFAs, lower gut diversity, and greater IBD genetic risk, linking gut inflammation to non-motor severity.",
+    "url": "/library/parkinsons-intestinal-biomarkers-nonmotor",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40336252/",
+    "sourceDoi": "",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Neurobiology"
+    ]
+  },
+  {
+    "title": "HERFD-XAS: High-Resolution X-ray Speciation of Biological Metals",
+    "description": "HERFD-XAS sharpens X-ray absorption spectra by rejecting core-hole broadening, resolving mercury, selenium, and arsenic speciation in dilute biological samples for metallomics.",
+    "url": "/library/herfd-xas-metallomics",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf038",
+    "sourceDoi": "10.1093/mtomcs/mfaf038",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Arsenic",
+      "Mercury",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Gut Microbiome and Childhood Stunting in Low- and Middle-Income Countries",
+    "description": "Systematic review of 14 studies links childhood stunting in LMICs to inflammatory gut pathobionts and depleted butyrate producers, driving impaired linear growth.",
+    "url": "/library/gut-microbiome-childhood-stunting-lmic",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116508/",
+    "sourceDoi": "",
+    "studyDesign": "Systematic review",
+    "setting": "Human studies",
+    "topics": [
+      "Early life"
+    ]
+  },
+  {
+    "title": "Childhood Blood Metals and the Gut Microbiome: Evidence from the GESTE Cohort",
+    "description": "GESTE cohort links childhood blood metals (Mn, Se, Cd, Hg, Pb) to gut microbiome composition in 6-7 year olds; manganese and selenium tied to bacterial phyla.",
+    "url": "/library/childhood-blood-metals-microbiome-geste",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://ehp.niehs.nih.gov/doi/full/10.1289/EHP9674",
+    "sourceDoi": "",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Manganese",
+      "Early life"
+    ]
+  },
+  {
+    "title": "A Multi-Omics + MR Enterography Model for Predicting Bowel Damage in Crohn's Disease",
+    "description": "Two-center study fusing gut microbiome, fecal and serum metabolomics, and MR enterography into a model predicting cumulative Crohn's bowel damage (AUC 0.857).",
+    "url": "/library/crohns-multiomics-mre-bowel-damage",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2025-11-14",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.2147/JIR.S524671",
+    "sourceDoi": "10.2147/JIR.S524671",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": []
+  },
+  {
+    "title": "The Human Microbiome Across Body Sites: Gut, Skin, Oral, Vaginal and Lung",
+    "description": "How the human microbiome differs across the gut, skin, oral, vaginal and lung niches, how it is acquired and disrupted, and why heavy-metal exposure matters.",
+    "url": "/library/heavy-metals-gut-microbiota-review",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1038/s41392-022-00974-4",
+    "sourceDoi": "10.1038/s41392-022-00974-4",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Environmental exposure",
+      "Vaginal microbiome"
+    ]
+  },
+  {
+    "title": "Prenatal Metal Exposure, the Gut Microbiome, and Childhood Depression",
+    "description": "A Mexico City birth-cohort study links a prenatal zinc-cobalt profile plus specific gut bacteria to 15.4% higher childhood depression scores at ages 9-11.",
+    "url": "/library/prenatal-metals-microbiome-childhood-depression",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1016/j.scitotenv.2024.170361",
+    "sourceDoi": "10.1016/j.scitotenv.2024.170361",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Zinc",
+      "Cobalt",
+      "Early life",
+      "Neurobiology",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Prenatal Lead Exposure and the Childhood Gut Microbiome",
+    "description": "Prenatal lead exposure is negatively linked to the childhood gut microbiome: metagenomics from a Mexico City cohort ties maternal Pb to fewer beneficial bacteria.",
+    "url": "/library/prenatal-lead-childhood-gut-microbiome",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.3389/fmicb.2023.1193919",
+    "sourceDoi": "10.3389/fmicb.2023.1193919",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Lead",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Prebiotics Blunt the Gut Cost of Iron-Fortified Cereal in Kenyan Infants",
+    "description": "In a Kenyan infant RCT, adding prebiotic GOS/FOS to iron-fortified cereal raised iron absorption 60% and reduced gut inflammation, pathogens, and dysbiosis.",
+    "url": "/library/prebiotic-iron-cereal-kenyan-infants",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1016/j.ajcnut.2023.11.018",
+    "sourceDoi": "10.1016/j.ajcnut.2023.11.018",
+    "studyDesign": "Randomized trial",
+    "setting": "Human",
+    "topics": [
+      "Iron",
+      "Nutritional immunity",
+      "Early life"
+    ]
+  },
+  {
+    "title": "Nutritional Immunity and Trace Metals in Infection",
+    "description": "How the host uses iron, zinc, manganese and copper handling as nutritional immunity to starve or poison pathogens, plus metal-based therapeutic strategies.",
+    "url": "/library/nutritional-immunity-trace-metals-infection",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1038/s41579-022-00745-6",
+    "sourceDoi": "10.1038/s41579-022-00745-6",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Zinc",
+      "Copper",
+      "Manganese",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Metal Availability and Immune Function During Infection",
+    "description": "How zinc, iron, manganese, and copper availability shapes neutrophil and macrophage function during infection through nutritional immunity, calprotectin, and phagosomal metal handling.",
+    "url": "/library/metal-availability-immune-function-infection",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/34483037/",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron",
+      "Zinc",
+      "Copper",
+      "Manganese",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Iron Chelation Therapy in Transfusion-Dependent Thalassemia",
+    "description": "Clinical review of deferoxamine, deferiprone, and deferasirox for transfusion iron overload in thalassemia, covering cardiac and hepatic iron outcomes measured by MRI T2*.",
+    "url": "/library/iron-chelation-therapy-thalassemia",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4172003/",
+    "sourceDoi": "",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron"
+    ]
+  },
+  {
+    "title": "Heavy Metals and the Gut Microbiota: A Systematic Review",
+    "description": "Systematic review of 12 human studies links arsenic, lead, mercury, and cadmium exposure to gut microbiota dysbiosis, leaky gut, and disease, with dietary mitigation.",
+    "url": "/library/heavy-metals-gut-microbiota-systematic-review",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11773724/",
+    "sourceDoi": "",
+    "studyDesign": "Systematic review",
+    "setting": "Human studies",
+    "topics": [
+      "Arsenic",
+      "Cadmium",
+      "Lead",
+      "Mercury",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Gallium as an Iron Mimic: Disrupting Pseudomonas Iron Metabolism in Cystic Fibrosis",
+    "description": "Gallium substitutes for iron to sabotage Pseudomonas aeruginosa iron metabolism. A Phase 1 CF trial (Goss et al., Sci Transl Med 2018) found IV gallium improved lung function.",
+    "url": "/library/gallium-cystic-fibrosis-pseudomonas",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/30257953/",
+    "sourceDoi": "",
+    "studyDesign": "Early-phase clinical trial",
+    "setting": "Human",
+    "topics": [
+      "Iron",
+      "Gallium"
+    ]
+  },
+  {
+    "title": "Copper in Infectious Disease: Both Sides of the Penny",
+    "description": "How the immune system weaponizes copper against pathogens: macrophage copper bursts, phagosomal intoxication, fungal copper detox, and copper nutritional immunity.",
+    "url": "/library/copper-infectious-disease-both-sides",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1016/j.semcdb.2020.12.003",
+    "sourceDoi": "10.1016/j.semcdb.2020.12.003",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Copper",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Arsenic Exposure Reshapes the Gut Microbiome of Bangladeshi Children, Enriching Resistance-Carrying E. coli",
+    "description": "Arsenic-exposed Bangladeshi children carry more gut Proteobacteria and E. coli bearing arsenic-resistance (ars) and antibiotic-resistance-like genes, a metal-microbiome case study.",
+    "url": "/library/arsenic-gut-ecoli-children-bangladesh",
+    "kind": "Paper review",
+    "date": "2025-11-13",
+    "updated": "2025-11-13",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1371/journal.pone.0188487",
+    "sourceDoi": "10.1371/journal.pone.0188487",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Arsenic",
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Spatial Metallomics in Colorectal Cancer: Copper-Immune and Iron-EMT Pathways",
+    "description": "Spatial metallomics pairs LA-ICP-TOF-MS with Visium transcriptomics in colorectal cancer, mapping copper to immune genes and iron to EMT at the tumor front.",
+    "url": "/library/spatial-metallomics-colorectal-cancer",
+    "kind": "Paper review",
+    "date": "2025-11-11",
+    "updated": "2025-11-11",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf034",
+    "sourceDoi": "10.1093/mtomcs/mfaf034",
+    "studyDesign": "Methods / proof of concept",
+    "setting": "Human tissue",
+    "topics": [
+      "Iron",
+      "Copper",
+      "Nutritional immunity",
+      "Methods & measurement"
+    ]
+  },
+  {
+    "title": "Proteome-Scale Mapping of Iron-Binding Proteins in Bread Wheat",
+    "description": "A proteome-wide scan of bread wheat mapped ~600 iron-binding proteins with Fe(II)/Fe(III) sites coordinated by His, Glu, Asp and Cys, aiding metallomics.",
+    "url": "/library/wheat-iron-binding-proteome",
+    "kind": "Paper review",
+    "date": "2025-11-11",
+    "updated": "2025-11-11",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1016/j.jinorgbio.2017.02.012",
+    "sourceDoi": "10.1016/j.jinorgbio.2017.02.012",
+    "studyDesign": "Computational analysis",
+    "setting": "Plant",
+    "topics": [
+      "Iron",
+      "Methods & measurement"
+    ]
+  },
+  {
+    "title": "[NiFe]-Hydrogenase Cofactor Biosynthesis and the Hyp Maturation Proteins (HypA-F) in E. coli",
+    "description": "How E. coli builds the NiFe(CN)2CO cofactor of [NiFe]-hydrogenases: the HypA-F maturation proteins, cyanide and CO ligand synthesis, and nickel insertion.",
+    "url": "/library/nife-cofactor-biosynthesis-ecoli",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf015",
+    "sourceDoi": "10.1093/mtomcs/mfaf015",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Nickel",
+      "Methods & measurement"
+    ]
+  },
+  {
+    "title": "The Zinc Clasp: How Zn2+ Shapes T-Cell Signaling",
+    "description": "The zinc clasp is a Zn2+-bridged interface that tethers the kinase Lck to CD4 and CD8 coreceptors, a labile-zinc switch central to T-cell activation and immunity.",
+    "url": "/library/zinc-clasp-cd4-cd8-lck-tcell",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1126/science.1085643",
+    "sourceDoi": "10.1126/science.1085643",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Zinc"
+    ]
+  },
+  {
+    "title": "The Iron Metalloproteome of Pseudomonas aeruginosa Under Oxic and Anoxic Conditions",
+    "description": "Native metalloproteomics maps how Pseudomonas aeruginosa partitions iron across four protein complexes, with denitrification raising iron demand in anoxia.",
+    "url": "/library/iron-metalloproteome-pseudomonas",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf023",
+    "sourceDoi": "10.1093/mtomcs/mfaf023",
+    "studyDesign": "Laboratory study",
+    "setting": "Microbial culture",
+    "topics": [
+      "Iron",
+      "Methods & measurement"
+    ]
+  },
+  {
+    "title": "Nitric Oxide Sensing by the [4Fe-4S] Regulator ArnR",
+    "description": "ArnR uses a [4Fe-4S] cluster to sense nitric oxide: NO nitrosylates the cluster, abolishing DNA binding and derepressing nitrate-respiration and hmp genes.",
+    "url": "/library/arnr-4fe4s-nitric-oxide-sensing",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf026",
+    "sourceDoi": "10.1093/mtomcs/mfaf026",
+    "studyDesign": "Laboratory study",
+    "setting": "Molecular mechanism",
+    "topics": []
+  },
+  {
+    "title": "Maternal Metallomic Profiles in Pregnancy with Obesity: A Secondary Analysis of UPBEAT",
+    "description": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum haemorrhage, phosphorus to NICU care.",
+    "url": "/library/heavy-metals-obesity-pregnancy-upbeat",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf031",
+    "sourceDoi": "10.1093/mtomcs/mfaf031",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Manganese",
+      "Early life",
+      "Metabolic health"
+    ]
+  },
+  {
+    "title": "Iron-Sulfur Clusters and Oxygen in Human Disease",
+    "description": "How iron-sulfur (Fe-S) cluster biogenesis and oxygen shape human disease: NFS1 in lung cancer, hyperoxia injury, and hypoxia therapy for Friedreich ataxia.",
+    "url": "/library/iron-sulfur-clusters-oxygen-disease",
+    "kind": "Paper review",
+    "date": "2025-11-10",
+    "updated": "2025-11-10",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://doi.org/10.1093/mtomcs/mfaf022",
+    "sourceDoi": "10.1093/mtomcs/mfaf022",
+    "studyDesign": "",
+    "setting": "",
+    "topics": [
+      "Iron"
+    ]
+  }
+]
