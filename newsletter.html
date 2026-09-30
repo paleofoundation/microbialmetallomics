@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
 <title>Stay close to the evidence. — Microbial Metallomics</title>
 <meta name="description" content="Follow new paper reviews, critical commentary, and developments in microbial metallomics.">
 <link rel="canonical" href="https://microbialmetallomics.com/newsletter">
@@ -28,6 +29,7 @@
 <link rel="stylesheet" href="/assets/editorial.css?v=2a9b866d4841">
 <link rel="stylesheet" href="/assets/journal.css?v=3b22b7d3bf64">
 <link rel="stylesheet" href="/assets/field-tools.css?v=6e46aac4133e">
+<link rel="stylesheet" href="/assets/newsletter.css?v=e3ccb064418c">
 <link rel="alternate" type="application/rss+xml" title="Microbial Metallomics — all writing" href="/feeds/all.xml">
 <meta name="reading-catalogue" content="/assets/data/articles.json?v=b685a31c50fe">
 </head>
@@ -62,7 +64,47 @@
     <div class="search-hint"><button type="button" class="search-close" aria-label="Close search">Close ×</button>Type to search · ↑ ↓ to navigate · Esc to close</div>
   </div>
 </div>
-<main id="main-content"><section class="field-intro"><div class="wrap"><p class="eyebrow">Microbial Metallomics</p><h1>Stay close to the evidence.</h1><p>Follow new paper reviews, critical commentary, and developments in microbial metallomics.</p></div></section><section class="field-content"><div class="wrap"><div class="subscription-note"><h2>Read every update in your feed reader</h2><p>Subscribe to all new writing or choose research, reviews, and commentary separately.</p><a class="text-action" href="/feeds">Choose a feed</a></div><p>Email subscriptions are not available yet. No email address is collected on this page. The feeds are live and open to everyone.</p><div class="tool-links"><a href="/updates">Latest writing</a><a href="/start-here">Start with a reading path</a></div></div></section></main>
+<main id="main-content">
+  <section class="field-intro"><div class="wrap"><p class="eyebrow">The field, in your inbox</p><h1>Stay close to the evidence.</h1><p>A considered digest of new research, critical commentary, and methods in microbial metallomics.</p></div></section>
+  <section class="field-content"><div class="wrap newsletter-layout">
+    <div class="newsletter-primary">
+      <section class="newsletter-confirm" id="newsletter-confirm" aria-labelledby="confirmation-heading" hidden>
+        <p class="newsletter-kicker">One last step</p>
+        <h2 id="confirmation-heading">Confirm your subscription</h2>
+        <p>Select the button below to confirm that you want to receive the Microbial Metallomics digest.</p>
+        <button class="newsletter-button" id="newsletter-confirm-button" type="button">Confirm subscription</button>
+        <p class="newsletter-status" id="newsletter-confirm-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </section>
+      <section aria-labelledby="signup-heading">
+        <h2 id="signup-heading">A useful reason to return.</h2>
+        <p>Follow the papers, questions, and tools shaping the field. We aim for a monthly edition, with the emphasis on useful reading. Unsubscribe at any time.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <fieldset id="newsletter-fields" disabled>
+            <legend class="newsletter-sr-only">Subscribe to the Microbial Metallomics email digest</legend>
+            <label class="newsletter-label" for="newsletter-email">Email address</label>
+            <input class="newsletter-email" id="newsletter-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" placeholder="you@example.com" required aria-describedby="newsletter-email-help">
+            <p class="newsletter-help" id="newsletter-email-help">We’ll email you a confirmation link before adding you to the newsletter.</p>
+            <div class="newsletter-trap" aria-hidden="true"><label for="newsletter-company">Company</label><input id="newsletter-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+            <label class="newsletter-consent" for="newsletter-consent"><input id="newsletter-consent" name="consent" type="checkbox" required><span>I agree to receive the Microbial Metallomics email digest and understand that I can unsubscribe at any time.</span></label>
+            <button class="newsletter-button" id="newsletter-submit" type="submit">Send confirmation email <span aria-hidden="true">→</span></button>
+          </fieldset>
+          <p class="newsletter-status" id="newsletter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+          <noscript><p class="newsletter-help">Email signup requires JavaScript to securely submit your request. Enable JavaScript and reload this page, or follow the <a href="/feeds">RSS feeds</a> without signing up.</p></noscript>
+          <p class="newsletter-privacy">Your email is processed by Resend for confirmation and newsletter delivery. See our <a href="/editorial#privacy">privacy information</a>.</p>
+        </form>
+      </section>
+    </div>
+    <aside class="newsletter-aside" aria-labelledby="digest-heading">
+      <h2 id="digest-heading">Inside the digest</h2>
+      <dl class="newsletter-contents">
+        <div><dt>Research in context</dt><dd>New papers and reviews, with their methods and limitations in view.</dd></div>
+        <div><dt>Questions worth asking</dt><dd>Critical commentary and connections that deserve closer investigation.</dd></div>
+        <div><dt>Tools for the field</dt><dd>Methods, researcher profiles, and resources for following the evidence.</dd></div>
+      </dl>
+      <div class="newsletter-feed"><h3>Prefer a feed reader?</h3><p>Follow all new writing or choose research, reviews, and commentary separately. No email needed.</p><a class="text-action" href="/feeds">Choose an RSS feed <span aria-hidden="true">↗</span></a></div>
+    </aside>
+  </div><div class="wrap"><div class="tool-links"><a href="/updates">Latest writing</a><a href="/start-here">Start with a reading path</a></div></div></section>
+</main>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -104,5 +146,6 @@
 <script src="/assets/main.js?v=f4215934ea55" defer></script>
 <script src="/assets/editorial.js?v=f2ed1defa675" defer></script>
 <script src="/assets/field-tools.js?v=f6114ccad9f8" defer></script>
+<script src="/assets/newsletter.js?v=ad4b70e44e38" defer></script>
 </body>
 </html>

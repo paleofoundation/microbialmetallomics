@@ -1,6 +1,6 @@
 # Site maintenance
 
-The production website is a static Vercel deployment of this repository. `main` deploys to microbialmetallomics.com.
+The production website serves static pages and a newsletter API through Vercel from this repository. `main` deploys to microbialmetallomics.com.
 
 After editing article metadata or adding pages, run:
 
@@ -17,4 +17,4 @@ New article pages also need the existing author, sharing, source-status, reading
 
 Directory profiles are rendered in people.html; source records and public-contact provenance are in assets/data/people.json. Use only verified public professional contacts and source-credited portraits.
 
-Email subscriptions are not connected. newsletter.html links to working feeds and says so explicitly. Connect a real mailing provider with confirmation and unsubscribe support before adding a signup form or success message. Contribution briefs remain local until readers send them through the linked professional contact form.
+Email signup uses Resend through the same-origin `/api/newsletter` endpoint. Readers must confirm their email before joining the digest. Newsletter editions are prepared and sent manually; see [Newsletter operations](NEWSLETTER.md) for audience selection, unsubscribe links, quotas, and configuration. RSS feeds remain available without signup. Contribution briefs remain local until readers send them through the linked professional contact form.

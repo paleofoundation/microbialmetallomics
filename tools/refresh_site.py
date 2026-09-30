@@ -10,7 +10,7 @@ mega='''<div class="mega-menu" id="mega-menu"><div class="wrap"><div class="mega
 footerlinks='<p class="utility-links"><a href="/about">About</a><a href="/editorial">Editorial standards</a><a href="/editorial#privacy">Privacy</a><a href="/contribute">Contribute / correct</a><a href="/feeds">RSS</a><a href="/updates">Updates</a><a href="/reading-list">Saved reading</a></p>'
 cat_hash=hashlib.sha256((ROOT/'assets/data/articles.json').read_bytes()).hexdigest()[:12]
 for p in ROOT.rglob('*.html'):
- if any(part.startswith('.') for part in p.relative_to(ROOT).parts):continue
+ if 'node_modules' in p.parts or any(part.startswith('.') for part in p.relative_to(ROOT).parts):continue
  s=p.read_text()
  s=re.sub(r'<nav class="nav-links" aria-label="Primary">.*?</nav>',nav,s,flags=re.S)
  # The existing mega menu is the last block before the site header closes.
@@ -50,7 +50,7 @@ for p in ROOT.glob('*.html'):
 from xml.sax.saxutils import escape
 urls=[]
 for p in ROOT.rglob('*.html'):
- if any(part.startswith('.') for part in p.relative_to(ROOT).parts) or p.name in ['404.html','reading-list.html']:continue
+ if 'node_modules' in p.parts or any(part.startswith('.') for part in p.relative_to(ROOT).parts) or p.name in ['404.html','reading-list.html']:continue
  s=p.read_text();match=re.search(r'<link rel="canonical" href="([^"]+)"',s)
  if match and match.group(1).startswith(ORIGIN):urls.append(html.unescape(match.group(1)))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+escape(u)+'</loc></url>\n' for u in sorted(set(urls)))+'</urlset>\n')
