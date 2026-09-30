@@ -726,29 +726,31 @@
     "name": "Karen Pendergrass",
     "category": "Microbiome, Metals & Translation",
     "deceased": false,
-    "role": "Standards Architect & Microbial Metallomics Researcher",
-    "bio": "Founder and Standards Architect of ICS, and architect of the Heavy Metal Index evidence system. Her work connects contaminant occurrence, microbial metal biology and standards methodology. She develops the research frameworks and editorial perspective behind this guide; her DOI-registered preprints are identified by their publication status.",
-    "affiliation": "Heavy Metal Index · Institute of Contaminant Standards (ICS)",
+    "role": "Microbial Metallomics Researcher & Founder",
+    "bio": "Karen Pendergrass studies the intersection of microbial ecology, heavy metals, and disease. Her work focuses on mismetallation and the role of nickel in microbial metabolism, particularly through urease, [NiFe]-hydrogenases, and nickel-dependent forms of glyoxalase I. She examines microbiome and metallomic signatures of disease together, exploring how changes in metal availability and enzyme function may connect microbial communities to conditions such as endometriosis and Parkinson’s disease. She is the founder of Microbiome Medicine, Wikibiome, and the Institute of Contaminant Standards (ICS).",
+    "affiliation": "Microbiome Medicine · Wikibiome · Institute of Contaminant Standards (ICS)",
     "source": "https://contaminantstandards.com/people/karen-pendergrass",
     "orcid": "0000-0002-2348-7259",
     "contact": "https://karenpendergrass.com/contact",
     "siteAuthor": true,
     "works": [
       {
-        "title": "Heavy metals in fertilizers: historical contamination trends",
-        "url": "/research/heavy-metals-in-fertilizers-contamination-trends",
+        "title": "Parkinson’s: microbiome and metal dyshomeostasis",
+        "url": "/research/parkinsons-dysbiosis-to-dyshomeostasis",
         "label": "Research record"
       },
       {
-        "title": "Heavy metals, microbial metallomics and the US obesity epidemic",
-        "url": "/research/heavy-metals-microbial-metallomics-obesity-epidemic",
+        "title": "Nickel-dependent enzymes and necrotizing enterocolitis",
+        "url": "/research/nickel-necrotizing-enterocolitis",
         "label": "Research record"
       }
     ],
     "topics": [
-      "Exposure evidence",
-      "Microbial metallomics",
-      "Standards"
+      "Mismetallation",
+      "Nickel & microbial enzymes",
+      "Microbiome & metallomic signatures",
+      "Endometriosis",
+      "Parkinson’s disease"
     ],
     "slug": "karen-pendergrass",
     "portrait": "/assets/people/karen-pendergrass.avif",
