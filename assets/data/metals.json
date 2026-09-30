@@ -1,0 +1,4101 @@
+[
+  {
+    "symbol": "V",
+    "name": "Vanadium",
+    "atomicNumber": 23,
+    "category": "context",
+    "role": "Alternative nitrogenase and microbial vanadium reduction",
+    "summary": {
+      "text": "Vanadium has a defined cofactor role in certain nitrogen-fixing microbes. Other bacteria transform vanadium between oxidation states, making it relevant to both enzyme chemistry and environmental metal cycling.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Azotobacter vinelandii vanadium nitrogenase contains an iron-vanadium cofactor and catalyzes nitrogen reduction. Its cofactor differs structurally from the molybdenum-containing form.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Shewanella oneidensis MR-1 reduced V(V) to V(IV) through an electron-transfer pathway involving menaquinone and membrane cytochromes.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "Growth on vanadate depends on culture conditions: a 2004 study observed reduction without growth, while a 2005 study demonstrated proton translocation and growth after modifying the medium. Reduction alone therefore does not establish energy conservation.",
+        "refs": [
+          2,
+          3
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The selected evidence concerns environmental bacteria, enzyme structures, and laboratory metal reduction. It does not establish a vanadium-dependent human gut function or a validated vanadium-associated disease signature.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Vanadate and reduced vanadium species are chemically distinct microbial exposures. Enzyme-bound vanadium is also different from dissolved vanadium added to a culture.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Vanadium is not a universal microbial requirement. Claims about metabolism must identify the organism, oxidation state, and experimental conditions.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "The structure of vanadium nitrogenase reveals an unusual bridging ligand",
+        "authors": "Sippel D and Einsle O",
+        "year": 2017,
+        "url": "https://doi.org/10.1038/nchembio.2428"
+      },
+      {
+        "title": "Vanadium(V) reduction by Shewanella oneidensis MR-1 requires menaquinone and cytochromes from the cytoplasmic and outer membranes",
+        "authors": "Myers JM, Antholine WE, and Myers CR",
+        "year": 2004,
+        "url": "https://doi.org/10.1128/AEM.70.3.1405-1412.2004"
+      },
+      {
+        "title": "Respiration and growth of Shewanella oneidensis MR-1 using vanadate as the sole electron acceptor",
+        "authors": "Carpentier W, De Smet L, Van Beeumen J, and Brigé A",
+        "year": 2005,
+        "url": "https://doi.org/10.1128/JB.187.10.3293-3301.2005"
+      }
+    ],
+    "tags": [
+      "Alternative nitrogenase",
+      "Vanadium speciation",
+      "Environmental microbes",
+      "Culture evidence"
+    ],
+    "group": "cofactors",
+    "slug": "vanadium",
+    "url": "/metals/vanadium"
+  },
+  {
+    "symbol": "Mn",
+    "name": "Manganese",
+    "atomicNumber": 25,
+    "category": "essential",
+    "role": "Oxidative-stress defense and environmental manganese cycling",
+    "summary": {
+      "text": "Manganese can support microbial resistance to oxidative stress, while its accessibility is contested by the host. Environmental microbes also transform manganese oxidation states, linking microbial energy metabolism to mineral formation.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Calprotectin-mediated manganese restriction impaired Staphylococcus aureus superoxide defenses and increased susceptibility to neutrophil killing in experimental infection work.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "A two-species enrichment culture grew by coupling Mn(II) oxidation to carbon fixation, providing experimental evidence for manganese-based chemolithoautotrophy.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "In mice, a high-manganese diet increased manganese availability in the heart and promoted S. aureus infection there, demonstrating tissue-specific consequences of metal access.",
+        "refs": [
+          3
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The cited host studies address a defined pathogen and experimental infection, not a general human gut dysbiosis signature. The environmental culture result demonstrates manganese-supported growth, not a mechanism of human neurological disease.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "exposure": {
+      "text": "Dietary manganese was manipulated in the mouse infection study; Mn(II) was the energy substrate in the environmental enrichment culture. These are different exposure systems and should be labeled separately.",
+      "refs": [
+        2,
+        3
+      ]
+    },
+    "limits": {
+      "text": "Metal availability at a specific tissue can differ from total dietary intake. Neither the mouse infection model nor environmental oxidation experiments establish a human microbiome-mediated disease pathway.",
+      "refs": [
+        2,
+        3
+      ]
+    },
+    "sources": [
+      {
+        "title": "Nutrient metal sequestration by calprotectin inhibits bacterial superoxide defense, enhancing neutrophil killing of Staphylococcus aureus",
+        "authors": "Kehl-Fie TE et al.",
+        "year": 2011,
+        "url": "https://doi.org/10.1016/j.chom.2011.07.004"
+      },
+      {
+        "title": "Bacterial chemolithoautotrophy via manganese oxidation",
+        "authors": "Yu H and Leadbetter JR",
+        "year": 2020,
+        "url": "https://doi.org/10.1038/s41586-020-2468-5"
+      },
+      {
+        "title": "Dietary Manganese Promotes Staphylococcal Infection of the Heart",
+        "authors": "Juttukonda LJ et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.chom.2017.08.009"
+      }
+    ],
+    "tags": [
+      "Superoxide defense",
+      "Calprotectin",
+      "Manganese oxidation",
+      "Environmental microbes",
+      "Mouse infection"
+    ],
+    "group": "cofactors",
+    "slug": "manganese",
+    "url": "/metals/manganese"
+  },
+  {
+    "symbol": "Fe",
+    "name": "Iron",
+    "atomicNumber": 26,
+    "category": "essential",
+    "role": "Iron acquisition, iron-sulfur enzymes, and environmental respiration",
+    "summary": {
+      "text": "Iron connects intracellular enzyme chemistry with competition for nutrients and environmental redox cycling. Its biological availability depends on its oxidation state, ligands, and mineral form; measuring total iron alone does not describe what a microbe can access.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Siderophores capture iron. Host lipocalin 2 binds the bacterial siderophore enterobactin, while the iroA-associated salmochelin pathway can evade this defense in experimental E. coli systems.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Iron-sulfur clusters support bacterial metabolism and can be damaged by competing metals. In E. coli, copper inactivated iron-sulfur dehydratases without requiring oxygen.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "In anaerobic culture, the sediment isolate GS-15 coupled organic carbon oxidation to Fe(III) reduction and growth. Amorphous oxides and dissolved ferric citrate behaved differently from highly crystalline iron minerals.",
+        "refs": [
+          3
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Human intervention evidence exists: two randomized trials involving 115 Kenyan infants found that iron-containing micronutrient powders increased several enterobacterial measures and fecal calprotectin in that setting. The result concerns particular formulations, infant populations, and exposure conditions; it is not a universal effect of every dietary iron source.",
+      "refs": [
+        4
+      ]
+    },
+    "exposure": {
+      "text": "Relevant interfaces include iron in food fortification and iron-bearing sediment minerals. The fraction reaching the colon and the chemical form of environmental iron matter for microbial access.",
+      "refs": [
+        3,
+        4
+      ]
+    },
+    "limits": {
+      "text": "Host iron status, microbial strain, inflammation, formulation, and local chemistry change the interpretation. An increased taxon's relative abundance does not identify the intracellular iron concentration or prove a disease mechanism.",
+      "refs": [
+        1,
+        4
+      ]
+    },
+    "sources": [
+      {
+        "title": "The pathogen-associated iroA gene cluster mediates bacterial evasion of lipocalin 2",
+        "authors": "Fischbach MA et al.",
+        "year": 2006,
+        "url": "https://doi.org/10.1073/pnas.0604636103"
+      },
+      {
+        "title": "The iron-sulfur clusters of dehydratases are primary intracellular targets of copper toxicity",
+        "authors": "Macomber L and Imlay JA",
+        "year": 2009,
+        "url": "https://doi.org/10.1073/pnas.0812808106"
+      },
+      {
+        "title": "Novel mode of microbial energy metabolism: organic carbon oxidation coupled to dissimilatory reduction of iron or manganese",
+        "authors": "Lovley DR and Phillips EJ",
+        "year": 1988,
+        "url": "https://doi.org/10.1128/aem.54.6.1472-1480.1988"
+      },
+      {
+        "title": "Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants",
+        "authors": "Jaeggi T et al.",
+        "year": 2015,
+        "url": "https://doi.org/10.1136/gutjnl-2014-307720"
+      }
+    ],
+    "tags": [
+      "Siderophores",
+      "Nutritional immunity",
+      "Iron-sulfur clusters",
+      "Human intervention",
+      "Environmental redox"
+    ],
+    "group": "cofactors",
+    "slug": "iron",
+    "url": "/metals/iron"
+  },
+  {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "atomicNumber": 27,
+    "category": "essential",
+    "role": "Corrinoid sharing, vitamin B12 uptake, and metal interference",
+    "summary": {
+      "text": "Cobalt is central to cobalamin and related corrinoids, which form a shared but chemically diverse resource in microbial communities. Free cobalt exposure is a different biological question from access to intact vitamin B12 or its analogs.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Bacteroides thetaiotaomicron carries several corrinoid transporters with distinct preferences. Individual transporters changed competitive fitness in gnotobiotic mice depending on the corrinoids available.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In E. coli, excess cobalt disrupted iron-sulfur enzyme function. Biochemical experiments implicated interference with cluster assembly on scaffold proteins rather than direct attack on fully assembled clusters.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The corrinoid study combined analysis of human gut microbial genomes with culture experiments and colonization of germ-free mice. It demonstrates how vitamin uptake specificity can shape competition, without establishing that cobalt salts and cobalamin have equivalent effects on a human microbiome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Corrinoids may be available from diet or microbial production; the chemical structure influences which organisms can capture them. Cobalt-ion culture exposure instead probes metal toxicity.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Corrinoid dependence varies between organisms and metabolic pathways. Benefits inferred from vitamin-dependent microbial enzymes cannot be transferred to free cobalt exposure.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Human gut microbes use multiple transporters to distinguish vitamin B12 analogs and compete in the gut",
+        "authors": "Degnan PH, Barry NA, Mok KC, Taga ME, and Goodman AL",
+        "year": 2014,
+        "url": "https://doi.org/10.1016/j.chom.2013.12.007"
+      },
+      {
+        "title": "Cobalt stress in Escherichia coli. The effect on the iron-sulfur proteins",
+        "authors": "Ranquet C et al.",
+        "year": 2007,
+        "url": "https://doi.org/10.1074/jbc.M702519200"
+      }
+    ],
+    "tags": [
+      "Cobalamin",
+      "Corrinoids",
+      "Nutrient competition",
+      "Iron-sulfur assembly",
+      "Gnotobiotic mice"
+    ],
+    "group": "cofactors",
+    "slug": "cobalt",
+    "url": "/metals/cobalt"
+  },
+  {
+    "symbol": "Ni",
+    "name": "Nickel",
+    "atomicNumber": 28,
+    "category": "essential",
+    "role": "Urease, [NiFe]-hydrogenases, and nickel-dependent glyoxalase I",
+    "summary": {
+      "text": "Nickel supports distinct microbial enzyme systems, including urease and [NiFe]-hydrogenases. Some glyoxalase I enzymes prefer nickel, but that property is not shared by all glyoxalase I proteins; metal identity must be established for the organism and enzyme in question.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "H. pylori uses nickel-dependent urease and hydrogenase during gastric colonization. Histidine-rich Hpn and Hpn-like proteins store nickel, helping the bacterium maintain access when external supply is limited.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Purified E. coli glyoxalase I showed optimal activation by Ni(II), unlike the familiar zinc-activated enzymes from several other organisms. The work concerns methylglyoxal-processing enzyme biochemistry.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "In E. coli, the nickel-responsive regulator NikR represses the NikABCDE import system, linking intracellular nickel sensing to uptake control.",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "text": "Accessory proteins coordinate nickel delivery: H. pylori HypA and UreG competed for UreE binding in biochemical experiments, revealing interactions between hydrogenase and urease maturation pathways.",
+        "refs": [
+          4
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Mouse colonization experiments showed that H. pylori nickel-storage mutants were disadvantaged on nickel-deficient chow, whereas wild-type colonization was similar across the tested diets. This supports a specific pathogen-storage mechanism rather than a claim that higher dietary nickel universally increases colonization.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Dietary nickel was experimentally controlled in the H. pylori mouse work. Enzyme assays and transporter studies used defined nickel conditions, which do not directly represent a mixed human diet.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "limits": {
+      "text": "These studies do not demonstrate that nickel-dependent enzymes cause endometriosis or Parkinson's disease. Presence of an enzyme gene also does not establish its expression, metal occupancy, or activity in a patient's microbiome.",
+      "refs": [
+        1,
+        2,
+        4
+      ]
+    },
+    "sources": [
+      {
+        "title": "Helicobacter pylori stores nickel to aid its host colonization",
+        "authors": "Benoit SL, Miller EF, and Maier RJ",
+        "year": 2013,
+        "url": "https://doi.org/10.1128/IAI.00858-12"
+      },
+      {
+        "title": "Overproduction and characterization of a dimeric non-zinc glyoxalase I from Escherichia coli: evidence for optimal activation by nickel ions",
+        "authors": "Clugston SL et al.",
+        "year": 1998,
+        "url": "https://doi.org/10.1021/bi972791w"
+      },
+      {
+        "title": "Regulation of high affinity nickel uptake in bacteria. Ni2+-Dependent interaction of NikR with wild-type and mutant operator sites.",
+        "authors": "Chivers PT and Sauer RT",
+        "year": 2000,
+        "url": "https://doi.org/10.1074/jbc.M002232200"
+      },
+      {
+        "title": "Helicobacter pylori hydrogenase accessory protein HypA and urease accessory protein UreG compete with each other for UreE recognition",
+        "authors": "Benoit SL et al.",
+        "year": 2012,
+        "url": "https://doi.org/10.1016/j.bbagen.2012.06.002"
+      }
+    ],
+    "tags": [
+      "Urease",
+      "[NiFe]-hydrogenases",
+      "Glyoxalase I",
+      "Nickel trafficking",
+      "H. pylori"
+    ],
+    "group": "cofactors",
+    "slug": "nickel",
+    "url": "/metals/nickel"
+  },
+  {
+    "symbol": "Cu",
+    "name": "Copper",
+    "atomicNumber": 29,
+    "category": "essential",
+    "role": "Methane oxidation, copper acquisition, and metal toxicity",
+    "summary": {
+      "text": "Copper supports specialized microbial chemistry while excess accessible copper damages sensitive cellular targets. Its microbial roles span methane-oxidizing environmental bacteria and the metal-defense systems of organisms such as E. coli.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Methane-oxidizing bacteria can acquire copper using methanobactin for particulate methane monooxygenase. Work in Methylosinus trichosporium OB3b identified the copper-binding protein MbnP and its unusual high-affinity Cu(I) site.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In E. coli, copper rapidly inactivated iron-sulfur dehydratases involved in amino-acid synthesis; this damage occurred without oxygen and released iron from exposed clusters.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "Copper export, glutathione binding, and iron-sulfur cluster repair increased resistance in the E. coli experiments, illustrating how metal trafficking determines toxicity.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These examples establish biochemical mechanisms in cultured microbes. They do not demonstrate that a given copper exposure changes a human gut community, or that detecting copper-resistance genes predicts the direction of that change.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Copper availability depends on binding and trafficking, so culture-medium copper and copper at intracellular targets are distinct quantities.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "The iron-sulfur damage was oxygen-independent. Community-level extrapolation requires speciation and species-specific measurements.",
+      "refs": [
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Copper binding by a unique family of metalloproteins is dependent on kynurenine formation",
+        "authors": "Manesis AC et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1073/pnas.2100680118"
+      },
+      {
+        "title": "The iron-sulfur clusters of dehydratases are primary intracellular targets of copper toxicity",
+        "authors": "Macomber L and Imlay JA",
+        "year": 2009,
+        "url": "https://doi.org/10.1073/pnas.0812808106"
+      }
+    ],
+    "tags": [
+      "Methanotrophs",
+      "Copper trafficking",
+      "Iron-sulfur damage",
+      "Culture evidence",
+      "Metal resistance"
+    ],
+    "group": "cofactors",
+    "slug": "copper",
+    "url": "/metals/copper"
+  },
+  {
+    "symbol": "Zn",
+    "name": "Zinc",
+    "atomicNumber": 30,
+    "category": "essential",
+    "role": "Nutrient limitation, metal competition, and colonization resistance",
+    "summary": {
+      "text": "Zinc is a microbial nutrient whose excess can also impair other metal-dependent processes. Its effects depend on the balance between accessible zinc and competing nutrients, not simply on the amount of zinc present.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Streptococcus pneumoniae, extracellular Zn(II) competes with Mn(II) for the uptake protein PsaA. Zinc binding can block manganese acquisition and weaken oxidative-stress resistance.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Host calprotectin limits metal availability. Experiments with C. difficile established zinc-sensitive growth and a protective role for calprotectin-mediated metal restriction.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "Excess dietary zinc altered mouse gut community composition, lowered the antibiotic exposure needed to permit C. difficile infection, and increased disease severity in that experimental model.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The strongest causal community-level example highlighted here is an animal study, rather than a human supplementation trial. The mouse C. difficile findings show that nutrient availability can change colonization resistance, but do not establish an equivalent threshold or response in humans.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Dietary zinc and host redistribution of zinc at infection sites create distinct microbial exposures. Zinc-to-manganese balance was mechanistically important in the pneumococcal culture experiments.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Zinc-driven manganese starvation is demonstrated for particular transport machinery. It should not be generalized to all species, and the mouse infection findings do not define a clinical intake recommendation.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "A molecular mechanism for bacterial susceptibility to zinc",
+        "authors": "McDevitt CA et al.",
+        "year": 2011,
+        "url": "https://doi.org/10.1371/journal.ppat.1002357"
+      },
+      {
+        "title": "Dietary zinc alters the microbiota and decreases resistance to Clostridium difficile infection",
+        "authors": "Zackular JP et al.",
+        "year": 2016,
+        "url": "https://doi.org/10.1038/nm.4174"
+      }
+    ],
+    "tags": [
+      "Metal competition",
+      "Manganese uptake",
+      "Nutritional immunity",
+      "Mouse microbiome",
+      "C. difficile"
+    ],
+    "group": "cofactors",
+    "slug": "zinc",
+    "url": "/metals/zinc"
+  },
+  {
+    "symbol": "Mo",
+    "name": "Molybdenum",
+    "atomicNumber": 42,
+    "category": "essential",
+    "role": "Molybdenum-cofactor respiration and nitrogen fixation",
+    "summary": {
+      "text": "Molybdenum enables microbial reactions through specialized cofactors, including respiratory molybdoenzymes and the distinct FeMo cofactor of nitrogenase. These pathways connect metal availability with anaerobic growth and environmental nitrogen cycling.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "During experimental intestinal inflammation, host-derived nitrate gave E. coli a respiratory growth advantage over obligate anaerobes in mice.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Molybdenum-cofactor-dependent respiratory pathways supported inflammation-associated Enterobacteriaceae expansion; tungstate interfered with these pathways in culture and mouse experiments.",
+        "refs": [
+          2
+        ]
+      },
+      {
+        "text": "The common nitrogenase contains an FeMo cofactor. Comparison with vanadium nitrogenase demonstrates that replacing the heterometal changes cofactor structure and catalytic properties.",
+        "refs": [
+          3
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The gut evidence highlighted here comes from mouse inflammation models and bacterial genetic experiments. It establishes a role for respiratory metabolism, not a demonstration that dietary molybdenum causes inflammatory bowel disease in people.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Molybdenum-containing cofactors must be assembled within the organism; an environmental or dietary total-metal measurement does not establish the amount entering active respiratory enzymes.",
+      "refs": [
+        2,
+        3
+      ]
+    },
+    "limits": {
+      "text": "Respiratory advantage depends on electron acceptors and local conditions. Gene presence, total molybdenum, and molybdoenzyme activity are separate measurements.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Host-derived nitrate boosts growth of E. coli in the inflamed gut",
+        "authors": "Winter SE et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1126/science.1232467"
+      },
+      {
+        "title": "Precision editing of the gut microbiota ameliorates colitis",
+        "authors": "Zhu W et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/nature25172"
+      },
+      {
+        "title": "The structure of vanadium nitrogenase reveals an unusual bridging ligand",
+        "authors": "Sippel D and Einsle O",
+        "year": 2017,
+        "url": "https://doi.org/10.1038/nchembio.2428"
+      }
+    ],
+    "tags": [
+      "Molybdenum cofactor",
+      "Nitrate respiration",
+      "Enterobacteriaceae",
+      "Nitrogen fixation",
+      "Mouse colitis"
+    ],
+    "group": "cofactors",
+    "slug": "molybdenum",
+    "url": "/metals/molybdenum"
+  },
+  {
+    "symbol": "W",
+    "name": "Tungsten",
+    "atomicNumber": 74,
+    "category": "context",
+    "role": "Tungstoenzymes and competition with molybdenum",
+    "summary": {
+      "text": "Tungsten is a functional cofactor in some microbes, including gut-associated organisms. It also competes with molybdenum-dependent pathways, so its effect depends on which metal-utilizing enzymes a species possesses.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Purified tungsten-containing oxidoreductases from gut microbes converted aldehydes to acids. Genomic analysis identified diverse enzyme families and the tungstate-specific transporter Tup in the human gut microbiome.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "One characterized enzyme coupled aldehyde oxidation to reduction of both NAD+ and ferredoxin through electron bifurcation.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "The human-fecal isolate Brevibacillus massiliensis produced a tungsten enzyme that oxidized food-associated aldehydes; furfural conversion required tungsten rather than molybdenum in the tested culture conditions.",
+        "refs": [
+          3
+        ]
+      },
+      {
+        "text": "Tungstate inhibited molybdenum-dependent respiration and reduced inflammation-associated Enterobacteriaceae expansion in mouse colitis models.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Tungstoenzyme work establishes biochemical capacity in cultured gut isolates and genomic potential in human microbiomes. The colitis work is preclinical; it does not establish the safety or effectiveness of tungsten administration in humans.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "exposure": {
+      "text": "The aldehyde studies connect microbial tungsten availability with metabolism of compounds found in cooked foods or produced by microbes. They do not establish a human dietary tungsten requirement.",
+      "refs": [
+        1,
+        3
+      ]
+    },
+    "limits": {
+      "text": "Not every tungsten oxidoreductase has a known substrate. An enzyme's presence should not be treated as evidence that tungsten exposure improves health.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Tungsten enzymes play a role in detoxifying food and antimicrobial aldehydes in the human gut microbiome",
+        "authors": "Schut GJ et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1073/pnas.2109008118"
+      },
+      {
+        "title": "Precision editing of the gut microbiota ameliorates colitis",
+        "authors": "Zhu W et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/nature25172"
+      },
+      {
+        "title": "Obligately aerobic human gut microbe expresses an oxygen resistant tungsten-containing oxidoreductase for detoxifying gut aldehydes",
+        "authors": "Thorgersen MP et al.",
+        "year": 2022,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36051760/"
+      }
+    ],
+    "tags": [
+      "Tungstoenzymes",
+      "Aldehyde metabolism",
+      "Molybdenum competition",
+      "Gut isolates",
+      "Preclinical evidence"
+    ],
+    "group": "cofactors",
+    "slug": "tungsten",
+    "url": "/metals/tungsten"
+  },
+  {
+    "symbol": "Be",
+    "name": "Beryllium",
+    "atomicNumber": 4,
+    "category": "Alkaline-earth metal",
+    "role": "Evidence from bacterial-enzyme inhibition",
+    "summary": {
+      "text": "Beryllium is included as a mechanistic edge case rather than a well-established microbiome exposure field. It is a light alkaline-earth metal, not a heavy metal.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A biochemical study found that beryllium sulfate inhibited alkaline phosphatase, including the Escherichia coli enzyme; sensitivity differed sharply among the enzymes tested.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence cited here is enzyme-level. It does not establish a beryllium-specific microbial community change in the human gut.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The relevant experiment used soluble beryllium sulfate. It cannot represent every beryllium-containing material or exposure route.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "This older, narrow mechanistic result supports inclusion in a research map, but not broad claims about disease mediation, microbial nutrition, or clinical treatment.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "The inhibition of enzymes by beryllium",
+        "authors": "Thomas M, Aldridge WN",
+        "year": 1966,
+        "url": "https://doi.org/10.1042/bj0980094"
+      }
+    ],
+    "tags": [
+      "Enzyme inhibition",
+      "Alkaline phosphatase",
+      "Light metal",
+      "Evidence gaps"
+    ],
+    "group": "contaminants",
+    "slug": "beryllium",
+    "url": "/metals/beryllium"
+  },
+  {
+    "symbol": "Al",
+    "name": "Aluminum",
+    "atomicNumber": 13,
+    "category": "Metal",
+    "role": "Light-metal exposure and intestinal ecology",
+    "summary": {
+      "text": "Aluminum belongs in a broad microbial metals guide even though it is a light metal. Its relevance here is experimental exposure biology rather than an established microbial nutrient role.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In an eight-week oral-exposure study, aluminum altered selected bacterial abundances in mice without the significant overall diversity decline seen with copper in the same experiment.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The study reported increased Odoribacter and decreased Anaerotruncus, alongside a reduction in Akkermansia shared across the tested metals.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Interpretation requires the aluminum compound, dose, duration, and route. The cited evidence is a controlled mouse ingestion experiment.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Individual taxon changes in mice do not establish an aluminum-specific human microbiome signature, disease causation, or a clinical detoxification strategy.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Effects of subchronic oral toxic metal exposure on the intestinal microbiota of mice",
+        "authors": "Zhai Q, Li T, Yu L et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.scib.2017.01.031"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Animal studies",
+      "Light metal",
+      "Exposure"
+    ],
+    "group": "contaminants",
+    "slug": "aluminum",
+    "url": "/metals/aluminum"
+  },
+  {
+    "symbol": "Cr",
+    "name": "Chromium",
+    "atomicNumber": 24,
+    "category": "Metal",
+    "role": "Oxidation-state-dependent stress and reduction",
+    "summary": {
+      "text": "Chromium must be described by oxidation state. Microbial reduction of chromate, Cr(VI), changes its chemistry, but reduction is not equivalent to making all chromium harmless.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "An Escherichia coli flavin-reductase system converted chromate into a soluble Cr(III)-NAD+ complex in biochemical experiments.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Reduced chromium can remain associated with cellular ligands rather than simply precipitating; the location and products of reduction matter.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Five-day exposures to several metals, including chromium, elicited different rat gut-community responses. Large variation limited conclusions from diversity measures.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Chromate and dichromate salts used in experiments represent Cr(VI), which should not be conflated with Cr(III), elemental chromium, or chromium in an alloy.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Enzyme and rat studies establish mechanisms and experimental responses; they do not prove that a particular human microbiome change mediates chromium disease or supports chromium supplementation.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "A bacterial flavin reductase system reduces chromate to a soluble chromium(III)-NAD(+) complex",
+        "authors": "Puzon GJ, Petersen JN, Roberts AG et al.",
+        "year": 2002,
+        "url": "https://doi.org/10.1016/S0006-291X(02)00438-2"
+      },
+      {
+        "title": "Exposure to toxic metals triggers unique responses from the rat gut microbiota",
+        "authors": "Richardson JB, Dancy BCR, Horton CL et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/s41598-018-24931-w"
+      }
+    ],
+    "tags": [
+      "Chromate",
+      "Redox",
+      "Speciation",
+      "Gut microbiome",
+      "Animal studies"
+    ],
+    "group": "contaminants",
+    "slug": "chromium",
+    "url": "/metals/chromium"
+  },
+  {
+    "symbol": "Ge",
+    "name": "Germanium",
+    "atomicNumber": 32,
+    "category": "contaminant",
+    "role": "Strain-dependent tolerance to germanium dioxide",
+    "summary": {
+      "text": "Germanium is a metalloid with experimentally documented effects on microbial growth.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Tests in 21 bacterial and 13 yeast strains found substantial differences in tolerance to germanium dioxide. Prior exposure improved tolerance in some bacterial cultures.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is isolate-level evidence; it does not identify a characteristic human microbiome signature.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The tested form was GeO₂ in broth. Medium pH changed tolerance and may explain part of the yeast inhibition.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Do not transfer results between inorganic germanium, organogermanium compounds, and supplements, or between a culture concentration and an environmental dose.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Germanium toxicity in selected bacterial and yeast strains",
+        "authors": "Van Dyke MI, Lee H and Trevors JT",
+        "year": 1989,
+        "url": "https://doi.org/10.1007/BF01577353"
+      }
+    ],
+    "tags": [
+      "Metalloid",
+      "Bacterial culture",
+      "Yeast",
+      "Chemical form"
+    ],
+    "group": "contaminants",
+    "slug": "germanium",
+    "url": "/metals/germanium"
+  },
+  {
+    "symbol": "As",
+    "name": "Arsenic",
+    "atomicNumber": 33,
+    "category": "Metalloid",
+    "role": "Speciation-changing toxicant",
+    "summary": {
+      "text": "Arsenic illustrates a two-way relationship: microbial transformations change the compounds a host encounters, while the microbiome can alter arsenic excretion and toxicity.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Human colon communities in a gut simulator methylated and thiolated inorganic arsenic. Products included MMA(III); methylation therefore cannot automatically be labeled detoxification.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In acute-exposure mouse models, removing or disrupting the microbiome reduced fecal arsenic excretion and increased tissue accumulation. Protection also depended on the host As3mt enzyme.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "A study of 204 infants found exposure-associated differences in gut composition, including sex-specific patterns. This was observational and did not establish that the microbiome caused disease.",
+      "refs": [
+        3
+      ]
+    },
+    "exposure": {
+      "text": "Food, drinking water, and contaminated soil can deliver different arsenicals. Inorganic As(III), As(V), and methylated or sulfur-containing metabolites must be distinguished.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Gut-simulator chemistry, acute mouse toxicity, and human cohort associations answer different questions. None establishes a general probiotic treatment or a universal arsenic-associated microbial signature.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "sources": [
+      {
+        "title": "Arsenic metabolism by human gut microbiota upon in vitro digestion of contaminated soils",
+        "authors": "Van de Wiele T, Gallawa CM, Kubachka KM et al.",
+        "year": 2010,
+        "url": "https://doi.org/10.1289/ehp.0901794"
+      },
+      {
+        "title": "The gut microbiome is required for full protection against acute arsenic toxicity in mouse models",
+        "authors": "Coryell M, McAlpine M, Pinkham NV et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/s41467-018-07803-9"
+      },
+      {
+        "title": "Sex-specific associations of infants' gut microbiome with arsenic exposure in a US population",
+        "authors": "Hoen AG, Madan JC, Li Z et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/s41598-018-30581-9"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Speciation",
+      "Methylation",
+      "Metalloid",
+      "Human cohort",
+      "Animal studies"
+    ],
+    "group": "contaminants",
+    "slug": "arsenic",
+    "url": "/metals/arsenic"
+  },
+  {
+    "symbol": "Cd",
+    "name": "Cadmium",
+    "atomicNumber": 48,
+    "category": "Metal",
+    "role": "Toxicant with a specialized algal enzyme exception",
+    "summary": {
+      "text": "Cadmium is studied as a gut toxicant, but its biology is not uniformly nonfunctional: certain marine diatoms can use it in carbonic anhydrase under zinc limitation.",
+      "refs": [
+        1,
+        3
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Germ-free mice absorbed and accumulated more orally administered cadmium than conventional mice, implicating the microbiota and host intestinal metal-handling responses.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Thalassiosira weissflogii produces a cadmium-containing carbonic anhydrase involved in inorganic-carbon acquisition. This narrow adaptation is not evidence that cadmium is a human nutrient.",
+        "refs": [
+          3
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Oral cadmium exposure produced modest, taxon-specific shifts in a mouse sequencing study; effects should not be converted into a fixed human dysbiosis signature.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "The gut experiments used soluble cadmium salts by oral exposure. The diatom result concerns low-zinc marine culture conditions.",
+      "refs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "limits": {
+      "text": "Dose, metal availability, zinc status, and species determine the result. Mouse absorption data and marine algal biochemistry cannot establish clinical benefit or a safe dietary dose.",
+      "refs": [
+        1,
+        3
+      ]
+    },
+    "sources": [
+      {
+        "title": "Gut microbiota limits heavy metals burden caused by chronic oral exposure",
+        "authors": "Breton J, Daniel C, Dewulf J et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1016/j.toxlet.2013.07.021"
+      },
+      {
+        "title": "Ecotoxicology inside the gut: impact of heavy metals on the mouse microbiome",
+        "authors": "Breton J, Massart S, Vandamme P et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1186/2050-6511-14-62"
+      },
+      {
+        "title": "A biological function for cadmium in marine diatoms",
+        "authors": "Lane TW, Morel FMM",
+        "year": 2000,
+        "url": "https://doi.org/10.1073/pnas.090091397"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Carbonic anhydrase",
+      "Diatoms",
+      "Animal studies",
+      "Metal substitution"
+    ],
+    "group": "contaminants",
+    "slug": "cadmium",
+    "url": "/metals/cadmium"
+  },
+  {
+    "symbol": "Sn",
+    "name": "Tin",
+    "atomicNumber": 50,
+    "category": "Metal",
+    "role": "Organotin transformation and chemical-species dependence",
+    "summary": {
+      "text": "Tin–microbe interactions are strongly compound-dependent. Organotins such as tributyltin require separate treatment from inorganic tin.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Some sulfate- and nitrate-reducing isolates transformed tributyltin by removing organic groups under anoxic culture conditions.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Desulfobulbus propionicus also methylated inorganic tin into more toxic organotin forms. Microbial transformation therefore need not mean detoxification.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The cited work examines anaerobic environmental isolates and tin speciation rather than the human gut microbiome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Experiments used environmentally relevant tributyltin concentrations and isotope-enriched inorganic tin to distinguish dealkylation from methylation.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Several tested Desulfovibrio strains did not transform tin under the same study conditions. Neither a genus name nor a decline in one tin species establishes total removal.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Methylation and dealkykation of tin compounds by sulfate- and nitrate-reducing bacteria",
+        "authors": "Bridou R, Rodriguez-Gonzalez P, Stoichev T et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1016/j.chemosphere.2018.06.030"
+      }
+    ],
+    "tags": [
+      "Organotin",
+      "Tributyltin",
+      "Speciation",
+      "Methylation",
+      "Environmental microbiology"
+    ],
+    "group": "contaminants",
+    "slug": "tin",
+    "url": "/metals/tin"
+  },
+  {
+    "symbol": "Sb",
+    "name": "Antimony",
+    "atomicNumber": 51,
+    "category": "Metalloid",
+    "role": "Microbial redox transformations in contaminated environments",
+    "summary": {
+      "text": "Antimony is a metalloid whose oxidation state can be changed by bacteria. Its microbial literature is particularly relevant to mine-impacted sediments and environmental mobility.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Genetic and enzyme experiments identified AnoA as an NADP+-dependent antimonite-oxidizing enzyme in Agrobacterium tumefaciens; deleting the gene reduced, but did not eliminate, Sb(III) oxidation.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Bacteria isolated from contaminated mine sediments oxidized Sb(III) with oxygen or nitrate under the tested conditions.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These studies concern environmental isolates and redox physiology, not a demonstrated antimony-specific signature in the human gut.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Antimonite, Sb(III), and antimonate, Sb(V), must be distinguished. The sediment setting connects microbial activity to antimony cycling at contamination sites.",
+      "refs": [
+        2
+      ]
+    },
+    "limits": {
+      "text": "A transformation can change mobility and toxicity without removing total antimony. Culture capabilities do not establish field remediation performance or human clinical effects.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Proteomics and Genetics for Identification of a Bacterial Antimonite Oxidase in Agrobacterium tumefaciens",
+        "authors": "Li J, Wang Q, Li M et al.",
+        "year": 2015,
+        "url": "https://doi.org/10.1021/es506318b"
+      },
+      {
+        "title": "Microbiological oxidation of antimony(III) with oxygen or nitrate by bacteria isolated from contaminated mine sediments",
+        "authors": "Terry LR, Kulp TR, Wiatrowski H et al.",
+        "year": 2015,
+        "url": "https://doi.org/10.1128/AEM.01970-15"
+      }
+    ],
+    "tags": [
+      "Metalloid",
+      "Antimonite",
+      "AnoA",
+      "Mine sediments",
+      "Redox"
+    ],
+    "group": "contaminants",
+    "slug": "antimony",
+    "url": "/metals/antimony"
+  },
+  {
+    "symbol": "Te",
+    "name": "Tellurium",
+    "atomicNumber": 52,
+    "category": "Metalloid",
+    "role": "Tellurite toxicity and reductive resistance",
+    "summary": {
+      "text": "Tellurite is a potent microbial stressor, and reduction to elemental tellurium is one experimentally demonstrated route of tolerance.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Escherichia coli, intracellular reduced thiols were linked to tellurite reduction. Reduction increased under anaerobic conditions and contributed to resistance.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is evidence from bacterial physiology, not proof of a tellurium-driven disease microbiome in people.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The experiments used the oxyanion tellurite, Te(IV). Elemental tellurium, tellurate, and engineered particles require separate characterization.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Resistance varies with cellular redox state and oxygen conditions. A bacterium that makes elemental tellurium is not automatically suitable for human use or unrestricted environmental deployment.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Anaerobic RSH-dependent tellurite reduction contributes to Escherichia coli tolerance against tellurite",
+        "authors": "Muñoz-Diaz P, Jiménez K, Luraschi R et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.1186/s40659-022-00383-5"
+      }
+    ],
+    "tags": [
+      "Metalloid",
+      "Tellurite",
+      "Thiol chemistry",
+      "Anaerobic metabolism",
+      "Resistance"
+    ],
+    "group": "contaminants",
+    "slug": "tellurium",
+    "url": "/metals/tellurium"
+  },
+  {
+    "symbol": "Hg",
+    "name": "Mercury",
+    "atomicNumber": 80,
+    "category": "Metal",
+    "role": "Microbial methylation and demethylation",
+    "summary": {
+      "text": "Microbes can both generate methylmercury in environmental systems and help remove its methyl group in the gut. These processes have different genes, settings, and consequences.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Deleting either hgcA or hgcB abolished mercury methylation in two tested anaerobic bacteria, providing a genetic foundation for environmental methylmercury production.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In a coordinated human and gnotobiotic-mouse study, stool demethylation activity correlated with methylmercury elimination. The human microbiomes lacked the conventional merB pathway, leaving the responsible mechanism unresolved.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The 27-person study found variable elimination and mixed responses to a prebiotic. Transplanted human communities restored elimination in germ-free mice, but one associated species alone did not.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Methylmercury in contaminated fish is a distinct exposure from inorganic Hg(II) or elemental Hg(0); total mercury alone does not capture these differences.",
+      "refs": [
+        2
+      ]
+    },
+    "limits": {
+      "text": "A methylation gene indicates potential, not the rate of methylmercury production in a particular sample. These findings do not support a standardized microbiome detox regimen.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "The genetic basis for bacterial mercury methylation",
+        "authors": "Parks JM, Johs A, Podar M et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1126/science.1230667"
+      },
+      {
+        "title": "Assessing the role of the gut microbiome in methylmercury demethylation and elimination in humans and gnotobiotic mice",
+        "authors": "Coe GL, Krout IN, Munro-Ehrlich M et al.",
+        "year": 2023,
+        "url": "https://doi.org/10.1007/s00204-023-03548-7"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Methylmercury",
+      "hgcAB",
+      "Human study",
+      "Environmental cycling"
+    ],
+    "group": "contaminants",
+    "slug": "mercury",
+    "url": "/metals/mercury"
+  },
+  {
+    "symbol": "Tl",
+    "name": "Thallium",
+    "atomicNumber": 81,
+    "category": "Metal",
+    "role": "Experimental intestinal and soil-community stress",
+    "summary": {
+      "text": "Thallium has both animal microbiome and environmental community evidence, with strong dependence on exposure conditions and ecological setting.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In mice, two weeks of Tl(I) exposure changed regional intestinal bacterial abundances and metabolites and altered local immune measurements.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "At a thallium-bearing pyrite mine, microbial distributions covaried with thallium fractions and iron, manganese, and sulfur cycling.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The mouse study found changes in within-sample diversity but limited effects on between-sample diversity; the gut response was not uniform along the digestive tract.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Tl(I) in a controlled exposure and mixed mine-soil geochemistry represent different causal questions. Co-occurring metals, pH, and depth can shape field associations.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Mouse correlations between metabolites and bacteria do not establish mediation. Field co-occurrence does not prove that a specific taxon directly transforms thallium.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Thallium(I) exposure perturbs the gut microbiota and metabolic profile as well as the regional immune function of C57BL/6 J mice",
+        "authors": "Li D, Yao H, Zhu X et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.1007/s11356-022-22145-2"
+      },
+      {
+        "title": "Microbial response and adaption to thallium contamination in soil profiles",
+        "authors": "She J, Liu J, He H et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.1016/j.jhazmat.2021.127080"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Animal studies",
+      "Mine soils",
+      "Exposure",
+      "Metabolomics"
+    ],
+    "group": "contaminants",
+    "slug": "thallium",
+    "url": "/metals/thallium"
+  },
+  {
+    "symbol": "Pb",
+    "name": "Lead",
+    "atomicNumber": 82,
+    "category": "Metal",
+    "role": "Oral toxicant and microbiome-dependent bioavailability",
+    "summary": {
+      "text": "Lead exposure and gut ecology can influence one another: animal experiments show both community changes after exposure and altered absorption when the microbiota is absent.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "After six weeks of oral exposure, germ-free mice had greater lead absorption and distribution into blood and organs than conventionally colonized animals.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Host intestinal metal-handling genes also differed, implicating microbial and host processes.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "A separate mouse study found specific community shifts after oral lead exposure, rather than a uniform disappearance of the microbiota.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "The experiments used oral lead salts and do not represent every exposure route or material.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Animal findings do not identify a clinical diagnostic microbiome signature or show that a probiotic prevents lead-related disease.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Gut microbiota limits heavy metals burden caused by chronic oral exposure",
+        "authors": "Breton J, Daniel C, Dewulf J et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1016/j.toxlet.2013.07.021"
+      },
+      {
+        "title": "Ecotoxicology inside the gut: impact of heavy metals on the mouse microbiome",
+        "authors": "Breton J, Massart S, Vandamme P et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1186/2050-6511-14-62"
+      }
+    ],
+    "tags": [
+      "Gut microbiome",
+      "Bioavailability",
+      "Animal studies",
+      "Oral exposure"
+    ],
+    "group": "contaminants",
+    "slug": "lead",
+    "url": "/metals/lead"
+  },
+  {
+    "symbol": "Ti",
+    "name": "Titanium",
+    "atomicNumber": 22,
+    "category": "materials",
+    "role": "Nanoparticle exposure and soil nitrogen cycling",
+    "summary": {
+      "text": "Titanium–microbe research includes oxide nanoparticles and engineered surfaces. These forms need separate interpretation.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A 90-day agricultural-soil experiment with titanium dioxide nanoparticles found reduced nitrification activity and ammonia-oxidizer abundance, alongside changes in bacterial community structure.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence includes soil bacteria and archaea. It does not establish a human gut or disease outcome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The soil experiment tested 1 and 500 mg/kg dry soil. Particle properties, concentration, and soil chemistry are central to exposure interpretation.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Results from this soil and nanoparticle preparation cannot represent every titanium-containing pigment, implant, or food exposure.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Titanium dioxide nanoparticles strongly impact soil microbial function by affecting archaeal nitrifiers",
+        "authors": "Simonin M et al.",
+        "year": 2016,
+        "url": "https://doi.org/10.1038/srep33643"
+      }
+    ],
+    "tags": [
+      "Nanoparticles",
+      "Soil communities",
+      "Archaea",
+      "Nitrogen cycle"
+    ],
+    "group": "materials",
+    "slug": "titanium",
+    "url": "/metals/titanium"
+  },
+  {
+    "symbol": "Ga",
+    "name": "Gallium",
+    "atomicNumber": 31,
+    "category": "Metal",
+    "role": "Iron mimic under antimicrobial investigation",
+    "summary": {
+      "text": "Gallium can enter bacterial iron-handling pathways and disrupt iron-dependent functions. This makes metal recognition itself an antimicrobial target.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Pseudomonas aeruginosa, gallium inhibited growth and biofilms, reduced iron uptake, and interfered with iron-responsive regulation; added iron could weaken its effect.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Experiments in cystic-fibrosis sputum and mice linked gallium to inhibition of iron-dependent enzymes and increased sensitivity to oxidants.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "An early phase 1 trial in people with cystic fibrosis and chronic P. aeruginosa infection reported a lung-function signal. This was a preliminary clinical study, not a community-wide microbiome treatment.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "The antimicrobial studies used specified gallium formulations, including gallium nitrate, under controlled dosing. Environmental gallium is a separate exposure question.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Clinical efficacy, repeated-dose safety, and effects on commensal organisms cannot be inferred from culture inhibition or an early phase trial alone.",
+      "refs": [
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "The transition metal gallium disrupts Pseudomonas aeruginosa iron metabolism and has antimicrobial and antibiofilm activity",
+        "authors": "Kaneko Y, Thoendel M, Olakanmi O et al.",
+        "year": 2007,
+        "url": "https://doi.org/10.1172/JCI30783"
+      },
+      {
+        "title": "Gallium disrupts bacterial iron metabolism and has therapeutic effects in mice and humans with lung infections",
+        "authors": "Goss CH, Kaneko Y, Khuu L et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1126/scitranslmed.aat7520"
+      }
+    ],
+    "tags": [
+      "Iron mimic",
+      "Antimicrobial",
+      "Pseudomonas",
+      "Biofilm",
+      "Early clinical research"
+    ],
+    "group": "materials",
+    "slug": "gallium",
+    "url": "/metals/gallium"
+  },
+  {
+    "symbol": "Zr",
+    "name": "Zirconium",
+    "atomicNumber": 40,
+    "category": "materials",
+    "role": "Oral biofilms on zirconia surfaces",
+    "summary": {
+      "text": "Zirconium is studied in microbial adhesion to zirconia, a ceramic used in dental materials.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A study of 12 volunteers compared biofilms forming on zirconia and titanium discs worn in oral splints for up to five days.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Biofilm age influenced community composition, while the material generally did not. Volume and live/dead ratios also showed no significant material effect at the measured time points.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "This was a human oral-surface exposure model, not an experiment with dissolved zirconium ions.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The findings do not establish equivalence for all surface finishes or long-term implants. They also caution against calling zirconia intrinsically antimicrobial.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Biofilm formation on zirconia and titanium over time-An in vivo model study",
+        "authors": "Desch A et al.",
+        "year": 2020,
+        "url": "https://doi.org/10.1111/clr.13632"
+      }
+    ],
+    "tags": [
+      "Human oral study",
+      "Biofilm",
+      "Dental materials"
+    ],
+    "group": "materials",
+    "slug": "zirconium",
+    "url": "/metals/zirconium"
+  },
+  {
+    "symbol": "Nb",
+    "name": "Niobium",
+    "atomicNumber": 41,
+    "category": "materials",
+    "role": "Antimicrobial activity versus surface performance",
+    "summary": {
+      "text": "Niobium compounds are being investigated for antimicrobial materials, with important negative results alongside promising assays.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Ammoniacal niobium oxalate inhibited bacterial growth and reduced metabolic activity in mature biofilms in laboratory tests.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "However, films containing the compound did not prevent adhesion and biofilm growth on titanium in the tested multispecies flow model.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The study tested a defined niobium compound and surface formulation, not bulk niobium as an antibiotic.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Activity in a suspension assay did not translate into an effective antibiofilm coating. Surface retention, formulation, and community behavior need independent testing.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Niobium-Based Conditioning Layer to Reduce Bacterial Adhesion and Biofilm Formation on Titanium Surface",
+        "authors": "Oliveira VC et al.",
+        "year": 2026,
+        "url": "https://doi.org/10.1021/acsomega.5c12932"
+      }
+    ],
+    "tags": [
+      "Biofilm",
+      "Negative result",
+      "Bacterial culture",
+      "Implant materials"
+    ],
+    "group": "materials",
+    "slug": "niobium",
+    "url": "/metals/niobium"
+  },
+  {
+    "symbol": "Ru",
+    "name": "Ruthenium",
+    "atomicNumber": 44,
+    "category": "materials",
+    "role": "Experimental antibacterial coordination complexes",
+    "summary": {
+      "text": "Some ruthenium complexes inhibit bacteria in culture; their ligands are part of the active chemical system.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Ruthenium half-sandwich complexes with carbohydrate-derived ligands were tested against resistant Gram-positive isolates, including Staphylococcus and Enterococcus.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Activity depended on the compound and organism. A culture assay is not evidence of improved community function.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "These are synthesized coordination complexes rather than environmental ruthenium exposure.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Preclinical activity does not establish a clinically usable antibiotic or the safety of ruthenium in general.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Targeting Multiresistant Gram-Positive Bacteria by Ruthenium, Osmium, Iridium and Rhodium Half-Sandwich Type Complexes With Bidentate Monosaccharide Ligands",
+        "authors": "Balázs B et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.3389/fchem.2022.868234"
+      }
+    ],
+    "tags": [
+      "Coordination chemistry",
+      "Bacterial culture",
+      "Antimicrobial discovery"
+    ],
+    "group": "materials",
+    "slug": "ruthenium",
+    "url": "/metals/ruthenium"
+  },
+  {
+    "symbol": "Rh",
+    "name": "Rhodium",
+    "atomicNumber": 45,
+    "category": "materials",
+    "role": "Antibacterial activity of valproate conjugates",
+    "summary": {
+      "text": "Rhodium is investigated as part of experimental antimicrobial coordination compounds.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Conjugating valproate to rhodium and iridium half-sandwich complexes changed their activity against S. aureus and Enterococcus faecium in culture.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The work concerns selected Gram-positive organisms, not a whole-community response.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The ligand and organometallic fragment were tested together; the effect cannot be attributed to free rhodium alone.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "These results support further compound development, not use of rhodium or valproate as a microbiome treatment.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Novel valproate half-sandwich rhodium and iridium conjugates to fight against multidrug-resistant Gram-positive bacteria",
+        "authors": "Marco A et al.",
+        "year": 2023,
+        "url": "https://doi.org/10.1039/d3dt01678a"
+      }
+    ],
+    "tags": [
+      "Bacterial culture",
+      "Coordination chemistry",
+      "Antimicrobial discovery"
+    ],
+    "group": "materials",
+    "slug": "rhodium",
+    "url": "/metals/rhodium"
+  },
+  {
+    "symbol": "Ag",
+    "name": "Silver",
+    "atomicNumber": 47,
+    "category": "Metal",
+    "role": "Antimicrobial ion and resistance pressure",
+    "summary": {
+      "text": "Silver ions can disrupt several bacterial functions at once. Ionic silver, metallic silver, and silver nanoparticles are different experimental materials and should not be treated as interchangeable.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Silver disturbed disulfide-bond formation, metabolism, iron homeostasis, and membrane permeability in Gram-negative bacteria.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In culture and selected mouse infection models, silver increased the activity of several antibiotics, including against biofilm-associated cells.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These experiments targeted pathogens and infection models rather than establishing beneficial remodeling of a healthy human microbiome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Concentration, formulation, medium, and delivery route determine the relevant exposure; a laboratory silver-ion preparation is not equivalent to an oral silver product.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Preclinical antibiotic enhancement is not evidence that ingesting colloidal silver is effective or safe. Antimicrobial activity alone does not establish selectivity for pathogens over commensals.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Silver enhances antibiotic activity against gram-negative bacteria",
+        "authors": "Morones-Ramirez JR, Winkler JA, Spina CS et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1126/scitranslmed.3006276"
+      }
+    ],
+    "tags": [
+      "Antimicrobial",
+      "Iron homeostasis",
+      "Biofilms",
+      "Preclinical"
+    ],
+    "group": "materials",
+    "slug": "silver",
+    "url": "/metals/silver"
+  },
+  {
+    "symbol": "Hf",
+    "name": "Hafnium",
+    "atomicNumber": 72,
+    "category": "materials",
+    "role": "Surface architecture and bacterial attachment",
+    "summary": {
+      "text": "Hafnium illustrates why a material’s shape can matter as much as its elemental composition.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Engineered hafnium nanostructures reduced bacterial viability in surface experiments with S. aureus and E. coli. Flat hafnium oxide films were not significantly antibacterial relative to the control.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These are two-species surface assays, not evidence of a beneficial change in a human microbial community.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "No hafnium leaching was detected in the study; the results support a topography-related mechanism in the tested coatings.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The measurements do not show that soluble hafnium or all hafnium surfaces kill bacteria, or that the coatings prevent clinical implant infections.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Characterization and Antimicrobial Activity of Hafnium Nanostructures Fabricated by Physical Vapor Deposition Through a Colloidal Mask",
+        "authors": "Boden et al.",
+        "year": 2026,
+        "url": "https://doi.org/10.1002/admi.202500914"
+      }
+    ],
+    "tags": [
+      "Surface topography",
+      "Bacterial culture",
+      "Implant materials"
+    ],
+    "group": "materials",
+    "slug": "hafnium",
+    "url": "/metals/hafnium"
+  },
+  {
+    "symbol": "Ta",
+    "name": "Tantalum",
+    "atomicNumber": 73,
+    "category": "materials",
+    "role": "Host cells, bacteria, and implant surfaces",
+    "summary": {
+      "text": "Tantalum research asks how implant surfaces affect the competition between bacterial attachment and host-cell colonization.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Polished tantalum showed a lower infectious state than titanium in an animal implant model, but was not superior in direct bacterial adhesion or antibacterial assays in vitro.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Cell–bacteria–material experiments suggested that host-cell attachment and subsequent detachment could help explain the difference.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The relevant exposure is an implanted surface, with host tissue present, rather than a dietary metal dose.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "This evidence does not make all tantalum surfaces inherently bactericidal or establish a general human infection-prevention benefit.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Why Is Tantalum Less Susceptible to Bacterial Infection?",
+        "authors": "Chen X et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.3390/jfb13040264"
+      }
+    ],
+    "tags": [
+      "Animal model",
+      "Host–material interface",
+      "Biofilm"
+    ],
+    "group": "materials",
+    "slug": "tantalum",
+    "url": "/metals/tantalum"
+  },
+  {
+    "symbol": "Re",
+    "name": "Rhenium",
+    "atomicNumber": 75,
+    "category": "materials",
+    "role": "Structure-dependent antimicrobial candidates",
+    "summary": {
+      "text": "Rhenium carbonyl complexes show how charge and molecular structure can change antibacterial activity.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A screen of di- and tricarbonyl diimine complexes found active candidates but no bactericidal or bacteriostatic activity for the tested dicarbonyl or neutral tricarbonyl species.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The study used a panel of microorganisms, not human microbiome outcomes.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Computational docking suggested membrane-associated protein targets in S. aureus; those predictions are not direct proof of target engagement.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Results apply to the defined complexes. Clinical effectiveness and broad ecological consequences remain separate questions.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Antimicrobial Activity of Rhenium Di- and Tricarbonyl Diimine Complexes: Insights on Membrane-Bound S. aureus Protein Binding",
+        "authors": "Schindler K et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.3390/ph15091107"
+      }
+    ],
+    "tags": [
+      "Bacterial culture",
+      "Negative result",
+      "Computational prediction",
+      "Antimicrobial discovery"
+    ],
+    "group": "materials",
+    "slug": "rhenium",
+    "url": "/metals/rhenium"
+  },
+  {
+    "symbol": "Os",
+    "name": "Osmium",
+    "atomicNumber": 76,
+    "category": "materials",
+    "role": "Ligand-dependent bacteriostasis",
+    "summary": {
+      "text": "Osmium appears in early antimicrobial discovery through defined organometallic complexes.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In one structure–activity study, quinoline-containing osmium complexes inhibited growth of multidrug-resistant Gram-positive bacteria.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The study tested isolates rather than an intact microbiome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The tested complexes cannot stand in for elemental osmium or other osmium compounds.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Bacteriostasis in culture does not demonstrate treatment efficacy, selectivity in a complex community, or a safe human exposure.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Half sandwich-type osmium, ruthenium, iridium and rhodium complexes with bidentate glycosyl heterocyclic ligands induce cytostasis in platinum-resistant ovarian cancer cells and bacteriostasis in Gram-positive multiresistant bacteria",
+        "authors": "Kacsir I et al.",
+        "year": 2023,
+        "url": "https://doi.org/10.3389/fchem.2023.1086267"
+      }
+    ],
+    "tags": [
+      "Bacterial culture",
+      "Antimicrobial discovery",
+      "Coordination chemistry"
+    ],
+    "group": "materials",
+    "slug": "osmium",
+    "url": "/metals/osmium"
+  },
+  {
+    "symbol": "Ir",
+    "name": "Iridium",
+    "atomicNumber": 77,
+    "category": "materials",
+    "role": "Experimental targeting of biofilm DNA",
+    "summary": {
+      "text": "Iridium complexes are being explored as tools to disrupt bacterial biofilms.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A 2026 study reported that one cyclometalated complex damaged membranes and DNA and disrupted extracellular DNA in Gram-positive biofilms.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The selected complex also reduced S. aureus biofilm infection in a mouse wound model. This goes beyond culture evidence but remains preclinical.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The study used a synthesized complex and topical experimental treatment; it did not test dietary iridium.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Compound-specific results do not establish clinical safety, effectiveness in humans, or an antimicrobial property shared by all iridium compounds.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Cyclometalated Iridium(III) Complexes with eDNA-Degrading Activity for Combating Gram-Positive Bacterial Biofilms",
+        "authors": "Li Y et al.",
+        "year": 2026,
+        "url": "https://doi.org/10.1021/acsinfecdis.5c01131"
+      }
+    ],
+    "tags": [
+      "Animal model",
+      "Biofilm",
+      "Extracellular DNA",
+      "Antimicrobial discovery"
+    ],
+    "group": "materials",
+    "slug": "iridium",
+    "url": "/metals/iridium"
+  },
+  {
+    "symbol": "Bi",
+    "name": "Bismuth",
+    "atomicNumber": 83,
+    "category": "Metal",
+    "role": "Antimicrobial metal substitution",
+    "summary": {
+      "text": "Bismuth provides a direct example of disrupting a microbial metalloenzyme by replacing its normal metal cofactors.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Structural experiments showed one Bi(III) ion displacing two zinc ions from tested metallo-β-lactamases, enzymes that otherwise destroy certain antibiotics.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Colloidal bismuth subcitrate restored meropenem activity against metallo-β-lactamase-positive bacteria in culture and a mouse infection model.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This work addresses antibiotic-resistant pathogens. It does not establish a favorable effect on overall human microbiome composition.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The findings concern particular bismuth compounds, including a drug used against H. pylori, and cannot be assigned to every bismuth material.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The 2018 enzyme and mouse results support a repurposing hypothesis, not proof that a bismuth–carbapenem combination is an established clinical treatment for these infections.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Bismuth antimicrobial drugs serve as broad-spectrum metallo-β-lactamase inhibitors",
+        "authors": "Wang R, Lai TP, Gao P et al.",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/s41467-018-02828-6"
+      }
+    ],
+    "tags": [
+      "Mismetallation",
+      "Zinc displacement",
+      "Metallo-β-lactamase",
+      "Antimicrobial",
+      "Preclinical"
+    ],
+    "group": "materials",
+    "slug": "bismuth",
+    "url": "/metals/bismuth"
+  },
+  {
+    "symbol": "Sc",
+    "name": "Scandium",
+    "atomicNumber": 21,
+    "category": "context",
+    "role": "Modulation of bacterial gene expression",
+    "summary": {
+      "text": "Scandium can change microbial secondary metabolism under laboratory conditions. It is a rare-earth element, but not a lanthanide.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Adding scandium to Bacillus subtilis cultures increased transcription linked to amylase and bacilysin production.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Scandium and/or lanthanum also activated secondary-metabolite gene clusters in Streptomyces coelicolor, with some compounds detectable only after treatment.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These are culture and gene-expression findings rather than a demonstrated benefit to a human microbial community.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "The studies supplied specified rare-earth compounds in growth media. Concentration and culture conditions determine the observed response.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Inducing metabolite production does not establish a nutritional requirement, identify a universal cofactor role, or show that scandium supplementation is beneficial.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Scandium stimulates the production of amylase and bacilysin in Bacillus subtilis",
+        "authors": "Inaoka T, Ochi K",
+        "year": 2011,
+        "url": "https://doi.org/10.1128/AEM.06205-11"
+      },
+      {
+        "title": "Rare earth elements activate the secondary metabolite-biosynthetic gene clusters in Streptomyces coelicolor A3(2)",
+        "authors": "Tanaka Y, Hosaka T, Ochi K",
+        "year": 2010,
+        "url": "https://doi.org/10.1038/ja.2010.53"
+      }
+    ],
+    "tags": [
+      "Rare earth",
+      "Secondary metabolism",
+      "Gene expression",
+      "Bacterial culture"
+    ],
+    "group": "rare-earths",
+    "slug": "scandium",
+    "url": "/metals/scandium"
+  },
+  {
+    "symbol": "Y",
+    "name": "Yttrium",
+    "atomicNumber": 39,
+    "category": "environment",
+    "role": "Binding to microbial biomass",
+    "summary": {
+      "text": "Yttrium is studied in microbial biosorption and rare-earth recovery. Binding to biomass is distinct from use as an enzyme cofactor.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Serratia marcescens biomass removed yttrium ions from experimental wastewater through processes consistent with ion exchange, electrostatic attraction, and complexation.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Spectroscopic analyses implicated hydroxyl, carboxyl, and amino groups as metal-binding sites.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence concerns a wastewater biosorbent, not a human microbiome response.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Adsorption depended on pH, initial yttrium concentration, biomass dose, contact time, and other experimental conditions.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Sorption does not demonstrate a requirement for yttrium or justify adding this organism to people or releasing it into the environment.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Removal of yttrium from rare-earth wastewater by Serratia marcescens: biosorption optimization and mechanisms studies",
+        "authors": "Liang CL, Shen JL",
+        "year": 2022,
+        "url": "https://doi.org/10.1038/s41598-022-08542-0"
+      }
+    ],
+    "tags": [
+      "Rare earth",
+      "Biosorption",
+      "Wastewater",
+      "Metal recovery"
+    ],
+    "group": "rare-earths",
+    "slug": "yttrium",
+    "url": "/metals/yttrium"
+  },
+  {
+    "symbol": "La",
+    "name": "Lanthanum",
+    "atomicNumber": 57,
+    "category": "Lanthanide",
+    "role": "Cofactor in selected bacterial alcohol dehydrogenases",
+    "summary": {
+      "text": "Lanthanum can be a functional enzyme cofactor in certain methylotrophic bacteria, rather than merely an environmental toxicant.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Purified ExaF from Methylobacterium extorquens AM1 preferentially bound La(III) over calcium and supported oxidation of alcohol substrates.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is a specialized microbial-metabolism result; it does not establish a lanthanum requirement for the human gut community.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The experiments supplied La(III) in defined culture medium and measured enzyme function.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "An enzyme cofactor in one lineage is not a universal nutrient requirement. Metal binding, growth support, and host benefit are distinct endpoints.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Pyrroloquinoline Quinone Ethanol Dehydrogenase in Methylobacterium extorquens AM1 Extends Lanthanide-Dependent Metabolism to Multicarbon Substrates",
+        "authors": "Good NM, Vu HN, Suriano CJ et al.",
+        "year": 2016,
+        "url": "https://doi.org/10.1128/JB.00478-16"
+      }
+    ],
+    "tags": [
+      "Lanthanide",
+      "ExaF",
+      "Alcohol dehydrogenase",
+      "Microbial cofactor"
+    ],
+    "group": "rare-earths",
+    "slug": "lanthanum",
+    "url": "/metals/lanthanum"
+  },
+  {
+    "symbol": "Ce",
+    "name": "Cerium",
+    "atomicNumber": 58,
+    "category": "Lanthanide",
+    "role": "Methanol-dehydrogenase cofactor",
+    "summary": {
+      "text": "Cerium belongs to the light lanthanides used by selected methane-oxidizing bacteria in the methanol-oxidation step of their metabolism.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Work with Methylacidiphilum fumariolicum SolV linked lanthanide-dependent growth to an XoxF-type methanol dehydrogenase containing a lanthanide cofactor.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The organism came from a volcanic mudpot; these findings concern environmental carbon cycling.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Dissolved Ce(III) available to enzymes must be distinguished from cerium-oxide particles and other cerium formulations.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "This mechanism does not establish a human nutritional requirement or predict the behavior of every cerium-containing material.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Rare earth metals are essential for methanotrophic life in volcanic mudpots",
+        "authors": "Pol A, Barends TR, Dietl A et al.",
+        "year": 2014,
+        "url": "https://doi.org/10.1111/1462-2920.12249"
+      }
+    ],
+    "tags": [
+      "Lanthanide",
+      "XoxF",
+      "Methanol oxidation",
+      "Methanotrophs"
+    ],
+    "group": "rare-earths",
+    "slug": "cerium",
+    "url": "/metals/cerium"
+  },
+  {
+    "symbol": "Pr",
+    "name": "Praseodymium",
+    "atomicNumber": 59,
+    "category": "Lanthanide",
+    "role": "Cofactor supporting alcohol oxidation",
+    "summary": {
+      "text": "Praseodymium can support a lanthanide-dependent alcohol dehydrogenase in a soil bacterium, extending the biology beyond methane specialists.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Purified PedH from Pseudomonas putida KT2440 was active with Pr(III) and several other light lanthanides; its calcium-dependent counterpart is PedE.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence concerns defined enzymes and bacterial cultures, not demonstrated effects on a human microbiome.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The active species in these experiments was a supplied trivalent lanthanide ion.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Activity with Pr(III) does not mean every bacterium requires praseodymium or that replacing another metal always improves activity.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Functional Role of Lanthanides in Enzymatic Activity and Transcriptional Regulation of Pyrroloquinoline Quinone-Dependent Alcohol Dehydrogenases in Pseudomonas putida KT2440",
+        "authors": "Wehrmann M, Billard P, Martin-Meriadec A et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1128/mBio.00570-17"
+      }
+    ],
+    "tags": [
+      "Lanthanide",
+      "PedH",
+      "Alcohol dehydrogenase",
+      "Pseudomonas"
+    ],
+    "group": "rare-earths",
+    "slug": "praseodymium",
+    "url": "/metals/praseodymium"
+  },
+  {
+    "symbol": "Nd",
+    "name": "Neodymium",
+    "atomicNumber": 60,
+    "category": "Lanthanide",
+    "role": "Structurally verified microbial enzyme cofactor",
+    "summary": {
+      "text": "Neodymium has been directly located in the active site of a functional bacterial methanol dehydrogenase.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "XoxF1 purified from Methylacidimicrobium thermophilum AP8 grown with neodymium was characterized by crystallography and enzyme kinetics.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "A separate Methylorubrum extorquens study found preference for lanthanum over neodymium, showing that light lanthanides are not interchangeable in every enzyme.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These are studies of methylotrophic or methanotrophic isolates and environmental metabolism.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Experiments used Nd(III) supplied in controlled media; alloy particles and other neodymium-bearing materials require separate evaluation.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Cofactor activity demonstrates a specific biochemical function, not a human health benefit or a universal community requirement.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Neodymium as Metal Cofactor for Biological Methanol Oxidation: Structure and Kinetics of an XoxF1-Type Methanol Dehydrogenase",
+        "authors": "Schmitz RA, Picone N, Singer H et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1128/mBio.01708-21"
+      },
+      {
+        "title": "Preference for particular lanthanide species and thermal stability of XoxFs in Methylorubrum extorquens strain AM1",
+        "authors": "Wang L, Hibino A, Suganuma S et al.",
+        "year": 2020,
+        "url": "https://doi.org/10.1016/j.enzmictec.2020.109518"
+      }
+    ],
+    "tags": [
+      "Lanthanide",
+      "XoxF",
+      "Methanol oxidation",
+      "Metal selectivity"
+    ],
+    "group": "rare-earths",
+    "slug": "neodymium",
+    "url": "/metals/neodymium"
+  },
+  {
+    "symbol": "Gd",
+    "name": "Gadolinium",
+    "atomicNumber": 64,
+    "category": "Lanthanide",
+    "role": "Strain-dependent use and bioaccumulation",
+    "summary": {
+      "text": "Gadolinium shows that a microbe’s capacity to use a lanthanide can change through adaptation; this is not a fixed property shared by all bacteria.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "An evolved Methylorubrum extorquens AM1 variant grew on methanol with gadolinium and accumulated the metal in an intracellular compartment.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The result came from a selected laboratory variant with broad transcriptional changes, not a demonstrated general function of human gut bacteria.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The variant also acquired gadolinium from gadopentetic acid in experiments, connecting microbial acquisition to one contrast-agent complex.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Acquisition from a chelate in culture does not establish its breakdown or safety profile in a person, nor justify using bacteria to treat gadolinium exposure.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Hyperaccumulation of Gadolinium by Methylorubrum extorquens AM1 Reveals Impacts of Lanthanides on Cellular Processes Beyond Methylotrophy",
+        "authors": "Good NM, Lee HD, Hawker ER et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.3389/fmicb.2022.820327"
+      }
+    ],
+    "tags": [
+      "Lanthanide",
+      "Bioaccumulation",
+      "Adaptation",
+      "Metal uptake"
+    ],
+    "group": "rare-earths",
+    "slug": "gadolinium",
+    "url": "/metals/gadolinium"
+  },
+  {
+    "symbol": "Ln",
+    "name": "Other lanthanides",
+    "atomicNumber": null,
+    "category": "Lanthanide",
+    "role": "Comparative enzyme chemistry and evidence gaps",
+    "summary": {
+      "text": "Samarium, europium, terbium, dysprosium, holmium, erbium, thulium, ytterbium, and lutetium belong in the comparative lanthanide question, but evidence of enzyme binding must not be confused with established biological necessity.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A methanol-dehydrogenase study tested the lanthanide series except promethium. Earlier lanthanides supported greater activity than later members, linking ionic properties to catalytic performance.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence highlighted here is purified-enzyme biochemistry; it is not a demonstrated disease-associated human microbial signature.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Comparisons concern trivalent ions in controlled assays. Promethium was not tested and should not acquire a biological role by analogy.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "A measurable in vitro effect cannot establish that an element supports growth in nature. Separate uptake, enzyme, growth, and environmental measurements are needed.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Impact of the lanthanide contraction on the activity of a lanthanide-dependent methanol dehydrogenase – a kinetic and DFT study",
+        "authors": "Lumpe H, Pol A, Op den Camp HJM, Daumann LJ",
+        "year": 2018,
+        "url": "https://doi.org/10.1039/C8DT01238E"
+      }
+    ],
+    "tags": [
+      "Lanthanides",
+      "Samarium",
+      "Europium",
+      "Terbium",
+      "Dysprosium",
+      "Holmium",
+      "Erbium",
+      "Thulium",
+      "Ytterbium",
+      "Lutetium",
+      "Evidence gaps"
+    ],
+    "members": [
+      {
+        "symbol": "Sm",
+        "name": "Samarium",
+        "atomicNumber": 62
+      },
+      {
+        "symbol": "Eu",
+        "name": "Europium",
+        "atomicNumber": 63
+      },
+      {
+        "symbol": "Tb",
+        "name": "Terbium",
+        "atomicNumber": 65
+      },
+      {
+        "symbol": "Dy",
+        "name": "Dysprosium",
+        "atomicNumber": 66
+      },
+      {
+        "symbol": "Ho",
+        "name": "Holmium",
+        "atomicNumber": 67
+      },
+      {
+        "symbol": "Er",
+        "name": "Erbium",
+        "atomicNumber": 68
+      },
+      {
+        "symbol": "Tm",
+        "name": "Thulium",
+        "atomicNumber": 69
+      },
+      {
+        "symbol": "Yb",
+        "name": "Ytterbium",
+        "atomicNumber": 70
+      },
+      {
+        "symbol": "Lu",
+        "name": "Lutetium",
+        "atomicNumber": 71
+      }
+    ],
+    "group": "rare-earths",
+    "slug": "other-lanthanides",
+    "url": "/metals/other-lanthanides"
+  },
+  {
+    "symbol": "Sr",
+    "name": "Strontium",
+    "atomicNumber": 38,
+    "category": "Alkaline-earth metal",
+    "role": "Urease-linked mineral immobilization",
+    "summary": {
+      "text": "Strontium connects urease-producing bacteria with biomineralization: microbial activity can move dissolved strontium into carbonate minerals.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A marine Bacillus isolate formed strontium-containing carbonate minerals in saline culture; microscopy also detected early cellular phosphate deposits.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is an environmental remediation experiment using a marine isolate rather than a study of human intestinal communities.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The work was motivated by radiostrontium contamination and tested the chemistry of Sr incorporation under controlled salinity.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Mineral immobilization does not destroy a radionuclide. Culture performance cannot establish long-term field stability or a clinical role for the organism.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Removal of Soluble Strontium via Incorporation into Biogenic Carbonate Minerals by Halophilic Bacterium Bacillus sp. Strain TK2d in a Highly Saline Solution",
+        "authors": "Horiike T, Dotsuta Y, Nakano Y et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1128/AEM.00855-17"
+      }
+    ],
+    "tags": [
+      "Urease",
+      "Biomineralization",
+      "Carbonate",
+      "Alkaline-earth metal",
+      "Environmental microbiology"
+    ],
+    "group": "environment",
+    "slug": "strontium",
+    "url": "/metals/strontium"
+  },
+  {
+    "symbol": "Tc",
+    "name": "Technetium",
+    "atomicNumber": 43,
+    "category": "environment",
+    "role": "Direct and indirect radionuclide reduction",
+    "summary": {
+      "text": "Technetium–microbe research concerns the fate of radioactive contaminants under reducing conditions.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Geobacter sulfurreducens reduced Tc(VII) directly with hydrogen as an electron donor. It also generated Fe(II)-bearing minerals that reduced technetium indirectly and promoted precipitation.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The selected study includes cultures and contaminated-sediment systems, not a human gut pathway.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Technetium oxidation state, iron mineral form, electron donors, and local redox conditions determine the observed process.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Reduction or precipitation changes chemical mobility; it does not remove radioactivity. Long-term stability needs testing under changing environmental conditions.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Direct and Fe(II)-mediated reduction of technetium by Fe(III)-reducing bacteria",
+        "authors": "Lloyd JR et al.",
+        "year": 2000,
+        "url": "https://doi.org/10.1128/aem.66.9.3743-3749.2000"
+      }
+    ],
+    "tags": [
+      "Radionuclide",
+      "Environmental redox",
+      "Biogenic minerals"
+    ],
+    "group": "environment",
+    "slug": "technetium",
+    "url": "/metals/technetium"
+  },
+  {
+    "symbol": "Pd",
+    "name": "Palladium",
+    "atomicNumber": 46,
+    "category": "Metal",
+    "role": "Electron-transfer-driven nanoparticle formation",
+    "summary": {
+      "text": "Some bacteria reduce Pd(II) to elemental palladium, linking respiratory metabolism to metal recovery and catalyst synthesis.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Shewanella oneidensis, pyruvate increased palladium reduction compared with lactate; hydrogenases and the Mtr electron-transfer pathway contributed.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "The response involved changes in carbon metabolism and gene expression, showing why the electron donor can alter an apparent metal-reduction phenotype.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is a cultured environmental model organism, not a human microbiome intervention.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The study used soluble Pd(II) under controlled conditions. Bulk palladium and engineered palladium particles pose different questions.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Biogenic particles are products of microbial chemistry; their formation does not establish that palladium is a natural required cofactor or a clinically useful antimicrobial.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Pyruvate accelerates palladium reduction by regulating catabolism and electron transfer pathway in Shewanella oneidensis",
+        "authors": "Cheng YY, Wang WJ, Ding ST et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1128/AEM.02716-20"
+      }
+    ],
+    "tags": [
+      "Electron transfer",
+      "Hydrogenase",
+      "Shewanella",
+      "Bioreduction",
+      "Metal recovery"
+    ],
+    "group": "environment",
+    "slug": "palladium",
+    "url": "/metals/palladium"
+  },
+  {
+    "symbol": "In",
+    "name": "Indium",
+    "atomicNumber": 49,
+    "category": "environment",
+    "role": "Bioleaching electronic waste",
+    "summary": {
+      "text": "Indium connects microbial metabolism to recovery of technology-critical metals from discarded screens.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Adapted Acidithiobacillus ferrooxidans enabled indium extraction from waste OLED touch screens under optimized acidic bioleaching conditions.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The selected evidence concerns a bacterial process in a recovery system, not a human microbiome intervention.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Ferrous sulfate, sulfur, pH, and solid loading affected extraction. Solubilizing a metal is a process step rather than proof that the microbe requires it.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Recovery performance under controlled conditions does not establish safety of the resulting solution or a universal extraction yield for mixed electronic waste.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Bioleaching of critical metals from waste OLED touch screens using adapted acidophilic bacteria",
+        "authors": "Pourhossein F et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1007/s40201-021-00657-2"
+      }
+    ],
+    "tags": [
+      "Bioleaching",
+      "Electronic waste",
+      "Environmental biotechnology"
+    ],
+    "group": "environment",
+    "slug": "indium",
+    "url": "/metals/indium"
+  },
+  {
+    "symbol": "Cs",
+    "name": "Cesium",
+    "atomicNumber": 55,
+    "category": "Alkali metal",
+    "role": "Competition with potassium uptake",
+    "summary": {
+      "text": "Cesium can enter bacteria through systems that normally handle potassium. Its microbial relevance includes transport selectivity and contaminated-soil research.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Bacteria from a soil conditioner accumulated Cs+ through a saturable process competitively inhibited by potassium, implicating a potassium-transport system.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The study examined environmental bacterial uptake, not a validated gut-microbiome response.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Cs+ chemistry can inform transport research, but stable cesium and radiocesium also differ in radiological hazard; biosorption does not remove radioactivity.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Laboratory accumulation is not the same as successful soil remediation. Competing potassium and growth conditions can change the outcome.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Characterization of cesium uptake mediated by a potassium transport system of bacteria in a soil conditioner",
+        "authors": "Zhang P, Idota Y, Yano K et al.",
+        "year": 2014,
+        "url": "https://doi.org/10.1248/bpb.b13-00871"
+      }
+    ],
+    "tags": [
+      "Alkali metal",
+      "Potassium competition",
+      "Transport",
+      "Bioremediation"
+    ],
+    "group": "environment",
+    "slug": "cesium",
+    "url": "/metals/cesium"
+  },
+  {
+    "symbol": "Ba",
+    "name": "Barium",
+    "atomicNumber": 56,
+    "category": "Alkaline-earth metal",
+    "role": "Symbiont-associated biomineralization",
+    "summary": {
+      "text": "Barium is part of microbial mineralization biology: a marine sponge symbiont can concentrate it into intracellular minerals.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Theonella swinhoei, Entotheonella bacteria were identified as the main barium- and arsenic-accumulating component, with minerals associated with intracellular vesicles.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is a host–microbiome interaction in a marine sponge. It should not be transferred directly to human gut physiology.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The study concerns accumulated mineral phases within a symbiosis; dissolved barium and insoluble barium compounds have different chemical behavior.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The proposed protective role for the sponge does not establish that barium is a required nutrient or that similar sequestration occurs in humans.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Sponge-associated bacteria mineralize arsenic and barium on intracellular vesicles",
+        "authors": "Keren R, Mayzel B, Lavy A et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1038/ncomms14393"
+      }
+    ],
+    "tags": [
+      "Symbiosis",
+      "Sponge microbiome",
+      "Biomineralization",
+      "Alkaline-earth metal"
+    ],
+    "group": "environment",
+    "slug": "barium",
+    "url": "/metals/barium"
+  },
+  {
+    "symbol": "Pt",
+    "name": "Platinum",
+    "atomicNumber": 78,
+    "category": "Metal",
+    "role": "Microbial reduction of metal complexes",
+    "summary": {
+      "text": "Platinum interacts with microbial electron-transfer systems; the strongest evidence highlighted here concerns conversion of soluble platinum complexes into reduced forms.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Experiments with Fusarium oxysporum implicated a hydrogenase in converting platinum salts into nanoparticles.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Citrobacter freundii experiments separated Pt(IV)-to-Pt(II) reduction from the subsequent formation of Pt(0), with flavins and respiratory electron-transfer pathways contributing.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These are fungal and bacterial biotransformation studies, not evidence that platinum benefits a human microbial community.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Oxidation state and ligands matter: platinum salts, metallic particles, and platinum-containing chemotherapy agents cannot be treated as the same exposure.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Laboratory nanoparticle production suggests materials-recovery applications. It does not establish clinical safety, ecosystem effects at ambient concentrations, or a disease mechanism.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Bioreduction of platinum salts into nanoparticles: a mechanistic perspective",
+        "authors": "Govender Y, Riddin T, Gericke M et al.",
+        "year": 2009,
+        "url": "https://doi.org/10.1007/s10529-008-9825-z"
+      },
+      {
+        "title": "Prompting the FDH/Hases-based electron transfers during Pt(IV) reduction mediated by bio-Pd(0)",
+        "authors": "Wang J, Lin W, Chen Y et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.1016/j.jhazmat.2021.126090"
+      }
+    ],
+    "tags": [
+      "Electron transfer",
+      "Hydrogenase",
+      "Bioreduction",
+      "Nanoparticles",
+      "Environmental technology"
+    ],
+    "group": "environment",
+    "slug": "platinum",
+    "url": "/metals/platinum"
+  },
+  {
+    "symbol": "Au",
+    "name": "Gold",
+    "atomicNumber": 79,
+    "category": "Metal",
+    "role": "Detoxification through biomineralization",
+    "summary": {
+      "text": "Soluble gold can be toxic to microbes even though metallic gold behaves differently. Some bacteria manage this exposure by converting dissolved gold into a solid form.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Delftia acidovorans secretes delftibactin, a metallophore that protects cells from soluble gold while promoting gold biomineralization.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence concerns a gold-associated environmental bacterium and its secreted chemistry, rather than a demonstrated human gut function.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Gold-chloride exposure in culture is chemically different from bulk metallic gold, gold nanoparticles, or pharmaceutical gold complexes.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The result demonstrates one organism’s detoxification strategy. It does not show that gold is a broadly required microbial nutrient or that gold products improve microbiome health.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Gold biomineralization by a metallophore from a gold-associated microbe",
+        "authors": "Johnston CW, Wyatt MA, Li X et al.",
+        "year": 2013,
+        "url": "https://doi.org/10.1038/nchembio.1179"
+      }
+    ],
+    "tags": [
+      "Biomineralization",
+      "Delftibactin",
+      "Metallophore",
+      "Environmental microbiology"
+    ],
+    "group": "environment",
+    "slug": "gold",
+    "url": "/metals/gold"
+  },
+  {
+    "symbol": "Th",
+    "name": "Thorium",
+    "atomicNumber": 90,
+    "category": "Actinide",
+    "role": "Cell-associated sequestration",
+    "summary": {
+      "text": "Thorium interacts with microbial biomass through binding and mineral formation, making it relevant to radionuclide mobility and remediation research.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "A Pseudomonas isolate sequestered thorium through a combination of ion exchange, complexation, and phosphate microprecipitation; cellular phosphate and carboxyl groups contributed.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The study concerns a cultured environmental bacterium. It does not establish a thorium-associated human gut signature.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "A soluble thorium exposure in a sorption experiment is distinct from thorium locked in a mineral. Chemical binding does not eliminate radiological hazard.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Sequestration is not evidence that the bacterium respires thorium or needs it as a nutrient. Performance and stability require evaluation in the relevant environmental matrix.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Uranium and thorium sequestration by a Pseudomonas sp.: mechanism and chemical characterization",
+        "authors": "Kazy SK, D'Souza SF, Sar P",
+        "year": 2009,
+        "url": "https://doi.org/10.1016/j.jhazmat.2008.06.076"
+      }
+    ],
+    "tags": [
+      "Actinide",
+      "Biosorption",
+      "Phosphate minerals",
+      "Radionuclide",
+      "Environmental microbiology"
+    ],
+    "group": "environment",
+    "slug": "thorium",
+    "url": "/metals/thorium"
+  },
+  {
+    "symbol": "U",
+    "name": "Uranium",
+    "atomicNumber": 92,
+    "category": "Actinide",
+    "role": "Respiratory reduction and immobilization",
+    "summary": {
+      "text": "Some anaerobic microbes can obtain energy while reducing uranium. This places uranium within environmental microbial metabolism even though it is not a conventional nutrient.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Dissimilatory iron-reducing microorganisms can couple electron transport to U(VI) reduction, producing U(IV) and supporting growth.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In a separate Pseudomonas study, sequestration included ion exchange, binding to cellular groups, and phosphate microprecipitation rather than respiration alone.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These studies address sediments, aquifers, and isolated organisms. They do not establish a uranium-related human gut signature.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "U(VI) and U(IV), dissolved ligands, and mineral products determine mobility. Remediation aims to immobilize uranium rather than destroy the element.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "A successful laboratory reduction or biosorption result does not guarantee durable field containment; chemical conditions and the stability of the resulting phases remain important.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Microbial reduction of uranium",
+        "authors": "Lovley DR, Phillips EJP, Gorby YA, Landa ER",
+        "year": 1991,
+        "url": "https://doi.org/10.1038/350413a0"
+      },
+      {
+        "title": "Uranium and thorium sequestration by a Pseudomonas sp.: mechanism and chemical characterization",
+        "authors": "Kazy SK, D'Souza SF, Sar P",
+        "year": 2009,
+        "url": "https://doi.org/10.1016/j.jhazmat.2008.06.076"
+      }
+    ],
+    "tags": [
+      "Actinide",
+      "Respiration",
+      "Uranium reduction",
+      "Bioremediation",
+      "Environmental microbiology"
+    ],
+    "group": "environment",
+    "slug": "uranium",
+    "url": "/metals/uranium"
+  },
+  {
+    "symbol": "Np",
+    "name": "Neptunium",
+    "atomicNumber": 93,
+    "category": "environment",
+    "role": "Coupled microbial reduction and precipitation",
+    "summary": {
+      "text": "Neptunium is relevant to microbial control of radionuclide mobility.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Shewanella putrefaciens reduced Np(V), but reduction alone did not remove it from solution. Coupling reduction with phosphate liberation by a Citrobacter strain enabled removal.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The evidence comes from a controlled remediation experiment, not a microbiome or health study.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The process depends on chemical speciation and a precipitating ligand, not simply the presence of metal-reducing bacteria.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Immobilization must be distinguished from destruction of radioactivity. Performance under laboratory conditions does not establish durable containment in a field site.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Biological reduction and removal of Np(V) by two microorganisms",
+        "authors": "Lloyd JR, Yong P and Macaskie LE",
+        "year": 2000,
+        "url": "https://doi.org/10.1021/es990394y"
+      }
+    ],
+    "tags": [
+      "Radionuclide",
+      "Bioprecipitation",
+      "Environmental biotechnology"
+    ],
+    "group": "environment",
+    "slug": "neptunium",
+    "url": "/metals/neptunium"
+  },
+  {
+    "symbol": "Pu",
+    "name": "Plutonium",
+    "atomicNumber": 94,
+    "category": "environment",
+    "role": "Microbial reduction of oxidized plutonium",
+    "summary": {
+      "text": "Plutonium speciation can be changed by metal-reducing bacteria in laboratory systems.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Geobacter metallireducens and Shewanella oneidensis reduced Pu(V/VI) to Pu(IV), producing nanoparticulate aggregates associated with cells.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is environmental culture evidence. It does not demonstrate a human microbial response or nutritional function.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Pu(IV) was stable under the tested conditions; Pu(III) was not observed.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Growth supported by plutonium as the sole electron acceptor was inconclusive. Reduction is not proof of respiration, and precipitation does not eliminate radioactivity.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Plutonium(V/VI) Reduction by the Metal-Reducing Bacteria Geobacter metallireducens GS-15 and Shewanella oneidensis MR-1",
+        "authors": "Icopini GA et al.",
+        "year": 2009,
+        "url": "https://doi.org/10.1128/aem.00022-09"
+      }
+    ],
+    "tags": [
+      "Radionuclide",
+      "Bacterial culture",
+      "Environmental redox"
+    ],
+    "group": "environment",
+    "slug": "plutonium",
+    "url": "/metals/plutonium"
+  },
+  {
+    "symbol": "Am",
+    "name": "Americium",
+    "atomicNumber": 95,
+    "category": "environment",
+    "role": "Microbial accumulation and biosorption",
+    "summary": {
+      "text": "Americium interactions with microbes are studied to understand radionuclide mobility and separation, rather than microbial nutrition.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Laboratory Escherichia coli and marine bacterial strains accumulated americium-241 in patterns dependent on pH, medium, strain, and growth stage.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Rhizopus fungal biomass adsorbed americium-241 from solution in a separate controlled study, with strong effects of solution conditions.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "Bacterial culture filtrates also suggested that secreted compounds could complex americium and influence its solubility. The evidence does not describe a human gut pathway.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The cited experiments used americium-241 in defined solutions; mineral-bound material and mixed radioactive waste require separate characterization.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Accumulation or adsorption does not demonstrate respiration, eliminate radioactivity, or establish durable containment. A microbial process can alter mobility without destroying the element.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Interactions of Escherichia coli and marine bacteria with 241Am in laboratory cultures",
+        "authors": "Wurtz EA, Sibley TH, Schell WR",
+        "year": 1986,
+        "url": "https://doi.org/10.1097/00004032-198601000-00007"
+      },
+      {
+        "title": "Biosorption of 241Am by Rhizopus arrihizus: preliminary investigation and evaluation",
+        "authors": "Liu N, Yang Y, Luo S et al.",
+        "year": 2002,
+        "url": "https://doi.org/10.1016/s0969-8043(02)00076-3"
+      }
+    ],
+    "tags": [
+      "Actinide",
+      "Radionuclide",
+      "Biosorption",
+      "Fungal biomass",
+      "Environmental microbiology"
+    ],
+    "group": "environment",
+    "slug": "americium",
+    "url": "/metals/americium"
+  },
+  {
+    "symbol": "Li",
+    "name": "Lithium",
+    "atomicNumber": 3,
+    "category": "context",
+    "role": "RNA sensing and cation export",
+    "summary": {
+      "text": "Lithium belongs in the broader ion–microbe picture, although it is a light alkali metal rather than a heavy metal.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Two bacterial riboswitch classes sense elevated lithium and regulate transport genes, commonly nhaA. These systems help prevent lithium toxicity, particularly at high pH.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The selected study establishes bacterial sensing and gene regulation, not an effect of prescribed lithium on a human gut community.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Environmental lithium concentrations and pH determine the conditions under which these defenses become relevant.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "A bacterial tolerance mechanism does not establish a nutritional requirement or a clinical benefit. Community-level responses require separate measurements.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Lithium-sensing riboswitch classes regulate expression of bacterial cation transporter genes",
+        "authors": "White N et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.1038/s41598-022-20695-6"
+      }
+    ],
+    "tags": [
+      "RNA sensing",
+      "Bacterial culture",
+      "Ion homeostasis"
+    ],
+    "group": "context",
+    "slug": "lithium",
+    "url": "/metals/lithium"
+  },
+  {
+    "symbol": "Na",
+    "name": "Sodium",
+    "atomicNumber": 11,
+    "category": "context",
+    "role": "Broader metal context: sodium gradients, salinity, and gut ecology",
+    "summary": {
+      "text": "Sodium is an alkali metal, not a heavy metal in conventional usage, but it matters for microbial energy and environmental adaptation. Salt exposure can also change host-associated communities through mechanisms that extend beyond sodium transport itself.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Vibrio cholerae, the Na+-translocating NADH:quinone oxidoreductase contributes to sodium extrusion and membrane voltage during respiration.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "A high-salt diet reduced Lactobacillus murinus in mice and altered immune-related phenotypes; a small human salt-challenge study also observed changes involving lactobacilli and TH17 cells.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The salt study combined mechanistic mouse experiments with a limited human pilot. The human arm supports further investigation, while the causal disease experiments were performed in mice.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Dietary salt challenge, external salinity, and a bacterial sodium gradient are different quantities. Sodium chloride exposure also changes chloride and osmotic conditions.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "A salt response should not be interpreted as a generic heavy-metal effect. The pilot study does not establish a universal human microbial signature of sodium intake.",
+      "refs": [
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "Role of the Na(+)-translocating NADH:quinone oxidoreductase in voltage generation and Na(+) extrusion in Vibrio cholerae",
+        "authors": "Vorburger T et al.",
+        "year": 2016,
+        "url": "https://doi.org/10.1016/j.bbabio.2015.12.010"
+      },
+      {
+        "title": "Salt-responsive gut commensal modulates TH17 axis and disease",
+        "authors": "Wilck N et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1038/nature24628"
+      }
+    ],
+    "tags": [
+      "Broader metal context",
+      "Sodium bioenergetics",
+      "Salinity",
+      "Human pilot",
+      "Mouse microbiome"
+    ],
+    "group": "context",
+    "slug": "sodium",
+    "url": "/metals/sodium"
+  },
+  {
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "atomicNumber": 12,
+    "category": "context",
+    "role": "Broader metal context: ribosome function and magnesium sensing",
+    "summary": {
+      "text": "Magnesium belongs in microbial metallomics as a major cellular ion, although it is not conventionally grouped with heavy metals. It connects the physical stability of protein-synthesis machinery with bacterial sensing of the local environment.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Salmonella, the PhoQ sensor responds to extracellular magnesium and changes expression of PhoP-regulated genes.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Low cytoplasmic magnesium destabilized Salmonella ribosomes, slowed translation, and altered ATP and phosphate balance. Increased magnesium uptake and metabolic adjustment helped restore homeostasis.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These are mechanistic bacterial studies, not evidence that magnesium supplementation produces a predictable human community-wide response. They show why extracellular concentration and intracellular availability must be distinguished.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Defined culture-medium magnesium and intracellular free magnesium were distinct experimental variables. Bulk elemental measurements alone cannot resolve this regulatory system.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "PhoQ biology is organism-specific, and magnesium sensing is only one part of the host-environment signals affecting bacteria.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Mg2+ as an extracellular signal: environmental regulation of Salmonella virulence",
+        "authors": "García Véscovi E, Soncini FC, and Groisman EA",
+        "year": 1996,
+        "url": "https://doi.org/10.1016/S0092-8674(00)81003-X"
+      },
+      {
+        "title": "Protein synthesis controls phosphate homeostasis",
+        "authors": "Pontes MH and Groisman EA",
+        "year": 2018,
+        "url": "https://doi.org/10.1101/gad.309245.117"
+      }
+    ],
+    "tags": [
+      "Broader metal context",
+      "Ribosomes",
+      "PhoPQ",
+      "Magnesium homeostasis",
+      "Culture evidence"
+    ],
+    "group": "context",
+    "slug": "magnesium",
+    "url": "/metals/magnesium"
+  },
+  {
+    "symbol": "K",
+    "name": "Potassium",
+    "atomicNumber": 19,
+    "category": "context",
+    "role": "Broader metal context: ion homeostasis and biofilm signaling",
+    "summary": {
+      "text": "Potassium is a major cellular ion and an alkali metal, included here as broader metallomic context. Bacteria regulate its uptake and can use potassium flux to coordinate behavior within a biofilm.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Bacillus subtilis biofilms transmitted waves of potassium through ion channels, linking membrane depolarization with coordinated metabolic activity.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In B. subtilis, the second messenger cyclic di-AMP regulates potassium homeostasis. Genetic experiments identified KimA as a potassium importer and showed that potassium availability changes the consequences of losing c-di-AMP synthesis.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "These studies establish mechanisms in a model bacterium and laboratory biofilms. They do not show that dietary potassium has the same effects in a complex human gut community.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "exposure": {
+      "text": "The experiments controlled extracellular potassium and measured bacterial responses; cellular potassium pools and gradients remain distinct from total dietary intake.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Electrical signaling in a biofilm is a physiological observation, not evidence of cognition or a demonstrated human disease pathway.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Ion channels enable electrical communication in bacterial communities",
+        "authors": "Prindle A et al.",
+        "year": 2015,
+        "url": "https://doi.org/10.1038/nature15709"
+      },
+      {
+        "title": "Control of potassium homeostasis is an essential function of the second messenger cyclic di-AMP in Bacillus subtilis",
+        "authors": "Gundlach J et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1126/scisignal.aal3011"
+      }
+    ],
+    "tags": [
+      "Broader metal context",
+      "Potassium transport",
+      "Biofilm signaling",
+      "Cyclic di-AMP",
+      "Culture evidence"
+    ],
+    "group": "context",
+    "slug": "potassium",
+    "url": "/metals/potassium"
+  },
+  {
+    "symbol": "Ca",
+    "name": "Calcium",
+    "atomicNumber": 20,
+    "category": "context",
+    "role": "Broader metal context: biofilm architecture and biomineralization",
+    "summary": {
+      "text": "Calcium is included as broader metal context rather than as a heavy metal. In some bacteria it supports organized mineral structures within biofilms, linking cellular ion handling to community architecture.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "In Bacillus subtilis laboratory biofilms, a calcium-accumulating cell subpopulation initiated calcium carbonate formation that contributed to an organized mineral scaffold.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "Changing calcium availability altered biofilm gene expression and structure, and inhibiting calcium uptake prevented normal development under the studied conditions.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This evidence comes from laboratory B. subtilis biofilms. It does not establish that dietary calcium controls mineralization or biofilm behavior across human microbial communities.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "Calcium salts in a defined experimental biofilm system were the relevant exposure. Dissolved calcium and precipitated calcium carbonate are different forms.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "The study did not directly establish how intracellular mineral reaches the extracellular matrix, and its importance in natural soil or host communities remains unresolved.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "The roles of intracellular and extracellular calcium in Bacillus subtilis biofilms",
+        "authors": "Keren-Paz A et al.",
+        "year": 2022,
+        "url": "https://doi.org/10.1016/j.isci.2022.104308"
+      }
+    ],
+    "tags": [
+      "Broader metal context",
+      "Biofilms",
+      "Calcium carbonate",
+      "Biomineralization",
+      "Culture evidence"
+    ],
+    "group": "context",
+    "slug": "calcium",
+    "url": "/metals/calcium"
+  },
+  {
+    "symbol": "Se",
+    "name": "Selenium",
+    "atomicNumber": 34,
+    "category": "Nonmetal",
+    "role": "Trace-element nutrition and microbial respiration",
+    "summary": {
+      "text": "Selenium is a nonmetal included because trace-element availability, host nutrition, and microbial transformations intersect. It is not accurately described as a heavy metal.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "Thauera selenatis can respire selenate using a periplasmic reductase distinct from its nitrate-respiration system.",
+        "refs": [
+          1
+        ]
+      },
+      {
+        "text": "In mice, dietary selenium changed gut communities, while colonization reduced the selenium available for some host selenoprotein responses.",
+        "refs": [
+          2
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "The mouse study found taxon-specific effects and evidence of competition between host and microbes for selenium; more dietary selenium was not tested as a universal clinical microbiome therapy.",
+      "refs": [
+        2
+      ]
+    },
+    "exposure": {
+      "text": "Selenate, selenite, and organic selenium compounds differ in metabolism. Dietary availability and environmental redox conditions answer different biological questions.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "limits": {
+      "text": "Respiration in an environmental isolate and controlled mouse diets do not establish that selenium supplementation improves human microbiome health.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    "sources": [
+      {
+        "title": "The terminal reductases for selenate and nitrate respiration in Thauera selenatis are two distinct enzymes",
+        "authors": "Rech SA, Macy JM",
+        "year": 1992,
+        "url": "https://doi.org/10.1128/jb.174.22.7316-7320.1992"
+      },
+      {
+        "title": "Dietary selenium affects host selenoproteome expression by influencing the gut microbiota",
+        "authors": "Kasaikina MV, Kravtsova MA, Lee BC et al.",
+        "year": 2011,
+        "url": "https://doi.org/10.1096/fj.11-181990"
+      }
+    ],
+    "tags": [
+      "Nonmetal",
+      "Selenate respiration",
+      "Gut microbiome",
+      "Host–microbe competition"
+    ],
+    "group": "context",
+    "slug": "selenium",
+    "url": "/metals/selenium"
+  },
+  {
+    "symbol": "Rb",
+    "name": "Rubidium",
+    "atomicNumber": 37,
+    "category": "context",
+    "role": "Transport through potassium-handling systems",
+    "summary": {
+      "text": "Rubidium is an alkali metal relevant to microbial ion selectivity, even though it is not usually the focus of heavy-metal toxicology.",
+      "refs": [
+        1
+      ]
+    },
+    "mechanisms": [
+      {
+        "text": "The Escherichia coli Kup potassium-uptake system discriminated relatively weakly among K+, Rb+, and Cs+, demonstrating that transport pathways can admit chemically similar ions.",
+        "refs": [
+          1
+        ]
+      }
+    ],
+    "microbiome": {
+      "text": "This is a bacterial transport experiment, not a study of a rubidium-associated human microbial community.",
+      "refs": [
+        1
+      ]
+    },
+    "exposure": {
+      "text": "The relevant variables are dissolved cations, the competing potassium supply, and the transport system present in the strain.",
+      "refs": [
+        1
+      ]
+    },
+    "limits": {
+      "text": "Transportability is not evidence of a universal nutritional requirement or beneficial dietary supplementation. Other potassium transporters need not have identical selectivity.",
+      "refs": [
+        1
+      ]
+    },
+    "sources": [
+      {
+        "title": "Specific cesium transport via the Escherichia coli Kup (TrkD) K+ uptake system",
+        "authors": "Bossemeyer D, Schlösser A, Bakker EP",
+        "year": 1989,
+        "url": "https://doi.org/10.1128/jb.171.4.2219-2221.1989"
+      }
+    ],
+    "tags": [
+      "Alkali metal",
+      "Potassium transport",
+      "Ion selectivity",
+      "Bacterial culture"
+    ],
+    "group": "context",
+    "slug": "rubidium",
+    "url": "/metals/rubidium"
+  }
+]

@@ -157,3 +157,25 @@ test('a claim followed by a failed nonce write can recover through a fresh signu
   assert.notEqual(second, first);
   assert.equal((await s.request({ action: 'confirm', token: second })).status, 200);
 });
+
+test('malformed, oversized, and non-JSON requests cannot reach the provider', async () => {
+  const s = setup();
+  for (const body of [null, [], 'not json', 'null']) {
+    assert.equal((await s.request(body)).status, 400);
+  }
+  assert.equal((await s.request('x'.repeat(8193))).status, 413);
+  assert.equal((await s.request({ action: 'subscribe', email: 'reader@example.test', consent: true, extra: 'x'.repeat(8193) })).status, 413);
+  assert.equal((await s.request({}, { type: 'application/json-not-really' })).status, 415);
+  assert.equal((await s.request({}, { origin: '' })).status, 403);
+  assert.equal((await s.request({}, { type: 'Application/JSON; charset=utf-8' })).status, 400);
+  assert.equal(s.calls.length, 0);
+});
+
+test('per-instance traffic limits stop repeated requests before provider access', async () => {
+  const s = setup();
+  for (let attempt = 0; attempt < 10; attempt++) {
+    assert.equal((await s.request({ action: 'subscribe', email: 'bad', consent: true })).status, 400);
+  }
+  assert.equal((await s.request({ action: 'subscribe', email: 'reader@example.test', consent: true })).status, 429);
+  assert.equal(s.calls.length, 0);
+});

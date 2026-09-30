@@ -5,7 +5,7 @@
     "url": "/blog/tampon-metals-vaginal-microbiome-blind-spot",
     "kind": "Critical Commentary",
     "date": "2026-09-28",
-    "updated": "2026-09-28",
+    "updated": "2026-09-30",
     "authors": [
       "Karen Pendergrass"
     ],
@@ -46,7 +46,7 @@
     "url": "/blog/metal-microbiome-disease-axis",
     "kind": "Essay",
     "date": "2026-07-16",
-    "updated": "2026-07-16",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -67,7 +67,7 @@
     "url": "/blog/metals-microbiome-parkinsons-neurodegeneration",
     "kind": "Essay",
     "date": "2026-07-14",
-    "updated": "2026-07-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -111,7 +111,7 @@
     "url": "/blog/metals-microbiome-obesity-metabolic-syndrome",
     "kind": "Essay",
     "date": "2026-07-14",
-    "updated": "2026-07-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -134,7 +134,7 @@
     "url": "/blog/nickel-gut-microbiome-disease",
     "kind": "Essay",
     "date": "2026-07-14",
-    "updated": "2026-07-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -446,6 +446,26 @@
     ]
   },
   {
+    "title": "Prenatal Tobacco Exposure and the Child Gut Microbiome",
+    "description": "Prenatal smoking and childhood gut taxa were associated in an observational cohort; the responsible exposure components remain unresolved.",
+    "url": "/library/perinatal-tobacco-child-gut-microbiota",
+    "kind": "Paper review",
+    "date": "2025-11-14",
+    "updated": "2026-09-30",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10799562/",
+    "sourceDoi": "",
+    "studyDesign": "Observational study",
+    "setting": "Human",
+    "topics": [
+      "Early life",
+      "Environmental exposure"
+    ]
+  },
+  {
     "title": "Prenatal Metal Exposure, the Gut Microbiome, and Childhood Intestinal Inflammation",
     "description": "A 2024 PROGRESS cohort study links prenatal copper and cesium exposure, interacting with specific gut microbes, to elevated fecal calprotectin in children.",
     "url": "/library/prenatal-metals-microbiome-child-inflammation",
@@ -484,28 +504,6 @@
     "topics": [
       "Early life",
       "Neurobiology"
-    ]
-  },
-  {
-    "title": "Perinatal Tobacco Exposure Reshapes the Child Gut Microbiota",
-    "description": "A Spanish birth-cohort study found prenatal tobacco smoke, a source of cadmium and lead, lowers gut Akkermansia and raises Dorea in children by age 7.",
-    "url": "/library/perinatal-tobacco-child-gut-microbiota",
-    "kind": "Paper review",
-    "date": "2025-11-14",
-    "updated": "2025-11-14",
-    "authors": [
-      "Microbial Metallomics"
-    ],
-    "status": "",
-    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10799562/",
-    "sourceDoi": "",
-    "studyDesign": "Observational study",
-    "setting": "Human",
-    "topics": [
-      "Cadmium",
-      "Lead",
-      "Early life",
-      "Environmental exposure"
     ]
   },
   {
@@ -611,7 +609,7 @@
     "url": "/library/iron-fortification-infant-microbiome-diarrhea",
     "kind": "Paper review",
     "date": "2025-11-14",
-    "updated": "2025-11-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],
@@ -672,7 +670,7 @@
     "url": "/library/gut-microbiome-childhood-stunting-lmic",
     "kind": "Paper review",
     "date": "2025-11-14",
-    "updated": "2025-11-14",
+    "updated": "2026-09-30",
     "authors": [
       "Microbial Metallomics"
     ],

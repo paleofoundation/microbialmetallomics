@@ -39,13 +39,19 @@ p=ROOT/'search-index.json';index=json.loads(p.read_text());byurl={r['url']:r for
 articles=json.loads((ROOT/'assets/data/articles.json').read_text())
 for r in articles:
  if r['url'] in byurl:byurl[r['url']].update({'kind':r['kind'],'title':r['title'],'desc':r['description']+' '+' '.join(r['authors'])+' '+' '.join(r['topics'])})
-for p in ROOT.glob('*.html'):
+for p in [*ROOT.glob('*.html'), *(ROOT/'metals').glob('*.html')]:
  if p.name in ['404.html','index.html']:continue
- route='/'+p.stem;s=p.read_text();title=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S);desc=re.search(r'<meta name="description" content="([^"]*)"',s)
+ route='/'+p.relative_to(ROOT).with_suffix('').as_posix();s=p.read_text();title=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S);desc=re.search(r'<meta name="description" content="([^"]*)"',s)
  if not title:continue
- record={'kind':'Guide' if p.stem in ['start-here','evidence-guide','methods','editorial','about','projects'] else 'Section','title':html.unescape(re.sub('<[^>]+>','',title.group(1))),'url':route,'desc':html.unescape(desc.group(1)) if desc else ''}
+ record={'kind':'Element profile' if route.startswith('/metals/') else ('Guide' if p.stem in ['start-here','evidence-guide','methods','editorial','about','projects'] else 'Section'),'title':html.unescape(re.sub('<[^>]+>','',title.group(1))),'url':route,'desc':html.unescape(desc.group(1)) if desc else ''}
  if route in byurl:byurl[route].update(record)
  else:index.append(record);byurl[route]=record
+# Search includes element symbols, enzymes, organisms, and grouped lanthanide names.
+metals_path=ROOT/'assets/data/metals.json'
+if metals_path.exists():
+ for r in json.loads(metals_path.read_text()):
+  if r['url'] in byurl:
+   byurl[r['url']]['desc']=' '.join([r['symbol'],r['role'],r['summary']['text'],*r['tags'],*[m['name']+' '+m['symbol'] for m in r.get('members',[])]])
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
 # Sitemap: all public pages with stable canonical URLs, excluding device-local reading list.
 from xml.sax.saxutils import escape

@@ -400,6 +400,23 @@
       ]
     },
     {
+      "id": "https://microbialmetallomics.com/library/perinatal-tobacco-child-gut-microbiota",
+      "url": "https://microbialmetallomics.com/library/perinatal-tobacco-child-gut-microbiota",
+      "title": "Prenatal Tobacco Exposure and the Child Gut Microbiome",
+      "content_text": "Prenatal smoking and childhood gut taxa were associated in an observational cohort; the responsible exposure components remain unresolved.",
+      "date_published": "2025-11-14T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Early life",
+        "Environmental exposure"
+      ]
+    },
+    {
       "id": "https://microbialmetallomics.com/library/prenatal-metals-microbiome-child-inflammation",
       "url": "https://microbialmetallomics.com/library/prenatal-metals-microbiome-child-inflammation",
       "title": "Prenatal Metal Exposure, the Gut Microbiome, and Childhood Intestinal Inflammation",
@@ -432,25 +449,6 @@
         "Paper review",
         "Early life",
         "Neurobiology"
-      ]
-    },
-    {
-      "id": "https://microbialmetallomics.com/library/perinatal-tobacco-child-gut-microbiota",
-      "url": "https://microbialmetallomics.com/library/perinatal-tobacco-child-gut-microbiota",
-      "title": "Perinatal Tobacco Exposure Reshapes the Child Gut Microbiota",
-      "content_text": "A Spanish birth-cohort study found prenatal tobacco smoke, a source of cadmium and lead, lowers gut Akkermansia and raises Dorea in children by age 7.",
-      "date_published": "2025-11-14T00:00:00Z",
-      "authors": [
-        {
-          "name": "Microbial Metallomics"
-        }
-      ],
-      "tags": [
-        "Paper review",
-        "Cadmium",
-        "Lead",
-        "Early life",
-        "Environmental exposure"
       ]
     },
     {

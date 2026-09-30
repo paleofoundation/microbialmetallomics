@@ -5,6 +5,8 @@
     "node": "22.x"
   },
   "scripts": {
+    "lint": "python3 tools/lint_site.py && python3 tools/check_citations.py",
+    "check": "npm run lint && npm test",
     "test": "node --test tests/*.test.cjs"
   },
   "dependencies": {

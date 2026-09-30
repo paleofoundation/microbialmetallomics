@@ -25,7 +25,7 @@
       } catch { manualCopy(); }
     });
     const share = row.querySelector('[data-native-share]');
-    if (typeof navigator.share === 'function') {
+    if (share && typeof navigator.share === 'function') {
       share.hidden = false;
       share.addEventListener('click', async () => {
         try {
@@ -35,21 +35,6 @@
         }
       });
     }
-  });
-  const overlay = document.getElementById('search-overlay');
-  let trigger;
-  document.querySelectorAll('[data-search-toggle]').forEach(button => button.addEventListener('click', () => { trigger = button; }));
-  document.querySelector('.search-close')?.addEventListener('click', () => {
-    document.dispatchEvent(new KeyboardEvent('keydown', {key:'Escape'}));
-    trigger?.focus();
-  });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && trigger) trigger.focus();
-    if (e.key !== 'Tab' || !overlay?.classList.contains('open')) return;
-    const focusable = [...overlay.querySelectorAll('input,button,a')];
-    const first=focusable[0], last=focusable[focusable.length-1];
-    if (e.shiftKey && document.activeElement===first) {e.preventDefault();last.focus();}
-    else if (!e.shiftKey && document.activeElement===last) {e.preventDefault();first.focus();}
   });
   document.querySelectorAll('[data-filter]').forEach(button => {
     button.setAttribute('aria-pressed',button.classList.contains('active')?'true':'false');
