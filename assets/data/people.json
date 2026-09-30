@@ -387,6 +387,39 @@
     "revised": "2026-09-30"
   },
   {
+    "name": "Stéphane L. Benoit",
+    "category": "Host–Pathogen & Nutritional Immunity",
+    "deceased": false,
+    "role": "Limited-Term Lecturer",
+    "bio": "Investigates nickel acquisition, storage and nickel-dependent enzymes in bacterial pathogens. His work on Helicobacter and Campylobacter connects hydrogenase and urease biology with host colonization, respiratory metabolism and iron–sulfur protein maturation. He has also explored nickel chelation against multidrug-resistant enteric bacteria in laboratory and animal-model studies.",
+    "affiliation": "University of Georgia · Athens, USA",
+    "source": "https://mib.uga.edu/directory/people/stephane-benoit-0",
+    "topics": [
+      "Nickel",
+      "Hydrogenases & urease",
+      "Microbial pathogenesis",
+      "Nickel chelation"
+    ],
+    "slug": "stephane-benoit",
+    "revised": "2026-09-30",
+    "email": "stefbens@uga.edu",
+    "orcid": "0000-0002-9314-8586",
+    "orcidSource": "https://mib.uga.edu/sites/default/files/CVs/CV%20SL%20Benoit%20Jan%202024%20R.pdf",
+    "portrait": "/assets/people/stephane-benoit.jpg",
+    "portraitSource": "https://mib.uga.edu/directory/people/stephane-benoit-0",
+    "portraitOriginal": "https://mib.uga.edu/sites/default/files/styles/square_400x400/public/Stephane.jpg?itok=kYzNa097",
+    "works": [
+      {
+        "title": "Helicobacter pylori stores nickel to aid its host colonization",
+        "url": "https://doi.org/10.1128/IAI.00858-12"
+      },
+      {
+        "title": "Nickel chelation against multidrug-resistant enteric pathogens",
+        "url": "https://doi.org/10.1038/s41598-019-50027-0"
+      }
+    ]
+  },
+  {
     "name": "Eric P. Skaar",
     "category": "Host–Pathogen & Nutritional Immunity",
     "deceased": false,
