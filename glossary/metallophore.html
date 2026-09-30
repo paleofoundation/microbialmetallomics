@@ -22,29 +22,25 @@
 <link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,650;0,700;1,400;1,600&amp;family=Manrope:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css?v=4">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "DefinedTerm", "name": "Metallophore", "description": "A metallophore is a low-molecular-weight molecule secreted by microorganisms to bind and acquire a specific scarce metal ion from the environment or host.", "inDefinedTermSet": "https://microbialmetallomics.com/glossary"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a metallophore?", "acceptedAnswer": {"@type": "Answer", "text": "A metallophore is a low-molecular-weight molecule that microorganisms secrete to bind a scarce essential metal, such as iron, copper, or zinc, and then reimport it as a metal-chelate complex through a dedicated transport system."}}, {"@type": "Question", "name": "How is a metallophore different from a siderophore?", "acceptedAnswer": {"@type": "Answer", "text": "A siderophore is a metallophore specific for iron. Metallophore is the umbrella term; siderophores are the iron-binding subclass, alongside chalkophores (copper), zincophores (zinc), and analogues for other metals."}}, {"@type": "Question", "name": "Why are metallophores important in infection?", "acceptedAnswer": {"@type": "Answer", "text": "Hosts withhold metals from pathogens through nutritional immunity. Metallophores such as staphylopine and pseudopaline let bacteria overcome this metal starvation, so they are linked to virulence and are targets for new antimicrobials."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://microbialmetallomics.com/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://microbialmetallomics.com/glossary"}, {"@type": "ListItem", "position": 3, "name": "Metallophore"}]}]}
 </script>
+<link rel="stylesheet" href="/assets/editorial.css?v=1">
+<link rel="stylesheet" href="/assets/journal.css?v=3">
 </head>
-<body>
-<header class="site-header">
+<body class="journal-article"><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="wrap journal-masthead">
+      <div class="journal-mast-meta"><span>An independent scientific resource</span><span>Bioinorganic microbiology</span></div>
+      <a href="/" class="journal-wordmark" aria-label="Microbial Metallomics — home">Microbial Metallomics<span class="masthead-period" aria-hidden="true">.</span></a>
+    </div>
   <div class="wrap nav">
-    <a href="/" class="brand" aria-label="Microbial Metallomics — home">
-      <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true">
-        <g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g>
-        <g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g>
-        <circle cx="20" cy="20" r="4.6" fill="currentColor"/>
-      </svg>
-      <span>Microbial<b>Metallomics</b></span>
-    </a>
+
     <nav class="nav-links" aria-label="Primary">
-      <a href="/science">The Science</a>
-      <a href="/microbiome">Microbiome</a>
-      <a href="/research">Research</a>
-      <a href="/blog">Blog</a>
-    </nav>
+ <a href="/research">Research</a><a href="/library">Paper Reviews</a><a href="/blog">Essays</a><a href="/commentary">Commentary</a>
+ <a href="/science">The Science</a><a href="/metals">The Metals</a><a href="/methods">Methods</a><a href="/glossary">Glossary</a>
+</nav>
     <div class="nav-tools">
       <button class="search-btn" data-search-toggle aria-label="Search">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -53,7 +49,7 @@
       <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
       </button>
-      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
+      <button class="menu-toggle" aria-label="Menu" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
         <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         <span>Menu</span>
       </button>
@@ -76,7 +72,7 @@
       <div class="mega-col"><h5>Research &amp; Writing</h5>
         <a href="/research"><b>Research Hub</b><span>The full evidence base</span></a>
         <a href="/library"><b>Paper Reviews</b><span>In-depth study reviews</span></a>
-        <a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
+        <a href="/commentary"><b>Critical Commentary</b><span>Close readings of published papers</span></a><a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
         <a href="/faq"><b>FAQ</b><span>Common questions, answered</span></a>
       </div>
       <div class="mega-col mega-feature">
@@ -88,14 +84,16 @@
   </div>
 </header>
 <div class="search-overlay" id="search-overlay" aria-hidden="true">
-  <div class="search-modal" role="dialog" aria-label="Search the site">
-    <input type="text" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search the site">
+    <input type="text" aria-label="Search terms, papers, and metals" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
     <div class="search-results" id="search-results"></div>
-    <div class="search-hint">Type to search · ↑ ↓ to navigate · Esc to close</div>
+    <div class="search-hint"><button type="button" class="search-close" aria-label="Close search">Close ×</button>Type to search · ↑ ↓ to navigate · Esc to close</div>
   </div>
 </div>
-<main>
-<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Metallophore</span></nav><p class="eyebrow">Glossary</p><h1>Metallophore</h1><p class="article-lead">Metallophores are the general class of microbial metal-scavenging chelators. Siderophores (iron) are the archetype, but the family also includes chalkophores (copper), zincophores (zinc), and related molecules for nickel, cobalt, and other trace metals.</p></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#definition-and-scope">Definition and scope</a><a href="#how-it-works">How it works</a><a href="#named-examples">Named examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><h2 id="definition-and-scope">Definition and scope</h2>
+<main id="main-content">
+<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Metallophore</span></nav><p class="eyebrow">Glossary</p><h1>Metallophore</h1></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#article-summary">Summary</a><a href="#definition-and-scope">Definition and scope</a><a href="#how-it-works">How it works</a><a href="#named-examples">Named examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><div class="share-row" aria-label="Share this article"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallophore&amp;text=Metallophore" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on X">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallophore" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on LinkedIn">LinkedIn</a><a href="mailto:?subject=Metallophore&amp;body=Metallophore%0A%0Ahttps%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallophore" aria-label="Share by email">Email</a><button type="button" data-copy-link="https://microbialmetallomics.com/glossary/metallophore">Copy link</button><button type="button" data-native-share hidden>More sharing options</button><span class="share-status" role="status" aria-live="polite"></span><input class="share-fallback" type="text" readonly hidden aria-label="Article link to copy" value="https://microbialmetallomics.com/glossary/metallophore"></div><section class="journal-summary" id="article-summary"><h2>Summary</h2><p class="article-lead">Metallophores are the general class of microbial metal-scavenging chelators. Siderophores (iron) are the archetype, but the family also includes chalkophores (copper), zincophores (zinc), and related molecules for nickel, cobalt, and other trace metals.</p></section><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Kenney &amp; Rosenzweig, Annual Review of Biochemistry, 2018 (Chalkophores) — <a href="https://pubmed.ncbi.nlm.nih.gov/29668305/" rel="nofollow">pubmed.ncbi.nlm.nih.gov</a></li>
+<li>Grim et al., mBio, 2017 (Staphylopine and nutritional immunity) — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5666155/" rel="nofollow">pmc.ncbi.nlm.nih.gov</a></li>
+<li>Maret, Natural Product Communications, 2024 (Metallophores as natural products) — <a href="https://journals.sagepub.com/doi/10.1177/1934578X241271701" rel="nofollow">journals.sagepub.com</a></li></ul></div><h2 id="definition-and-scope">Definition and scope</h2>
 <p>A metallophore is a small-molecule chelator that a microorganism biosynthesizes and secretes to capture a scarce essential metal, then reimports as a metal-chelate complex through a dedicated membrane transport system. The term is a generalization of "siderophore" (from Greek, "iron carrier") that extends the same conceptual framework to metals other than iron.</p>
 <p>Metallophores are named by the metal they preferentially bind. Siderophores acquire iron (Fe), chalkophores acquire copper (Cu), and zincophores acquire zinc (Zn); analogous molecules exist or are proposed for nickel, cobalt, <a class="ilink" href="/metals#mo">molybdenum</a>, and vanadium. Some agents are broad-spectrum: the opine-type metallophores staphylopine and pseudopaline can complex several divalent transition metals, and molecules first described as siderophores, such as yersiniabactin, can moonlight as zincophores.</p>
 <p>Metallophores are distinguished from <a class="ilink" href="/glossary/metallochaperone">metallochaperones</a>, which traffic metals inside the cell, and from metal ionophores, which shuttle ions across membranes without a dedicated import receptor. A metallophore's defining feature is the coupled cycle of secretion, high-affinity extracellular chelation, and receptor-mediated re-uptake.</p>
@@ -113,9 +111,7 @@
 <li>The class generalizes the <a class="ilink" href="/glossary/siderophore">siderophore</a> (<a class="ilink" href="/metals#fe">iron</a>) concept to other metals: chalkophores bind <a class="ilink" href="/metals#cu">copper</a>, zincophores bind <a class="ilink" href="/metals#zn">zinc</a>, with analogues for <a class="ilink" href="/metals#ni">nickel</a> and <a class="ilink" href="/metals#co">cobalt</a>.</li>
 <li>Named examples include enterobactin and pyoverdine (Fe), methanobactin (Cu), and the opine-type staphylopine and pseudopaline (Zn/Ni and broad-spectrum).</li>
 <li>Production is controlled by metal-sensing regulators such as Fur and Zur that switch synthesis on under metal starvation.</li>
-<li>Metallophores are central to <a class="ilink" href="/glossary/nutritional-immunity">nutritional immunity</a> and pathogen virulence, and are actively explored as antibiotic-delivery routes.</li></ul></div><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Kenney &amp; Rosenzweig, Annual Review of Biochemistry, 2018 (Chalkophores) — <a href="https://pubmed.ncbi.nlm.nih.gov/29668305/" rel="nofollow">pubmed.ncbi.nlm.nih.gov</a></li>
-<li>Grim et al., mBio, 2017 (Staphylopine and nutritional immunity) — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5666155/" rel="nofollow">pmc.ncbi.nlm.nih.gov</a></li>
-<li>Maret, Natural Product Communications, 2024 (Metallophores as natural products) — <a href="https://journals.sagepub.com/doi/10.1177/1934578X241271701" rel="nofollow">journals.sagepub.com</a></li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/siderophore">Siderophore</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a><a href="/glossary/nutritional-immunity">Nutritional immunity</a><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/metallochaperone">Metallochaperone</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is a metallophore?</summary><p>A metallophore is a low-molecular-weight molecule that microorganisms secrete to bind a scarce essential metal, such as iron, copper, or zinc, and then reimport it as a metal-chelate complex through a dedicated transport system.</p></details><details><summary>How is a metallophore different from a siderophore?</summary><p>A siderophore is a metallophore specific for iron. Metallophore is the umbrella term; siderophores are the iron-binding subclass, alongside chalkophores (copper), zincophores (zinc), and analogues for other metals.</p></details><details><summary>Why are metallophores important in infection?</summary><p>Hosts withhold metals from pathogens through nutritional immunity. Metallophores such as staphylopine and pseudopaline let bacteria overcome this metal starvation, so they are linked to virulence and are targets for new antimicrobials.</p></details></div></div><div class="share-row"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https://microbialmetallomics.com/glossary/metallophore&amp;text=Metallophore" rel="nofollow noopener" target="_blank" aria-label="Share on X" title="Share on X">𝕏</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://microbialmetallomics.com/glossary/metallophore" rel="nofollow noopener" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn">in</a><button type="button" data-copy="https://microbialmetallomics.com/glossary/metallophore" aria-label="Copy link" title="Copy link">⧉</button></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/metallomics"><span class="pn-k">← Previous</span><span class="pn-t">Metallomics</span></a><a class="next" href="/glossary/metalloproteome"><span class="pn-k">Next →</span><span class="pn-t">Metalloproteome</span></a></div></div></div></div></section></main>
+<li>Metallophores are central to <a class="ilink" href="/glossary/nutritional-immunity">nutritional immunity</a> and pathogen virulence, and are actively explored as antibiotic-delivery routes.</li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/siderophore">Siderophore</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a><a href="/glossary/nutritional-immunity">Nutritional immunity</a><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/metallochaperone">Metallochaperone</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is a metallophore?</summary><p>A metallophore is a low-molecular-weight molecule that microorganisms secrete to bind a scarce essential metal, such as iron, copper, or zinc, and then reimport it as a metal-chelate complex through a dedicated transport system.</p></details><details><summary>How is a metallophore different from a siderophore?</summary><p>A siderophore is a metallophore specific for iron. Metallophore is the umbrella term; siderophores are the iron-binding subclass, alongside chalkophores (copper), zincophores (zinc), and analogues for other metals.</p></details><details><summary>Why are metallophores important in infection?</summary><p>Hosts withhold metals from pathogens through nutritional immunity. Metallophores such as staphylopine and pseudopaline let bacteria overcome this metal starvation, so they are linked to virulence and are targets for new antimicrobials.</p></details></div></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/metallomics"><span class="pn-k">← Previous</span><span class="pn-t">Metallomics</span></a><a class="next" href="/glossary/metalloproteome"><span class="pn-k">Next →</span><span class="pn-t">Metalloproteome</span></a></div></div></div></div></section></main>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -144,7 +140,7 @@
         <h5>Research &amp; Writing</h5>
         <a href="/research">Original Research</a>
         <a href="/library">Paper Reviews</a>
-        <a href="/blog">The Blog</a>
+        <a href="/commentary">Critical Commentary</a><a href="/blog">The Blog</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
     </div>
@@ -155,5 +151,6 @@
   </div>
 </footer>
 <script src="/assets/main.js?v=4" defer></script>
+<script src="/assets/editorial.js?v=3" defer></script>
 </body>
 </html>

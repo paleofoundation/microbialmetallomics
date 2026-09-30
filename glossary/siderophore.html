@@ -22,29 +22,25 @@
 <link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,650;0,700;1,400;1,600&amp;family=Manrope:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css?v=4">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "DefinedTerm", "name": "Siderophore", "description": "A siderophore is a small, high-affinity iron(III)-chelating molecule that microbes secrete to scavenge scarce environmental iron and import it into the cell.", "inDefinedTermSet": "https://microbialmetallomics.com/glossary", "sameAs": "https://en.wikipedia.org/wiki/Siderophore"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a siderophore?", "acceptedAnswer": {"@type": "Answer", "text": "A siderophore is a small, high-affinity iron(III)-chelating molecule that microbes (and some plants and fungi) secrete to capture scarce iron from their surroundings and transport it into the cell."}}, {"@type": "Question", "name": "How do siderophores work?", "acceptedAnswer": {"@type": "Answer", "text": "They are released into the environment, where their donor groups bind a single Fe3+ ion into a stable soluble complex. Specific membrane receptors then recognize the ferric-siderophore complex and import it, after which the cell releases iron by reduction or by breaking down the siderophore. Synthesis is switched on only when iron is scarce, via the Fur regulator."}}, {"@type": "Question", "name": "Why are siderophores important in medicine?", "acceptedAnswer": {"@type": "Answer", "text": "Because pathogens depend on siderophores to steal iron from an iron-withholding host, these systems are both virulence factors and drug targets. The 'Trojan-horse' approach links an antibiotic to a siderophore so bacteria import the drug themselves; cefiderocol is a clinically approved siderophore-cephalosporin used against multidrug-resistant Gram-negative bacteria."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://microbialmetallomics.com/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://microbialmetallomics.com/glossary"}, {"@type": "ListItem", "position": 3, "name": "Siderophore"}]}]}
 </script>
+<link rel="stylesheet" href="/assets/editorial.css?v=1">
+<link rel="stylesheet" href="/assets/journal.css?v=3">
 </head>
-<body>
-<header class="site-header">
+<body class="journal-article"><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="wrap journal-masthead">
+      <div class="journal-mast-meta"><span>An independent scientific resource</span><span>Bioinorganic microbiology</span></div>
+      <a href="/" class="journal-wordmark" aria-label="Microbial Metallomics — home">Microbial Metallomics<span class="masthead-period" aria-hidden="true">.</span></a>
+    </div>
   <div class="wrap nav">
-    <a href="/" class="brand" aria-label="Microbial Metallomics — home">
-      <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true">
-        <g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g>
-        <g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g>
-        <circle cx="20" cy="20" r="4.6" fill="currentColor"/>
-      </svg>
-      <span>Microbial<b>Metallomics</b></span>
-    </a>
+
     <nav class="nav-links" aria-label="Primary">
-      <a href="/science">The Science</a>
-      <a href="/microbiome">Microbiome</a>
-      <a href="/research">Research</a>
-      <a href="/blog">Blog</a>
-    </nav>
+ <a href="/research">Research</a><a href="/library">Paper Reviews</a><a href="/blog">Essays</a><a href="/commentary">Commentary</a>
+ <a href="/science">The Science</a><a href="/metals">The Metals</a><a href="/methods">Methods</a><a href="/glossary">Glossary</a>
+</nav>
     <div class="nav-tools">
       <button class="search-btn" data-search-toggle aria-label="Search">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -53,7 +49,7 @@
       <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
       </button>
-      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
+      <button class="menu-toggle" aria-label="Menu" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
         <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         <span>Menu</span>
       </button>
@@ -76,7 +72,7 @@
       <div class="mega-col"><h5>Research &amp; Writing</h5>
         <a href="/research"><b>Research Hub</b><span>The full evidence base</span></a>
         <a href="/library"><b>Paper Reviews</b><span>In-depth study reviews</span></a>
-        <a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
+        <a href="/commentary"><b>Critical Commentary</b><span>Close readings of published papers</span></a><a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
         <a href="/faq"><b>FAQ</b><span>Common questions, answered</span></a>
       </div>
       <div class="mega-col mega-feature">
@@ -88,14 +84,15 @@
   </div>
 </header>
 <div class="search-overlay" id="search-overlay" aria-hidden="true">
-  <div class="search-modal" role="dialog" aria-label="Search the site">
-    <input type="text" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search the site">
+    <input type="text" aria-label="Search terms, papers, and metals" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
     <div class="search-results" id="search-results"></div>
-    <div class="search-hint">Type to search · ↑ ↓ to navigate · Esc to close</div>
+    <div class="search-hint"><button type="button" class="search-close" aria-label="Close search">Close ×</button>Type to search · ↑ ↓ to navigate · Esc to close</div>
   </div>
 </div>
-<main>
-<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Siderophore</span></nav><p class="eyebrow">Glossary</p><h1>Siderophore</h1><p class="article-lead">Siderophores are low-molecular-weight compounds (typically 200-2000 Da) that bacteria, fungi, and some plants release to bind ferric iron (Fe3+) with extraordinary strength and ferry it back across the cell membrane. Because iron is essential yet nearly insoluble and tightly sequestered in hosts and soils, siderophores are central to microbial survival, virulence, and the emerging class of 'Trojan-horse' antibiotics.</p></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#precise-definition">Precise definition</a><a href="#how-it-works">How it works</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><h2 id="precise-definition">Precise definition</h2>
+<main id="main-content">
+<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Siderophore</span></nav><p class="eyebrow">Glossary</p><h1>Siderophore</h1></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#article-summary">Summary</a><a href="#precise-definition">Precise definition</a><a href="#how-it-works">How it works</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><div class="share-row" aria-label="Share this article"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fsiderophore&amp;text=Siderophore" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on X">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fsiderophore" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on LinkedIn">LinkedIn</a><a href="mailto:?subject=Siderophore&amp;body=Siderophore%0A%0Ahttps%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fsiderophore" aria-label="Share by email">Email</a><button type="button" data-copy-link="https://microbialmetallomics.com/glossary/siderophore">Copy link</button><button type="button" data-native-share hidden>More sharing options</button><span class="share-status" role="status" aria-live="polite"></span><input class="share-fallback" type="text" readonly hidden aria-label="Article link to copy" value="https://microbialmetallomics.com/glossary/siderophore"></div><section class="journal-summary" id="article-summary"><h2>Summary</h2><p class="article-lead">Siderophores are low-molecular-weight compounds (typically 200-2000 Da) that bacteria, fungi, and some plants release to bind ferric iron (Fe3+) with extraordinary strength and ferry it back across the cell membrane. Because iron is essential yet nearly insoluble and tightly sequestered in hosts and soils, siderophores are central to microbial survival, virulence, and the emerging class of 'Trojan-horse' antibiotics.</p></section><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Hider &amp; Kong, Natural Product Reports, 2010 — <a href="https://pubs.rsc.org/en/content/articlelanding/2010/np/b906679a" rel="nofollow">pubs.rsc.org</a></li>
+<li>Zhanel et al., Clinical Infectious Diseases (cefiderocol siderophore cephalosporin), 2019 — <a href="https://academic.oup.com/cid/article/69/Supplement_7/S519/5624002" rel="nofollow">academic.oup.com</a></li></ul></div><h2 id="precise-definition">Precise definition</h2>
 <p>A siderophore (Greek for 'iron carrier') is a secreted, low-molecular-weight secondary metabolite that selectively chelates iron(III) with very high affinity, forming a soluble, hexacoordinate Fe3+ complex that the producing organism can recognize and take up. Formation constants for the strongest siderophore-iron complexes exceed 10^30 (enterobactin's is approximately 10^49), among the tightest known for any iron ligand.</p>
 <p>Siderophores are classified by the chemical groups that coordinate iron: catecholates (e.g., enterobactin), hydroxamates (e.g., ferrichrome, desferrioxamine), and alpha-hydroxycarboxylates, plus many 'mixed-type' molecules such as pyoverdine and pyochelin. They are a subset of the broader family of <a class="ilink" href="/glossary/metallophore">metallophores</a>, small molecules that scavenge a range of transition metals; siderophores are the iron-specific and by far the best-characterized members.</p>
 <h2 id="how-it-works">How it works</h2>
@@ -112,8 +109,7 @@
 <li>They solubilize otherwise insoluble Fe3+, then deliver it via specific receptors and transporters (e.g., TonB-dependent transporters in Gram-negative bacteria).</li>
 <li>Production is controlled by iron status through the Fur regulator, tying siderophores to cellular <a class="ilink" href="/glossary/metallostasis">metallostasis</a>.</li>
 <li>Named examples include enterobactin, pyoverdine, pyochelin, ferrichrome, mycobactin, and yersiniabactin.</li>
-<li>Siderophores drive virulence during infection and inspired 'Trojan-horse' antibiotics such as <a class="ilink" href="/applications">cefiderocol</a>.</li></ul></div><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Hider &amp; Kong, Natural Product Reports, 2010 — <a href="https://pubs.rsc.org/en/content/articlelanding/2010/np/b906679a" rel="nofollow">pubs.rsc.org</a></li>
-<li>Zhanel et al., Clinical Infectious Diseases (cefiderocol siderophore cephalosporin), 2019 — <a href="https://academic.oup.com/cid/article/69/Supplement_7/S519/5624002" rel="nofollow">academic.oup.com</a></li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/metallophore">Metallophore</a><a href="/glossary/nutritional-immunity">Nutritional immunity</a><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a><a href="/glossary/metallomics">Metallomics</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is a siderophore?</summary><p>A siderophore is a small, high-affinity iron(III)-chelating molecule that microbes (and some plants and fungi) secrete to capture scarce iron from their surroundings and transport it into the cell.</p></details><details><summary>How do siderophores work?</summary><p>They are released into the environment, where their donor groups bind a single Fe3+ ion into a stable soluble complex. Specific membrane receptors then recognize the ferric-siderophore complex and import it, after which the cell releases iron by reduction or by breaking down the siderophore. Synthesis is switched on only when iron is scarce, via the Fur regulator.</p></details><details><summary>Why are siderophores important in medicine?</summary><p>Because pathogens depend on siderophores to steal iron from an iron-withholding host, these systems are both virulence factors and drug targets. The 'Trojan-horse' approach links an antibiotic to a siderophore so bacteria import the drug themselves; cefiderocol is a clinically approved siderophore-cephalosporin used against multidrug-resistant Gram-negative bacteria.</p></details></div></div><div class="share-row"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https://microbialmetallomics.com/glossary/siderophore&amp;text=Siderophore" rel="nofollow noopener" target="_blank" aria-label="Share on X" title="Share on X">𝕏</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://microbialmetallomics.com/glossary/siderophore" rel="nofollow noopener" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn">in</a><button type="button" data-copy="https://microbialmetallomics.com/glossary/siderophore" aria-label="Copy link" title="Copy link">⧉</button></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/nutritional-immunity"><span class="pn-k">← Previous</span><span class="pn-t">Nutritional Immunity</span></a><span></span></div></div></div></div></section></main>
+<li>Siderophores drive virulence during infection and inspired 'Trojan-horse' antibiotics such as <a class="ilink" href="/applications">cefiderocol</a>.</li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/metallophore">Metallophore</a><a href="/glossary/nutritional-immunity">Nutritional immunity</a><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a><a href="/glossary/metallomics">Metallomics</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is a siderophore?</summary><p>A siderophore is a small, high-affinity iron(III)-chelating molecule that microbes (and some plants and fungi) secrete to capture scarce iron from their surroundings and transport it into the cell.</p></details><details><summary>How do siderophores work?</summary><p>They are released into the environment, where their donor groups bind a single Fe3+ ion into a stable soluble complex. Specific membrane receptors then recognize the ferric-siderophore complex and import it, after which the cell releases iron by reduction or by breaking down the siderophore. Synthesis is switched on only when iron is scarce, via the Fur regulator.</p></details><details><summary>Why are siderophores important in medicine?</summary><p>Because pathogens depend on siderophores to steal iron from an iron-withholding host, these systems are both virulence factors and drug targets. The 'Trojan-horse' approach links an antibiotic to a siderophore so bacteria import the drug themselves; cefiderocol is a clinically approved siderophore-cephalosporin used against multidrug-resistant Gram-negative bacteria.</p></details></div></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/nutritional-immunity"><span class="pn-k">← Previous</span><span class="pn-t">Nutritional Immunity</span></a><span></span></div></div></div></div></section></main>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -142,7 +138,7 @@
         <h5>Research &amp; Writing</h5>
         <a href="/research">Original Research</a>
         <a href="/library">Paper Reviews</a>
-        <a href="/blog">The Blog</a>
+        <a href="/commentary">Critical Commentary</a><a href="/blog">The Blog</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
     </div>
@@ -153,5 +149,6 @@
   </div>
 </footer>
 <script src="/assets/main.js?v=4" defer></script>
+<script src="/assets/editorial.js?v=3" defer></script>
 </body>
 </html>

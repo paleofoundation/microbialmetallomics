@@ -22,29 +22,25 @@
 <link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,650;0,700;1,400;1,600&amp;family=Manrope:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css?v=4">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "DefinedTerm", "name": "Metallome", "description": "The metallome is the entirety of metal and metalloid species within a cell or organism, comprising free ions together with all metal- and metalloid-containing biomolecules.", "inDefinedTermSet": "https://microbialmetallomics.com/glossary", "sameAs": "https://en.wikipedia.org/wiki/Metallome"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the metallome?", "acceptedAnswer": {"@type": "Answer", "text": "The metallome is the entirety of metal and metalloid species in a cell or organism — free metal ions together with every metal- and metalloid-containing biomolecule (metalloproteins, cofactors, metal-bound metabolites, and storage forms). It captures not just how much of each element is present but the chemical form and location each metal takes."}}, {"@type": "Question", "name": "How is the metallome different from metallomics?", "acceptedAnswer": {"@type": "Answer", "text": "The metallome is the object of study — the actual pool of metal species in a biological system. Metallomics is the scientific field and set of analytical methods (such as chromatography coupled to ICP-MS) used to identify, quantify, and localize that pool and relate it to the genome, proteome, and metabolome."}}, {"@type": "Question", "name": "What is the difference between the metallome and the metalloproteome?", "acceptedAnswer": {"@type": "Answer", "text": "The metalloproteome is the portion of the metallome consisting specifically of metals bound to proteins. The metallome is broader, also including free ions and metals bound to non-protein molecules such as nucleic acids, cofactors, siderophores, and small-molecule chelators."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://microbialmetallomics.com/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://microbialmetallomics.com/glossary"}, {"@type": "ListItem", "position": 3, "name": "Metallome"}]}]}
 </script>
+<link rel="stylesheet" href="/assets/editorial.css?v=1">
+<link rel="stylesheet" href="/assets/journal.css?v=3">
 </head>
-<body>
-<header class="site-header">
+<body class="journal-article"><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="wrap journal-masthead">
+      <div class="journal-mast-meta"><span>An independent scientific resource</span><span>Bioinorganic microbiology</span></div>
+      <a href="/" class="journal-wordmark" aria-label="Microbial Metallomics — home">Microbial Metallomics<span class="masthead-period" aria-hidden="true">.</span></a>
+    </div>
   <div class="wrap nav">
-    <a href="/" class="brand" aria-label="Microbial Metallomics — home">
-      <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true">
-        <g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g>
-        <g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g>
-        <circle cx="20" cy="20" r="4.6" fill="currentColor"/>
-      </svg>
-      <span>Microbial<b>Metallomics</b></span>
-    </a>
+
     <nav class="nav-links" aria-label="Primary">
-      <a href="/science">The Science</a>
-      <a href="/microbiome">Microbiome</a>
-      <a href="/research">Research</a>
-      <a href="/blog">Blog</a>
-    </nav>
+ <a href="/research">Research</a><a href="/library">Paper Reviews</a><a href="/blog">Essays</a><a href="/commentary">Commentary</a>
+ <a href="/science">The Science</a><a href="/metals">The Metals</a><a href="/methods">Methods</a><a href="/glossary">Glossary</a>
+</nav>
     <div class="nav-tools">
       <button class="search-btn" data-search-toggle aria-label="Search">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -53,7 +49,7 @@
       <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
       </button>
-      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
+      <button class="menu-toggle" aria-label="Menu" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
         <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         <span>Menu</span>
       </button>
@@ -76,7 +72,7 @@
       <div class="mega-col"><h5>Research &amp; Writing</h5>
         <a href="/research"><b>Research Hub</b><span>The full evidence base</span></a>
         <a href="/library"><b>Paper Reviews</b><span>In-depth study reviews</span></a>
-        <a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
+        <a href="/commentary"><b>Critical Commentary</b><span>Close readings of published papers</span></a><a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
         <a href="/faq"><b>FAQ</b><span>Common questions, answered</span></a>
       </div>
       <div class="mega-col mega-feature">
@@ -88,14 +84,16 @@
   </div>
 </header>
 <div class="search-overlay" id="search-overlay" aria-hidden="true">
-  <div class="search-modal" role="dialog" aria-label="Search the site">
-    <input type="text" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search the site">
+    <input type="text" aria-label="Search terms, papers, and metals" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
     <div class="search-results" id="search-results"></div>
-    <div class="search-hint">Type to search · ↑ ↓ to navigate · Esc to close</div>
+    <div class="search-hint"><button type="button" class="search-close" aria-label="Close search">Close ×</button>Type to search · ↑ ↓ to navigate · Esc to close</div>
   </div>
 </div>
-<main>
-<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Metallome</span></nav><p class="eyebrow">Glossary</p><h1>Metallome</h1><p class="article-lead">The metallome describes the full inventory of a biological system's metals and metalloids — not just how much of each element is present, but the chemical form each takes, from free aqueous ions to metals bound in proteins, cofactors, nucleic acids, and small molecules. It is the metal analogue of the genome or proteome, and its characterization is the central goal of metallomics.</p></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#definition-and-scope">Definition and scope</a><a href="#how-it-works-mechanistically">How it works mechanistically</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><h2 id="definition-and-scope">Definition and scope</h2>
+<main id="main-content">
+<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Metallome</span></nav><p class="eyebrow">Glossary</p><h1>Metallome</h1></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#article-summary">Summary</a><a href="#definition-and-scope">Definition and scope</a><a href="#how-it-works-mechanistically">How it works mechanistically</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><div class="share-row" aria-label="Share this article"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallome&amp;text=Metallome" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on X">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallome" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on LinkedIn">LinkedIn</a><a href="mailto:?subject=Metallome&amp;body=Metallome%0A%0Ahttps%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fmetallome" aria-label="Share by email">Email</a><button type="button" data-copy-link="https://microbialmetallomics.com/glossary/metallome">Copy link</button><button type="button" data-native-share hidden>More sharing options</button><span class="share-status" role="status" aria-live="polite"></span><input class="share-fallback" type="text" readonly hidden aria-label="Article link to copy" value="https://microbialmetallomics.com/glossary/metallome"></div><section class="journal-summary" id="article-summary"><h2>Summary</h2><p class="article-lead">The metallome describes the full inventory of a biological system's metals and metalloids — not just how much of each element is present, but the chemical form each takes, from free aqueous ions to metals bound in proteins, cofactors, nucleic acids, and small molecules. It is the metal analogue of the genome or proteome, and its characterization is the central goal of metallomics.</p></section><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Mounicou, Szpunar &amp; Lobinski, Chem. Soc. Rev. 2009 — <a href="https://pubs.rsc.org/en/content/articlehtml/2009/cs/b713633c" rel="nofollow">pubs.rsc.org</a></li>
+<li>Haraguchi, J. Anal. At. Spectrom. 2004 — <a href="https://pubs.rsc.org/en/content/articlelanding/2004/ja/b308213j" rel="nofollow">pubs.rsc.org</a></li>
+<li>Metallome — Wikipedia — <a href="https://en.wikipedia.org/wiki/Metallome" rel="nofollow">en.wikipedia.org</a></li></ul></div><h2 id="definition-and-scope">Definition and scope</h2>
 <p>The metallome is the complete set of metal and metalloid species present in a defined biological system — a cell, tissue, organelle, or whole organism. Critically, the concept goes beyond total elemental content (how many atoms of <a class="ilink" href="/metals#fe">iron</a>, <a class="ilink" href="/metals#zn">zinc</a>, <a class="ilink" href="/metals#cu">copper</a>, and so on are present) to encompass speciation: the specific chemical form, oxidation state, ligand environment, and subcellular localization of each metal. Two cells with identical total zinc can have very different metallomes if that zinc is partitioned differently among free ion pools, metalloproteins, and storage molecules.</p>
 <p>The term was introduced by R. J. P. Williams, who framed it by analogy with the proteome as the distribution of free metal ions and element concentrations across cellular compartments. The broader research field built around measuring and interpreting the metallome — metallomics — was named by Hiroki Haraguchi in the early 2000s to integrate the study of all bio-relevant trace metals with genomics, proteomics, and metabolomics. In practice the metallome is often subdivided: the pool of metals bound to proteins is the metalloproteome, a proper subset of the whole-cell metallome.</p>
 <h2 id="how-it-works-mechanistically">How it works mechanistically</h2>
@@ -110,9 +108,7 @@
 <li>The term was coined by R. J. P. Williams; the field of <a class="ilink" href="/glossary/metallomics">metallomics</a> that studies it was named by Hiroki Haraguchi in the early 2000s.</li>
 <li>The <a class="ilink" href="/glossary/metalloproteome">metalloproteome</a> (metals bound to proteins) is a subset of the whole metallome.</li>
 <li>Metallome composition is governed by binding thermodynamics (the <a class="ilink" href="/glossary/irving-williams-series">Irving-Williams</a> series) and actively maintained by <a class="ilink" href="/glossary/metallostasis">metallostasis</a>, <a class="ilink" href="/glossary/metallochaperone">metallochaperones</a>, transporters, and metalloregulators.</li>
-<li>Metallome remodeling underlies host <a class="ilink" href="/glossary/nutritional-immunity">nutritional immunity</a>, pathogen metal acquisition via <a class="ilink" href="/glossary/metallophore">metallophores</a>, and microbial roles in environmental metal cycling.</li></ul></div><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Mounicou, Szpunar &amp; Lobinski, Chem. Soc. Rev. 2009 — <a href="https://pubs.rsc.org/en/content/articlehtml/2009/cs/b713633c" rel="nofollow">pubs.rsc.org</a></li>
-<li>Haraguchi, J. Anal. At. Spectrom. 2004 — <a href="https://pubs.rsc.org/en/content/articlelanding/2004/ja/b308213j" rel="nofollow">pubs.rsc.org</a></li>
-<li>Metallome — Wikipedia — <a href="https://en.wikipedia.org/wiki/Metallome" rel="nofollow">en.wikipedia.org</a></li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/metalloproteome">Metalloproteome</a><a href="/glossary/metallomics">Metallomics</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/mismetallation">Mismetallation</a><a href="/glossary/irving-williams-series">Irving–Williams series</a><a href="/glossary/metalloregulation">Metalloregulation</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is the metallome?</summary><p>The metallome is the entirety of metal and metalloid species in a cell or organism — free metal ions together with every metal- and metalloid-containing biomolecule (metalloproteins, cofactors, metal-bound metabolites, and storage forms). It captures not just how much of each element is present but the chemical form and location each metal takes.</p></details><details><summary>How is the metallome different from metallomics?</summary><p>The metallome is the object of study — the actual pool of metal species in a biological system. Metallomics is the scientific field and set of analytical methods (such as chromatography coupled to ICP-MS) used to identify, quantify, and localize that pool and relate it to the genome, proteome, and metabolome.</p></details><details><summary>What is the difference between the metallome and the metalloproteome?</summary><p>The metalloproteome is the portion of the metallome consisting specifically of metals bound to proteins. The metallome is broader, also including free ions and metals bound to non-protein molecules such as nucleic acids, cofactors, <a class="ilink" href="/glossary/siderophore">siderophores</a>, and small-molecule chelators.</p></details></div></div><div class="share-row"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https://microbialmetallomics.com/glossary/metallome&amp;text=Metallome" rel="nofollow noopener" target="_blank" aria-label="Share on X" title="Share on X">𝕏</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://microbialmetallomics.com/glossary/metallome" rel="nofollow noopener" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn">in</a><button type="button" data-copy="https://microbialmetallomics.com/glossary/metallome" aria-label="Copy link" title="Copy link">⧉</button></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/metallochaperone"><span class="pn-k">← Previous</span><span class="pn-t">Metallochaperone</span></a><a class="next" href="/glossary/metallomics"><span class="pn-k">Next →</span><span class="pn-t">Metallomics</span></a></div></div></div></div></section></main>
+<li>Metallome remodeling underlies host <a class="ilink" href="/glossary/nutritional-immunity">nutritional immunity</a>, pathogen metal acquisition via <a class="ilink" href="/glossary/metallophore">metallophores</a>, and microbial roles in environmental metal cycling.</li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/metalloproteome">Metalloproteome</a><a href="/glossary/metallomics">Metallomics</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/mismetallation">Mismetallation</a><a href="/glossary/irving-williams-series">Irving–Williams series</a><a href="/glossary/metalloregulation">Metalloregulation</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is the metallome?</summary><p>The metallome is the entirety of metal and metalloid species in a cell or organism — free metal ions together with every metal- and metalloid-containing biomolecule (metalloproteins, cofactors, metal-bound metabolites, and storage forms). It captures not just how much of each element is present but the chemical form and location each metal takes.</p></details><details><summary>How is the metallome different from metallomics?</summary><p>The metallome is the object of study — the actual pool of metal species in a biological system. Metallomics is the scientific field and set of analytical methods (such as chromatography coupled to ICP-MS) used to identify, quantify, and localize that pool and relate it to the genome, proteome, and metabolome.</p></details><details><summary>What is the difference between the metallome and the metalloproteome?</summary><p>The metalloproteome is the portion of the metallome consisting specifically of metals bound to proteins. The metallome is broader, also including free ions and metals bound to non-protein molecules such as nucleic acids, cofactors, <a class="ilink" href="/glossary/siderophore">siderophores</a>, and small-molecule chelators.</p></details></div></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/metallochaperone"><span class="pn-k">← Previous</span><span class="pn-t">Metallochaperone</span></a><a class="next" href="/glossary/metallomics"><span class="pn-k">Next →</span><span class="pn-t">Metallomics</span></a></div></div></div></div></section></main>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -141,7 +137,7 @@
         <h5>Research &amp; Writing</h5>
         <a href="/research">Original Research</a>
         <a href="/library">Paper Reviews</a>
-        <a href="/blog">The Blog</a>
+        <a href="/commentary">Critical Commentary</a><a href="/blog">The Blog</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
     </div>
@@ -152,5 +148,6 @@
   </div>
 </footer>
 <script src="/assets/main.js?v=4" defer></script>
+<script src="/assets/editorial.js?v=3" defer></script>
 </body>
 </html>

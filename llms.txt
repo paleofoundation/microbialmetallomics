@@ -94,3 +94,7 @@ Core thesis (the metal–microbiome–disease axis): heavy-metal exposure reshap
 - [Glossary](https://microbialmetallomics.com/glossary)
 - [Paper Reviews](https://microbialmetallomics.com/library)
 - [FAQ](https://microbialmetallomics.com/faq)
+
+## Critical Commentary
+- [Critical Commentary](https://microbialmetallomics.com/commentary): Independent assessments of published papers and their limitations.
+- [Tampon Metals and the Vaginal Microbiome](https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot): Karen Pendergrass on systemic risk assessment and unmeasured local microbial effects.

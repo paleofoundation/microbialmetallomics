@@ -22,29 +22,25 @@
 <link rel="icon" href="/assets/favicon.svg?v=4" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,650;0,700;1,400;1,600&amp;family=Manrope:wght@400;500;600;650;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css?v=4">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "DefinedTerm", "name": "Nutritional Immunity", "description": "Nutritional immunity is the host defense strategy of controlling transition-metal availability—withholding iron, zinc, and manganese or intoxicating microbes with copper and zinc—to limit the growth of invading pathogens.", "inDefinedTermSet": "https://microbialmetallomics.com/glossary"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is nutritional immunity?", "acceptedAnswer": {"@type": "Answer", "text": "Nutritional immunity is a host defense that controls the availability of essential metals during infection—withholding iron, zinc, and manganese to starve pathogens, or delivering toxic doses of copper and zinc to poison them—thereby limiting microbial growth."}}, {"@type": "Question", "name": "Who coined the term nutritional immunity?", "acceptedAnswer": {"@type": "Answer", "text": "Eugene D. Weinberg introduced the term in 1975 to describe the host withholding iron from microbial invaders. M. Indriati Hood and Eric P. Skaar broadened it in 2012 to encompass all transition metals and the concept of metal intoxication."}}, {"@type": "Question", "name": "Which metals are involved in nutritional immunity?", "acceptedAnswer": {"@type": "Answer", "text": "Chiefly the transition metals iron (Fe), zinc (Zn), and manganese (Mn), which the host withholds, plus copper (Cu) and zinc (Zn), which the host can use at toxic concentrations to intoxicate pathogens inside phagocytes."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://microbialmetallomics.com/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://microbialmetallomics.com/glossary"}, {"@type": "ListItem", "position": 3, "name": "Nutritional Immunity"}]}]}
 </script>
+<link rel="stylesheet" href="/assets/editorial.css?v=1">
+<link rel="stylesheet" href="/assets/journal.css?v=3">
 </head>
-<body>
-<header class="site-header">
+<body class="journal-article"><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="wrap journal-masthead">
+      <div class="journal-mast-meta"><span>An independent scientific resource</span><span>Bioinorganic microbiology</span></div>
+      <a href="/" class="journal-wordmark" aria-label="Microbial Metallomics — home">Microbial Metallomics<span class="masthead-period" aria-hidden="true">.</span></a>
+    </div>
   <div class="wrap nav">
-    <a href="/" class="brand" aria-label="Microbial Metallomics — home">
-      <svg class="mark" viewBox="0 0 40 40" fill="none" style="color:var(--copper)" aria-hidden="true">
-        <g stroke="currentColor" stroke-width="1.6"><path d="M20 5v15M32 12 20 20M32 27 20 20M20 35 20 20M8 27 20 20M8 12 20 20"/></g>
-        <g fill="currentColor"><circle cx="20" cy="5" r="2.6"/><circle cx="32" cy="12" r="2.6"/><circle cx="32" cy="27" r="2.6"/><circle cx="20" cy="35" r="2.6"/><circle cx="8" cy="27" r="2.6"/><circle cx="8" cy="12" r="2.6"/></g>
-        <circle cx="20" cy="20" r="4.6" fill="currentColor"/>
-      </svg>
-      <span>Microbial<b>Metallomics</b></span>
-    </a>
+
     <nav class="nav-links" aria-label="Primary">
-      <a href="/science">The Science</a>
-      <a href="/microbiome">Microbiome</a>
-      <a href="/research">Research</a>
-      <a href="/blog">Blog</a>
-    </nav>
+ <a href="/research">Research</a><a href="/library">Paper Reviews</a><a href="/blog">Essays</a><a href="/commentary">Commentary</a>
+ <a href="/science">The Science</a><a href="/metals">The Metals</a><a href="/methods">Methods</a><a href="/glossary">Glossary</a>
+</nav>
     <div class="nav-tools">
       <button class="search-btn" data-search-toggle aria-label="Search">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
@@ -53,7 +49,7 @@
       <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode" title="Toggle theme">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
       </button>
-      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
+      <button class="menu-toggle" aria-label="Menu" data-menu-toggle aria-expanded="false" aria-controls="mega-menu">
         <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         <span>Menu</span>
       </button>
@@ -76,7 +72,7 @@
       <div class="mega-col"><h5>Research &amp; Writing</h5>
         <a href="/research"><b>Research Hub</b><span>The full evidence base</span></a>
         <a href="/library"><b>Paper Reviews</b><span>In-depth study reviews</span></a>
-        <a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
+        <a href="/commentary"><b>Critical Commentary</b><span>Close readings of published papers</span></a><a href="/blog"><b>The Blog</b><span>The metal–microbiome–disease axis</span></a>
         <a href="/faq"><b>FAQ</b><span>Common questions, answered</span></a>
       </div>
       <div class="mega-col mega-feature">
@@ -88,14 +84,16 @@
   </div>
 </header>
 <div class="search-overlay" id="search-overlay" aria-hidden="true">
-  <div class="search-modal" role="dialog" aria-label="Search the site">
-    <input type="text" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search the site">
+    <input type="text" aria-label="Search terms, papers, and metals" id="search-input" placeholder="Search the field — terms, papers, metals…" autocomplete="off" spellcheck="false">
     <div class="search-results" id="search-results"></div>
-    <div class="search-hint">Type to search · ↑ ↓ to navigate · Esc to close</div>
+    <div class="search-hint"><button type="button" class="search-close" aria-label="Close search">Close ×</button>Type to search · ↑ ↓ to navigate · Esc to close</div>
   </div>
 </div>
-<main>
-<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Nutritional Immunity</span></nav><p class="eyebrow">Glossary</p><h1>Nutritional Immunity</h1><p class="article-lead">Nutritional immunity describes how a host actively manipulates essential-metal supply at sites of infection, both starving pathogens of the iron, zinc, and manganese they need and, conversely, flooding them with toxic doses of copper and zinc. It is a central arm of innate immunity and a defining problem of host–pathogen metallomics.</p></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#definition-and-origin">Definition and origin</a><a href="#how-it-works-mechanistically">How it works mechanistically</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><h2 id="definition-and-origin">Definition and origin</h2>
+<main id="main-content">
+<div class="hero-band"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/glossary">Glossary</a><span class="sep">/</span><span>Nutritional Immunity</span></nav><p class="eyebrow">Glossary</p><h1>Nutritional Immunity</h1></div></div><section style="padding-top:0;"><div class="wrap"><div class="article-layout"><aside class="toc-sidebar"><div class="toc-label">On this page</div><nav aria-label="On this page"><a href="#article-summary">Summary</a><a href="#definition-and-origin">Definition and origin</a><a href="#how-it-works-mechanistically">How it works mechanistically</a><a href="#concrete-examples">Concrete examples</a><a href="#why-it-matters">Why it matters</a><a href="#faq">FAQ</a></nav></aside><div class="article-body"><div class="share-row" aria-label="Share this article"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fnutritional-immunity&amp;text=Nutritional%20Immunity" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on X">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fnutritional-immunity" target="_blank" rel="nofollow noopener noreferrer" aria-label="Share on LinkedIn">LinkedIn</a><a href="mailto:?subject=Nutritional%20Immunity&amp;body=Nutritional%20Immunity%0A%0Ahttps%3A%2F%2Fmicrobialmetallomics.com%2Fglossary%2Fnutritional-immunity" aria-label="Share by email">Email</a><button type="button" data-copy-link="https://microbialmetallomics.com/glossary/nutritional-immunity">Copy link</button><button type="button" data-native-share hidden>More sharing options</button><span class="share-status" role="status" aria-live="polite"></span><input class="share-fallback" type="text" readonly hidden aria-label="Article link to copy" value="https://microbialmetallomics.com/glossary/nutritional-immunity"></div><section class="journal-summary" id="article-summary"><h2>Summary</h2><p class="article-lead">Nutritional immunity describes how a host actively manipulates essential-metal supply at sites of infection, both starving pathogens of the iron, zinc, and manganese they need and, conversely, flooding them with toxic doses of copper and zinc. It is a central arm of innate immunity and a defining problem of host–pathogen metallomics.</p></section><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Weinberg, JAMA, 1975 — <a href="https://pubmed.ncbi.nlm.nih.gov/1243565/" rel="nofollow">pubmed.ncbi.nlm.nih.gov</a></li>
+<li>Hood &amp; Skaar, Nature Reviews Microbiology, 2012 — <a href="https://www.nature.com/articles/nrmicro2836" rel="nofollow">www.nature.com</a></li>
+<li>Murdoch &amp; Skaar, Nature Reviews Microbiology, 2022 — <a href="https://www.nature.com/articles/s41579-022-00745-6" rel="nofollow">www.nature.com</a></li></ul></div><h2 id="definition-and-origin">Definition and origin</h2>
 <p>Nutritional immunity is the collection of host mechanisms that restrict a pathogen's access to nutrient metals, or deliberately overload the pathogen with toxic metal, in order to defend against infection. The concept captures a fundamental vulnerability of microbes: transition metals such as iron (Fe), zinc (Zn), and manganese (Mn) are indispensable cofactors for hundreds of enzymes, yet the same metals become lethal in excess.</p>
 <p>The term was coined by microbiologist Eugene D. Weinberg in 1975 to describe the host's attempt to withhold growth-essential iron from bacterial, fungal, and protozoan invaders. For decades the idea was largely iron-centric. It was substantially broadened by M. Indriati Hood and Eric P. Skaar in their 2012 Nature Reviews Microbiology review, which reframed nutritional immunity around the full suite of transition metals at the pathogen–host interface and incorporated metal intoxication—poisoning microbes with copper and zinc—as a second, offensive dimension of the same defense.</p>
 <h2 id="how-it-works-mechanistically">How it works mechanistically</h2>
@@ -111,9 +109,7 @@
 <li>Two complementary arms: sequestering Fe/Zn/Mn to starve microbes, and delivering toxic Cu/Zn to poison them.</li>
 <li>Key host effectors include transferrin, lactoferrin, ferritin, hepcidin, NRAMP1, lipocalin-2, and the <a class="ilink" href="/metals#zn">zinc</a>/<a class="ilink" href="/metals#mn">manganese</a> chelator <a class="ilink" href="/glossary/calprotectin">calprotectin</a>.</li>
 <li>Pathogens resist via <a class="ilink" href="/glossary/siderophore">siderophores</a>, <a class="ilink" href="/glossary/metallophore">metallophores</a>, dedicated metal importers/exporters, and metal-sensing regulators such as Fur and Zur.</li>
-<li>It underlies the anemia of inflammation, provides diagnostic biomarkers like calprotectin, and inspires siderophore-based antibiotics such as <a class="ilink" href="/applications">cefiderocol</a>.</li></ul></div><div class="citation-box"><span class="lbl">Sources</span><ul style="margin:0;padding-left:18px;"><li>Weinberg, JAMA, 1975 — <a href="https://pubmed.ncbi.nlm.nih.gov/1243565/" rel="nofollow">pubmed.ncbi.nlm.nih.gov</a></li>
-<li>Hood &amp; Skaar, Nature Reviews Microbiology, 2012 — <a href="https://www.nature.com/articles/nrmicro2836" rel="nofollow">www.nature.com</a></li>
-<li>Murdoch &amp; Skaar, Nature Reviews Microbiology, 2022 — <a href="https://www.nature.com/articles/s41579-022-00745-6" rel="nofollow">www.nature.com</a></li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/siderophore">Siderophore</a><a href="/glossary/metallophore">Metallophore</a><a href="/glossary/metal-intoxication">Metal intoxication</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is nutritional immunity?</summary><p><a class="ilink" href="/glossary/nutritional-immunity">Nutritional immunity</a> is a host defense that controls the availability of essential metals during infection—withholding iron, zinc, and manganese to starve pathogens, or delivering toxic doses of <a class="ilink" href="/metals#cu">copper</a> and zinc to poison them—thereby limiting microbial growth.</p></details><details><summary>Who coined the term nutritional immunity?</summary><p>Eugene D. Weinberg introduced the term in 1975 to describe the host withholding iron from microbial invaders. M. Indriati Hood and Eric P. Skaar broadened it in 2012 to encompass all transition metals and the concept of <a class="ilink" href="/glossary/metal-intoxication">metal intoxication</a>.</p></details><details><summary>Which metals are involved in nutritional immunity?</summary><p>Chiefly the transition metals iron (Fe), zinc (Zn), and manganese (Mn), which the host withholds, plus copper (Cu) and zinc (Zn), which the host can use at toxic concentrations to intoxicate pathogens inside phagocytes.</p></details></div></div><div class="share-row"><span class="sh-label">Share</span><a href="https://twitter.com/intent/tweet?url=https://microbialmetallomics.com/glossary/nutritional-immunity&amp;text=Nutritional Immunity" rel="nofollow noopener" target="_blank" aria-label="Share on X" title="Share on X">𝕏</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://microbialmetallomics.com/glossary/nutritional-immunity" rel="nofollow noopener" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn">in</a><button type="button" data-copy="https://microbialmetallomics.com/glossary/nutritional-immunity" aria-label="Copy link" title="Copy link">⧉</button></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/mismetallation"><span class="pn-k">← Previous</span><span class="pn-t">Mismetallation</span></a><a class="next" href="/glossary/siderophore"><span class="pn-k">Next →</span><span class="pn-t">Siderophore</span></a></div></div></div></div></section></main>
+<li>It underlies the anemia of inflammation, provides diagnostic biomarkers like calprotectin, and inspires siderophore-based antibiotics such as <a class="ilink" href="/applications">cefiderocol</a>.</li></ul></div><div class="related-module"><h2>Related concepts</h2><div class="concept-chips"><a href="/glossary/calprotectin">Calprotectin</a><a href="/glossary/siderophore">Siderophore</a><a href="/glossary/metallophore">Metallophore</a><a href="/glossary/metal-intoxication">Metal intoxication</a><a href="/glossary/metallostasis">Metallostasis</a><a href="/glossary/metalloregulation">Metalloregulation</a></div></div><div class="faq-block" id="faq"><h2>Frequently asked questions</h2><div class="faq"><details open><summary>What is nutritional immunity?</summary><p><a class="ilink" href="/glossary/nutritional-immunity">Nutritional immunity</a> is a host defense that controls the availability of essential metals during infection—withholding iron, zinc, and manganese to starve pathogens, or delivering toxic doses of <a class="ilink" href="/metals#cu">copper</a> and zinc to poison them—thereby limiting microbial growth.</p></details><details><summary>Who coined the term nutritional immunity?</summary><p>Eugene D. Weinberg introduced the term in 1975 to describe the host withholding iron from microbial invaders. M. Indriati Hood and Eric P. Skaar broadened it in 2012 to encompass all transition metals and the concept of <a class="ilink" href="/glossary/metal-intoxication">metal intoxication</a>.</p></details><details><summary>Which metals are involved in nutritional immunity?</summary><p>Chiefly the transition metals iron (Fe), zinc (Zn), and manganese (Mn), which the host withholds, plus copper (Cu) and zinc (Zn), which the host can use at toxic concentrations to intoxicate pathogens inside phagocytes.</p></details></div></div><div class="related-module"><h2>Keep reading</h2><div class="related-grid"><a href="/glossary"><span class="rk">Glossary</span><span class="rt">All glossary terms</span></a><a href="/science"><span class="rk">The Science</span><span class="rt">How microbes run on metal</span></a><a href="/metals"><span class="rk">The Metals</span><span class="rt">The metals of microbial life</span></a></div></div><div class="prevnext"><a class="prev" href="/glossary/mismetallation"><span class="pn-k">← Previous</span><span class="pn-t">Mismetallation</span></a><a class="next" href="/glossary/siderophore"><span class="pn-k">Next →</span><span class="pn-t">Siderophore</span></a></div></div></div></div></section></main>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -142,7 +138,7 @@
         <h5>Research &amp; Writing</h5>
         <a href="/research">Original Research</a>
         <a href="/library">Paper Reviews</a>
-        <a href="/blog">The Blog</a>
+        <a href="/commentary">Critical Commentary</a><a href="/blog">The Blog</a>
         <a href="/#newsletter">Newsletter</a>
       </div>
     </div>
@@ -153,5 +149,6 @@
   </div>
 </footer>
 <script src="/assets/main.js?v=4" defer></script>
+<script src="/assets/editorial.js?v=3" defer></script>
 </body>
 </html>
