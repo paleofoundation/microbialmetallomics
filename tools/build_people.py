@@ -86,7 +86,7 @@ for r in people:
  if r.get('searchTitle'):page['name']=r['searchTitle']
  if r.get('portraitCaption'):page['primaryImageOfPage']=person['image']
  if r.get('profileIntro'):
-  page['dateModified']=r['revised']
+  page['dateModified']=r['revisedAt']
   intro=''.join('<p class="profile-intro">'+esc(p)+'</p>' for p in r['profileIntro'])
   main=main.replace('<article class="profile-argument">','<article class="profile-argument">'+intro,1)
  if r.get('showAuthorArchive'):
