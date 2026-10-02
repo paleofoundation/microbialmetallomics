@@ -26,6 +26,7 @@ class HeadTags(HTMLParser):
 
 def refresh_search_metadata(root):
  overrides=json.loads((root/'assets/data/search-pages.json').read_text())
+ authors={ORIGIN+'/people/'+r['slug']:r for r in json.loads((root/'assets/data/people.json').read_text()) if r.get('siteAuthor')}
  for p in root.rglob('*.html'):
   if any(x.startswith('.') or x=='node_modules' for x in p.relative_to(root).parts):continue
   route='/' if p.name=='index.html' else '/'+p.relative_to(root).with_suffix('').as_posix()
@@ -43,6 +44,13 @@ def refresh_search_metadata(root):
      if 'Person' in types and isinstance(node.get('url'),str):
       u=urlsplit(node['url'])
       if u.netloc=='microbialmetallomics.com' and u.path=='/people' and u.fragment and (root/'people'/(u.fragment+'.html')).is_file():node['url']=ORIGIN+'/people/'+u.fragment;changed=True
+      author=authors.get(node['url'])
+      if author:
+       person_id=node['url']+'#person'
+       if node.get('@id')!=person_id:node['@id']=person_id;changed=True
+       if author.get('identityLinks'):
+        same_as=list(dict.fromkeys([author['source'],*[x['url'] for x in author['identityLinks']],*(['https://orcid.org/'+author['orcid']] if author.get('orcid') else [])]))
+        if node.get('sameAs')!=same_as:node['sameAs']=same_as;changed=True
      if config and any(t in ['WebPage','CollectionPage','WebSite'] for t in types):
       identity=node.get('url',node.get('@id',ORIGIN+route))
       if isinstance(identity,str) and identity.split('#')[0].rstrip('/')==(ORIGIN+route).rstrip('/'):

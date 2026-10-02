@@ -1929,7 +1929,7 @@
     "name": "Karen Pendergrass",
     "category": "Microbiome, Metals & Translation",
     "deceased": false,
-    "role": "Microbial Metallomics Researcher & Founder",
+    "role": "Microbial Metallomics Researcher & Standards Architect",
     "bio": "Karen Pendergrass investigates upstream metal contamination in food systems and agricultural inputs, and how these exposures may influence microbial metabolism and disease. Her work connects exposure pathways with mismetallation and metal-dependent enzyme function, with particular attention to nickel, urease, [NiFe]-hydrogenases, and nickel-dependent forms of glyoxalase I. By examining microbiome and metallomic signatures together, she explores how changes in metal availability and enzyme activity may link microbial communities and heavy-metal exposure to conditions such as endometriosis and Parkinson’s disease.",
     "affiliation": "Microbiome Medicine · Heavy Metal Index · Wikibiome · Institute of Contaminant Standards (ICS)",
     "source": "https://contaminantstandards.com/people/karen-pendergrass",
@@ -1937,6 +1937,12 @@
     "contact": "https://karenpendergrass.com/contact",
     "siteAuthor": true,
     "works": [
+      {
+        "title": "Heavy metals, microbial metallomics, and the US obesity epidemic",
+        "url": "/research/heavy-metals-microbial-metallomics-obesity-epidemic",
+        "type": "Mechanistic framework · Preprint · 2026",
+        "note": "Examines a proposed connection between agricultural metal inputs, microbial ecology, and population-level metabolic disruption, and identifies predictions for further testing."
+      },
       {
         "title": "Fertilizer contamination trends, 1960–2025",
         "url": "/research/heavy-metals-in-fertilizers-contamination-trends",
@@ -1963,22 +1969,23 @@
       }
     ],
     "topics": [
+      "Microbial metallomics",
+      "Heavy metal exposure",
+      "Microbiome medicine",
       "Food & agricultural contamination",
       "Mismetallation",
       "Nickel & microbial enzymes",
-      "Microbiome & metallomic signatures",
-      "Endometriosis",
-      "Parkinson’s disease"
+      "Microbiome & metallomic signatures"
     ],
     "slug": "karen-pendergrass",
     "portrait": "/assets/people/karen-pendergrass.avif",
     "portraitSource": "https://contaminantstandards.com/people/karen-pendergrass",
     "portraitOriginal": "https://contaminantstandards.com/_next/image?url=%2Fkaren-pendergrass.avif&w=3840&q=75",
-    "revised": "2026-09-30",
+    "revised": "2026-10-02",
     "profileKind": "Site author",
     "bioParagraphs": [
       "Karen Pendergrass investigates upstream metal contamination in food systems and agricultural inputs, and how these exposures may influence microbial metabolism and disease. Her work connects exposure pathways with mismetallation and metal-dependent enzyme function, with particular attention to nickel, urease, [NiFe]-hydrogenases, and nickel-dependent forms of glyoxalase I. By examining microbiome and metallomic signatures together, she explores how changes in metal availability and enzyme activity may link microbial communities and heavy-metal exposure to conditions such as endometriosis and Parkinson’s disease.",
-      "She is the founder of Microbiome Medicine, Heavy Metal Index, Wikibiome, and the Institute of Contaminant Standards (ICS)."
+      "She founded Microbiome Medicine and WikiBiome, is the architect of the Heavy Metal Index, and is founder and standards architect of the Institute of Contaminant Standards (ICS). Her linked institutional and author records describe these roles."
     ],
     "profileLinks": [
       {
@@ -1992,17 +1999,80 @@
     ],
     "worksTitle": "Selected research & writing",
     "impact": {
-      "headline": "Connecting disease hypotheses with exposure evidence and standards",
-      "discovery": "Pendergrass develops frameworks that bring microbial metal handling, disease-associated microbiome patterns and contaminant exposure into the same discussion. Her institutional record also documents the architecture of the Heavy Metal Index and certification methodology. These contributions connect hypothesis development, evidence organization, and standards design to the upstream sources of metal exposure.",
-      "significance": "Her value to this developing field is making a cross-disciplinary question explicit: could a metal exposure or redistribution help explain a microbial pattern associated with disease? Connecting that question to traceable exposure evidence gives researchers and standards developers specific assumptions to examine and test.",
-      "frontier": "The decisive next step is independent testing of the proposed causal links, with transparent publication status and a clear separation between biological findings, clinical outcomes and certification rules.",
+      "headline": "Heavy metals, microbes & microbiome medicine",
+      "discovery": "Pendergrass develops research frameworks that connect heavy metal exposure, metal-dependent microbial functions, and disease-associated microbiome signatures. Her 2025 Beneficial Microbes Conference presentation examined these connections in endometriosis through metallomics and nutritional immunity. Her subsequent writing applies related questions to Parkinson’s disease, metabolic health, and early-life exposure. Alongside this hypothesis-driven work, she designed the Heavy Metal Index’s evidence architecture and contributes to contaminant standards at ICS.",
+      "significance": "Microbial metallomics asks what a metal does within a living system, rather than stopping at its measured concentration. Pendergrass’s contribution is to connect that question with both microbial-signature research and traceable exposure evidence. A food contaminant, a microbial enzyme, and a disease-associated community pattern can then be examined as parts of a proposed causal chain. The result is a set of specific mechanisms and research questions, with exposure standards grounded in a separately documented evidence base.",
+      "frontier": "The next question is which measured changes in metal form and availability explain microbial function in a particular tissue or community. Pairing exposure measurements with enzyme activity and microbiome data would help distinguish a causal metal–microbe relationship from an association, and identify which predictions from these frameworks hold up in independent studies.",
       "sources": [
         {
-          "label": "Institute of Contaminant Standards — Pendergrass research and standards record",
+          "label": "Institute of Contaminant Standards — research and standards responsibilities",
           "url": "https://contaminantstandards.com/people/karen-pendergrass"
+        },
+        {
+          "label": "Heavy Metal Index — evidence architecture and affiliated research projects",
+          "url": "https://heavymetalindex.com/authors/karen-pendergrass"
+        },
+        {
+          "label": "Beneficial Microbes Conference 2025 — endometriosis, microbiome signatures, and metallomics abstract",
+          "url": "https://www.bastiaanse-communication.com/BMC/book-of-abstracts/book%20of%20abstracts%20BMC2025.pdf#page=49"
+        },
+        {
+          "label": "Zenodo — heavy metals, microbial metallomics, and obesity preprint",
+          "url": "https://zenodo.org/records/18434951"
         }
       ]
-    }
+    },
+    "searchTitle": "Karen Pendergrass — Heavy Metals & Microbial Metallomics",
+    "searchDescription": "Karen Pendergrass connects heavy metal exposure, microbial metallomics and microbiome medicine through research, the Heavy Metal Index and contaminant standards.",
+    "portraitAlt": "Karen Pendergrass, founder of Microbiome Medicine",
+    "portraitCaption": "Karen Pendergrass · Microbiome Medicine",
+    "portraitWidth": 1023,
+    "portraitHeight": 1537,
+    "showAuthorArchive": true,
+    "profileIntro": [
+      "Karen Pendergrass is a microbial metallomics researcher, standards architect, and founder of Microbiome Medicine. Her work connects heavy metal exposure with microbes: how a metal reaches a microbial community, which organisms can use or tolerate it, and how those interactions may help explain disease-associated microbiome patterns.",
+      "She brings together research on metal-dependent microbial functions, the Heavy Metal Index’s organization of contamination evidence, and standards development at the Institute of Contaminant Standards. This profile connects those projects with her published frameworks, conference presentation, and writing on heavy metals and the microbiome."
+    ],
+    "identityLinks": [
+      {
+        "label": "Microbiome Medicine author profile",
+        "url": "https://microbiomemedicine.com/author/kmfp84gmail-com"
+      },
+      {
+        "label": "Heavy Metal Index author profile",
+        "url": "https://heavymetalindex.com/authors/karen-pendergrass"
+      },
+      {
+        "label": "WikiBiome researcher profile",
+        "url": "https://www.wikibiome.com/researchers/0000-0002-2348-7259"
+      }
+    ],
+    "affiliations": [
+      {
+        "name": "Microbiome Medicine",
+        "url": "https://microbiomemedicine.com/",
+        "role": "Founder and researcher",
+        "description": "Develops and publishes frameworks connecting microbiome signatures, microbial metal handling, and host biology. Her writing examines how nutritional immunity and metal-dependent enzymes can inform new research questions."
+      },
+      {
+        "name": "Heavy Metal Index",
+        "url": "https://heavymetalindex.com/",
+        "role": "Architect",
+        "description": "Organizes traceable evidence about heavy metals in foods and other exposure sources. This connects questions about microbes and metals with the materials and pathways through which exposure occurs."
+      },
+      {
+        "name": "Institute of Contaminant Standards (ICS)",
+        "url": "https://contaminantstandards.com/",
+        "role": "Founder and standards architect",
+        "description": "Leads research and methodological systems connecting contamination evidence, food metallomics, and certification standards. These responsibilities include the architecture of the HMTc framework."
+      },
+      {
+        "name": "WikiBiome",
+        "url": "https://www.wikibiome.com/",
+        "role": "Founder and scientific editor",
+        "description": "Connects published microbial-signature evidence with a structured research resource. Comparable microbiome records provide a foundation for examining microbial functions alongside metal exposure."
+      }
+    ]
   },
   {
     "slug": "divine-aleru",

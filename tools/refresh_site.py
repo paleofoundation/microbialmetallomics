@@ -149,12 +149,19 @@ if access_path.exists():
  for route,key in [('/start-here','thesis'),('/metal-access','explorer')]:
   if route in byurl:byurl[route]['desc']=readable_access(access_data[key])
 people_path=ROOT/'assets/data/people.json'
+profile_portraits={}
 if people_path.exists():
  for r in json.loads(people_path.read_text()):
   route='/people/'+r['slug']
   if route in byurl:byurl[route]['desc']=' '.join([r['bio'],*r['topics'],readable_access(r.get('impact',{})),readable_access(r.get('spotlight',{})),readable_access(r.get('mechanisticCase',{}))])
+  if route in pages and r.get('portrait'):
+   portrait=urlsplit(r['portrait']);asset=(ROOT/portrait.path.lstrip('/')).resolve()
+   # Only publish real, local portrait assets; omit cache parameters from image URLs.
+   if portrait.scheme or portrait.netloc or not portrait.path.startswith('/assets/') or not asset.is_relative_to((ROOT/'assets').resolve()) or not asset.is_file():
+    raise ValueError('Invalid profile portrait for '+r['slug']+': '+r['portrait'])
+   profile_portraits[pages[route][1].canonical]=ORIGIN+portrait.path
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
 # Sitemap: every indexable canonical page, with reliable page-level freshness only.
 entries={metadata.canonical:metadata.last_modified() for _,metadata in pages.values()}
-(ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+escape(url)+'</loc>'+('<lastmod>'+modified+'</lastmod>' if modified else '')+'</url>\n' for url,modified in sorted(entries.items()))+'</urlset>\n')
+(ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'+''.join('<url><loc>'+escape(url)+'</loc>'+('<lastmod>'+modified+'</lastmod>' if modified else '')+('<image:image><image:loc>'+escape(profile_portraits[url])+'</image:loc></image:image>' if url in profile_portraits else '')+'</url>\n' for url,modified in sorted(entries.items()))+'</urlset>\n')
 print('Integrated navigation, profiles, tool assets, content feeds, metadata,',len(index),'search entries and',len(entries),'sitemap URLs.')
