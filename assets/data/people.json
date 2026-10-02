@@ -992,7 +992,7 @@
         "url": "https://doi.org/10.1128/IAI.00858-12"
       },
       {
-        "title": "Nickel chelation against multidrug-resistant enteric pathogens",
+        "title": "Nickel chelation therapy as an approach to combat multi-drug resistant enteric pathogens",
         "url": "https://doi.org/10.1038/s41598-019-50027-0"
       },
       {
@@ -1017,12 +1017,12 @@
     "worksTitle": "Selected research",
     "impact": {
       "headline": "Turning bacterial nickel dependence into an antimicrobial target.",
-      "discovery": "Benoit and colleagues showed that dimethylglyoxime (DMG), a nickel chelator, inhibited growth of tested multidrug-resistant Salmonella Typhimurium and Klebsiella pneumoniae strains, with protective effects in mouse and insect infection models. A separate Campylobacter jejuni study showed that metal interactions can change the antimicrobial response. These are experimental demonstrations that access to an enzyme cofactor can be a therapeutic research target.",
-      "significance": "His work makes microbial metallomics actionable: a pathogen’s need for a metal can reveal a vulnerability that conventional antibiotic resistance does not describe. It opens an antimicrobial research direction based on metal dependence and enzyme function, connecting basic nickel biology with the search for treatments against resistant infections.",
-      "frontier": "Can nickel-directed interventions achieve useful exposure and selectivity in humans while preserving host function and beneficial microbes? The published model results justify that investigation; they do not yet establish a clinical treatment.",
+      "discovery": "Benoit and colleagues showed that dimethylglyoxime (DMG), a nickel chelator, inhibited growth of tested multidrug-resistant Salmonella Typhimurium and Klebsiella pneumoniae strains. Separate mouse and insect experiments supplied evidence of biological benefit. A Campylobacter jejuni study showed that metal interactions can change the antimicrobial response. These findings give experimental grounding to the idea that access to an enzyme cofactor can be a therapeutic research target.",
+      "significance": "His work connects the chemistry of an enzyme cofactor with the urgent search for antimicrobials. A pathogen’s metal-dependent functions can reveal targets that its conventional antibiotic-resistance profile does not describe. This is a central promise of microbial metallomics: understanding the chemistry a microbe relies on can suggest a new way to alter its behavior. Benoit and colleagues supplied experimental grounding for pursuing that direction.",
+      "frontier": "The next research question is where nickel-directed approaches offer a useful and selective effect in the biological settings that matter. Explaining which aspects of metal handling predict response—and which predict failure—would turn a promising proof of concept into a more informative therapeutic strategy. Host effects and the wider microbial community belong in that explanation from the beginning.",
       "sources": [
         {
-          "label": "Benoit et al. — Nickel chelation against multidrug-resistant enteric pathogens (2019)",
+          "label": "Benoit et al. (2019) — Nickel chelation therapy as an approach to combat multi-drug resistant enteric pathogens",
           "url": "https://doi.org/10.1038/s41598-019-50027-0"
         },
         {
@@ -1037,25 +1037,133 @@
         {
           "setting": "Tested enteric bacterial strains · laboratory studies",
           "finding": "DMG was bacteriostatic against tested Salmonella Typhimurium and Klebsiella pneumoniae, including multidrug-resistant strains. Nickel-dependent enzyme activities were inhibited.",
-          "meaning": "Growth inhibition supplies a proof of concept for targeting metal dependence. Bacteriostasis is distinct from killing or eliminating an infection."
+          "meaning": "Growth inhibition and reduced enzyme activity connect metal access to bacterial function: a starting point for a different antimicrobial strategy."
         },
         {
           "setting": "Mouse and insect infection models · 2019",
-          "finding": "The study reported improved survival in the tested infection models; the mouse experiment also found reduced bacterial burdens in sampled organs.",
-          "meaning": "A biological benefit extended beyond a culture dish. It remains preclinical evidence, with different host systems and intervention timings."
+          "finding": "Separate mouse experiments reported improved survival and lower organ burdens in Salmonella infection. Preventive insect experiments reported protection against the tested multidrug-resistant Salmonella and Klebsiella.",
+          "meaning": "The biological benefit extends beyond a culture dish and gives the therapeutic concept a reason to advance into further investigation."
         },
         {
           "setting": "Campylobacter jejuni · laboratory study, 2022",
           "finding": "DMG inhibited growth. Its combination with copper was bactericidal under the tested conditions; the combined effect did not generalize to selected other Gram-negative bacteria.",
-          "meaning": "The surrounding metal environment and the organism matter. Results cannot be extrapolated across all pathogens from nickel dependence alone."
+          "meaning": "Metal interactions can change the outcome. Organism-specific responses create an opportunity to explain when the same chemical intervention behaves differently."
         }
       ],
       "contextTitle": "Why this belongs in the antimicrobial-resistance conversation",
-      "context": "WHO’s 2024 priority list guides research and investment around defined pathogen–resistance combinations. Benoit’s work is relevant to that agenda because it tests a distinct biological vulnerability in resistant organisms. It is not evidence that DMG controls most WHO priority pathogens, and inclusion here does not imply WHO endorsement. Establishing that breadth would require evidence across the relevant organisms and resistance phenotypes, followed by clinical validation.",
+      "context": "WHO’s 2024 list prioritizes defined pathogen–resistance combinations for research and investment. Benoit’s work belongs in that conversation because it investigates a different therapeutic concept: restricting access to a cofactor that bacterial functions require. The findings provide a starting point for asking how widely that principle applies. The WHO list establishes the public-health priority; the biochemical and infection studies below establish the mechanistic rationale.",
       "sources": [
         {
           "label": "WHO — Bacterial Priority Pathogens List, 2024",
           "url": "https://www.who.int/publications/i/item/9789240093461"
+        }
+      ]
+    },
+    "mechanisticCase": {
+      "title": "Where nickel biology meets WHO research priorities",
+      "intro": "Several organisms represented in the WHO list have published nickel-enzyme biology relevant to this question. These selected examples connect a public-health priority with a biochemical or infection finding; they are not a complete enzyme census, and the cited studies do not all examine the specific resistant strains named by WHO.",
+      "caption": "Published starting points for a nickel-directed antimicrobial hypothesis",
+      "rows": [
+        {
+          "organism": "Klebsiella pneumoniae",
+          "priority": "Critical: carbapenem-resistant and third-generation-cephalosporin-resistant Enterobacterales.",
+          "finding": "Nickel-dependent urease activity and bacterial growth were inhibited in the DMG study, including work with multidrug-resistant isolates.",
+          "question": "An existing proof of concept connects nickel restriction with loss of a bacterial function.",
+          "sources": [
+            {
+              "label": "Benoit et al. (2019)",
+              "url": "https://doi.org/10.1038/s41598-019-50027-0"
+            }
+          ]
+        },
+        {
+          "organism": "Salmonella Typhimurium",
+          "priority": "High: fluoroquinolone-resistant nontyphoidal Salmonella.",
+          "finding": "Respiratory hydrogen use was linked to virulence in a mouse study. The later DMG study reported inhibition of nickel-dependent hydrogenase activity.",
+          "question": "Metal access connects an energy pathway to infection biology, providing a reason to investigate nickel-directed approaches.",
+          "sources": [
+            {
+              "label": "Maier et al. (2004)",
+              "url": "https://doi.org/10.1128/IAI.72.11.6294-6299.2004"
+            },
+            {
+              "label": "Benoit et al. (2019)",
+              "url": "https://doi.org/10.1038/s41598-019-50027-0"
+            }
+          ]
+        },
+        {
+          "organism": "Escherichia coli",
+          "priority": "Critical: carbapenem-resistant and third-generation-cephalosporin-resistant Enterobacterales.",
+          "finding": "The characterized glyoxalase I was most active with nickel and inactive with zinc; other metals also supported activity in biochemical assays. Human glyoxalase I uses zinc.",
+          "question": "Different metal activation creates a rationale for investigating selective disruption of bacterial methylglyoxal detoxification. Nickel exclusivity in a host is a further question.",
+          "sources": [
+            {
+              "label": "He et al. (2000)",
+              "url": "https://doi.org/10.1021/bi000856g"
+            }
+          ]
+        },
+        {
+          "organism": "Pseudomonas aeruginosa",
+          "priority": "High: carbapenem-resistant P. aeruginosa.",
+          "finding": "PAO1 contains three characterized glyoxalase I homologs: two in the Ni/Co-activated class and one in the zinc-dependent class.",
+          "question": "Multiple metal-activation classes make this an informative case for asking whether alternative enzyme activity changes the response to nickel restriction.",
+          "sources": [
+            {
+              "label": "Sukdeo & Honek (2007)",
+              "url": "https://doi.org/10.1016/j.bbapap.2007.04.005"
+            }
+          ]
+        },
+        {
+          "organism": "Staphylococcus aureus",
+          "priority": "High: methicillin-resistant S. aureus.",
+          "finding": "Urease, an established nickel-dependent enzyme, contributed to acid-response physiology and persistent kidney infection in mice.",
+          "question": "A metal-dependent function is connected to persistence in a host: a rationale for investigating nickel access in that setting. This study did not test DMG.",
+          "sources": [
+            {
+              "label": "Zhou et al. (2019)",
+              "url": "https://doi.org/10.1371/journal.ppat.1007538"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "The mechanism is the reason to investigate",
+          "paragraphs": [
+            "If an infection-relevant function needs nickel, and an intervention restricts the nickel pool that supplies it, that function may become a therapeutic vulnerability even when conventional antibiotics fail. This is the research hypothesis. Benoit’s work matters because it connects that biochemical idea with observed antimicrobial effects.",
+            "A chelator’s affinity is part of the argument. Biological activity also depends on which nickel pool it can reach and how that pool supplies the relevant enzyme. Restricting access during enzyme assembly is a different proposition from extracting nickel already bound inside an active enzyme. Following those connections is how microbial metallomics turns a chemical property into a biological explanation."
+          ]
+        },
+        {
+          "title": "An enzyme name starts the question",
+          "paragraphs": [
+            "“Glyoxalase I positive” is not synonymous with nickel-dependent: distinct metal-activation classes exist. Likewise, the nickel-bearing hydrogenases are the [NiFe] class; other hydrogenase classes use iron without nickel. Enzyme presence, its actual cofactor, its activity in a host, and its contribution to infection are separate links in the argument.",
+            "A metabolic function can matter for stress survival or persistence without already having been established as a virulence factor in every organism. Identifying that missing connection is valuable foundational science. It gives a promising idea a specific next question instead of treating the absence of a completed chain as a reason to stop."
+          ],
+          "sources": [
+            {
+              "label": "Sukdeo & Honek (2007) — Glyoxalase I metal classes",
+              "url": "https://doi.org/10.1016/j.bbapap.2007.04.005"
+            },
+            {
+              "label": "Caserta et al. (2023) — Assembly of a [NiFe]-hydrogenase active site",
+              "url": "https://doi.org/10.1038/s41589-022-01226-w"
+            },
+            {
+              "label": "Peters et al. (1998) — An iron-only hydrogenase structure",
+              "url": "https://doi.org/10.1126/science.282.5395.1853"
+            }
+          ]
+        },
+        {
+          "title": "What would move the explanation forward?",
+          "paragraphs": [
+            "The mechanistic prediction is a relationship between altered nickel availability, reduced activity of the proposed nickel-dependent function, and a meaningful biological effect. A response explained equally well by unrelated toxicity would support a different account. A relevant function sustained through another metal or pathway would help explain limited response. These alternatives make the hypothesis more informative.",
+            "The larger opportunity is to connect pathogen biology, the host’s metal regulation, and the surrounding community. A community’s metal-handling functions may reveal dependencies that a species list or an antibiotic-resistance label leaves invisible. Establishing which of those dependencies matter is a research agenda for microbiome medicine—and a reason these pioneers deserve attention."
+          ]
         }
       ]
     }

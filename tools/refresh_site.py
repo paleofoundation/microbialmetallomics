@@ -70,7 +70,7 @@ people_path=ROOT/'assets/data/people.json'
 if people_path.exists():
  for r in json.loads(people_path.read_text()):
   route='/people/'+r['slug']
-  if route in byurl:byurl[route]['desc']=' '.join([r['bio'],*r['topics'],readable_access(r.get('impact',{}))])
+  if route in byurl:byurl[route]['desc']=' '.join([r['bio'],*r['topics'],readable_access(r.get('impact',{})),readable_access(r.get('spotlight',{})),readable_access(r.get('mechanisticCase',{}))])
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
 # Sitemap: all public pages with stable canonical URLs, excluding device-local reading list.
 from xml.sax.saxutils import escape

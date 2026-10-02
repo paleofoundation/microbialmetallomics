@@ -402,22 +402,22 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The practical value of this framework is sharper discrimination. Before attributing a disease pattern to a metal, specify the exposure and the local pool. Before attributing it to a microbe, specify the function. Before claiming that a formulation solves the problem, establish what it changes for the host and the community.",
+          "text": "The practical value of this framework is a new set of explanations and research directions. A disease signature becomes more informative when it connects microbial functions with the chemical forms and locations of metals. That connection can reveal a previously overlooked exposure pathway, a nutrient-delivery problem, or a microbial dependence worth investigating as a therapeutic target.",
           "refs": []
         },
         {
           "type": "paragraph",
-          "text": "For exposure assessment, this creates a reason to investigate local chemical and microbial endpoints alongside systemic measurements. It does not establish that existing thresholds are necessarily inadequate or that a microbiome change is itself an adverse outcome. For clinical research, it creates a reason to study delivery and regulation alongside intake. It does not supply a supplement recommendation from a taxonomic report.",
+          "text": "Mechanisms let the field reason beyond what has already been tested. A finding grounds a possible connection; the connection produces a hypothesis; the hypothesis predicts an observation that could distinguish it from another explanation. An unmeasured step identifies foundational work to do. It does not erase the value of the mechanism, and an absence of clinical trials does not decide whether the research direction is worth pursuing.",
           "refs": []
         },
         {
           "type": "paragraph",
-          "text": "An atlas built on this approach should make the next question easier to see. Where is the relevant metal? In what form? Which host cells and organisms can access it? What function changes when that access changes? And what result would show that the proposed disease mechanism is wrong?",
+          "text": "For exposure assessment, this means investigating local chemical and microbial endpoints alongside systemic measurements. For clinical research, it means studying delivery and regulation alongside intake. For an atlas, it means asking where a metal is, which organisms and host cells can use it, and what function changes when access changes. The result should be a clear next question, with a reason it matters and an observation that would move the explanation forward.",
           "refs": []
         },
         {
           "type": "paragraph",
-          "text": "The promise of microbial metallomics is to explain how these relationships combine. A successful explanation follows the metal far enough to connect chemistry to biological use—and follows the evidence far enough to connect that use to the host.",
+          "text": "Microbial metallomics can help microbiome medicine move from describing communities to explaining—and eventually changing—their effects. Its contribution includes the discoveries already made, the connections those discoveries make plausible, and the research agenda they open. The guide treats all three as part of the science.",
           "refs": []
         },
         {
@@ -434,6 +434,11 @@
           "type": "link",
           "text": "Find an element in the atlas",
           "url": "/metals"
+        },
+        {
+          "type": "link",
+          "text": "How this guide develops mechanistic hypotheses",
+          "url": "/editorial#mechanisms-and-hypotheses"
         }
       ],
       "aliases": [

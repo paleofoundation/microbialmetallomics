@@ -48,3 +48,11 @@ npm run check
 ```
 
 The pillar generator keeps article metadata, visible FAQs, structured data, citation exports, and manually maintained discovery copy consistent. Preserve the canonical URL and legacy section aliases. Keep study findings distinct from proposed causal connections. The right sidebar holds a collapsed editorial history; publication and modification dates remain in metadata and citations without a visible review-date strip.
+
+## Scientific editorial method
+
+Mechanistic reasoning is a central output of this guide. Explain what a discovery makes possible, including plausible research directions that have not yet been tested. Follow the chain **observation → mechanism → justified hypothesis → discriminating prediction**. Keep measured findings distinct from editorial inference, attribute each source to the step it actually supports, and state material limits next to the inference they affect.
+
+An untested question, an inconclusive result, and evidence against a hypothesis are different states. Absence of a clinical trial is not a reason to dismiss an otherwise grounded research direction. Conversely, a mechanism alone does not establish a treatment effect. End frontier sections with a useful next question, rather than a generic clinical-validation warning. Preserve actual contrary findings and plausible competing explanations.
+
+Researcher profiles must explain explicitly how each person's work advances the field and what it opens for microbiome medicine, biology, or exposure science. Where enzyme chemistry motivates an argument, distinguish enzyme presence, cofactor identity, activity in the relevant setting, and biological contribution. Do not infer nickel dependence from an enzyme-family name alone. Public standards are at `/editorial#mechanisms-and-hypotheses`; the reading method is at `/evidence-guide#from-mechanism-to-hypothesis`.
