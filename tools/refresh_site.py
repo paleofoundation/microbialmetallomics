@@ -54,7 +54,7 @@ metals_path=ROOT/'assets/data/metals.json'
 if metals_path.exists():
  for r in json.loads(metals_path.read_text()):
   if r['url'] in byurl:
-   byurl[r['url']]['desc']=' '.join([r['symbol'],r['role'],r['summary']['text'],*r['tags'],*[m['name']+' '+m['symbol'] for m in r.get('members',[])]])
+   byurl[r['url']]['desc']=' '.join([r['symbol'],r['role'],r['summary']['text'],*r['tags'],*[study['system'] for study in r.get('studies',[])],*[m['name']+' '+m['symbol'] for m in r.get('members',[])]])
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
 # Sitemap: all public pages with stable canonical URLs, excluding device-local reading list.
 from xml.sax.saxutils import escape
