@@ -66,7 +66,7 @@ def render_blocks(blocks, cite):
         elif kind == 'claims':
             cards = []
             for item in block['items']:
-                cards.append('<div class="access-claim"><p class="access-evidence-label">' + esc(item['status']) + '</p><h3>' + esc(item['claim']) + '</h3><p>' + cite({'text': item['finding'], 'refs': item.get('refs', [])}) + '</p><p class="access-next-test"><strong>What is still needed.</strong> ' + esc(item['missing']) + '</p></div>')
+                cards.append('<div class="access-claim"><p class="access-evidence-label">' + esc(item['status']) + '</p><h3>' + esc(item['claim']) + '</h3><p>' + cite({'text': item['finding'], 'refs': item.get('refs', [])}) + '</p><p class="access-next-test"><strong>' + esc(item.get('nextLabel', 'What is still needed.')) + '</strong> ' + esc(item['missing']) + '</p></div>')
             parts.append('<div class="access-claims">' + ''.join(cards) + '</div>')
         elif kind == 'proposal':
             parts.append('<aside class="access-proposal"><p class="access-evidence-label">Proposed research · not a completed result</p><h3>' + esc(block['title']) + '</h3><p>' + cite(block) + '</p><ul>' + ''.join('<li>' + esc(v) + '</li>' for v in block['measures']) + '</ul><p><strong>What would change the interpretation.</strong> ' + esc(block['decision']) + '</p></aside>')
