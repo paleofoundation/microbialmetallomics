@@ -1,0 +1,618 @@
+{
+  "slug": "transferrin-ferritin-heme-recycling",
+  "title": "Transferrin, ferritin and the race to recycle heme",
+  "shortTitle": "Iron routing and heme recycling",
+  "series": "host-defense",
+  "description": "How transferrin, ferritin, haptoglobin and hemopexin route iron, protect tissue and face microbial piracy—and which experiments distinguish those effects.",
+  "deck": "Iron protection depends on who can reach each pool. Carrier binding, cellular clearance, storage and tissue tolerance are separate steps with different microbial counterstrategies.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "transferrin, ferritin, haptoglobin, hemopexin, heme recycling, CD163, LRP1, NCOA4, nutritional immunity, microbial iron piracy",
+  "summary": {
+    "text": "Host iron proteins connect nutrient conservation with defense. Their effects depend on ligand, compartment, clearance and pathogen uptake machinery; protection can mean restricting microbes or limiting host damage.",
+    "refs": [
+      1,
+      2,
+      7,
+      9
+    ]
+  },
+  "sections": [
+    {
+      "id": "iron-routing-before-defense",
+      "title": "Iron routing comes before iron withholding",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most host iron is useful precisely because it is unavailable as a freely exchangeable nutrient. The central question is where an iron atom sits, which ligand holds it, and which cell can retrieve it. Transferrin transports ferric iron through extracellular fluid; ferritin stores an intracellular mineral reserve; hemoglobin carries heme inside red cells. These pools are connected, but an assay of total iron collapses distinctions that determine microbial access.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "During normal red-cell turnover, macrophages recover iron and return it to the circulation for reuse. This is indispensable homeostasis. Infection can redirect the same machinery, while tissue damage can expose pools that were previously inaccessible. Calling every binding event an evolved antimicrobial defense therefore skips a step: one needs evidence of microbial restriction, host protection, or pathogen-driven adaptation. These are related outcomes, but they are experimentally separable.",
+          "refs": [
+            1,
+            2,
+            9
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Four iron-handling proteins perform different jobs",
+          "headers": [
+            "Protein or complex",
+            "Cargo and compartment",
+            "What a binding measurement does not establish"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Transferrin",
+                "Ferric iron, Fe(III), in extracellular fluid",
+                "Whether a particular bacterium can extract that iron."
+              ],
+              "refs": [
+                1,
+                2
+              ]
+            },
+            {
+              "cells": [
+                "Ferritin",
+                "Intracellular iron mineral inside a protein cage",
+                "How quickly iron is released or reaches a microbial compartment."
+              ],
+              "refs": [
+                3
+              ]
+            },
+            {
+              "cells": [
+                "Haptoglobin–hemoglobin",
+                "Cell-free hemoglobin captured after hemolysis",
+                "That hemoglobin has already been internalized or its iron eliminated."
+              ],
+              "refs": [
+                5
+              ]
+            },
+            {
+              "cells": [
+                "Hemopexin–heme",
+                "Released heme captured in extracellular fluid",
+                "That receptor clearance outpaces microbial extraction."
+              ],
+              "refs": [
+                6,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/iron",
+          "text": "Follow iron chemistry and microbial access in the iron profile"
+        }
+      ]
+    },
+    {
+      "id": "transferrin-and-adaptation",
+      "title": "Transferrin is a carrier under evolutionary attack",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Barber and Elde supplied unusually direct evidence that a transport protein also participates in an evolutionary conflict. They compared transferrin across primates, mapped rapidly evolving residues to the bacterial TbpA-binding surface, and tested substitutions experimentally. Changing individual transferrin residues altered recognition by bacterial receptors. The combined evolutionary and binding evidence is stronger than simply observing that transferrin binds iron.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The result was also selective. The human C2 transferrin variant resisted recognition by some Haemophilus influenzae TbpA variants, whereas tested Neisseria receptors retained recognition. This was recombinant-protein work, not a demonstration that C2 carriers cannot become infected. Its significance is conceptual: a host can change the accessibility of an iron package while preserving the requirement to transport iron. A pathogen can answer by changing the protein that opens the package.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The remaining physiological question is whether these binding differences preserve transferrin delivery to host cells. Host-receptor recognition, iron release, and cellular uptake would need separate assessment before a variant could be described as beneficial overall. A change that also compromises host delivery would introduce a tradeoff. The published bacterial binding data establish differences in recognition; they do not establish clinical resistance or the net balance between iron transport and defense.",
+          "refs": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ferritin-storage-and-release",
+      "title": "Ferritin protection depends on turnover and context",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ferritin is a reversible reserve rather than a permanent disposal route. Mancias and colleagues identified NCOA4 as a cargo receptor that helps deliver ferritin for lysosomal degradation, a process called ferritinophagy. Depleting NCOA4 impaired ferritin turnover and changed iron-responsive proteins in cultured human cells. More stored protein can therefore coexist with less usable iron. These experiments established a mobilization mechanism; they did not determine whether a particular intracellular pathogen receives the released iron.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Haschka and colleagues tested ferritin H more directly during Salmonella infection. Myeloid Fth deletion increased macrophage labile iron and disturbed storage. After experimental intravenous iron loading, deficient mice developed greater bacterial burdens, hyperinflammation and shorter survival. Crucially, the survival difference was absent without additional iron loading. The result supports conditional protection by ferritin buffering, not an unlimited rule that increasing ferritin always suppresses infection.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A complementary perturbation shows why storage cannot be interpreted in isolation. Nairz and colleagues removed macrophage iron-regulatory proteins IRP1 and IRP2, producing excess ferritin and greater susceptibility to Salmonella. Radioiron tracing showed loss of label from the enlarged ferritin pool while bacterial label increased, supporting an exploitable intracellular reserve. The route of ferritin-iron mobilization remained unresolved. Because IRP loss also altered lipocalin-2 and other responses, this is not the inverse of deleting ferritin H: it changes a regulatory network, not just storage capacity. Together, the studies demand a flux-based explanation.",
+          "refs": [
+            11,
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Storage, release and export must consequently be measured together. A macrophage can contain substantial iron while making little available to a vacuolar bacterium, or it can lose buffering capacity while containing less stored iron overall. This is why “intracellular iron” is still too coarse a category: cytosol, lysosome and pathogen-containing compartment are different destinations. The practical research question is which flux changes before bacterial growth changes.",
+          "refs": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/hepcidin-ferroportin-iron-redistribution",
+          "text": "See how hepcidin and ferroportin alter the export side of this system"
+        }
+      ]
+    },
+    {
+      "id": "hemolysis-clearance-and-recycling",
+      "title": "Haptoglobin and hemopexin route different cargo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When red cells rupture within vessels, haptoglobin captures released hemoglobin. Kristiansen and colleagues identified CD163 as a receptor mediating uptake of the complex in transfected and myelomonocytic cells. The important advance was connecting extracellular capture to cellular internalization. Binding a dangerous protein and removing that complex from plasma are separate steps; neither means that its iron has left the body.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hemopexin handles heme released from hemoproteins. Hvidberg and colleagues identified LRP/CD91 as a receptor for hemopexin–heme complexes, showing uptake in receptor-expressing cells, lysosomal processing and induction of heme oxygenase-1 transcription in cultured monocytes. This provides a route from extracellular scavenging to intracellular metabolism. It is not itself an infection challenge or evidence that every bacterium is denied the bound heme.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "path",
+          "caption": "Capture leads to recycling, not automatic iron excretion",
+          "steps": [
+            {
+              "label": "Capture the relevant ligand",
+              "text": "Haptoglobin binds hemoglobin; hemopexin binds released heme. A heme concentration and a hemoglobin concentration therefore describe different cargo.",
+              "refs": [
+                5,
+                6
+              ]
+            },
+            {
+              "label": "Process the heme",
+              "text": "Heme oxygenase opens the porphyrin ring, producing biliverdin and carbon monoxide while releasing iron. Removing heme toxicity creates a new iron-handling requirement.",
+              "refs": [
+                9
+              ]
+            },
+            {
+              "label": "Store or redistribute the iron",
+              "text": "Recovered iron can enter ferritin or leave through ferroportin, with oxidation enabling loading onto transferrin. Recycling conserves a nutrient needed for new red cells.",
+              "refs": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This sequence gives a more precise meaning to protection. Scavenging can reduce exposure to damaging extracellular hemoglobin or heme; intracellular processing can preserve host cells; iron routing can influence microbial nutrition. An experiment showing the first effect cannot assume the third. In evolutionary terms, the homeostatic necessity of these pathways does not by itself tell us which component was selected specifically to resist infection.",
+          "refs": [
+            5,
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathogen-piracy-and-alternative-pools",
+      "title": "Microbes can exploit the carrier itself",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zambolin and colleagues showed how H. influenzae HxuA disrupts hemopexin’s hold on heme. Structural analysis and mutant experiments connected a mobile HxuA loop to heme release. A loop-deletion protein could still bind hemopexin yet failed to support acquisition from it in the reconstructed system. That separation is decisive: binding the host protein and extracting its cargo are different functions. The structural work used rabbit hemopexin, and key growth tests used engineered heme-auxotrophic E. coli rather than infected people.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The lesson is not that hemopexin is ineffective. It is that protection depends on the organism’s equipment. In Torres and colleagues’ experiments, Staphylococcus aureus Newman used hemoglobin but did not grow on hemopexin under the tested conditions. Isotope tracing distinguished hemoglobin-derived iron from transferrin-derived iron and showed preferential acquisition from hemoglobin, with the balance shifting during growth. Disrupting IsdB impaired hemoglobin use and reduced bacterial burden in a mouse infection model.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These studies make a common assumption testable: “bound” cannot be used as a synonym for “unavailable.” The relevant comparison is access by the host versus access by a specified microbial strain. Even a high-affinity host carrier may present a recognizable surface for an extraction apparatus. Conversely, success against one iron pool does not demonstrate access to another. A receptor inventory is therefore a hypothesis about nutrition until uptake and growth are measured.",
+          "refs": [
+            7,
+            8
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+          "text": "Compare these extraction strategies with lactoferrin withholding and microbial countermeasures"
+        }
+      ]
+    },
+    {
+      "id": "readouts-that-distinguish-outcomes",
+      "title": "Readouts must separate nutrition from tissue protection",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Seixas and colleagues demonstrated an especially important distinction in experimental malaria. Heme oxygenase-1 protected mice against liver injury and lethality during Plasmodium chabaudi chabaudi infection without a corresponding reduction in parasitemia in the principal comparisons. This is disease tolerance: surviving a given pathogen burden more successfully. It differs from resistance, which lowers that burden. A heme-handling intervention could therefore succeed biologically even when parasite counts remain unchanged.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Clinical ferritin is similarly informative without being a complete mechanistic readout. WHO guidance treats inflammation as a material influence on serum ferritin and advises against using ferritin alone to identify iron overload. For this field’s research questions, a ferritin rise is not proof that bacteria lost access to iron, nor does a fall prove that host stores were safely removed. Inflammatory context and the other measured compartments determine what the change can mean.",
+          "refs": [
+            10
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful panel follows a causal sequence: identify the ligand carrying iron, quantify its movement into host and microbial fractions, measure a validated labile-iron response, and then measure pathogen abundance and host injury separately. Time resolution matters. A late change in ferritin after extensive tissue damage cannot establish which earlier flux drove infection. Source-specific tracers provide information that total elemental analysis cannot supply on its own.",
+          "refs": [
+            8,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discriminating-clearance-experiment",
+      "title": "A next experiment: capture, clearance, and host injury",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Does host protection require uptake, or is extracellular capture sufficient?",
+          "text": "Test the hypothesis that the rate of host heme clearance predicts protection better than hemopexin concentration alone. A proposed sterile human-cell study could compare extracellular heme capture with subsequent uptake and processing by hepatocytes or macrophages. A paired cell-free binding comparison would establish how much protection can be explained before cellular clearance begins. Time-resolved measurements of carrier occupancy, host uptake, and injury would distinguish these alternatives without studying microbial growth or changing pathogen acquisition machinery. The conceptual question is whether capture buys time for clearance or is sufficient for the measured host benefit.",
+          "refs": [
+            6,
+            9
+          ],
+          "measures": [
+            "Follow extracellular carrier occupancy, released heme, and iron reaching host storage or export pathways; distinguish disappearance from the medium from elimination from the system.",
+            "Measure host viability, injury, and heme oxygenase responses separately from total iron and carrier concentration.",
+            "Compare the timing of capture, receptor-associated uptake, and injury reduction while accounting for carrier saturation and baseline cell condition."
+          ],
+          "decision": "The necessity of clearance would be weakened if extracellular binding fully predicts protection and adding host uptake provides no further benefit. If uptake changes iron routing without reducing injury, clearance alone would not establish protection. Conversely, less injury with unchanged total iron would support redistribution or buffering rather than net metal removal. None of these outcomes would by itself establish bacterial starvation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The useful result would be a host-side map of destinations and consequences: extracellular capture, cellular uptake, storage, export, and injury. It would clarify which meaning of protection the hemopexin pathway supports. Published microbial extraction mechanisms would remain a reason to avoid inferring nutritional exclusion from that map. Establishing safer host handling of heme and establishing reduced microbial access are distinct scientific conclusions.",
+          "refs": [
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Place iron routing within the wider host metal defense series"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hemopexin remove iron from the body?",
+      "answer": "It captures released heme and helps route it into cells for processing. That is clearance from an extracellular compartment and usually recycling, not proof of net iron excretion."
+    },
+    {
+      "question": "Can bacteria use protein-bound iron?",
+      "answer": "Some can. Access depends on the carrier and the strain’s uptake machinery. HxuA-mediated heme extraction illustrates why demonstrating binding is different from demonstrating nutritional exclusion."
+    },
+    {
+      "question": "Does a high ferritin result mean iron is unavailable to microbes?",
+      "answer": "No. Serum ferritin is interpreted in inflammatory and clinical context. It does not directly measure the labile iron pool or the iron reaching a pathogen-containing compartment."
+    },
+    {
+      "question": "What would distinguish antimicrobial action from tissue protection?",
+      "answer": "Measure pathogen burden and host injury separately. A lower microbial burden supports resistance; less injury at a comparable burden supports disease tolerance. Iron-flux measurements help explain either outcome."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Tomas Ganz",
+      "year": 2012,
+      "title": "Macrophages and Systemic Iron Homeostasis",
+      "url": "https://doi.org/10.1159/000336423",
+      "kind": "review",
+      "access": "full-text",
+      "studyType": "Mechanistic review",
+      "setting": "Mammalian iron recycling, including human physiology and mouse models",
+      "note": "Read PMC6741611 full text on 2026-10-02. Locations: Iron Homeostasis; Recovery of Iron from Erythrocytes; Alternative Recycling Pathways; Iron Export from Macrophages. Used for the routing framework, not as a primary infection experiment."
+    },
+    {
+      "authors": "Matthew F. Barber and Nels C. Elde",
+      "year": 2014,
+      "title": "Escape from bacterial iron piracy through rapid evolution of transferrin",
+      "url": "https://doi.org/10.1126/science.1259329",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Comparative evolution and recombinant-protein binding experiments",
+      "setting": "Primate transferrins and bacterial TbpA variants expressed in nonpathogenic E. coli BL21",
+      "note": "Read full manuscript via NCBI BioC XML, PMC4455941, on 2026-10-02. Figures 1–3: phylogeny, substitutions and strain-specific binding. H. influenzae Eagan/11 differed from strain 15 and Neisseria receptors. Binding is not a human infection endpoint."
+    },
+    {
+      "authors": "Joseph D. Mancias, Xiaoxu Wang, Steven P. Gygi, J. Wade Harper and Alec C. Kimmelman",
+      "year": 2014,
+      "title": "Quantitative proteomics identifies NCOA4 as the cargo receptor mediating ferritinophagy",
+      "url": "https://doi.org/10.1038/nature13148",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Quantitative proteomics, RNA interference and cell imaging",
+      "setting": "Human cell lines including 8988T pancreatic cancer cells and U2OS cells, with additional nontransformed cell experiments",
+      "note": "Read full manuscript via NCBI BioC XML, PMC4180099, on 2026-10-02. Figure 3 and Extended Data Figures 7–10 locate ferritin turnover and iron-response experiments. Iron loading/chelation in cultured cells; not an infection study."
+    },
+    {
+      "authors": "David Haschka, Piotr Tymoszuk, Verena Petzer and colleagues",
+      "year": 2021,
+      "title": "Ferritin H deficiency deteriorates cellular iron handling and worsens Salmonella typhimurium infection by triggering hyperinflammation",
+      "url": "https://doi.org/10.1172/jci.insight.141760",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Conditional myeloid gene deletion and infection experiments",
+      "setting": "Male myeloid Fth-deficient mice, primary macrophages, and SifB-GFP-expressing S. enterica serovar Typhimurium",
+      "note": "Read JCI Insight full text and Europe PMC XML, PMC8410025, on 2026-10-02. Figures 1, 2 and 5; Methods. Principal worsening required experimental iron loading; baseline infection survival was similar. This is not evidence about routine human iron supplementation."
+    },
+    {
+      "authors": "Mette Kristiansen, Jonas H. Graversen, Christian Jacobsen and colleagues",
+      "year": 2001,
+      "title": "Identification of the haemoglobin scavenger receptor",
+      "url": "https://doi.org/10.1038/35051594",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Receptor identification and cellular endocytosis experiments",
+      "setting": "CD163-transfected cells and CD163-expressing myelomonocytic lymphoma cells",
+      "note": "PubMed abstract, PMID11196644, read on 2026-10-02; publisher full text unavailable in this research session. Supports CD163-mediated uptake of the hemoglobin–haptoglobin complex, not infection efficacy."
+    },
+    {
+      "authors": "Vibeke Hvidberg, Maciej B. Maniecki, Christian Jacobsen, Peter Højrup, Holger J. Møller and Søren K. Moestrup",
+      "year": 2005,
+      "title": "Identification of the receptor scavenging hemopexin-heme complexes",
+      "url": "https://doi.org/10.1182/blood-2005-03-1185",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Ligand affinity purification, receptor binding and uptake experiments",
+      "setting": "Human receptor material, LRP/CD91-expressing COS cells and cultured monocytes",
+      "note": "PubMed abstract, PMID15947085, read on 2026-10-02; publisher indexed Results excerpts also checked, but complete article not read. The abstract reports radioligand uptake, lysosomal hemopexin degradation and HO-1 transcription; it does not establish infection benefit."
+    },
+    {
+      "authors": "Silvia Zambolin, Bernard Clantin, Mohamed Chami, Sylviane Hoos, Ahmed Haouz, Vincent Villeret and Philippe Delepelaire",
+      "year": 2016,
+      "title": "Structural basis for haem piracy from host haemopexin by Haemophilus influenzae",
+      "url": "https://doi.org/10.1038/ncomms11590",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Crystallography, binding assays and functional mutant analysis",
+      "setting": "H. influenzae Hxu proteins, rabbit hemopexin and a reconstructed transport system in heme-auxotrophic E. coli",
+      "note": "Read Nature Communications and Europe PMC full text, PMC4873976, on 2026-10-02. Figures 4–5 and Methods establish binding-versus-release effects. Structural complex used rabbit N-terminal hemopexin; bacterial growth tests were not human infections."
+    },
+    {
+      "authors": "Victor J. Torres, Gleb Pishchany, Munir Humayun, Olaf Schneewind and Eric P. Skaar",
+      "year": 2006,
+      "title": "Staphylococcus aureus IsdB Is a Hemoglobin Receptor Required for Heme Iron Utilization",
+      "url": "https://doi.org/10.1128/JB.01335-06",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Stable-isotope tracing, receptor genetics and mouse infection",
+      "setting": "S. aureus Newman, iron-restricted culture and BALB/c systemic infection",
+      "note": "Read complete publication PDF at National High Magnetic Field Laboratory on 2026-10-02. Table 1; Figures 1, 3–6. Hemoglobin preference depended on assay conditions and growth phase; mouse virulence data do not establish human treatment efficacy."
+    },
+    {
+      "authors": "Elsa Seixas, Raffaella Gozzelino, Angelo Chora and colleagues",
+      "year": 2009,
+      "title": "Heme oxygenase-1 affords protection against noncerebral forms of severe malaria",
+      "url": "https://doi.org/10.1073/pnas.0903419106",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Host genetic and gene-expression interventions in experimental malaria",
+      "setting": "Plasmodium chabaudi chabaudi infection in BALB/c and DBA/2 mice; hepatocyte experiments",
+      "note": "Read PMC2728109 full text on 2026-10-02. Figures 1–3 and 5 separate survival/liver injury from parasitemia. This is experimental noncerebral malaria, not proof of human therapeutic efficacy or a universal HO-1 effect across pathogens."
+    },
+    {
+      "authors": "World Health Organization",
+      "year": 2020,
+      "title": "WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations",
+      "url": "https://www.who.int/publications/i/item/9789240000124",
+      "kind": "guidance",
+      "access": "full-text",
+      "studyType": "Evidence-informed guideline",
+      "setting": "Assessment of iron status in individuals and populations",
+      "note": "Official WHO page verified; full Executive Summary and Evidence and Recommendations chapters read through NCBI Bookshelf on 2026-10-02. Recommendations 1.4 and 4.1–4.2 address inflammation and interpretation. Used for biomarker boundaries, not a proposed treatment."
+    },
+    {
+      "authors": "Manfred Nairz, Dunja Ferring-Appel, Daniela Casarrubea and colleagues",
+      "year": 2015,
+      "title": "Iron Regulatory Proteins Mediate Host Resistance to Salmonella Infection",
+      "url": "https://doi.org/10.1016/j.chom.2015.06.017",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Macrophage-specific regulatory-gene deletion and radioiron tracing",
+      "setting": "IRP1/IRP2-deficient mouse macrophages and S. Typhimurium ATCC 14028s with iron-acquisition mutants",
+      "note": "Read PMC indexed full text and NCBI BioC XML, PMC4666941, on 2026-10-02. Figure 4C–E and Discussion. Tracer redistribution supports an exploitable ferritin pool; its mobilization mechanism remained unresolved, and IRP loss alters multiple immune pathways."
+    }
+  ],
+  "claims": [
+    {
+      "id": "recycling-is-homeostasis",
+      "claim": "Macrophage erythrocyte recycling supplies iron back to plasma and supports new red-cell production.",
+      "refs": [
+        1
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Mammalian systemic physiology",
+      "boundary": "Review sections Iron Homeostasis and Recovery of Iron from Erythrocytes; this homeostatic role alone does not establish pathogen-driven selection."
+    },
+    {
+      "id": "transferrin-receptor-evolution",
+      "claim": "Transferrin substitutions at rapidly evolving sites alter recognition by bacterial TbpA.",
+      "refs": [
+        2
+      ],
+      "evidence": "model-causal",
+      "setting": "Recombinant transferrin and heterologously expressed bacterial receptors",
+      "boundary": "Figures 1–3; binding phenotypes and evolutionary analyses do not directly quantify clinical infection risk."
+    },
+    {
+      "id": "ferritin-turnover",
+      "claim": "NCOA4 depletion impairs ferritin degradation and alters cellular iron-response markers.",
+      "refs": [
+        3
+      ],
+      "evidence": "model-causal",
+      "setting": "Cultured human cells",
+      "boundary": "Figure 3 and Extended Data Figures 7–10; iron loading and chelation experiments, not microbial delivery measurements."
+    },
+    {
+      "id": "conditional-fth-protection",
+      "claim": "Myeloid Fth loss worsened Salmonella outcomes after iron loading, with no baseline survival difference.",
+      "refs": [
+        4
+      ],
+      "evidence": "model-causal",
+      "setting": "Conditional knockout mice",
+      "boundary": "Figures 1–2; distinguish genetic buffering failure plus experimental loading from ordinary human supplementation."
+    },
+    {
+      "id": "ferritin-pool-can-feed-infection",
+      "claim": "IRP-deficient macrophages accumulated ferritin iron that was mobilized as Salmonella acquired radioiron.",
+      "refs": [
+        11
+      ],
+      "evidence": "model-causal",
+      "setting": "IRP1/IRP2-deficient murine macrophages infected with S. Typhimurium ATCC 14028s",
+      "boundary": "Figure 4E supports an accessible reservoir; direct mobilization machinery was not identified. IRP loss also changes lipocalin-2 and cytokine responses."
+    },
+    {
+      "id": "cd163-capture-clearance",
+      "claim": "CD163 mediates endocytosis of haptoglobin–hemoglobin complexes.",
+      "refs": [
+        5
+      ],
+      "evidence": "model-causal",
+      "setting": "Receptor-transfected and myelomonocytic cells",
+      "boundary": "Abstract only read; no infection efficacy claim."
+    },
+    {
+      "id": "lrp1-heme-complex",
+      "claim": "LRP/CD91 mediates uptake of hemopexin–heme complexes.",
+      "refs": [
+        6
+      ],
+      "evidence": "model-causal",
+      "setting": "COS cells and cultured monocytes",
+      "boundary": "Abstract and indexed Results excerpts; receptor route is not proof of pathogen starvation."
+    },
+    {
+      "id": "hxu-release-not-binding",
+      "claim": "HxuA mutants can separate hemopexin binding from heme acquisition.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "Rabbit hemopexin and reconstructed Hxu transport in E. coli",
+      "boundary": "Figures 4–5; the M-loop deletion retained binding but failed acquisition. Do not relabel the growth model as human infection."
+    },
+    {
+      "id": "hemoglobin-iron-preference",
+      "claim": "S. aureus Newman preferentially acquired hemoglobin-derived over transferrin-derived iron in the tested culture.",
+      "refs": [
+        8
+      ],
+      "evidence": "observed",
+      "setting": "Stable-isotope culture assay",
+      "boundary": "Table 1; preference varied with growth phase. Hemopexin did not support growth in Figure 1."
+    },
+    {
+      "id": "tolerance-not-eradication",
+      "claim": "HO-1 protected against experimental malaria liver injury without lowering parasitemia in principal comparisons.",
+      "refs": [
+        9
+      ],
+      "evidence": "model-causal",
+      "setting": "P. chabaudi chabaudi mouse infection",
+      "boundary": "Figures 1–3; a disease-tolerance result, not universal antiparasitic activity."
+    },
+    {
+      "id": "ferritin-inflammation",
+      "claim": "Inflammation affects ferritin interpretation, and ferritin alone cannot establish iron overload.",
+      "refs": [
+        10
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Clinical and population iron assessment",
+      "boundary": "WHO recommendations 1.4 and 4.1–4.2; these are biomarker interpretation boundaries, not evidence that ferritin quantifies microbial access."
+    },
+    {
+      "id": "capture-clearance-hypothesis",
+      "claim": "Host heme-clearance kinetics may predict protection better than carrier concentration alone.",
+      "refs": [
+        6,
+        9
+      ],
+      "evidence": "hypothesis",
+      "setting": "Proposed sterile human-cell and cell-free comparisons",
+      "boundary": "Hypothesis, not an established result. Protection fully explained by extracellular binding would weaken a requirement for cellular clearance; no microbial-access conclusion follows alone."
+    }
+  ],
+  "share": {
+    "hook": "A host can survive an infection better without reducing the number of parasites.",
+    "explanation": "In experimental mouse malaria, heme oxygenase-1 protected the liver through disease tolerance, showing why iron handling must be judged by host injury as well as pathogen counts.",
+    "refs": [
+      9
+    ],
+    "qualification": "P. chabaudi chabaudi mouse models; this is not proof that increasing HO-1 treats human malaria."
+  },
+  "related": [
+    {
+      "url": "/library/hepcidin-ferroportin-iron-redistribution",
+      "title": "Hepcidin and ferroportin",
+      "description": "Follow the hormone and exporter that redistribute recycled iron."
+    },
+    {
+      "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+      "title": "Lactoferrin and microbial countermeasures",
+      "description": "Compare extracellular iron withholding with other antimicrobial mechanisms."
+    },
+    {
+      "url": "/metals/iron",
+      "title": "Iron: chemistry and microbial access",
+      "description": "Separate total iron from the pools organisms can acquire."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "Explore sequestration, redistribution and metal toxicity across compartments."
+    }
+  ]
+}

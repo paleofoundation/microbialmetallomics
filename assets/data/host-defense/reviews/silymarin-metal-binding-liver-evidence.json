@@ -1,0 +1,638 @@
+{
+  "slug": "silymarin-metal-binding-liver-evidence",
+  "title": "Silymarin, metal binding and the liver",
+  "shortTitle": "Silymarin and metals",
+  "series": "hidden-mechanisms",
+  "description": "Milk-thistle chemistry can bind or reduce metals, but nickel protection, lead measurements and human liver trials answer different mechanistic questions.",
+  "deck": "Follow the evidence from individual flavonolignans to iron absorption, nickel and lead models, and the liver outcomes that chemistry alone cannot predict.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "silymarin, silibinin, silybin, milk thistle, nickel, lead, iron, copper, chelation, liver, dehydrosilybin",
+  "summary": {
+    "text": "Milk-thistle compounds can coordinate metals, change their oxidation state and protect experimental tissues. These are separable effects: stronger binding can coexist with greater radical formation, and improved injury markers need not mean metal removal. The strongest next experiments should identify the compound, metal species, compartment and fate together.",
+    "refs": [
+      2,
+      4,
+      7
+    ]
+  },
+  "sections": [
+    {
+      "id": "which-molecule",
+      "title": "Start with the molecule, not the supplement name",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Silymarin is a milk-thistle extract containing several flavonolignans and other constituents. Silibinin, also called silybin, usually denotes the mixture of silybin A and B. Purified silybin, a dehydrosilybin derivative, a seed extract and a formulated supplement therefore represent different interventions. Their oxygen-containing hydroxyl and carbonyl groups offer coordination sites, but counting hydroxyl groups does not predict which metal will remain bound in a biological fluid.",
+          "refs": [
+            2,
+            14
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chelation means coordinating a metal through multiple donor atoms of a ligand. It can alter metal availability without exporting a single atom from the body. Redox chemistry is another axis: a compound may donate electrons to iron or copper as well as bind them. The relevant questions are consequently which chemical species forms, whether it remains reactive, and whether that species reaches an exit route. Those questions turn a vague “detox” claim into measurements.",
+          "refs": [
+            1,
+            4
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/unexpected-metal-biology",
+          "text": "Explore the unexpected metal biology series"
+        }
+      ]
+    },
+    {
+      "id": "binding-and-redox",
+      "title": "A real ligand, with condition-dependent behavior",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Marco Borsari and colleagues established ferric-ion complexation by silybin using several chemical techniques. Their study also used Ga(III) as an NMR probe. It matters that these experiments used methanol and DMSO because silybin is poorly soluble in water: evidence of complex formation in those solvents does not supply a binding constant for blood, bile or intestinal contents. The finding establishes a chemically plausible interaction; competition with proteins and dietary ligands is a separate problem.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Václav Tvrdý and colleagues then compared isolated constituents using competitive and noncompetitive iron/copper assays across pH 4.5–7.5. The prominent chelator was 2,3-dehydrosilybin; silybin A, silybin B and silychristin A were weaker or inactive under different conditions. Silychristin was the strongest reductant in that comparison. Adding the 2,3 double bond changes conjugation and the geometry around the 3-hydroxy/4-carbonyl region, helping explain why closely related molecules cannot be treated as interchangeable ligands.",
+          "refs": [
+            2,
+            14
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Martina Zatloukalová and colleagues independently demonstrated silybin–copper interactions electrochemically and by fluorescence, and investigated DNA effects in the presence of copper and hydrogen peroxide. Their observations include prooxidant behavior. A binding result is therefore not automatically an antioxidant result; ligand-assisted redox cycling can remain possible.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The clearest counterexample comes from Zuzana Lomozová and colleagues. Two dehydroflavonolignans failed to suppress iron-driven Fenton chemistry and often increased hydroxyl-radical production in cell-free assays. Yet they protected isolated rat erythrocytes from copper-induced lysis. These outcomes concern different reaction environments and endpoints. A viable mechanism must explain both, rather than selecting the reassuring experiment.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/copper",
+          "text": "Follow copper through binding, redox chemistry and biological access"
+        }
+      ]
+    },
+    {
+      "id": "nickel-and-lead",
+      "title": "Nickel and lead need their own evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Direct nickel searches locate rat studies by Samira Bouhalit and colleagues measuring protection during nickel-sulfate exposure. The renal study used oral extract alongside intraperitoneal nickel and reported improved blood indices, renal oxidative markers and histology. The liver study similarly combined oral methanolic seed extract with injected nickel sulfate over 21 days. Liver enzymes, glutathione-related defenses and histological damage improved. Neither set of injury measurements identifies a nickel–silybin complex or demonstrates increased nickel excretion.",
+          "refs": [
+            5,
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The injection route is mechanistically useful: simple trapping of the administered nickel inside the gut cannot explain protection against an injected exposure. Systemic signaling, preservation of antioxidant defenses, altered metal distribution and systemic binding remain alternatives. The extract’s incomplete chemical characterization also prevents assignment to silibinin alone. The unresolved chemical question is whether nickel-specific complexes remain plausible in the presence of physiological competitors; iron or copper affinity cannot be transferred to Ni(II) by analogy.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lead has an additional piece of evidence. Yolanda Alcaraz-Contreras and colleagues exposed Wistar rats to lead acetate in drinking water for eight weeks. Blood lead averaged 21.9 µg/dL in exposed controls and 17.2 µg/dL with silymarin, versus 6.0 µg/dL with DMSA, the comparison chelator. Kidney histology and lymphocyte DNA damage also improved. Because silymarin accompanied exposure, lower blood lead could reflect altered entry or distribution; the study did not establish removal of previously stored lead through a measured excretion pathway.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An earlier liver experiment by Shalan and colleagues combined silymarin with vitamin C during dietary lead exposure. Its biochemical and histological improvements support that combination in rats, but there was no silymarin-only arm. Attributing the outcome specifically to silymarin chelation would discard the experimental design. Together, these papers support evaluating protection and metal handling as separate explanations.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "What each metal experiment actually establishes",
+          "headers": [
+            "Metal and setting",
+            "Measured evidence",
+            "Unresolved step"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Fe/Cu, isolated flavonolignans",
+                "Binding and reduction vary by compound, pH and competitor.",
+                "Which complexes persist in a mixed biological compartment?"
+              ],
+              "refs": [
+                2
+              ]
+            },
+            {
+              "cells": [
+                "Ni, injected exposure in rats",
+                "Oral extract improved tissue-injury measures.",
+                "Was nickel speciation, distribution or elimination changed?"
+              ],
+              "refs": [
+                5,
+                6
+              ]
+            },
+            {
+              "cells": [
+                "Pb, drinking-water exposure in rats",
+                "Blood lead and injury endpoints improved; DMSA lowered blood lead more.",
+                "Prevention of entry versus clearance of retained metal."
+              ],
+              "refs": [
+                7
+              ]
+            },
+            {
+              "cells": [
+                "Zn, isolated enzyme systems",
+                "Dehydroflavonolignans chelated zinc and inhibited selected enzymes.",
+                "Contribution of metal binding versus direct protein interaction."
+              ],
+              "refs": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/bile-acids-biliary-metal-excretion",
+          "text": "See why binding and biliary or fecal elimination are different steps"
+        }
+      ]
+    },
+    {
+      "id": "human-evidence",
+      "title": "Human iron handling is not the same endpoint as liver benefit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Carol Hutchinson, Adrian Bomford and Catherine Geissler tested a Legalon Forte preparation with meals in ten previously treated patients homozygous for the HFE C282Y haemochromatosis variant. In the randomized-order crossover, the four-hour serum-iron rise was smaller than with water or tea. This is preliminary human evidence consistent with reduced dietary iron absorption. It did not measure long-term tissue unloading, fecal iron balance or a metal–ligand complex in vivo. Restricting entry and clearing established overload remain distinct tasks.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Julie Bares and colleagues studied a silybin–soy phosphatidylcholine complex in 37 people with chronic hepatitis C, randomized among three doses for 12 weeks. Ferritin fell, while serum iron and transferrin saturation did not change significantly. With no placebo group described in the abstract and no direct tissue-iron measurement, the result cannot distinguish depletion of stored iron from other influences on this circulating marker. The authors’ interpretation of reduced stores is stronger than the endpoint alone establishes.",
+          "refs": [
+            10
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Actual liver trials constrain broader claims. Michael Fried and the SyNCH investigators randomized 154 patients with chronic hepatitis C and previous unsuccessful interferon treatment. After 24 weeks, oral silymarin did not outperform placebo on the primary ALT response, viral RNA or quality of life. This is evidence against those benefits in that population and formulation, rather than a test of every possible metal-binding application.",
+          "refs": [
+            11
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In 99 adults with biopsy-confirmed NASH, Chan Wah Kheong and colleagues found no significant advantage on the prespecified activity-score response after 48 weeks. Secondary fibrosis findings favored silymarin and are worth pursuing, but require confirmation. Neither that signal nor the negative primary result establishes chelation as the operative mechanism. Whether baseline metal status helps explain variation among existing clinical results remains an unresolved subgroup hypothesis.",
+          "refs": [
+            12
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Compare these compounds with the host’s own metal-handling systems"
+        }
+      ]
+    },
+    {
+      "id": "formulation-and-microbes",
+      "title": "Formulation and microbial access change the question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Formulation determines exposure. Roy Hawke and colleagues found nonlinear increases in circulating silybin A and B during a short oral dose-ranging study in noncirrhotic hepatitis C patients, without clinically meaningful acute changes in viral RNA or transaminases. A phospholipid formulation, an oral extract and an injectable derivative cannot inherit one another’s efficacy claims. Greater systemic delivery would also not guarantee a better intervention if the desired action were local binding in the intestinal lumen.",
+          "refs": [
+            13
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The microbial connection raises a separate question of evidence. Tvrdý’s zinc study included isolated yeast alcohol dehydrogenase: some dehydroflavonolignans inhibited it, while comparisons with equine enzyme, a zinc chelator and docking suggested that zinc binding alone was insufficient to explain inhibition. This is enzyme evidence, not evidence that a supplement rewires a living gut community. It motivates comparing chemical and enzyme evidence without assuming a community-level effect.",
+          "refs": [
+            14
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An intestinal ligand could, in principle, reduce host metal uptake while leaving more total metal in the lumen. Total elemental abundance would not reveal how much remains available to organisms. Existing chemical and absorption studies leave this ecological interpretation unresolved: a change in host uptake does not establish either microbial deprivation or enhanced microbial access. A cross-study synthesis should distinguish reported metal amounts, chemical forms and host outcomes before attributing any community association to silymarin-mediated metal handling.",
+          "refs": [
+            2,
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Product identity is part of reproducibility. NCCIH reports insufficient high-quality evidence for definite health conclusions, alongside generally good oral tolerability, digestive symptoms, allergy risk and variable supplement composition or contamination. Interpretation of clinical observations requires documented formulation identity and adverse effects. A commercial label alone cannot establish exposure equivalence to a purified-ligand experiment.",
+          "refs": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discriminating-experiments",
+      "title": "Evidence that would distinguish protection from removal",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Which observations distinguish protection, reduced entry and clearance?",
+          "text": "A synthesis of existing chemical studies, animal observations and human data can assess whether each proposed explanation has the evidence it requires. The central issue is concordance: do reported changes in injury accompany changes in metal form, absorption, retained burden or elimination? Formulation identity and exposure timing should remain visible so that studies addressing prevention are not treated as evidence of clearance after accumulation.",
+          "refs": [
+            2,
+            6,
+            7,
+            9
+          ],
+          "measures": [
+            "Chemical evidence: which reported complexes were identified directly, and how closely did their solvent and competing-ligand conditions represent the relevant host compartment?",
+            "Host handling: do existing reports distinguish lower entry, altered distribution and increased elimination, or rely on a blood concentration alone?",
+            "Clinical interpretation: are iron-status or liver-outcome associations consistent across authenticated formulations, and could baseline inflammation or disease severity explain them?",
+            "Evidence gaps: where do published data lack tissue burden, excretion balance or longitudinal clinical outcomes needed to distinguish the competing explanations?"
+          ],
+          "decision": "Protection accompanied by measurements showing unchanged metal handling would favor a cytoprotective explanation over removal. Evidence that reported complexes are unstable in the relevant host compartment would weaken durable sequestration. Higher tissue retention despite lower blood concentrations would contradict a clearance interpretation. Conversely, concordant lower retained burden and greater measured elimination would strengthen it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is silymarin a single metal chelator?",
+      "answer": "No. It is a mixture, and individual constituents show different binding and redox behavior. Silybin A/B and 2,3-dehydrosilybin should be identified separately in an experiment."
+    },
+    {
+      "question": "Do lower liver enzymes prove nickel or lead removal?",
+      "answer": "They show a change in injury-related measurements. Demonstrating removal requires tracking metal in relevant tissues and measured excretion, while separating reduced absorption from loss of previously retained metal."
+    },
+    {
+      "question": "Has a human iron effect been measured?",
+      "answer": "A ten-person meal crossover in treated hereditary haemochromatosis found a smaller serum-iron rise with the tested preparation. That short-term result does not establish long-term iron unloading or benefit for every milk-thistle product."
+    },
+    {
+      "question": "Does stronger binding guarantee antioxidant protection?",
+      "answer": "No. Some dehydroflavonolignans increased radical production in cell-free iron reactions while protecting isolated rat red cells from copper injury. The chemical environment and measured endpoint matter."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Borsari M, Gabbi C, Ghelfi F, Grandi R, Saladini M, Severi S, Borella F",
+      "year": 2001,
+      "title": "Silybin, a new iron-chelating agent",
+      "url": "https://doi.org/10.1016/S0162-0134(01)00198-2",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Coordination chemistry",
+      "setting": "Silybin and Fe(III), with Ga(III) NMR experiments, in organic solvents.",
+      "note": "Abstract and publisher Experimental/Infrared excerpts read; complete article not accessed. Methanol/DMSO chemistry cannot supply an aqueous biological affinity."
+    },
+    {
+      "authors": "Tvrdý V, Catapano MC, Rawlik T, Karlíčková J, Biedermann D, Křen V, Mladěnka P, Valentová K",
+      "year": 2018,
+      "title": "Interaction of isolated silymarin flavonolignans with iron and copper",
+      "url": "https://doi.org/10.1016/j.jinorgbio.2018.09.006",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Comparative in vitro binding and reduction assays",
+      "setting": "Isolated flavonolignans; Fe and Cu; competitive and noncompetitive assays at pH 4.5–7.5.",
+      "note": "Abstract and selected publisher section excerpts read, not complete full text. Binding strength depends on compound and competitor."
+    },
+    {
+      "authors": "Zatloukalová M, Křen V, Gažák R, Kubala M, Trouillas P, Ulrichová J, Vacek J",
+      "year": 2011,
+      "title": "Electrochemical investigation of flavonolignans and study of their interactions with DNA in the presence of Cu(II)",
+      "url": "https://doi.org/10.1016/j.bioelechem.2011.06.005",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Electrochemistry and fluorescence spectroscopy",
+      "setting": "Silybin and derivatives, transition-metal complexes and DNA in vitro.",
+      "note": "PubMed abstract verified; supports Cu complexation and conditional prooxidation. Nickel-specific experimental details were not accessible and are not asserted."
+    },
+    {
+      "authors": "Lomozová Z, Tvrdý V, Hrubša M, Catapano MC, Macáková K, Biedermann D, Kučera R, Křen V, Mladěnka P, Valentová K",
+      "year": 2021,
+      "title": "Dehydroflavonolignans from Silymarin Potentiate Transition Metal Toxicity In Vitro but Are Protective for Isolated Erythrocytes Ex Vivo",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8146032/",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Cell-free redox chemistry and ex vivo erythrocyte assay",
+      "setting": "DHS and DHSCH; iron/copper Fenton reactions and isolated adult Wistar Han rat erythrocytes.",
+      "note": "Methods 2.4–2.5 and Results 3.3–3.4 read. Erythrocytes received 500 µM cupric sulfate for four hours; neither experiment was a human safety study."
+    },
+    {
+      "authors": "Bouhalit S, Kechrid Z, Elfeki A",
+      "year": 2017,
+      "title": "Effect of silymarin extracted from Silybum marianum on nickel hematotoxicity and nephrotoxicity in male albino Wistar rats",
+      "url": "https://doi.org/10.22159/ijpps.2017v9i8.18293",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Animal co-exposure experiment",
+      "setting": "Male Wistar rats, seven per group; oral milk-thistle extract and intraperitoneal nickel sulfate.",
+      "note": "Publisher abstract and indexed article Methods excerpt verified. Extract composition and nickel mass balance were not established by the accessible report."
+    },
+    {
+      "authors": "Bouhalit S, Kechrid Z",
+      "year": 2018,
+      "title": "Protective Effect of Silymarin Extracted from Silybum marianum Seeds upon Nickel-Induced Hepatotoxicity in Albino Wistar Rats",
+      "url": "https://www.remedypublications.com/open-access/protective-effect-of-silymarin-extracted-from-silybum-marianum-seeds-upon-nickel-induced-hepatotoxicity-in-albino-wistar-rats-789.pdf",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Animal co-exposure experiment",
+      "setting": "Male Wistar rats; oral methanolic seed extract during injected NiSO4·6H2O exposure.",
+      "note": "Publisher PDF Methods and Results read; seven rats per group, 21-day protocol. No nickel speciation, tissue nickel or excretion measurement reported; extract was not purified silibinin."
+    },
+    {
+      "authors": "Alcaraz-Contreras Y, Mendoza-Lozano RP, Martínez-Alcaraz ER, Martínez-Alfaro M, Gallegos-Corona MA, Ramírez-Morales MA, Vázquez-Guevara MA",
+      "year": 2016,
+      "title": "Silymarin and dimercaptosuccinic acid ameliorate lead-induced nephrotoxicity and genotoxicity in rats",
+      "url": "https://doi.org/10.1177/0960327115591373",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Animal exposure and treatment comparison",
+      "setting": "Wistar rats exposed to lead acetate in drinking water for eight weeks; silymarin, DMSA or combination.",
+      "note": "Publisher full-text Results, Tables 1–2 and Discussion verified. Online publication 2015; issue year 2016. Blood lead is not whole-body burden; no excretion mass balance."
+    },
+    {
+      "authors": "Shalan MG, Mostafa MS, Hassouna MM, Hassab El-Nabi SE, El-Refaie A",
+      "year": 2005,
+      "title": "Amelioration of lead toxicity on rat liver with Vitamin C and silymarin supplements",
+      "url": "https://doi.org/10.1016/j.tox.2004.07.006",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Animal combined-supplement experiment",
+      "setting": "Male albino rats receiving dietary lead acetate; oral vitamin C plus silymarin.",
+      "note": "PubMed abstract read. No silymarin-only intervention arm; protective effects cannot be attributed solely to silymarin or to chelation."
+    },
+    {
+      "authors": "Hutchinson C, Bomford A, Geissler CA",
+      "year": 2010,
+      "title": "The iron-chelating potential of silybin in patients with hereditary haemochromatosis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3308202/",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Random-order meal crossover pilot",
+      "setting": "Ten previously treated HFE C282Y homozygotes; serum iron measured for four hours after meals.",
+      "note": "Methods and Figure 1 read. Preparation described as silybin/Legalon Forte; do not equate it with every extract or pure stereoisomer. Methods and figure disagree on meal iron (13.9 versus 13.1 mg), so neither quantity is repeated."
+    },
+    {
+      "authors": "Bares JM, Berger J, Nelson JE, Messner DJ, Schildt S, Standish LJ, Kowdley KV",
+      "year": 2008,
+      "title": "Silybin treatment is associated with reduction in serum ferritin in patients with chronic hepatitis C",
+      "url": "https://doi.org/10.1097/MCG.0b013e31815cff36",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Human randomized dose-ranging study",
+      "setting": "Thirty-seven chronic hepatitis C patients receiving silybin–soy phosphatidylcholine complex IdB 1016 for 12 weeks.",
+      "note": "Abstract read. Randomization was among three doses; no placebo arm is described. Serum ferritin decrease was not direct measurement of tissue iron removal."
+    },
+    {
+      "authors": "Fried MW, Navarro VJ, Afdhal N, Belle SH, Wahed AS, Hawke RL, Doo E, Meyers CM, Reddy KR; SyNCH Study Group",
+      "year": 2012,
+      "title": "Effect of Silymarin (Milk Thistle) on Liver Disease in Patients With Chronic Hepatitis C Unsuccessfully Treated With Interferon Therapy: A Randomized Controlled Trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3683986/",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Multicenter double-blind placebo-controlled trial",
+      "setting": "154 chronic HCV patients with previous unsuccessful interferon treatment; oral silymarin for 24 weeks.",
+      "note": "Primary ALT response, HCV RNA and quality-of-life outcomes were not improved. This was not a trial selected for metal overload."
+    },
+    {
+      "authors": "Chan WK, Nik Mustapha NR, Mahadeva S",
+      "year": 2017,
+      "title": "A Randomized Trial of Silymarin for the Treatment of Nonalcoholic Steatohepatitis",
+      "url": "https://doi.org/10.1016/j.cgh.2017.04.016",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Randomized double-blind placebo-controlled trial",
+      "setting": "99 adults with biopsy-proven NASH; repeat biopsy after 48 weeks.",
+      "note": "PubMed abstract read. Primary activity-score outcome was negative; fibrosis findings were secondary and require confirmation."
+    },
+    {
+      "authors": "Hawke RL et al.; SyNCH Trial Group",
+      "year": 2010,
+      "title": "Silymarin ascending multiple oral dosing phase I study in noncirrhotic patients with chronic hepatitis C",
+      "url": "https://doi.org/10.1177/0091270009347475",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Randomized phase I pharmacokinetic study",
+      "setting": "32 noncirrhotic HCV patients in four oral-dose cohorts for seven days.",
+      "note": "PubMed abstract read. Nonlinear exposure changes did not yield clinically meaningful acute transaminase or HCV RNA reductions."
+    },
+    {
+      "authors": "Tvrdý V, Hrubša M, Jirkovský E, Biedermann D, Kutý M, Valentová K, Křen V, Mladěnka P",
+      "year": 2021,
+      "title": "Silymarin Dehydroflavonolignans Chelate Zinc and Partially Inhibit Alcohol Dehydrogenase",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8708252/",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "In vitro chelation, isolated enzymes and docking",
+      "setting": "Zn(II), isolated yeast and equine alcohol dehydrogenases, and bovine glutamate dehydrogenase.",
+      "note": "Results 3.1–3.4 and Discussion read. Enzyme inhibition and docking do not establish human alcohol clearance or microbial community effects."
+    },
+    {
+      "authors": "National Center for Complementary and Integrative Health",
+      "year": 2025,
+      "title": "Milk Thistle",
+      "url": "https://www.nccih.nih.gov/health/milk-thistle",
+      "kind": "guidance",
+      "access": "full-text",
+      "studyType": "Official evidence and safety summary",
+      "setting": "Human dietary supplement evidence.",
+      "note": "Updated February 2025; distinguishes uncertain liver efficacy, tolerability, allergy and product-quality concerns."
+    }
+  ],
+  "claims": [
+    {
+      "id": "fe-solvent-complex",
+      "claim": "Silybin forms Fe(III) complexes in the tested chemical systems.",
+      "refs": [
+        1
+      ],
+      "evidence": "observed",
+      "setting": "Methanol/DMSO coordination chemistry.",
+      "boundary": "Abstract; Experimental and Infrared spectra excerpts. No aqueous plasma affinity or human clearance established."
+    },
+    {
+      "id": "constituent-differences",
+      "claim": "Dehydrosilybin showed stronger Fe/Cu chelation than several parent flavonolignans in comparative assays.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "Competitive and noncompetitive assays, pH 4.5–7.5.",
+      "boundary": "Abstract and Results screening excerpt; assay competition and oxidation state matter."
+    },
+    {
+      "id": "copper-complex",
+      "claim": "Electrochemical and fluorescence measurements supported silybin–copper complex formation.",
+      "refs": [
+        3
+      ],
+      "evidence": "observed",
+      "setting": "In vitro flavonolignan chemistry.",
+      "boundary": "Abstract; full experimental conditions not accessed. Nickel-specific behavior is not inferred."
+    },
+    {
+      "id": "fenton-counterevidence",
+      "claim": "Dehydroflavonolignans did not suppress iron Fenton chemistry despite protection in a copper erythrocyte assay.",
+      "refs": [
+        4
+      ],
+      "evidence": "observed",
+      "setting": "Cell-free reactions and isolated rat erythrocytes.",
+      "boundary": "Results 3.3–3.4, Figures 9–11; distinct endpoints, neither demonstrates human toxicity or benefit."
+    },
+    {
+      "id": "nickel-protection",
+      "claim": "Oral milk-thistle extract improved injury markers during injected nickel-sulfate exposure.",
+      "refs": [
+        5,
+        6
+      ],
+      "evidence": "model-causal",
+      "setting": "Male Wistar rats, renal and liver studies.",
+      "boundary": "2017 Abstract; 2018 Methods and Results. No Ni complex identification or excretion balance; prevention/co-exposure rather than treatment of established human poisoning."
+    },
+    {
+      "id": "lead-blood",
+      "claim": "Silymarin lowered blood lead less than DMSA in the tested rat co-exposure model.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "Lead acetate in drinking water for eight weeks.",
+      "boundary": "Table 1; blood concentration is not total burden. No demonstrated excretion pathway."
+    },
+    {
+      "id": "lead-combination",
+      "claim": "Vitamin C plus silymarin improved liver endpoints during dietary lead exposure.",
+      "refs": [
+        8
+      ],
+      "evidence": "model-causal",
+      "setting": "Male albino rats.",
+      "boundary": "Abstract; no silymarin-only arm, so single-agent attribution is unsupported."
+    },
+    {
+      "id": "human-meal",
+      "claim": "The tested Legalon Forte preparation reduced the postmeal serum-iron rise in a small crossover.",
+      "refs": [
+        9
+      ],
+      "evidence": "human-intervention",
+      "setting": "Ten treated HFE C282Y homozygotes.",
+      "boundary": "Methods and Figure 1; indirect absorption endpoint over four hours. No long-term unloading or excretion measurement."
+    },
+    {
+      "id": "ferritin",
+      "claim": "Ferritin decreased in a silybin–phosphatidylcholine dose-ranging study without significant iron or transferrin-saturation change.",
+      "refs": [
+        10
+      ],
+      "evidence": "human-intervention",
+      "setting": "37 chronic HCV patients, 12 weeks.",
+      "boundary": "Abstract Results; no placebo arm described; tissue stores were not directly measured."
+    },
+    {
+      "id": "hcv-null",
+      "claim": "Oral silymarin did not improve the primary ALT outcome, HCV RNA or quality of life over placebo.",
+      "refs": [
+        11
+      ],
+      "evidence": "human-intervention",
+      "setting": "154 previously treated chronic HCV patients, 24 weeks.",
+      "boundary": "Abstract Results and study outcomes; does not evaluate a metal-selected subgroup or every formulation."
+    },
+    {
+      "id": "nash-primary-secondary",
+      "claim": "NASH activity-score response was not significantly improved; secondary fibrosis outcomes favored silymarin.",
+      "refs": [
+        12
+      ],
+      "evidence": "human-intervention",
+      "setting": "99 adults, 48 weeks.",
+      "boundary": "Abstract Results and Conclusions; secondary findings need confirmation and do not establish metal mediation."
+    },
+    {
+      "id": "pk",
+      "claim": "Oral silybin A/B exposure increased nonlinearly across dose cohorts.",
+      "refs": [
+        13
+      ],
+      "evidence": "human-intervention",
+      "setting": "Phase I noncirrhotic HCV study.",
+      "boundary": "Abstract Results; exposure does not itself prove efficacy."
+    },
+    {
+      "id": "zinc-enzyme",
+      "claim": "Dehydroflavonolignans bound zinc and inhibited isolated enzymes, with chelation alone insufficient to explain all effects.",
+      "refs": [
+        14
+      ],
+      "evidence": "observed",
+      "setting": "Yeast/equine ADH, bovine GDH and docking.",
+      "boundary": "Figures 8–12, 19–21 and Discussion; not a whole-organism microbial or human alcohol-clearance result."
+    },
+    {
+      "id": "gut-access-hypothesis",
+      "claim": "Changed intestinal metal speciation could have different implications for host uptake and microbial access.",
+      "refs": [
+        2,
+        9,
+        14
+      ],
+      "evidence": "hypothesis",
+      "setting": "Conceptual interpretation of intestinal chemical and host-absorption evidence.",
+      "boundary": "Editorial synthesis; existing binding and absorption findings do not establish microbiome mediation or the direction of microbial metal access."
+    }
+  ],
+  "share": {
+    "hook": "A milk-thistle compound can bind a metal and still amplify radical chemistry. In one study, related compounds protected isolated rat red cells even when cell-free iron reactions became more oxidative.",
+    "explanation": "Metal coordination, redox cycling and tissue protection are separate measurements; a useful mechanism must reconcile them.",
+    "refs": [
+      4
+    ],
+    "qualification": "These were purified dehydroflavonolignans in cell-free assays and isolated rat erythrocytes, not a human supplement trial."
+  },
+  "related": [
+    {
+      "url": "/unexpected-metal-biology",
+      "title": "Unexpected metal biology",
+      "description": "Compounds whose metal interactions add an overlooked mechanistic question."
+    },
+    {
+      "url": "/metals/copper",
+      "title": "Copper",
+      "description": "Follow oxidation state, ligands and access across compartments."
+    },
+    {
+      "url": "/library/bile-acids-biliary-metal-excretion",
+      "title": "Bile and metal excretion",
+      "description": "The transport and mass-balance steps that binding alone cannot establish."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "Compare plant ligands with endogenous metal distribution and buffering."
+    }
+  ]
+}

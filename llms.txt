@@ -98,3 +98,18 @@ Core thesis (the metal–microbiome–disease axis): heavy-metal exposure reshap
 ## Critical Commentary
 - [Critical Commentary](https://microbialmetallomics.com/commentary): Independent assessments of published papers and their limitations.
 - [Tampon Metals and the Vaginal Microbiome](https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot): Karen Pendergrass on systemic risk assessment and unmeasured local microbial effects.
+
+## Host metal defenses and unexpected metal biology
+
+Narrative research syntheses with source-linked claims, model boundaries, and clearly identified future research questions.
+
+- [Host metal defenses](https://microbialmetallomics.com/host-metal-defense): Explore lactoferrin, hepcidin, glutathione and biliary metal handling: how host compartments change microbial access, and what the evidence makes possible.
+- [Unexpected metal biology](https://microbialmetallomics.com/unexpected-metal-biology): Investigate vancomycin and zinc, silymarin metal binding, and probiotic yeast biosorption through primary studies, competing explanations, and next questions.
+- [Lactoferrin: iron withholding and microbial countermeasures](https://microbialmetallomics.com/library/lactoferrin-iron-withholding-microbial-countermeasures): How lactoferrin withholds iron, disrupts microbial behavior, and faces bacterial countermeasures—and what oral human studies actually establish.
+- [Hepcidin and ferroportin: iron redistribution in host defense](https://microbialmetallomics.com/library/hepcidin-ferroportin-iron-redistribution): How hepcidin controls ferroportin, redistributes iron during inflammation, and creates different tradeoffs for microbes and red-cell production.
+- [Transferrin, ferritin and the race to recycle heme](https://microbialmetallomics.com/library/transferrin-ferritin-heme-recycling): How transferrin, ferritin, haptoglobin and hemopexin route iron, protect tissue and face microbial piracy—and which experiments distinguish those effects.
+- [Glutathione, metals and the mitochondrial reserve](https://microbialmetallomics.com/library/glutathione-metals-mitochondria-drug-metabolism): How glutathione supports enzymes, binds metals and enters mitochondria—and what drug metabolism does and does not establish about shared cellular reserve.
+- [Bile, metal export and the route back](https://microbialmetallomics.com/library/bile-acids-biliary-metal-excretion): Bile carries metal-containing cargo, but bile acids, glutathione complexes, copper pumps and microbial transformations govern different steps toward elimination.
+- [Vancomycin and zinc: starvation, assembly and resistance](https://microbialmetallomics.com/library/vancomycin-zinc-binding-antimicrobial-mechanisms): Vancomycin can bind zinc, yet added zinc can also strengthen its activity in resistant bacteria. The experiments distinguish starvation from drug assembly.
+- [Silymarin, metal binding and the liver](https://microbialmetallomics.com/library/silymarin-metal-binding-liver-evidence): Milk-thistle chemistry can bind or reduce metals, but nickel protection, lead measurements and human liver trials answer different mechanistic questions.
+- [Can probiotic yeast carry metals out of the gut?](https://microbialmetallomics.com/library/saccharomyces-boulardii-metal-biosorption): How Saccharomyces boulardii and other yeasts bind lead, arsenic and mercury—and which experiments can distinguish adsorption from lasting removal.

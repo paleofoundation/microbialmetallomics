@@ -1,0 +1,551 @@
+{
+  "slug": "hepcidin-ferroportin-iron-redistribution",
+  "title": "Hepcidin and ferroportin: iron redistribution in host defense",
+  "shortTitle": "Hepcidin and ferroportin",
+  "series": "host-defense",
+  "description": "How hepcidin controls ferroportin, redistributes iron during inflammation, and creates different tradeoffs for microbes and red-cell production.",
+  "deck": "Lower blood iron can be a defense, a cost to red-cell production, or a poor proxy for the iron a microbe encounters. The destination of the metal determines the interpretation.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "hepcidin, ferroportin, inflammation, anemia, nutritional immunity, iron redistribution, non-transferrin-bound iron, macrophages",
+  "summary": {
+    "text": "Hepcidin inhibits ferroportin-mediated iron export, lowering delivery of iron to plasma. Infection experiments demonstrate protection in particular extracellular settings, while intracellular models expose different tradeoffs. Neither low serum iron nor high cellular iron specifies the microbial iron supply without compartment-level evidence.",
+    "refs": [
+      1,
+      6,
+      8,
+      9
+    ]
+  },
+  "sections": [
+    {
+      "id": "export-is-the-control-point",
+      "title": "A hormone controls iron export, not iron destruction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The hepcidin–ferroportin system regulates movement between iron pools. Ferroportin exports iron from cells, including intestinal absorptive cells and macrophages recycling aged erythrocytes. Hepcidin, produced principally by the liver, reduces that export. Plasma iron can consequently fall while iron remains inside cells. This is redistribution and restricted entry into the circulation, not chemical destruction or proof of increased iron excretion. A blood measurement therefore describes one part of the system rather than the whole-body inventory.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nemeth and colleagues established a direct molecular connection in 2004: hepcidin bound ferroportin, promoted its internalization and degradation, and reduced cellular iron efflux. Billesbølle and colleagues later visualized hepcidin bound to ferroportin by cryo-electron microscopy. The peptide blocked the outward-facing transport pathway. Their structural complexes used cobalt as an iron mimic, accompanied by transport and binding experiments. These complementary studies distinguish regulation of a ferrous-iron, Fe(II), exporter from extracellular chelation by a soluble iron-binding protein.",
+          "refs": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This distinction matters when asking what an intervention has achieved. Increasing iron inside a macrophage does not tell us whether it entered ferritin storage, a labile pool, or a membrane-bound compartment. Conversely, restoring plasma iron does not establish that red-cell precursors incorporated it into hemoglobin. The system requires measurements of transfer and destination as well as concentration. Its homeostatic role can be established independently of any claim about an evolutionary antimicrobial purpose.",
+          "refs": [
+            2,
+            9
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/transferrin-ferritin-heme-recycling",
+          "text": "Follow recycled iron through ferritin, transferrin, and heme-handling pathways"
+        }
+      ]
+    },
+    {
+      "id": "inflammation-and-erythroid-demand",
+      "title": "Inflammation and red-cell demand send competing signals",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The inflammatory link was demonstrated across experimental scales. In Nemeth and colleagues’ IL-6 study, six healthy volunteers receiving the cytokine developed increased urinary hepcidin and decreased serum iron and transferrin saturation. Cell and mouse experiments supported the signaling mechanism. The human result establishes rapid hypoferremia—low circulating iron—without requiring a pre-existing deficiency. It was an acute physiological study, not a demonstration that a brief IL-6 exposure causes chronic anemia or that IL-6 explains every inflammatory iron response.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Erythropoietic demand can push in the other direction. Kautz and colleagues identified erythroferrone as an erythroblast-derived signal that suppresses hepcidin. In mice lacking this signal, hepcidin suppression after blood loss and recovery from anemia were impaired. The contribution was to connect red-cell demand to iron release through a defined hormonal pathway. It does not imply that demand always overrides inflammation. The final hepcidin concentration reflects competing biological inputs, making a single value difficult to interpret without timing and context.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nor is every fall in ferroportin attributable to hepcidin. Willemetz and colleagues observed reduced ferroportin expression during Salmonella infection even in hepcidin-deficient mice, together with related changes in cultured macrophages. Thus inflammatory regulation can reach the exporter by another route. This is relevant to microbial exploitation: a host cell can retain iron when the circulating hormone is absent. The finding establishes a hepcidin-independent response, without by itself identifying one microbial molecule responsible for manipulating it.",
+          "refs": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extracellular-iron-and-strain-specific-defense",
+      "title": "Extracellular protection depends on iron species and strain",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Arezes and colleagues tested the defense hypothesis in mice exposed to the iron-responsive extracellular bacterium Vibrio vulnificus. Hepcidin deficiency increased susceptibility; lowering circulating iron with a hepcidin agonist improved outcomes. The comparison helped separate plasma iron availability from pre-existing liver iron stores. It provides causal support for an antimicrobial benefit of redistribution in that model. It does not establish that a hepcidin agonist treats human infection, nor that its benefit reflects direct peptide killing of bacteria.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Stefanova and colleagues refined the target pool: non-transferrin-bound iron, or NTBI, supported selected infections in their mouse and plasma models. Protection differed even between Yersinia enterocolitica strains: the siderophilic O9 strain responded differently from O8. The study also found no comparable effect in its Staphylococcus aureus or Mycobacterium tuberculosis models. Access to alternative iron sources is a plausible escape route, but these comparisons do not reduce all strain differences to one acquisition system. The evidence supports selective protection, not a rule covering every extracellular organism.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The evolutionary interpretation should remain proportionate. These studies demonstrate present-day host benefit from a physiological control system and make nutritional immunity a well-supported functional explanation in selected settings. They do not reconstruct the historical selective events that produced hepcidin. A homeostatic pathway can provide antimicrobial protection while also serving iron balance, and can impose costs when sustained beyond the period in which withholding is useful.",
+          "refs": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intracellular-is-not-one-compartment",
+      "title": "Intracellular infection is not one iron environment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chlosta and colleagues found that greater ferroportin expression limited intracellular Salmonella multiplication in J774 macrophages and HeLa cells; hepcidin reversed the protective effect of ordinary ferroportin. Bacterial iron-response measurements supported deprivation as an explanation, while the authors acknowledged possible indirect effects. The important reversal is that retaining iron in a host cell can benefit a microbe living there. The study does not justify calling hepcidin harmful in every intracellular infection, especially given the negative tuberculosis result in the separate mouse study.",
+          "refs": [
+            8,
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lim and colleagues showed why even total macrophage iron is insufficient. In their Salmonella models, hepcidin increased cytosolic iron while reducing iron available inside the Salmonella-containing vacuole. Ferroportin associated with that vacuole supported local iron delivery and antimicrobial reactive oxygen chemistry. This interpretation differs from a simple nutrient-starvation explanation: iron may serve host chemistry as well as microbial nutrition. Reporter behavior and oxidant measurements support the model, but do not constitute a universal calibration of every intracellular iron pool.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These results should remain a productive tension. Cell type, transporter location, host defense machinery, bacterial physiology, and sampling time can change what the same concentration means. A microbe may avoid plasma deprivation by occupying another niche, but the niche can also expose it to iron-dependent host defenses. Resolving which effect dominates requires compartment-sensitive evidence; averaging all intracellular iron into one number can conceal the mechanism being tested.",
+          "refs": [
+            8,
+            9
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+          "text": "Compare redistribution with direct lactoferrin binding and receptor-mediated escape"
+        }
+      ]
+    },
+    {
+      "id": "the-erythropoietic-cost",
+      "title": "Anemia is a tradeoff with several causes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Restricted iron delivery can reduce the material available for erythropoiesis, but anemia of inflammation is not simply a high-hepcidin laboratory result. Gardenghi and colleagues separated hepcidin and IL-6 effects in mice given an inflammatory stimulus made from heat-killed bacteria. Iron restriction, suppressed red-cell production, and shortened erythrocyte survival all contributed. That design is informative about inflammation without ongoing bacterial replication. It also means that correcting one iron-routing defect need not reverse every cause of anemia.",
+          "refs": [
+            10
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Human evidence reinforces the importance of time. In an exploratory analysis of a rheumatoid arthritis trial, Isaacs and colleagues found that IL-6 receptor blockade was associated with an early hepcidin decline and later hemoglobin improvement. Ferritin and iron-binding capacity also changed. The temporal pattern is consistent with improved iron availability contributing to recovery, but the treatment alters multiple inflammatory processes; the analysis did not isolate hepcidin as the sole mediator. Hemoglobin recovery can lag behind changes in inflammatory and iron-regulatory biomarkers.",
+          "refs": [
+            11
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Readouts answer different questions",
+          "headers": [
+            "Readout",
+            "What it helps establish",
+            "What it cannot establish alone"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Serum iron and transferrin saturation",
+                "Circulating transport-pool availability",
+                "Whole-body deficiency or pathogen iron supply"
+              ],
+              "refs": [
+                3
+              ]
+            },
+            {
+              "cells": [
+                "NTBI",
+                "An extracellular iron pool outside transferrin",
+                "Universal microbial access or treatment benefit"
+              ],
+              "refs": [
+                7
+              ]
+            },
+            {
+              "cells": [
+                "Ferroportin amount and location",
+                "A potential iron-export route",
+                "Actual flux or vacuolar availability"
+              ],
+              "refs": [
+                2,
+                9
+              ]
+            },
+            {
+              "cells": [
+                "Hemoglobin and erythroid output",
+                "Anemia severity and erythroid response",
+                "Which inflammatory pathway caused the change"
+              ],
+              "refs": [
+                10,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/iron",
+          "text": "Use the iron profile to distinguish chemical form, concentration, and biological access"
+        }
+      ]
+    },
+    {
+      "id": "test-recovery-after-withholding",
+      "title": "Test whether iron release is enough for recovery",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Separate reversible iron retention from persistent erythroid suppression",
+          "text": "A proposed sterile human macrophage–erythroid coculture study could test whether a period of withholding leaves a lasting erythroid defect after iron export recovers. Compare transient hepcidin exposure, inflammatory cytokine exposure, and their combination, followed by recovery. Trace recycled iron with a stable isotope and distinguish restored export from delivery into erythroid hemoglobin. No pathogen is needed to test this host-side tradeoff. The hypothesis is that prolonged inflammatory exposure can delay erythroid recovery even when the ferroportin-dependent iron route has reopened.",
+          "refs": [
+            1,
+            10,
+            11
+          ],
+          "measures": [
+            "Track isotope transfer from the macrophage pool to transferrin and erythroid heme alongside ferroportin abundance and localization.",
+            "Measure erythroid maturation, viability, hemoglobin formation, and inflammatory signaling independently of iron concentration.",
+            "Compare recovery after iron availability is matched, using orthogonal checks that the intended change in export actually occurred."
+          ],
+          "decision": "If matching iron delivery fully restores erythroid maturation in every condition, the proposed persistent inflammatory component is weakened. If export resumes but isotope incorporation remains low only after cytokine exposure, a defect downstream of iron release becomes more plausible. A failure to restore export would leave the experiment unable to distinguish those explanations."
+        },
+        {
+          "type": "paragraph",
+          "text": "This experiment would not decide whether increasing or decreasing hepcidin benefits a patient with an active infection. It would identify which part of the anemia response remains after iron withholding ends, helping future studies choose informative outcomes and sampling times. The broader lesson is to follow the metal across boundaries: protection in plasma, iron chemistry within a cell, and iron delivery to developing erythrocytes can move in different directions.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Explore other host strategies for withholding, routing, and using metals"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hepcidin remove iron from the body?",
+      "answer": "Its main action is to limit ferroportin-mediated export into plasma, including intestinal transfer and release of recycled iron. A fall in serum iron is not proof of net iron excretion."
+    },
+    {
+      "question": "Is high hepcidin always helpful during infection?",
+      "answer": "No. Outcomes depend on the organism, strain, iron source, and host compartment. Protection against selected extracellular infections does not establish benefit in every intracellular setting."
+    },
+    {
+      "question": "Does low serum iron prove iron deficiency?",
+      "answer": "No. Inflammation can lower circulating iron while iron remains in cellular stores. The measurement must be interpreted with other iron and inflammatory readouts."
+    },
+    {
+      "question": "Why can anemia persist after iron availability improves?",
+      "answer": "Inflammation can affect red-cell production and survival as well as iron transfer. Restored export and restored erythropoiesis are separate outcomes, and their recovery can occur on different timelines."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Nemeth E, Tuttle MS, Powelson J, et al.",
+      "year": 2004,
+      "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
+      "url": "https://doi.org/10.1126/science.1104742",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Cellular binding, localization and iron-efflux experiments",
+      "setting": "Cultured cells expressing ferroportin",
+      "note": "PubMed PMID15514116 abstract verified. Direct binding/internalization mechanism; not a human whole-body flux trial."
+    },
+    {
+      "authors": "Billesbølle CB, Azumaya CM, Kretsch RC, et al.",
+      "year": 2020,
+      "title": "Structure of hepcidin-bound ferroportin reveals iron homeostatic mechanisms",
+      "url": "https://doi.org/10.1038/s41586-020-2668-z",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Cryo-EM with transport, binding and computational analyses",
+      "setting": "Human ferroportin in lipid nanodiscs and reconstituted transport systems",
+      "note": "PubMed abstract/figure captions verified. Structural metal was cobalt, an iron mimic; ferrous transport was separately assessed. No binding constant extrapolated to plasma."
+    },
+    {
+      "authors": "Nemeth E, Rivera S, Gabayan V, Keller C, Taudorf S, Pedersen BK, Ganz T",
+      "year": 2004,
+      "title": "IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin",
+      "url": "https://doi.org/10.1172/JCI20945",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Human acute intervention plus cell and mouse studies",
+      "setting": "Six healthy human volunteers given IL-6; hepatic cell and inflammatory mouse models",
+      "note": "JCI Methods, Results and Figure4. Human hepcidin readout was urinary; acute hypoferremia does not demonstrate chronic anemia."
+    },
+    {
+      "authors": "Kautz L, Jung G, Valore EV, Rivella S, Nemeth E, Ganz T",
+      "year": 2014,
+      "title": "Identification of erythroferrone as an erythroid regulator of iron metabolism",
+      "url": "https://doi.org/10.1038/ng.2996",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Erythroid signaling and gene-deficient mouse experiments",
+      "setting": "Mouse blood-loss and erythropoietic-stimulation models",
+      "note": "Publisher abstract, figure descriptions and indexed Results inspected. Central causal evidence is murine. Correction DOI10.1038/s41588-019-0548-y fixes supplementary primer listings."
+    },
+    {
+      "authors": "Willemetz A, Beatty S, Richer E, Rubio A, Auriac A, Milkereit RJ, Thibaudeau O, Vaulont S, Malo D, Canonne-Hergaux F",
+      "year": 2017,
+      "title": "Iron- and Hepcidin-Independent Downregulation of the Iron Exporter Ferroportin in Macrophages during Salmonella Infection",
+      "url": "https://doi.org/10.3389/fimmu.2017.00498",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Comparative mouse and macrophage iron-regulation study",
+      "setting": "Salmonella Typhimurium infection in several mouse iron phenotypes and cultured macrophages",
+      "note": "Frontiers Figure4 and Results. Downregulation persisted without hepcidin; host response does not identify a specific microbial effector."
+    },
+    {
+      "authors": "Arezes J, Jung G, Gabayan V, Valore E, Ruchala P, Gulig PA, Ganz T, Nemeth E, Bulut Y",
+      "year": 2015,
+      "title": "Hepcidin-Induced Hypoferremia Is a Critical Host Defense Mechanism against the Siderophilic Bacterium Vibrio vulnificus",
+      "url": "https://doi.org/10.1016/j.chom.2014.12.001",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Mouse host-genetic and pharmacological comparisons with serum studies",
+      "setting": "V. vulnificus infection in wild-type and hepcidin-deficient mice with differing iron status",
+      "note": "PMC4296238 indexed full Results/Discussion inspected. Plasma and tissue iron were separated; severe deficiency model and mouse outcomes limit human inference."
+    },
+    {
+      "authors": "Stefanova D, Raychev A, Arezes J, Ruchala P, Gabayan V, Skurnik M, Dillon B, Horwitz MA, Ganz T, Bulut Y, Nemeth E",
+      "year": 2017,
+      "title": "Endogenous hepcidin and its agonist mediate resistance to selected infections by clearing non-transferrin-bound iron",
+      "url": "https://doi.org/10.1182/blood-2017-03-772715",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Mouse infection comparisons and ex-vivo plasma studies",
+      "setting": "Y. enterocolitica O9 Ruokola/71 and O8 WA, S. aureus Xen36, M. tuberculosis Erdman",
+      "note": "PMC5520472 indexed full text; Figures1–3 and NTBI experiments. Strain/model-specific outcomes; NTBI measured by enhanced labile plasma iron assay."
+    },
+    {
+      "authors": "Chlosta S, Fishman DS, Harrington L, Johnson EE, Knutson MD, Wessling-Resnick M, Cherayil BJ",
+      "year": 2006,
+      "title": "The Iron Efflux Protein Ferroportin Regulates the Intracellular Growth of Salmonella enterica",
+      "url": "https://doi.org/10.1128/IAI.74.5.3065-3067.2006",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Host-cell ferroportin perturbation and microbial-response measurements",
+      "setting": "Salmonella Typhimurium SL1344 in J774 macrophages and HeLa cells",
+      "note": "ASM full text, Figures1–4. J774 carries susceptible Nramp1 allele; bacterial reporters support deprivation but indirect effects remain possible."
+    },
+    {
+      "authors": "Lim D, Kim KS, Jeong JH, et al.",
+      "year": 2018,
+      "title": "The hepcidin-ferroportin axis controls the iron content of Salmonella-containing vacuoles in macrophages",
+      "url": "https://doi.org/10.1038/s41467-018-04446-8",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Compartment localization and iron/oxidant-response experiments",
+      "setting": "Salmonella Typhimurium SL1344 in macrophage and mouse models",
+      "note": "Nature indexed full Results/Discussion, Figures1,3–4. Vacuolar iron was inferred with bacterial reporters; contrasts with simple total-cell nutrient deprivation."
+    },
+    {
+      "authors": "Gardenghi S, Renaud TM, Meloni A, Casu C, Crielaard BJ, Bystrom LM, Greenberg-Kushnir N, Sasu BJ, Cooke KS, Rivella S",
+      "year": 2014,
+      "title": "Distinct roles for hepcidin and interleukin-6 in the recovery from anemia in mice injected with heat-killed Brucella abortus",
+      "url": "https://doi.org/10.1182/blood-2013-08-521625",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Inflammatory anemia and recovery in gene-deficient mice",
+      "setting": "Mouse inflammation elicited with heat-killed bacterial material",
+      "note": "PubMed PMID24357729 abstract verified. Models inflammatory anemia without replicating infection; iron restriction is not its only mechanism."
+    },
+    {
+      "authors": "Isaacs JD, Harari O, Kobold U, Lee JS, Bernasconi C",
+      "year": 2013,
+      "title": "Effect of tocilizumab on haematological markers implicates interleukin-6 signalling in the anaemia of rheumatoid arthritis",
+      "url": "https://doi.org/10.1186/ar4397",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Exploratory analysis of randomized clinical trial",
+      "setting": "132 adults with active rheumatoid arthritis; tocilizumab or placebo alongside methotrexate",
+      "note": "Full text Figures1–2/Table1 reviewed. Few participants had baseline anemia; multimechanism intervention and associative analysis do not isolate hepcidin mediation."
+    }
+  ],
+  "claims": [
+    {
+      "id": "hepcidin-controls-export",
+      "claim": "Hepcidin binding promotes ferroportin internalization and decreases cellular iron export.",
+      "refs": [
+        1
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Cellular mechanistic experiments",
+      "boundary": "Abstract supports direct mechanism; not a human whole-body iron-removal result."
+    },
+    {
+      "id": "hepcidin-occludes-pathway",
+      "claim": "Hepcidin occupies ferroportin's outward-facing transport pathway.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "Reconstituted human ferroportin cryo-EM complexes",
+      "boundary": "Abstract and figure descriptions; cobalt was the structural iron mimic. Transport assays support functional interpretation."
+    },
+    {
+      "id": "il6-human-hypoferremia",
+      "claim": "IL-6 administration increased urinary hepcidin and reduced circulating iron in healthy volunteers.",
+      "refs": [
+        3
+      ],
+      "evidence": "human-intervention",
+      "setting": "Six-person acute physiological experiment",
+      "boundary": "Figure4 and Human studies Methods; urinary hepcidin is not a serum measurement and hypoferremia is not chronic anemia."
+    },
+    {
+      "id": "erythroferrone-demand",
+      "claim": "Loss of erythroferrone impaired rapid hepcidin suppression and anemia recovery after blood loss in mice.",
+      "refs": [
+        4
+      ],
+      "evidence": "model-causal",
+      "setting": "Mouse erythropoietic-demand models",
+      "boundary": "Abstract and Figures3,5–6 descriptions; source correction concerns supplementary primers, not revised biological conclusions."
+    },
+    {
+      "id": "hepcidin-independent-ferroportin",
+      "claim": "Salmonella-associated ferroportin downregulation persisted in hepcidin-deficient mice.",
+      "refs": [
+        5
+      ],
+      "evidence": "observed",
+      "setting": "Mouse and macrophage infection models",
+      "boundary": "Figure4; does not establish a particular pathogen effector or universal infection response."
+    },
+    {
+      "id": "vibrio-model-defense",
+      "claim": "Hepcidin-mediated hypoferremia improved defense against V. vulnificus in the studied mice.",
+      "refs": [
+        6
+      ],
+      "evidence": "model-causal",
+      "setting": "Hepcidin deficiency and agonist mouse comparisons",
+      "boundary": "Results: serum availability separated from liver stores; not a human treatment trial or direct antimicrobial peptide mechanism."
+    },
+    {
+      "id": "selected-ntbi-defense",
+      "claim": "Hepcidin protection against NTBI-responsive infection was strain- and model-dependent.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "Mouse Yersinia, S. aureus and M. tuberculosis comparisons",
+      "boundary": "Figures1–3 and NTBI results; O9 differed from O8. Negative findings constrain a universal extracellular/intracellular rule."
+    },
+    {
+      "id": "ferroportin-cell-resistance",
+      "claim": "Higher ferroportin expression limited intracellular Salmonella multiplication in the tested host cells.",
+      "refs": [
+        8
+      ],
+      "evidence": "model-causal",
+      "setting": "J774 macrophages and HeLa cells",
+      "boundary": "Figures1–4; iron-response reporters support deprivation, with possible indirect effects and specific host-cell background."
+    },
+    {
+      "id": "vacuole-cytosol-diverge",
+      "claim": "Hepcidin increased cytosolic iron while reducing inferred vacuolar iron and antimicrobial oxidant responses in the Lim models.",
+      "refs": [
+        9
+      ],
+      "evidence": "model-causal",
+      "setting": "Salmonella-containing vacuoles",
+      "boundary": "Figures3–4; reporter inference is not an absolute chemical assay. Mechanism must not be generalized to every intracellular pathogen."
+    },
+    {
+      "id": "anemia-multiple-mechanisms",
+      "claim": "Iron restriction, suppressed erythropoiesis, and shortened erythrocyte survival contributed to inflammatory anemia in mice.",
+      "refs": [
+        10
+      ],
+      "evidence": "observed",
+      "setting": "Heat-killed-bacterial inflammatory stimulus",
+      "boundary": "Abstract; no ongoing microbial replication. Does not quantify each mechanism in human patients."
+    },
+    {
+      "id": "human-recovery-timing",
+      "claim": "An exploratory rheumatoid arthritis trial analysis found early hepcidin decline and later hemoglobin improvement with IL-6 receptor blockade.",
+      "refs": [
+        11
+      ],
+      "evidence": "human-intervention",
+      "setting": "MEASURE trial exploratory biomarker analysis",
+      "boundary": "Figures1–2/Table1; multimechanism treatment and correlations cannot prove exclusive hepcidin mediation."
+    },
+    {
+      "id": "persistent-suppression-hypothesis",
+      "claim": "Erythroid recovery may remain delayed after iron export recovers from prolonged inflammatory exposure.",
+      "refs": [
+        10,
+        11
+      ],
+      "evidence": "hypothesis",
+      "setting": "Proposed sterile human coculture study",
+      "boundary": "Testable synthesis, not an established human result. Full rescue by matched iron delivery would weaken the proposed persistent component."
+    }
+  ],
+  "share": {
+    "hook": "A fall in blood iron can reflect iron being retained inside cells, rather than iron disappearing from the body.",
+    "explanation": "Hepcidin controls the export protein ferroportin, changing which compartments receive the metal.",
+    "refs": [
+      1,
+      3
+    ],
+    "qualification": "This is iron redistribution, not a diagnosis from a blood test. Infection outcomes depend on the organism and the pool it can reach."
+  },
+  "related": [
+    {
+      "url": "/library/transferrin-ferritin-heme-recycling",
+      "title": "Transferrin, ferritin, and heme recycling",
+      "description": "The carriers and storage pathways on either side of iron export."
+    },
+    {
+      "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+      "title": "Lactoferrin and microbial countermeasures",
+      "description": "Sequestration, surface effects, and microbial access to bound iron."
+    },
+    {
+      "url": "/metals/iron",
+      "title": "Iron",
+      "description": "Chemical species and compartments behind biological availability."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "Explore the connected series on metal use and microbial conflict."
+    }
+  ]
+}

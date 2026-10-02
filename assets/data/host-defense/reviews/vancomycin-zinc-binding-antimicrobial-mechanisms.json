@@ -1,0 +1,550 @@
+{
+  "slug": "vancomycin-zinc-binding-antimicrobial-mechanisms",
+  "title": "Vancomycin and zinc: starvation, assembly and resistance",
+  "shortTitle": "Vancomycin and zinc",
+  "series": "hidden-mechanisms",
+  "description": "Vancomycin can bind zinc, yet added zinc can also strengthen its activity in resistant bacteria. The experiments distinguish starvation from drug assembly.",
+  "deck": "A familiar cell-wall antibiotic reveals several different ways metal chemistry can change an antimicrobial experiment—and several ways a plausible mechanism can be misread.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "vancomycin, zinc, Zur, chelation, glycopeptide resistance, D-Ala-D-Lac, ionophore, metallomics",
+  "summary": {
+    "text": "Vancomycin binds Zn(II) and can trigger a bacterial zinc-starvation response. Separately, zinc can promote vancomycin assembly and enhance activity against model resistant bacteria. These findings motivate experiments on local metal availability; they do not establish zinc supplementation as a treatment strategy.",
+    "refs": [
+      2,
+      3
+    ]
+  },
+  "sections": [
+    {
+      "id": "canonical-target",
+      "title": "Begin with the cell-wall target",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vancomycin is a glycopeptide antibiotic whose established starting point is recognition of peptide termini used in bacterial cell-wall construction. H. R. Perkins helped establish the chemical specificity in 1969: purified cell-wall precursors formed complexes with vancomycin, and small synthetic peptides showed the importance of an acyl-D-alanyl-D-alanine ending. Chromatography, electrophoresis and ultraviolet spectroscopy made this a molecular recognition problem, rather than merely a correlation between drug exposure and growth inhibition. That contribution still matters when evaluating a proposed additional mechanism: one must explain what metal chemistry changes while preserving the existing evidence for peptide recognition.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "By binding D-Ala-D-Ala on precursors such as lipid II, vancomycin interferes with the membrane-associated steps that build peptidoglycan. Metal chemistry could modify this established activity or add another physiological effect; it should not erase the cell-wall mechanism.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful research question therefore has three parts. Does vancomycin bind a metal under defined conditions? Does that interaction change bacterial physiology? Does the physiological change contribute to killing at the concentration and compartment being studied? A binding assay answers the first question. A stress reporter addresses the second. Neither automatically answers the third. The distinction becomes especially productive when the same metal appears to produce opposite outcomes.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "zinc-starvation-experiment",
+      "title": "What the zinc-starvation experiment established",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In 2016, Ashraf Zarkan, Hee-Jeon Hong and colleagues combined bacterial transcription with solution chemistry. Vancomycin induced zinc-responsive genes in three Streptomyces species, Escherichia coli and Bacillus subtilis. The transcription experiment used 2 mM vancomycin for 30 minutes in minimal media supplemented with approximately 3 µM zinc. Affinity chromatography, fluorescence and NMR supported Zn(II) binding. Fluorescence fitting gave a dissociation constant of 1,220 ± 479 µM with 50 µM vancomycin in 100 mM Tris-Cl, pH 7.3. This is weak, condition-specific binding, not a universal intracellular affinity.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The E. coli response is particularly informative: zinc-responsive transcription occurred despite the organism's intrinsic exclusion of vancomycin from its usual cell-wall target. The authors proposed that extracellular binding reduces zinc availability. They did not show that zinc starvation causes vancomycin-mediated killing. Their suggestion that cell-surface concentration amplifies weak binding remains a mechanistic hypothesis.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This opens a spatial question: could an antibiotic alter the thin chemical environment immediately around a bacterium without measurably depleting the entire culture? Bulk zinc measurements alone cannot decide. Accessible zinc, zinc-regulated transcription and bacterial survival are distinct levels of evidence. Agreement among reported observations would strengthen a mechanistic interpretation; disagreement would reveal an unresolved link. Timing also matters: an early transcriptional response and a later elemental measurement need not describe the same physiological state. Cross-study comparisons should preserve those differences rather than treating every indication of zinc stress as equivalent.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/metals/zinc",
+          "text": "Follow zinc availability, buffering and microbial access"
+        }
+      ]
+    },
+    {
+      "id": "zinc-potentiation",
+      "title": "Why adding zinc can increase activity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zarkan and colleagues' 2017 follow-up complicates a simple starvation story. Zinc increased susceptibility to vancomycin fourfold in resistant E. faecalis JH2-2::I and eightfold in S. coelicolor M600. Susceptible relatives lacked the enhancement. In engineered S. coelicolor, potentiation tracked use of D-Ala-D-Lac cell-wall precursors, the altered target associated with resistance, rather than D-Ala-D-Ala. The agar experiments used zinc supplementation up to 200 µM for S. coelicolor and 400 µM for E. faecalis. These are culture conditions, not a patient supplementation regimen.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Crystallography and fibre diffraction showed zinc-associated assemblies of vancomycin dimers. This supports a drug-assembly explanation for enhanced interaction with the resistant target. However, the study did not solve a vancomycin–zinc–D-Ala-D-Lac ternary structure or demonstrate that the crystallographic polymer exists at an infection site. Its living-cell experiments were bacterial cultures, not animal treatment trials.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The two studies need not contradict each other. Removing accessible nutrient and creating an active drug assembly are different possible consequences of the same binding event. Their relative importance could depend on chemical environment and target composition. This is an interpretation to evaluate, not a demonstrated map of clinical behavior. The published findings make the context of each observation central: a zinc-responsive transcript, a crystallographic assembly and a susceptibility change answer different questions. A claim that more chelation must always mean more killing would conceal precisely the distinction worth investigating.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "engineered-analogues",
+      "title": "Engineered analogues make different uses of zinc",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Venkateswarlu Yarlagadda, Paramita Sarkar and colleagues pursued a deliberate design in 2016: attach a dipicolyl zinc-binding group to vancomycin. Their Dipi-van conjugate acquired recognition of pyrophosphate groups in cell-wall lipids while retaining peptide-terminal binding. The primary abstract reports stronger activity against resistant bacteria and reduced bacterial burden in a mouse kidney infection model. This is an engineered molecule with an additional binding group. It cannot be used as evidence that unmodified vancomycin produces the same effects, or that systemic zinc depletion is the useful mechanism.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sarkar and colleagues subsequently positioned a dipicolylamine-containing substituent at the vancosamine nitrogen, producing VanNHdipi. Their 2024 experiments found cell-wall and membrane effects, inhibition of purified metallo-β-lactamases, and carbapenem potentiation in selected NDM-producing Klebsiella and E. coli isolates. Added zinc abolished a tested meropenem sensitization effect. Yet the derivative alone had MICs above 50 µM against the tested Gram-negative isolates. Thus, combination activity must remain distinct from standalone killing. Docking suggested active-site interactions but did not establish the exact coordination chemistry or prove zinc extraction from the enzyme.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These published designs illustrate distinct possibilities: metal can connect a drug to an anionic target, support assembly, or participate in inhibition of a resistance enzyme. Attachment geometry and membrane interactions complicate attribution. Calling every improvement a chelation effect would miss the role of the rest of the molecule. A cross-study assessment should ask whether the evidence actually separates coordination chemistry from these other properties, and identify any mechanistic conclusion that still depends on an unresolved assumption.",
+          "refs": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanistic-comparators",
+      "title": "Four comparators that prevent category errors",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chelation describes coordination of a metal through multiple donor atoms of a ligand. It does not specify where the resulting complex travels or what it does. Transport, target recognition and metal mimicry therefore require their own evidence, even when binding chemistry is involved.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "Metal involvement is not one antimicrobial mechanism",
+          "headers": [
+            "System",
+            "Role of the metal",
+            "What distinguishes the evidence"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Bacitracin",
+                "Metal-assisted target recognition",
+                "A zinc-containing complex encloses a pyrophosphate ligand; the metal helps form the target-binding assembly."
+              ],
+              "refs": [
+                6
+              ]
+            },
+            {
+              "cells": [
+                "PBT2",
+                "Ionophore-mediated transport",
+                "Zinc/proton exchange across artificial membranes supports transport; bacterial metal accumulation is measured separately."
+              ],
+              "refs": [
+                7
+              ]
+            },
+            {
+              "cells": [
+                "Cefiderocol",
+                "Iron-associated drug entry",
+                "A siderophore cephalosporin uses iron-uptake machinery to improve access to bacterial targets."
+              ],
+              "refs": [
+                8
+              ]
+            },
+            {
+              "cells": [
+                "Gallium",
+                "Iron mimicry and metabolic interference",
+                "Ga(III) perturbs iron acquisition and signaling; this is not removal of metal by an organic chelator."
+              ],
+              "refs": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nicoleta Economou and colleagues resolved a bacitracin A–zinc–geranyl-pyrophosphate complex at 1.1 Å. Geranyl pyrophosphate served as a shortened target analogue. The structure illustrates why a metal can be an integral part of molecular recognition: simply stripping it away may dismantle the active complex. It provides a useful design comparison for zinc-linked vancomycin derivatives, while remaining a different antibiotic with a different target interaction.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nichaela Harbison-Price and colleagues showed that PBT2 transports zinc in exchange for protons in liposomes. In Streptococcus uberis NZ01, treatment increased cell-associated zinc and disturbed manganese homeostasis. Transport across a membrane is the crucial distinction from extracellular sequestration. The direction of movement depended on the experimentally imposed gradient, so a molecule's ability to bind zinc does not by itself specify whether a cell gains or loses zinc.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Akinobu Ito and colleagues tested cefiderocol in Pseudomonas aeruginosa PAO1 using radiolabeled uptake and an analogue with an altered catechol group. Iron-depleted growth conditions increased drug uptake, and disrupting the iron-binding group reduced activity. The iron-related component facilitates delivery of a cephalosporin; a claim that cefiderocol primarily kills by starving bacteria of iron would misclassify the result. Nutrient acquisition can become a route for drug access.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Yukihiro Kaneko and colleagues found that gallium disrupted P. aeruginosa iron uptake and PvdS signaling, with activity in culture and mouse lung infection models. Gallium exploits similarities to ferric iron while lacking iron's physiological redox cycling. But bacterial responses can complicate that strategy. Rodolfo García-Contreras and colleagues later observed increased production of several virulence-associated products in PA14 and two selected clinical isolates exposed to gallium. Biofilm effects depended on strain and observation time. Reduced growth therefore cannot be assumed to mean reduced virulence-factor output in every setting; neither study establishes a universal outcome across infections.",
+          "refs": [
+            9,
+            10
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Compare drug chemistry with host metal withholding and intoxication"
+        }
+      ]
+    },
+    {
+      "id": "discriminating-experiments",
+      "title": "Evidence questions that distinguish the explanations",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Which observations distinguish nutrient restriction from drug assembly?",
+          "text": "A useful next research synthesis would compare published chemical, structural and biological observations without assuming they describe one causal sequence. Does a zinc-responsive signal coincide with an independently documented change in accessible zinc? Does the assembly interpretation have evidence beyond concentrated structural preparations? Are the physiological observations consistent across relevant compartments? The answer requires keeping the study setting attached to every claimed connection.",
+          "refs": [
+            2,
+            3
+          ],
+          "measures": [
+            "Published observations linking zinc-responsive transcription to accessible metal, with the timing and measurement limitations retained.",
+            "Chemical and structural evidence identifying what is bound or assembled, and whether that evidence pertains to a dilute biological environment or a concentrated preparation.",
+            "Reported host-compartment observations that distinguish total elemental zinc from chemically accessible pools and document the surrounding ligands.",
+            "Comparisons of published biological outcomes that retain organism, target context, formulation and study setting rather than pooling unlike experiments."
+          ],
+          "decision": "A consistent lack of association between zinc-responsive signaling and the reported biological outcome would weaken the claim that nutrient restriction explains that outcome. Observational evidence that relevant biological conditions lack the proposed assemblies, with adequate detection sensitivity, would weaken the applicability of the concentrated structural result. Conversely, agreement among independent observations would strengthen an interpretation without by itself proving the causal sequence or clinical benefit."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most useful endpoint is an explanation that accounts for apparently divergent findings while making its unresolved links visible. A literature comparison can separate what is directly observed from what is inferred: binding, altered transcription, drug assembly, target interaction and clinical outcome belong to different evidentiary levels. Observational measurements from relevant biological compartments could clarify which chemical conditions actually occur there. If the necessary conditions are absent, a mechanism can remain valid in a laboratory preparation while losing relevance to that setting. This approach preserves the scientific opportunity and makes the next evidence gap explicit.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/unexpected-metal-biology",
+          "text": "Explore other unexpected metal mechanisms and the experiments they invite"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is zinc binding vancomycin's main antibacterial mechanism?",
+      "answer": "The evidence establishes zinc binding and a zinc-responsive transcriptional effect under specified culture conditions. It does not replace the established cell-wall target or quantify zinc starvation's contribution to killing."
+    },
+    {
+      "question": "Why can both zinc deprivation and added zinc appear relevant?",
+      "answer": "Binding can change nutrient availability and drug structure. Different concentrations, ligands and cell-wall precursors can favor different consequences; these need to be measured in the same experiment."
+    },
+    {
+      "question": "Are dipicolyl vancomycin analogues the same as prescribed vancomycin?",
+      "answer": "No. They are chemically modified research compounds with additional binding groups and potentially additional membrane or enzyme effects. Their results cannot be assigned to the parent molecule."
+    },
+    {
+      "question": "Do these experiments support adding zinc during vancomycin treatment?",
+      "answer": "They identify a research question, not a tested patient regimen. The key potentiation studies used bacterial cultures and separate structural assays; they did not establish clinical benefit or an appropriate human exposure."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Perkins HR",
+      "year": 1969,
+      "title": "Specificity of combination between mucopeptide precursors and vancomycin or ristocetin",
+      "url": "https://doi.org/10.1042/bj1110195",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Biochemical binding study",
+      "setting": "Isolated bacterial mucopeptide precursors and synthetic peptides",
+      "note": "Primary abstract verified through PubMed PMID5763787. Supports peptide-recognition specificity; full experimental tables were not inspected."
+    },
+    {
+      "authors": "Zarkan A, Macklyne HR, Truman AW, Hesketh AR, Hong HJ",
+      "year": 2016,
+      "title": "The frontline antibiotic vancomycin induces a zinc starvation response in bacteria by binding to Zn(II)",
+      "url": "https://doi.org/10.1038/srep19602",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Bacterial transcription and solution binding experiments",
+      "setting": "S. coelicolor M600, S. griseus IFO13350, S. roseosporus NRRL15998, E. coli BL21(DE3), B. subtilis JH642",
+      "note": "Full text read via Europe PMC XML for PMC4726154. High-concentration culture exposure and buffered binding assays; killing due to zinc deprivation was not demonstrated."
+    },
+    {
+      "authors": "Zarkan A, Macklyne HR, Chirgadze DY, Bond AD, Hesketh AR, Hong HJ",
+      "year": 2017,
+      "title": "Zn(II) mediates vancomycin polymerization and potentiates its antibiotic activity against resistant bacteria",
+      "url": "https://doi.org/10.1038/s41598-017-04868-2",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Culture susceptibility, strain engineering, crystallography and fibre diffraction",
+      "setting": "Model Streptomyces and E. faecalis resistant/susceptible strains; purified vancomycin",
+      "note": "Full text read via Europe PMC XML for PMC5501778; published Figure1 and supplement checked. Fibre samples were prepared by evaporation. Living-cell experiments are cultures, not animal trials; target-bound assembly remains unresolved."
+    },
+    {
+      "authors": "Yarlagadda V, Sarkar P, Samaddar S, Haldar J",
+      "year": 2016,
+      "title": "A Vancomycin Derivative with a Pyrophosphate-Binding Group: A Strategy to Combat Vancomycin-Resistant Bacteria",
+      "url": "https://doi.org/10.1002/anie.201601621",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Medicinal chemistry, bacterial assays and mouse infection model",
+      "setting": "Dipicolyl-vancomycin conjugate; resistant bacteria; murine kidney infection",
+      "note": "Primary abstract verified via PubMed PMID27010764. Detailed methods and strain-specific effect sizes not independently inspected; no numerical potency or dosing claims retained."
+    },
+    {
+      "authors": "Sarkar P, Xu W, Vázquez-Hernández M, et al.",
+      "year": 2024,
+      "title": "Enhancing the antibacterial efficacy of vancomycin analogues: targeting metallo-β-lactamases and cell wall biosynthesis",
+      "url": "https://doi.org/10.1039/D4SC03577A",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Compound synthesis, microbiology, proteomics, enzyme inhibition, modeling and mouse infection experiments",
+      "setting": "VanNHdipi; resistant Gram-positive strains; NDM-producing K. pneumoniae and E. coli isolates; purified enzymes",
+      "note": "Full publisher/PMC text and Europe PMC XML inspected. Combination sensitization is distinct from standalone Gram-negative killing; simulations do not prove zinc stripping."
+    },
+    {
+      "authors": "Economou NJ, Cocklin S, Loll PJ",
+      "year": 2013,
+      "title": "High-resolution crystal structure reveals molecular details of target recognition by bacitracin",
+      "url": "https://doi.org/10.1073/pnas.1308268110",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "X-ray crystallography",
+      "setting": "Purified bacitracin A, zinc and geranyl pyrophosphate",
+      "note": "Primary abstract and publication identity verified; full-text access was intermittent, so only abstract-supported structural claims retained. Geranyl pyrophosphate is a shortened lipid-target analogue."
+    },
+    {
+      "authors": "Harbison-Price N, Ferguson SA, Heikal A, et al.",
+      "year": 2020,
+      "title": "Multiple Bactericidal Mechanisms of the Zinc Ionophore PBT2",
+      "url": "https://doi.org/10.1128/mSphere.00157-20",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Bacterial metal analysis and liposome transport experiments",
+      "setting": "Streptococcus uberis NZ01, artificial lipid vesicles and broth/milk assays",
+      "note": "Full text read via Europe PMC XML for PMC7082140. Transport direction depends on imposed gradients; whole-cell metal analysis is not a direct free-cytosolic-zinc concentration."
+    },
+    {
+      "authors": "Ito A, Nishikawa T, Matsumoto S, et al.",
+      "year": 2016,
+      "title": "Siderophore Cephalosporin Cefiderocol Utilizes Ferric Iron Transporter Systems for Antibacterial Activity against Pseudomonas aeruginosa",
+      "url": "https://doi.org/10.1128/AAC.01405-16",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Radiolabeled uptake and chemical-analogue comparison",
+      "setting": "P. aeruginosa PAO1 in iron-depleted and iron-supplemented media",
+      "note": "Full text read via Europe PMC XML for PMC5119021. Mechanistic culture study; does not establish clinical outcome or primary killing through iron deprivation."
+    },
+    {
+      "authors": "Kaneko Y, Thoendel M, Olakanmi O, Britigan BE, Singh PK",
+      "year": 2007,
+      "title": "The transition metal gallium disrupts Pseudomonas aeruginosa iron metabolism and has antimicrobial and antibiofilm activity",
+      "url": "https://doi.org/10.1172/JCI30783",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Culture physiology, genetic perturbation and mouse lung infection models",
+      "setting": "P. aeruginosa laboratory strains and clinical isolates; mouse infections",
+      "note": "Publisher full text inspected. Effects on iron uptake and signaling are experimentally supported; outcomes depend on iron conditions and strain."
+    },
+    {
+      "authors": "García-Contreras R, Pérez-Eretza B, Lira-Silva E, et al.",
+      "year": 2014,
+      "title": "Gallium induces the production of virulence factors in Pseudomonas aeruginosa",
+      "url": "https://doi.org/10.1111/2049-632X.12105",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Culture virulence-product and biofilm assays",
+      "setting": "P. aeruginosa PA14 and selected CF isolates INP-37 and INP-58M",
+      "note": "Oxford full text inspected, especially Figure1 and time-dependent biofilm results. Selected isolates and in-vitro products do not establish worsening clinical infection."
+    }
+  ],
+  "claims": [
+    {
+      "id": "peptide-recognition",
+      "claim": "Vancomycin recognizes appropriate D-Ala-D-Ala-containing precursor peptides.",
+      "refs": [
+        1
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Purified precursors and synthetic peptides",
+      "boundary": "Primary abstract: complex formation and specificity tests. Zinc contribution was not tested."
+    },
+    {
+      "id": "zinc-responsive-genes",
+      "claim": "Vancomycin exposure induced zinc-responsive transcription in the tested bacterial cultures.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "Five strains; 2mM drug,30min,approximately3µM added zinc",
+      "boundary": "Figure2 and Methods. Transcription does not establish lethal zinc depletion."
+    },
+    {
+      "id": "weak-binding",
+      "claim": "Vancomycin bound Zn(II) weakly in the specified buffered assay.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "50µM vancomycin,100mM Tris-Cl,pH7.3",
+      "boundary": "Figure3c: Kd1,220±479µM. Conditional assay affinity, not an intracellular constant."
+    },
+    {
+      "id": "resistance-context",
+      "claim": "Zinc potentiation depended on the tested resistance and precursor context.",
+      "refs": [
+        3
+      ],
+      "evidence": "model-causal",
+      "setting": "Resistant/susceptible bacterial pairs and engineered S.coelicolor",
+      "boundary": "Figures1,3. Laboratory cultures; no human or animal infection efficacy test."
+    },
+    {
+      "id": "polymer-structure",
+      "claim": "Zinc-associated vancomycin polymers were supported by structural assays.",
+      "refs": [
+        3
+      ],
+      "evidence": "observed",
+      "setting": "Purified drug crystallography and fibre diffraction",
+      "boundary": "Figure4 and supplementary Figure9. Does not establish target-bound polymers at infection sites."
+    },
+    {
+      "id": "dipi-design",
+      "claim": "An engineered dipicolyl-vancomycin conjugate added pyrophosphate recognition.",
+      "refs": [
+        4
+      ],
+      "evidence": "observed",
+      "setting": "Modified glycopeptide and cell-wall ligands",
+      "boundary": "Primary abstract. Cannot assign derivative behavior to unmodified vancomycin."
+    },
+    {
+      "id": "mbl-sensitization",
+      "claim": "VanNHdipi inhibited tested metallo-β-lactamases and potentiated carbapenems in selected isolates.",
+      "refs": [
+        5
+      ],
+      "evidence": "observed",
+      "setting": "Purified enzymes and NDM-producing K.pneumoniae/E.coli",
+      "boundary": "Tables2–3,Figure5; zinc reversal described with FigureS5. Exact zinc coordination/extraction mechanism remains unresolved."
+    },
+    {
+      "id": "bacitracin-complex",
+      "claim": "A bacitracin structure contains zinc and a pyrophosphate ligand.",
+      "refs": [
+        6
+      ],
+      "evidence": "observed",
+      "setting": "Purified complex with geranyl pyrophosphate",
+      "boundary": "Primary abstract; shortened target analogue, not an intact bacterial membrane."
+    },
+    {
+      "id": "pbt2-transport",
+      "claim": "PBT2 mediated zinc/proton exchange in artificial membranes.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "Liposomes with imposed zinc gradients",
+      "boundary": "Figure3. Bacterial metal accumulation was assessed separately in Figure2; transport is distinct from nutrient sequestration."
+    },
+    {
+      "id": "cefiderocol-uptake",
+      "claim": "Iron-depleted growth increased cefiderocol uptake in PAO1.",
+      "refs": [
+        8
+      ],
+      "evidence": "observed",
+      "setting": "Radiolabeled uptake after controlled medium exposure",
+      "boundary": "Figure2 and Table1. Drug-entry evidence, not proof of killing by iron starvation."
+    },
+    {
+      "id": "gallium-physiology",
+      "claim": "Gallium disrupted P.aeruginosa iron uptake and PvdS-related signaling.",
+      "refs": [
+        9
+      ],
+      "evidence": "model-causal",
+      "setting": "Culture uptake and inducible pvdS experiments",
+      "boundary": "Figures4–7. Contributions vary with iron supply; not a universal single-enzyme mechanism."
+    },
+    {
+      "id": "gallium-counterresponse",
+      "claim": "Gallium increased several virulence-associated products in three tested P.aeruginosa strains.",
+      "refs": [
+        10
+      ],
+      "evidence": "observed",
+      "setting": "PA14 and two selected CF isolates in culture",
+      "boundary": "Figure1;10/25µM gallium experiments and time-dependent biofilm assays. Not a demonstration of worsened disease in patients."
+    },
+    {
+      "id": "local-availability-proposal",
+      "claim": "Local zinc availability may determine whether nutrient restriction or drug assembly dominates.",
+      "refs": [
+        2,
+        3
+      ],
+      "evidence": "hypothesis",
+      "setting": "Proposed cross-study evidence appraisal and observational interpretation",
+      "boundary": "Editorial synthesis. Zinc-responsive signaling, metal availability, assembly and biological outcome are separate evidentiary levels; agreement does not alone establish causation."
+    }
+  ],
+  "share": {
+    "hook": "Vancomycin can make bacteria signal zinc shortage—and added zinc can also strengthen its activity against model resistant strains.",
+    "explanation": "The surprising question is whether zinc changes nutrient access, drug assembly or both.",
+    "refs": [
+      2,
+      3
+    ],
+    "qualification": "These are distinct culture and structural experiments; they do not establish zinc supplementation as a clinical strategy."
+  },
+  "related": [
+    {
+      "url": "/unexpected-metal-biology",
+      "title": "Unexpected metal biology",
+      "description": "Binding, adsorption, transport and the evidence needed to distinguish them."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "How withholding and intoxication change the chemical conditions microbes encounter."
+    },
+    {
+      "url": "/metals/zinc",
+      "title": "Zinc",
+      "description": "An essential nutrient whose effects depend on access and compartment."
+    },
+    {
+      "url": "/metals/gallium",
+      "title": "Gallium",
+      "description": "Iron mimicry and its microbial consequences."
+    }
+  ]
+}

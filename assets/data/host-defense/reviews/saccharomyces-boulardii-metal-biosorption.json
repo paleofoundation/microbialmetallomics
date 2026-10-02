@@ -1,0 +1,588 @@
+{
+  "slug": "saccharomyces-boulardii-metal-biosorption",
+  "title": "Can probiotic yeast carry metals out of the gut?",
+  "shortTitle": "Yeast, metals and the exit problem",
+  "series": "hidden-mechanisms",
+  "description": "How Saccharomyces boulardii and other yeasts bind lead, arsenic and mercury—and which experiments can distinguish adsorption from lasting removal.",
+  "deck": "A yeast cell wall can capture a metal without a living cell. Keeping that metal bound through digestion, and proving that it leaves the host, are separate scientific problems.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "Saccharomyces boulardii, Saccharomyces cerevisiae, biosorption, lead, arsenic, mercury, cell wall, desorption, metal excretion",
+  "summary": {
+    "text": "Yeast biosorption is real, but its biological meaning depends on strain, preparation and metal species. A lead-removal study used a documented boulardii lineage as inactive biomass; arsenic and mercury studies expose important limits. The research opportunity is to connect binding with retention during digestion, reduced intestinal uptake and a measured exit from the body.",
+    "refs": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "sections": [
+    {
+      "id": "identity-before-function",
+      "title": "Start with the strain and the material",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Saccharomyces boulardii belongs within S. cerevisiae diversity. Khatri and colleagues’ comparative genomes placed boulardii isolates near wine-associated strains, while identifying differences among genomes. Shared species identity therefore supports mechanistic comparison, not interchangeability. A laboratory yeast, a probiotic product and brewery waste can differ in growth history, wall architecture and processing. An experiment should name its isolate before a result becomes a claim about “probiotic yeast.”",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "One particularly useful identity check connects two primary papers. Stathatou and colleagues described trace-lead removal by S. cerevisiae, but their Methods identify ATCC MYA-796. Batista and colleagues had sequenced that same accession as S. cerevisiae var. boulardii, originating from Ultra Levure. This is a documented boulardii-lineage result. It is still a result for an experimentally prepared material, not evidence that a retail capsule has the same adsorption capacity inside a person.",
+          "refs": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Biosorption means association with biological material; it need not require metabolism. Cell-wall adsorption occurs outside the plasma membrane. Membrane transport moves a substance across a selective boundary, and intracellular sequestration stores it elsewhere. These processes may coexist, but a fall in dissolved metal after centrifugation does not by itself identify which occurred. Earlier free-versus-immobilized yeast experiments also implicated the wall in Pb(II) capture, supporting this as a material property worth investigating.",
+          "refs": [
+            7,
+            11
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/unexpected-metal-biology",
+          "text": "Explore unexpected metal biology across drugs, plant compounds and microbes"
+        }
+      ]
+    },
+    {
+      "id": "lead-wall-material",
+      "title": "Lead: a strong material result with a specific boundary",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the MYA-796 study, washed, freeze-dried biomass contacted lead-nitrate solutions at pH 5 and 25°C. At 100 μg/L initial Pb, equilibrium was reached within five minutes; uptake approached 12 mg/g biomass at 1,000 μg/L initial Pb. Spectroscopy implicated wall functional groups, with mannoproteins and β-glucans proposed as key contributors. “Inactive” describes the non-growing assay material; lack of growth in that experiment does not establish that every cell had been killed.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The wall hypothesis raises a useful evidence question: across published preparations, does adsorption track wall chemistry more closely than cellular activity? The 2009 study of free and immobilized biomass offers a comparison, although its performance cannot be transferred to another strain or matrix. For environmental treatment, separation of the loaded sorbent defines removal from the treated water. An oral application adds a different requirement: evidence that the associated metal remains unavailable for absorption until the material leaves the intestine.",
+          "refs": [
+            11
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/lead",
+          "text": "Follow lead through chemical form, exposure and biological compartments"
+        }
+      ]
+    },
+    {
+      "id": "compare-metal-models",
+      "title": "Three elements, three different evidence problems",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "What the available experiments establish—and what remains unmeasured",
+          "headers": [
+            "Metal/model",
+            "Measured result",
+            "Boundary for an oral yeast claim"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Pb(II), MYA-796",
+                "Rapid capture by inactive biomass in water.",
+                "A boulardii lineage; no host experiment."
+              ],
+              "refs": [
+                2,
+                3
+              ]
+            },
+            {
+              "cells": [
+                "As(III)/As(V), S. cerevisiae panel",
+                "Low binding; some intestinal-cell transport reduction.",
+                "Panel result is not a verified boulardii product result."
+              ],
+              "refs": [
+                5
+              ]
+            },
+            {
+              "cells": [
+                "Hg(II)/methylmercury, yeast panel",
+                "Bioaccessibility decreased in solutions and mushrooms; seafood response differed.",
+                "Food ligands matter; Ultralevura comparison did not lower swordfish bioaccessibility."
+              ],
+              "refs": [
+                6
+              ]
+            },
+            {
+              "cells": [
+                "Mixed metals, ATCC 9763",
+                "Pretreatment and simulated digestion changed retention.",
+                "Another S. cerevisiae strain; release can follow initial capture."
+              ],
+              "refs": [
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arsenic-binding-versus-response",
+      "title": "Arsenic: protection can occur without strong binding",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Clemente and colleagues tested As(III) and As(V) separately. Yeast removal from solution was below 10%, yet some microorganism conditions reduced arsenic transport across intestinal cells. That mismatch is informative: a barrier-related effect is a competing explanation, rather than proof of efficient adsorption. The study’s highlighted rice result belonged to Lactobacillus plantarum and should not be reassigned to Saccharomyces. The accessible report does not justify identifying its yeast panel as a particular boulardii strain.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A 2026 rat study by Thomas and colleagues supplies a different observation: oral co-treatment with a boulardii preparation improved several antioxidant and hematologic measures during sodium-arsenate exposure. The journal abstract reports 30 male Wistar rats across five groups over 28 days. It does not report arsenic mass balance or a strain accession. Its docking calculations concern proposed interactions with antioxidant enzymes, not measured yeast–arsenic binding. Protection from injury and reduced retained arsenic are therefore distinct hypotheses.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Living yeast also has its own priorities. In laboratory S. cerevisiae, Ghosh, Shen and Rosen used gene disruption and radiotracer experiments to separate Acr3-dependent arsenite exclusion from Ycf1-dependent vacuolar sequestration involving glutathione. A cell can survive by exporting arsenic, potentially returning it to its surroundings. These laboratory pathways offer competing explanations for yeast survival; their operation during human gastrointestinal transit has not been established here. Metal tolerance is not automatically metal capture.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/arsenic",
+          "text": "Why arsenic oxidation state changes the biological question"
+        }
+      ]
+    },
+    {
+      "id": "mercury-food-matrix",
+      "title": "Mercury: the food can defeat the binder",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Jadán-Piedra and colleagues compared inorganic Hg(II) and methylmercury in simulated digestion. Their supplementary food comparison included wine yeasts VRB and T73 and the preparation labeled Ultralevura. Reduced bioaccessibility in mushrooms did not carry over to swordfish. In a separate BY4741 experiment, cysteine and albumin reduced mercury retention. The authors proposed competition from mercury–cysteine or peptide complexes as an explanation for the seafood result. That mechanism remains an interpretation; the matrix-specific failure itself is observed.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why “binds mercury” is too broad to predict performance. A useful cross-study question is whether differences in reported retention follow mercury species and food composition after accounting for the amount initially present. Lower dissolved mercury alone would be ambiguous if the remaining fraction contained a more readily transported complex. The relevant evidence must describe both quantity and chemical form. The existing contrast between mushrooms and seafood makes the meal’s chemistry central to interpretation.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/metals/mercury",
+          "text": "Compare inorganic mercury and methylmercury"
+        }
+      ]
+    },
+    {
+      "id": "digestion-and-excretion",
+      "title": "The exit problem: adsorption can reverse",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mirmahdi and colleagues tested ATCC 9763 after 24 hours of contact with a Pb/As/Hg/Cd mixture, then applied sequential simulated gastric and intestinal conditions. Prepared fluids used pH 2 pepsin and pH 8 pancreatin/bile, with two-hour stages at 37°C. Untreated, autoclaved, ethanol-treated and alkali-treated cells did not behave identically. Release occurred under some conditions, while retention of some metals increased elsewhere. These are conditional adsorption/desorption results, not a universal verdict that all yeast complexes remain bound or all fail.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Human transit is independently demonstrable. Klein and colleagues recovered administered S. boulardii from healthy volunteers’ feces; ampicillin changed recovery and steady-state fecal levels. But recovering yeast does not establish recovery of its original metal cargo. A complete balance must distinguish unabsorbed dietary metal, metal newly secreted by the host, and metal released from yeast along the way. Stool concentration alone is inadequate because changing stool mass can change concentration without changing total elimination.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A targeted search for this review did not identify a strain-defined S. boulardii human intervention demonstrating increased Pb, As or Hg elimination or a reduced body burden. That search result is not evidence that the mechanism is impossible. It identifies the missing link between material chemistry and a human outcome. Prevention of new absorption is also different from extracting metal already retained in tissues; the latter requires a demonstrated route back into the intestinal compartment.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/library/bile-acids-biliary-metal-excretion",
+          "text": "Compare luminal binding with biliary secretion and fecal elimination"
+        }
+      ]
+    },
+    {
+      "id": "microbial-tradeoffs",
+      "title": "A living carrier introduces additional biology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The same preparation could alter microbial interactions, intestinal permeability or transit without removing appreciable metal. Conversely, survival mechanisms such as export could undermine retention. Published observations involving living yeast, inactive biomass and cell-free material therefore answer different questions. If protection appears where durable adsorption is absent, a barrier-related or secreted effect becomes a competing explanation. A synthesis should retain those alternatives rather than describe every favorable response as “binding.”",
+          "refs": [
+            7,
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Viability also changes the safety question. Rannikko and colleagues found an association between probiotic use and Saccharomyces fungemia in Finnish hospital records. The study does not estimate absolute risk for healthy users, and strain matching was incomplete. Its clinical setting also underscores why evidence about a nonliving sorbent cannot establish the safety of a living product. A water-treatment adsorbent and an orally administered living yeast are different interventions, each requiring evidence appropriate to its destination.",
+          "refs": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experiments-that-separate-mechanisms",
+      "title": "Evidence that would distinguish capture from clearance",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Does retained metal explain protection?",
+          "text": "The research hypothesis is that durable wall association could reduce intestinal metal delivery independently of yeast metabolism. Its evaluation requires converging chemical and host evidence, with each published preparation identified precisely. Cross-study comparisons should distinguish microbial survival, material adsorption, intestinal transport and host injury rather than combine them into one detoxification score. These questions concern whether the proposed chemical mechanism is supported in the compartment where benefit is claimed.",
+          "refs": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "measures": [
+            "Do published differences in retention correspond to documented wall chemistry and material state, or are they better explained by metal species, food composition and the conditions represented in each study?",
+            "Where digestion data exist, is the apparent loss from solution accounted for by metal associated with recoverable biological material, rather than precipitation, redistribution or unreported analytical losses?",
+            "Do host observations connect lower internal exposure with greater total elimination, after accounting for intake and stool output? Fecal concentration and fecal yeast recovery cannot establish this connection individually.",
+            "When injury markers improve, does the evidence also show less retained metal? If those outcomes diverge, barrier protection, altered transit and redox effects remain distinct explanations that deserve separate assessment."
+          ],
+          "decision": "The wall-retention hypothesis would weaken if the literature showed release during digestion, unexplained analytical losses, or transport benefits associated only with barrier changes. More fecal metal without lower internal exposure would not establish reduced body burden. A consistent association between durable retention and reduced internal exposure would strengthen the hypothesis without, by itself, establishing a clinical treatment effect."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most informative evidence would be agreement across scales: a defined metal species remains associated with yeast-derived material, intestinal delivery is lower, and total elimination and internal-exposure measurements tell a consistent story. A mismatch would still clarify the mechanism—for example, strong water-treatment performance with no demonstrated oral benefit, or protection from injury without reduced metal retention. These distinctions give future evidence a clear interpretive purpose while keeping established observations separate from the proposed explanation.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/evidence-guide#from-mechanism-to-hypothesis",
+          "text": "Read how this guide separates observations, hypotheses and discriminating predictions"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is S. boulardii the same as baker’s yeast?",
+      "answer": "Boulardii is a lineage within S. cerevisiae, but a species name does not make strains or preparations interchangeable. The accession, growth conditions and processing determine which material an experiment actually tested."
+    },
+    {
+      "question": "Does yeast have to be alive to bind lead?",
+      "answer": "No. Inactive MYA-796 biomass captured Pb(II) in water. That supports metabolism-independent adsorption under those conditions, but does not show that a heat-killed product or a live capsule will behave identically during digestion."
+    },
+    {
+      "question": "Why can mercury binding work in water and fail in fish?",
+      "answer": "Food proteins and small ligands change mercury’s chemical partners and availability to yeast. The cited simulated-digestion study found a seafood limitation despite reductions in aqueous standards and mushrooms."
+    },
+    {
+      "question": "Would more metal in stool prove that body burden fell?",
+      "answer": "Not by itself. Investigators need total fecal output, controlled intake and internal-exposure measurements. Increased stool metal can represent unabsorbed intake rather than removal of metal previously stored in tissues."
+    },
+    {
+      "question": "Has human metal detoxification with S. boulardii been established here?",
+      "answer": "No. The reviewed human study establishes fecal recovery of the yeast. Demonstrating metal removal requires linked measurements of metal retention, excretion and internal exposure, with the particular strain and formulation identified."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Khatri I, Tomar R, Ganesan K, Prasad GS, Subramanian S",
+      "year": 2017,
+      "title": "Complete genome sequence and comparative genomics of the probiotic yeast Saccharomyces boulardii",
+      "url": "https://doi.org/10.1038/s41598-017-00414-2",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Comparative genome sequencing and phylogeny",
+      "setting": "Commercial boulardii isolates compared with 145 S. cerevisiae strains",
+      "note": "Full text read via PMC5428479. Taxonomic position and Figure 4 support lineage relationships; the work does not measure metal binding."
+    },
+    {
+      "authors": "Stathatou PM, Athanasiou CE, Tsezos M, et al.",
+      "year": 2022,
+      "title": "Lead removal at trace concentrations from water by inactive yeast cells",
+      "url": "https://doi.org/10.1038/s43247-022-00463-0",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Aqueous biosorption, spectroscopy and cellular nanomechanics",
+      "setting": "Washed, freeze-dried ATCC MYA-796 biomass in lead-nitrate-spiked ultrapure water",
+      "note": "Full publication PDF read from the authors’ MIT repository. Methods identify MYA-796; nutrient-free assay inactivity is not a clinical formulation or demonstration of complete killing. No gastrointestinal or host clearance experiment."
+    },
+    {
+      "authors": "Batista TM, Marques ETA Jr, Franco GR, Douradinha B",
+      "year": 2014,
+      "title": "Draft Genome Sequence of the Probiotic Yeast Saccharomyces cerevisiae var. boulardii Strain ATCC MYA-796",
+      "url": "https://doi.org/10.1128/genomeA.01345-14",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Draft genome announcement",
+      "setting": "ATCC MYA-796, derived from French Ultra Levure",
+      "note": "Full genome announcement read through publisher-indexed text; establishes isolate provenance, not equivalence of every current product bearing the boulardii name."
+    },
+    {
+      "authors": "Mirmahdi RS, Mofid V, Zoghi A, Khosravi-Darani K, Mortazavian AM",
+      "year": 2022,
+      "title": "Risk of low stability Saccharomyces cerevisiae ATCC 9763-heavy metals complex in gastrointestinal simulated conditions",
+      "url": "https://doi.org/10.1016/j.heliyon.2022.e09452",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Mixed-metal biosorption and simulated digestion",
+      "setting": "S. cerevisiae ATCC 9763, untreated or heat/ethanol/NaOH-pretreated; Pb, As, Hg and Cd in aqueous mixtures",
+      "note": "Full text read via PMC9123204. Methods 2.4 distinguish concentrated inoculum from final suspension; Results inconsistently attribute a 92.7% Hg figure to NaOH/ethanol. Article therefore uses qualitative desorption findings, not an optimized clinical percentage. As/Hg species are insufficiently resolved for species-specific clinical inference."
+    },
+    {
+      "authors": "Clemente MJ, Vivó MA, Puig S, Zúñiga M, Monedero V, Devesa V, Vélez D",
+      "year": 2020,
+      "title": "In vitro evaluation of the efficacy of lactobacilli and yeasts in reducing bioavailability of inorganic arsenic",
+      "url": "https://doi.org/10.1016/j.lwt.2020.109272",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "In vitro binding, digestion and intestinal-cell transport assays",
+      "setting": "Lactobacillus and S. cerevisiae strains; As(III), As(V), aqueous solutions and rice",
+      "note": "Publisher abstract and section snippets read; complete strain inventory was not available. Yeast results are not assigned to a specific boulardii strain. Rice transport benefit highlighted in abstract belongs to L. plantarum."
+    },
+    {
+      "authors": "Jadán-Piedra C, Baquedano M, Puig S, Vélez D, Devesa V",
+      "year": 2017,
+      "title": "Use of Saccharomyces cerevisiae To Reduce the Bioaccessibility of Mercury from Food",
+      "url": "https://doi.org/10.1021/acs.jafc.7b00285",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Simulated digestion with mercury species, food matrices and yeast strains",
+      "setting": "Hg(II), methylmercury, mushrooms and seafood; supplementary comparison includes VRB, T73 and Ultralevura",
+      "note": "Publisher abstract plus full supplementary Tables S1–S2 were read; main full text was not obtained. Ultralevura is retained as the paper’s product/strain label, without assigning a culture-collection number. BY4741 competition experiments are not attributed to Ultralevura."
+    },
+    {
+      "authors": "Ghosh M, Shen J, Rosen BP",
+      "year": 1999,
+      "title": "Pathways of As(III) detoxification in Saccharomyces cerevisiae",
+      "url": "https://doi.org/10.1073/pnas.96.9.5001",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Gene disruption, complementation, radiotracer transport and membrane-vesicle experiments",
+      "setting": "Laboratory S. cerevisiae backgrounds including W303-1B and DTY165/DTY167 derivatives",
+      "note": "Full PNAS text read. Figures 1–3 distinguish Acr3-dependent cellular exclusion from Ycf1-dependent vacuolar transport; no probiotic human experiment."
+    },
+    {
+      "authors": "Klein SM, Elmer GW, McFarland LV, Surawicz CM, Levy RH",
+      "year": 1993,
+      "title": "Recovery and elimination of the biotherapeutic agent, Saccharomyces boulardii, in healthy human volunteers",
+      "url": "https://doi.org/10.1023/A:1018924820333",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Human oral administration and fecal yeast-recovery studies",
+      "setting": "Healthy volunteers with dose variation and an ampicillin comparison",
+      "note": "Publisher/PubMed abstract read. Reports fecal yeast kinetics, not metal excretion, absorption or body burden; no culture-collection strain identifier verified from the abstract."
+    },
+    {
+      "authors": "Thomas MB, Tegha Kum MJ, Innocent O, et al.",
+      "year": 2026,
+      "title": "Pharmacological and molecular insights into β-glucan-rich Saccharomyces cerevisiae var. boulardii: In vivo and in silico protection against arsenic-induced redox and hematologic imbalance",
+      "url": "https://www.ajol.info/index.php/imcp/article/view/321974",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Rat oral co-exposure experiment and molecular docking",
+      "setting": "Thirty male Wistar rats, five groups, 28 days, sodium arsenate and a boulardii preparation",
+      "note": "Official journal abstract read, dated 31 January 2026. Abstract does not provide a strain accession or metal mass-balance endpoint. Improved redox/hematologic markers and docking do not demonstrate arsenic chelation or clearance; full methods remain unreviewed."
+    },
+    {
+      "authors": "Rannikko J, Holmberg V, Karppelin M, et al.",
+      "year": 2021,
+      "title": "Fungemia and Other Fungal Infections Associated with Use of Saccharomyces boulardii Probiotic Supplements",
+      "url": "https://wwwnc.cdc.gov/eid/article/27/8/21-0018_article",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Retrospective multicenter hospital registry study with comparison groups",
+      "setting": "Five Finnish university hospitals, 2009–2018; Saccharomyces bloodstream and other clinical cultures",
+      "note": "Full CDC journal article read. Association does not provide general-population absolute risk; authors lacked molecular confirmation that every isolate matched the administered probiotic strain."
+    },
+    {
+      "authors": "Zhang Y, Fan C, Meng Q, Diao Z, Dong L, Peng X, Ma S, Zhou Q",
+      "year": 2009,
+      "title": "Biosorption of Pb(2+) by Saccharomyces cerevisiae in static and dynamic adsorption tests",
+      "url": "https://doi.org/10.1007/s00128-009-9847-9",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Static and dynamic wastewater-oriented adsorption experiments",
+      "setting": "Free and immobilized S. cerevisiae biomass with Pb(II)",
+      "note": "PubMed abstract read. Electron microscopy implicated the cell wall; strain and viability details were not verified from the abstract, so it is used only as a general comparator."
+    }
+  ],
+  "claims": [
+    {
+      "id": "strain-lineage",
+      "claim": "Boulardii isolates lie within S. cerevisiae diversity near wine-associated strains in comparative genomic analysis.",
+      "refs": [
+        1
+      ],
+      "evidence": "observed",
+      "setting": "Genome comparisons, not a metal assay",
+      "boundary": "Taxonomic position section and Figure 4; relatedness does not establish identical binding performance."
+    },
+    {
+      "id": "lead-strain-bridge",
+      "claim": "The lead study used MYA-796, independently documented as a boulardii-derived isolate.",
+      "refs": [
+        2,
+        3
+      ],
+      "evidence": "observed",
+      "setting": "Cross-paper accession match",
+      "boundary": "Stathatou Methods, Yeast strain; Batista Genome Announcement. Supports identity, not efficacy of a retail formulation."
+    },
+    {
+      "id": "lead-adsorption",
+      "claim": "Inactive MYA-796 captures Pb(II) from water, with cell-wall chemistry implicated.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "Freeze-dried biomass, lead nitrate, pH 5, 25°C",
+      "boundary": "Figure 2 and spectroscopy/discussion; no host clearance endpoint or proof every cell was dead."
+    },
+    {
+      "id": "wall-comparator",
+      "claim": "Free and immobilized S. cerevisiae preparations adsorbed Pb(II), with microscopy implicating the wall.",
+      "refs": [
+        11
+      ],
+      "evidence": "observed",
+      "setting": "Static/dynamic wastewater-oriented assays",
+      "boundary": "Abstract only; strain and viability details not verified. Not assigned to boulardii."
+    },
+    {
+      "id": "arsenic-poor-binding",
+      "claim": "The tested yeast strains removed less than 10% inorganic arsenic from solution despite some transport effects.",
+      "refs": [
+        5
+      ],
+      "evidence": "observed",
+      "setting": "In vitro As(III)/As(V), digestion and intestinal-cell assays",
+      "boundary": "Abstract and conclusions snippets; mechanism of transport change is not resolved, and the rice result highlighted was bacterial."
+    },
+    {
+      "id": "mercury-matrix",
+      "claim": "Yeast-associated reductions in mercury bioaccessibility did not extend to all food matrices.",
+      "refs": [
+        6
+      ],
+      "evidence": "observed",
+      "setting": "Simulated digestion of Hg(II), methylmercury and foods",
+      "boundary": "Abstract and supplementary Tables S1–S2: Ultralevura included in swordfish comparison; BY4741 used for ligand competition. Neither is a human elimination trial."
+    },
+    {
+      "id": "desorption",
+      "claim": "ATCC 9763 metal retention changed with pretreatment and digestion, including release under some conditions.",
+      "refs": [
+        4
+      ],
+      "evidence": "observed",
+      "setting": "Mixed-metal aqueous model followed by simulated digestion",
+      "boundary": "Methods 2.3–2.7 and Figure 1. Another strain; source has numerical/pretreatment inconsistencies, so no optimized percentage is generalized."
+    },
+    {
+      "id": "arsenite-defense",
+      "claim": "Acr3 and Ycf1 confer distinct arsenite-resistance routes in laboratory yeast.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "S. cerevisiae mutants and radiotracer/membrane-vesicle assays",
+      "boundary": "Figures 1–3; exclusion versus vacuolar sequestration does not establish the net behavior of ingested boulardii."
+    },
+    {
+      "id": "rat-protection",
+      "claim": "A boulardii preparation improved selected redox and hematologic measures in arsenate-exposed rats.",
+      "refs": [
+        9
+      ],
+      "evidence": "observed",
+      "setting": "Male Wistar rats, oral co-treatment, 28 days",
+      "boundary": "Journal abstract only; no strain accession or metal-balance endpoint there. Docking does not measure arsenic binding."
+    },
+    {
+      "id": "human-yeast-recovery",
+      "claim": "Administered S. boulardii was recovered in human feces, and ampicillin altered recovery.",
+      "refs": [
+        8
+      ],
+      "evidence": "human-intervention",
+      "setting": "Healthy volunteers",
+      "boundary": "Abstract; fecal yeast recovery is not fecal metal recovery or reduced body burden."
+    },
+    {
+      "id": "fungemia-association",
+      "claim": "S. boulardii use was associated with Saccharomyces infections in a hospital registry study.",
+      "refs": [
+        10
+      ],
+      "evidence": "observed",
+      "setting": "Five Finnish university hospitals, 2009–2018",
+      "boundary": "Results and Discussion limitations; retrospective association, no general-user absolute risk and incomplete probiotic/isolate matching."
+    },
+    {
+      "id": "retained-cargo-hypothesis",
+      "claim": "Durable wall retention could reduce intestinal metal delivery independently of viable yeast metabolism.",
+      "refs": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "evidence": "hypothesis",
+      "setting": "Conceptual synthesis of published retention, transport and host-outcome evidence",
+      "boundary": "Would weaken with desorption, analytical losses or a transport benefit explained solely by barrier changes. No clinical efficacy is claimed."
+    }
+  ],
+  "share": {
+    "hook": "A yeast used as a probiotic can also supply an inactive material that captures lead from water. The hard part for an oral binder is keeping its cargo until it leaves.",
+    "explanation": "The trace-lead experiment used ATCC MYA-796, a documented boulardii lineage. Digestion studies in other preparations show why capture and lasting removal need separate tests.",
+    "refs": [
+      2,
+      3,
+      4
+    ],
+    "qualification": "Water-treatment and in vitro evidence; neither a retail-product equivalence claim nor demonstrated human metal clearance."
+  },
+  "related": [
+    {
+      "url": "/unexpected-metal-biology",
+      "title": "Unexpected metal biology",
+      "description": "Compare overlooked metal mechanisms across antimicrobial drugs, plant compounds and yeast."
+    },
+    {
+      "url": "/metals/lead",
+      "title": "Lead",
+      "description": "Follow lead from chemical form and exposure to biological compartments."
+    },
+    {
+      "url": "/metals/mercury",
+      "title": "Mercury",
+      "description": "Understand why mercury species and food ligands alter binding and transport."
+    },
+    {
+      "url": "/library/bile-acids-biliary-metal-excretion",
+      "title": "Bile and the metal exit problem",
+      "description": "Separate intestinal adsorption from host secretion, reabsorption and fecal elimination."
+    },
+    {
+      "url": "/evidence-guide#from-mechanism-to-hypothesis",
+      "title": "From mechanism to hypothesis",
+      "description": "Use observations to design an experiment that could change the interpretation."
+    }
+  ]
+}

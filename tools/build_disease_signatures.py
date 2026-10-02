@@ -41,7 +41,7 @@ def schema(data, route, hub=False):
     return {'@context': 'https://schema.org', '@graph': [page, *([faq] if data.get('faqs') else []), crumbs]}
 
 
-def head(data, route, hub=False):
+def head(data, route, hub=False, structured=None):
     out = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', '', PREFIX, flags=re.S)
     out = re.sub(r'<title>.*?</title>', '<title>' + esc(data['title']) + ' | Microbial Metallomics</title>', out, flags=re.S)
     for attr, key, value in [('name', 'description', data['description']), ('property', 'og:title', data['title']), ('property', 'og:description', data['description']), ('property', 'og:url', ORIGIN + route), ('name', 'twitter:title', data['title']), ('name', 'twitter:description', data['description'])]:
@@ -51,7 +51,7 @@ def head(data, route, hub=False):
     out = re.sub(r'<body[^>]*>', '<body class="journal-article signature-page">', out, count=1)
     if hub:
         out = out.replace('property="og:type" content="article"', 'property="og:type" content="website"')
-    return out.replace('</head>', '<link rel="stylesheet" href="/assets/metal-access.css">\n<link rel="stylesheet" href="/assets/disease-signatures.css">\n<script type="application/ld+json">' + json.dumps(schema(data, route, hub), ensure_ascii=False) + '</script>\n</head>')
+    return out.replace('</head>', '<link rel="stylesheet" href="/assets/metal-access.css">\n<link rel="stylesheet" href="/assets/disease-signatures.css">\n<script type="application/ld+json">' + json.dumps(structured if structured is not None else schema(data, route, hub), ensure_ascii=False) + '</script>\n</head>')
 
 
 def controls(data, route):
@@ -141,7 +141,8 @@ hub_data = json.loads((DATA / 'hub.json').read_text())
 order = list(hub_data['cards'])
 reviews.sort(key=lambda r: order.index(r['slug']))
 assert len(reviews) == 5
-for review in reviews:
-    render_review(review)
-render_hub()
-print('Built disease-signature pathway and', len(reviews), 'paper reviews.')
+if __name__ == '__main__':
+    for review in reviews:
+        render_review(review)
+    render_hub()
+    print('Built disease-signature pathway and', len(reviews), 'paper reviews.')

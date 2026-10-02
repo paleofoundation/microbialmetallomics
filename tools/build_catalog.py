@@ -15,6 +15,14 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://microbialmetallomics.com'
 # These descriptions are explicitly stated in the existing cited reviews.
 DESIGNS = {
+ 'lactoferrin-iron-withholding-microbial-countermeasures': ('Narrative synthesis','Multiple study settings'),
+ 'hepcidin-ferroportin-iron-redistribution': ('Narrative synthesis','Multiple study settings'),
+ 'transferrin-ferritin-heme-recycling': ('Narrative synthesis','Multiple study settings'),
+ 'glutathione-metals-mitochondria-drug-metabolism': ('Narrative synthesis','Multiple study settings'),
+ 'bile-acids-biliary-metal-excretion': ('Narrative synthesis','Multiple study settings'),
+ 'vancomycin-zinc-binding-antimicrobial-mechanisms': ('Narrative synthesis','Multiple study settings'),
+ 'silymarin-metal-binding-liver-evidence': ('Narrative synthesis','Multiple study settings'),
+ 'saccharomyces-boulardii-metal-biosorption': ('Narrative synthesis','Multiple study settings'),
  'dementia-lewy-bodies-brain-metallomic-signatures': ('Observational study','Human postmortem tissue'),
  'alzheimers-brain-copper-metallomic-signature': ('Observational study','Human postmortem tissue'),
  'parkinsons-dementia-brain-metallomic-signature': ('Observational study','Human postmortem tissue'),

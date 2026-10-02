@@ -115,6 +115,49 @@
         "metallomic signatures of disease",
         "disease metallomic signatures"
       ]
+    },
+    {
+      "url": "/host-metal-defense",
+      "terms": [
+        "host metal defenses"
+      ]
+    },
+    {
+      "url": "/unexpected-metal-biology",
+      "terms": [
+        "unexpected metal biology"
+      ]
+    },
+    {
+      "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+      "terms": [
+        "lactoferrin"
+      ]
+    },
+    {
+      "url": "/library/hepcidin-ferroportin-iron-redistribution",
+      "terms": [
+        "hepcidin",
+        "ferroportin"
+      ]
+    },
+    {
+      "url": "/library/transferrin-ferritin-heme-recycling",
+      "terms": [
+        "transferrin"
+      ]
+    },
+    {
+      "url": "/library/glutathione-metals-mitochondria-drug-metabolism",
+      "terms": [
+        "glutathione"
+      ]
+    },
+    {
+      "url": "/library/bile-acids-biliary-metal-excretion",
+      "terms": [
+        "biliary metal excretion"
+      ]
     }
   ],
   "related": {
@@ -138,6 +181,11 @@
         "url": "/methods",
         "title": "Methods for measuring the relevant metal pool",
         "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/unexpected-metal-biology",
+        "title": "Unexpected metal biology",
+        "description": "Investigate zinc–vancomycin interactions, plant ligands, and yeast metal capture through primary evidence."
       }
     ],
     "/metals/iron": [
@@ -170,6 +218,11 @@
         "url": "/blog/metal-microbiome-disease-axis",
         "title": "The metal–microbiome–disease axis",
         "description": "The organizing argument: who gets the metal, in which compartment, and why it matters."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
       }
     ],
     "/metals/zinc": [
@@ -197,6 +250,11 @@
         "url": "/microbiome",
         "title": "Heavy metals and the gut microbiome",
         "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
       }
     ],
     "/metals/arsenic": [
@@ -214,6 +272,11 @@
         "url": "/methods",
         "title": "Methods for measuring the relevant metal pool",
         "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/unexpected-metal-biology",
+        "title": "Unexpected metal biology",
+        "description": "Investigate zinc–vancomycin interactions, plant ligands, and yeast metal capture through primary evidence."
       }
     ],
     "/metals/cadmium": [
@@ -248,6 +311,11 @@
         "url": "/methods",
         "title": "Methods for measuring the relevant metal pool",
         "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/unexpected-metal-biology",
+        "title": "Unexpected metal biology",
+        "description": "Investigate zinc–vancomycin interactions, plant ligands, and yeast metal capture through primary evidence."
       }
     ],
     "/metals/lead": [
@@ -265,6 +333,11 @@
         "url": "/methods",
         "title": "Methods for measuring the relevant metal pool",
         "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/unexpected-metal-biology",
+        "title": "Unexpected metal biology",
+        "description": "Investigate zinc–vancomycin interactions, plant ligands, and yeast metal capture through primary evidence."
       }
     ],
     "/metals/copper": [
@@ -292,6 +365,11 @@
         "url": "/people/stephane-benoit#dmg-evidence",
         "title": "Nickel chelation and antimicrobial research",
         "description": "How the surrounding metal environment changed the response to DMG in a Campylobacter study."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
       }
     ],
     "/metals/manganese": [
@@ -331,6 +409,11 @@
         "url": "/library/iron-fortification-kenyan-infant-microbiome",
         "title": "Iron fortification in Kenyan infants",
         "description": "Read the human trial, its microbial findings, and the studied setting."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
       }
     ],
     "/glossary/calprotectin": [
@@ -545,6 +628,11 @@
         "url": "/disease-signatures",
         "title": "Metallomic signatures of disease",
         "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
       }
     ],
     "/library/dementia-lewy-bodies-brain-metallomic-signatures": [
@@ -642,6 +730,42 @@
         "url": "/metals",
         "title": "The metal atlas",
         "description": "Explore the microbial biology of each element."
+      },
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
+      }
+    ],
+    "/metal-access": [
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
+      }
+    ],
+    "/host-metal-defense": [
+      {
+        "url": "/unexpected-metal-biology",
+        "title": "Unexpected metal biology",
+        "description": "Investigate zinc–vancomycin interactions, plant ligands, and yeast metal capture through primary evidence."
+      },
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Connect measured patterns to host physiology and microbial function."
+      }
+    ],
+    "/unexpected-metal-biology": [
+      {
+        "url": "/host-metal-defense",
+        "title": "Host metal defenses",
+        "description": "Binding, redistribution, buffering, and biliary export: follow the host strategies and their competing effects."
+      },
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Connect measured patterns to host physiology and microbial function."
       }
     ]
   }

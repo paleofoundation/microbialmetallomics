@@ -1,0 +1,20 @@
+{
+  "id": "host-metal-series-release-one",
+  "title": "Host metal defenses and unexpected metal biology: eight-review release",
+  "articles": [
+    "lactoferrin-iron-withholding-microbial-countermeasures",
+    "hepcidin-ferroportin-iron-redistribution",
+    "transferrin-ferritin-heme-recycling",
+    "glutathione-metals-mitochondria-drug-metabolism",
+    "bile-acids-biliary-metal-excretion",
+    "vancomycin-zinc-binding-antimicrobial-mechanisms",
+    "silymarin-metal-binding-liver-evidence",
+    "saccharomyces-boulardii-metal-biosorption"
+  ],
+  "excluded": [
+    "calprotectin-multimetal-nutritional-immunity",
+    "phagosomal-copper-zinc-intoxication",
+    "metallothionein-metal-buffering-microbial-conflict"
+  ],
+  "scope": "Eight completed and independently audited reviews, with two collection pages. Three unfinished cellular-defense reviews remain outside this release."
+}

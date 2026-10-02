@@ -1,0 +1,577 @@
+{
+  "slug": "lactoferrin-iron-withholding-microbial-countermeasures",
+  "title": "Lactoferrin: iron withholding and microbial countermeasures",
+  "shortTitle": "Lactoferrin and microbial countermeasures",
+  "series": "host-defense",
+  "description": "How lactoferrin withholds iron, disrupts microbial behavior, and faces bacterial countermeasures—and what oral human studies actually establish.",
+  "deck": "Lactoferrin couples an iron-binding scaffold to antimicrobial surfaces. Its effects depend on iron loading, digestion, microbial receptors, and the compartment being measured.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "lactoferrin, apolactoferrin, hololactoferrin, nutritional immunity, lactoferricin, iron piracy, biofilm, oral lactoferrin",
+  "summary": {
+    "text": "Lactoferrin illustrates why protein-bound iron is not automatically inaccessible iron. Structural studies explain its binding capacity; microbial experiments separate starvation, surface damage, and altered biofilm development; receptor studies reveal escape. Oral trials must then establish their own outcomes in their own populations.",
+    "refs": [
+      1,
+      3,
+      4,
+      12
+    ]
+  },
+  "sections": [
+    {
+      "id": "iron-loading-changes-the-question",
+      "title": "Iron loading changes the biological question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lactoferrin is encountered in milk and other secretions and is released by neutrophils. At these interfaces, a microbe encounters both an iron-binding protein and a potentially hostile protein surface. Calling it an iron transporter leaves out that second activity; calling it an antibiotic leaves out its dependence on local chemistry and microbial biology. The useful question is which molecular form reaches which organism, and what happens to both the protein and its iron.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Anderson, Baker, and colleagues established the structural foundation using human milk lactoferrin. Each of its two lobes contains one iron-binding site, placing the fully loaded capacity at two ferric ions, Fe(III), per molecule. Protein side chains and a cooperating carbonate anion form the binding environment. This is reversible sequestration: the metal remains in the system. Neither two occupied sites nor strong binding establishes removal from the body, a decrease in total tissue iron, or inaccessibility to every microbial receptor.",
+          "refs": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Apo denotes iron-depleted lactoferrin; holo denotes iron-loaded lactoferrin. Real preparations can be partly saturated, so the measured percentage matters more than a binary product label. The apolactoferrin crystal structure had an open N-lobe cleft but a closed, empty C-lobe: occupancy and conformation are related without being interchangeable. An apo–holo comparison therefore changes available binding capacity and can also change protein behavior. It is not, by itself, a clean experiment isolating nutrient deprivation from every other mechanism.",
+          "refs": [
+            2,
+            8
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/iron",
+          "text": "Follow iron species, compartments, and microbial access in the iron profile"
+        }
+      ]
+    },
+    {
+      "id": "different-antimicrobial-endpoints",
+      "title": "Growth, membrane damage, and biofilms are different endpoints",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ellison, Giehl, and LaForce tracked radiolabeled lipopolysaccharide released from an Escherichia coli mutant and Salmonella Typhimurium strains. Lactoferrin damaged the outer-membrane barrier, and the experiment also showed greater susceptibility to rifampin, which normally crosses that barrier poorly. Iron saturation blocked LPS release under the tested conditions. That result supports a physical surface effect beyond simply counting iron-starved cells, while warning against describing all direct lactoferrin activity as independent of iron loading. Buffer composition and pH were part of the experimental result, not incidental details.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Singh, Parsek, Greenberg, and Welsh asked a different question: could an innate defense prevent bacteria from settling into a biofilm before suppressing their growth? Their Pseudomonas aeruginosa flow-cell experiments found that iron sequestration promoted surface twitching and prevented organized biofilm development at concentrations below those that killed bacteria or prevented growth. The finding makes microbial behavior a separate outcome worth measuring. Preventing the formation of a community does not demonstrate eradication of an established infection, and biomass alone cannot distinguish these possibilities.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "What each assay can establish—and what remains separate",
+          "headers": [
+            "Observation",
+            "Supported interpretation",
+            "Still requires measurement"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Iron occupies lactoferrin",
+                "A specified protein pool carries Fe(III)",
+                "Exchange, uptake, and the destination of that iron"
+              ],
+              "refs": [
+                1
+              ]
+            },
+            {
+              "cells": [
+                "LPS release or altered permeability",
+                "The bacterial surface barrier changed",
+                "Viability and benefit in host tissue"
+              ],
+              "refs": [
+                3
+              ]
+            },
+            {
+              "cells": [
+                "Less developing biofilm",
+                "Community assembly changed",
+                "Established biofilm clearance and living cell counts"
+              ],
+              "refs": [
+                4
+              ]
+            },
+            {
+              "cells": [
+                "Higher hemoglobin after oral treatment",
+                "A hematological outcome changed",
+                "Whether intestinal microbes mediated the change"
+              ],
+              "refs": [
+                9,
+                10
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron-piracy-and-peptide-defense",
+      "title": "Microbes can capture the cargo and resist the protein",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Biswas and Sparling supplied a direct genetic test of iron piracy in Neisseria gonorrhoeae. Disrupting lbpA eliminated growth using lactoferrin-bound iron, alongside loss of lactoferrin binding. Crucially, clinical isolates varied: many lacked a functional lactoferrin receptor. A protein that withholds iron from one organism can therefore supply another with a usable iron source. That does not make holo-lactoferrin universally growth-promoting; it makes receptor identity a necessary variable when interpreting apparently contradictory antimicrobial results.",
+          "refs": [
+            12
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "LbpB illustrates a different countermeasure. Morgenthau, Beddek, and Schryvers removed negatively charged regions from LbpB in N. meningitidis MC58 and found reduced protection from the cationic peptide lactoferricin, without simply destroying protein stability or surface export. The study supports peptide neutralization as a function separable from iron transport. It also exposed an assay limitation: washing away shed LbpB can change apparent protection. The local mixture of cell-associated and released proteins matters, so the culture assay does not directly quantify protection during human infection.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/transferrin-ferritin-heme-recycling",
+          "text": "Compare lactoferrin piracy with transferrin and heme acquisition"
+        }
+      ]
+    },
+    {
+      "id": "evolution-beyond-homeostasis",
+      "title": "Evidence for defense beyond iron homeostasis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An iron-binding structure alone cannot establish why natural selection preserved a protein. Barber and colleagues found recurrent positive selection in primate lactoferrin, concentrated at antimicrobial surfaces and bacterial interaction interfaces. This is evidence of evolutionary conflict consistent with host defense, rather than a conclusion inferred solely from binding chemistry. It does not identify one historical pathogen as the universal driver, and differences among microbial communities remain a plausible part of the selective environment.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sil and colleagues extended that argument in 2026 by reconstructing ancestral sequences and testing synthesized lactoferricin peptides. Growth, viable-cell, and membrane assays showed that this embedded region acquired antimicrobial functions during its inferred evolutionary history, with substantial differences among peptide variants and bacterial strains. This work connects sequence change to a measurable mechanism. Its material was isolated peptide, however: reconstructed peptide activity neither measures intact lactoferrin activity in a person nor establishes how much active peptide an oral preparation generates.",
+          "refs": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oral-protein-and-human-outcomes",
+      "title": "Oral lactoferrin must survive a separate evidence chain",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Troost and colleagues directly sampled gastric transit in 12 healthy adults in a randomized crossover experiment. A substantial fraction of bovine lactoferrin survived. Recovery was numerically higher for the iron-saturated preparation, but the between-preparation difference was not statistically significant (P = 0.09). The low-saturation preparation was called apoLF despite approximately 20% iron saturation. These were test drinks delivered through a gastric tube; the findings cannot specify the exposure produced by every capsule, food, or coated formulation. Gastric recovery is also different from intestinal persistence, systemic absorption, or preservation of antimicrobial function.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In Nappi and colleagues’ four-week pregnancy study, 100 women were randomized and 97 completed follow-up. Both oral bovine lactoferrin and ferrous sulfate groups improved hematological measures; abdominal-pain and constipation scores favored lactoferrin. This comparison did not measure microbial iron acquisition or establish microbiome mediation. Nor should a small trial’s reported absence of a between-group difference be converted into proof of equivalence: a prespecified noninferiority margin and an appropriate analysis would be needed for that inference.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El Amrousy and colleagues reported improved iron indices and lower IL-6 and hepcidin-25 with lactoferrin in children with inflammatory bowel disease in remission and anemia. Ninety-two children were randomized; 80 completed the three-month comparison. These measurements connect hematology to inflammation but do not prove that changing microbes caused the response. The report also disagrees internally about whether side effects caused treatment discontinuation, so its tolerability narrative warrants caution. Such evidence supports further targeted comparisons, not a universal mechanism for oral lactoferrin.",
+          "refs": [
+            10
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The large ELFIN trial addressed infection prevention in very preterm infants, not anemia. Among infants with primary-outcome data, late-onset infection occurred in 316 of 1,093 receiving enteral bovine lactoferrin and 334 of 1,089 controls: adjusted risk ratio 0.95, 95% confidence interval 0.86–1.04. The trial did not demonstrate prevention of late-onset infection with its regimen. This is consequential contrary evidence for that clinical application; it does not erase structural or bacterial findings, and the anemia studies do not overturn it.",
+          "refs": [
+            11
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/lactoferrin-vs-ferrous-sulfate",
+          "text": "Read the dedicated lactoferrin versus ferrous sulfate comparison alongside these study boundaries"
+        },
+        {
+          "type": "link",
+          "url": "/library/hepcidin-ferroportin-iron-redistribution",
+          "text": "See why lower circulating iron and improved iron delivery can reflect different host priorities"
+        }
+      ]
+    },
+    {
+      "id": "separate-capacity-from-surface-activity",
+      "title": "The next experiment should separate capacity from surface activity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The synthesis suggests a testable hypothesis: lactoferrin’s effect on a community depends jointly on available iron-binding capacity and the activity of intact protein or derived peptides. Under this model, two preparations with the same total iron can produce different microbial outcomes. Conversely, two preparations producing similar community changes might act through different routes. A useful study must measure the proposed intermediate steps instead of treating any decline in biomass as evidence for iron starvation.",
+          "refs": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "type": "proposal",
+          "title": "Distinguish iron deprivation from peptide action after digestion",
+          "text": "In a controlled, nonclinical community model using characterized nonpathogenic mucosal isolates, compare measured low- and high-saturation lactoferrin before and after simulated digestion. Include no-protein controls, a matched iron-binding comparator, and peptide-containing versus peptide-depleted fractions, verifying the chemistry of every fraction. The hypothesis predicts a component rescued by restored microbial iron availability and a residual component associated with peptide exposure. These are proposed tests, not outcomes already established by the cited studies.",
+          "refs": [
+            3,
+            4,
+            7,
+            8
+          ],
+          "measures": [
+            "Quantify intact protein, peptide identities, iron saturation, exchangeable iron, and microbial iron uptake rather than total iron alone.",
+            "Measure viable cell abundance, community composition, surface assembly, and membrane integrity separately; account for pH, salt, and digestion controls.",
+            "Compare responses with independently measured iron-acquisition traits, while testing whether separation procedures themselves change activity."
+          ],
+          "decision": "If restoring accessible iron abolishes every microbial effect despite demonstrable peptide exposure, the proposed independent peptide contribution is weakened. If peptide depletion has no effect while iron availability is unchanged, that contribution is also weakened. If iron uptake never falls, reduced biomass cannot be assigned to iron starvation without another causal link."
+        },
+        {
+          "type": "paragraph",
+          "text": "The important advance would be a causal map from formulation to local molecular exposure to microbial response. It could explain why a convincing purified-protein experiment and an unconvincing oral trial coexist, and identify the exposure a later human study should actually measure. A favorable laboratory result would still leave clinical effectiveness as a separate question, but a negative mechanistic result would already help reject the wrong explanation.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Place lactoferrin within the broader host metal defense series"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are apo- and holo-lactoferrin interchangeable?",
+      "answer": "No. Iron occupancy changes remaining binding capacity and conformation. In the cited adult gastric study, holo-lactoferrin recovery was numerically higher but not statistically different. Preparations described as apo can still contain iron, so measured saturation matters."
+    },
+    {
+      "question": "Can bacteria use lactoferrin-bound iron?",
+      "answer": "Some can. Receptor-competent Neisseria provide a direct example, while clinical isolates differ in receptor function. Protein binding therefore changes access rather than guaranteeing universal deprivation."
+    },
+    {
+      "question": "Does a smaller biofilm mean bacteria were killed?",
+      "answer": "No. Surface behavior, assembly, growth, and viability are distinct outcomes. Lactoferrin experiments show why a developing biofilm can be inhibited without growth being stopped."
+    },
+    {
+      "question": "Do the human studies prove lactoferrin improves health through the microbiome?",
+      "answer": "The cited anemia trials did not establish microbial mediation. ELFIN did not demonstrate infection prevention in very preterm infants with its tested regimen. Mechanistic plausibility and population-specific clinical outcomes need separate evidence."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Anderson BF, Baker HM, Dodson EJ, Norris GE, Rumball SV, Waters JM, Baker EN",
+      "year": 1987,
+      "title": "Structure of human lactoferrin at 3.2-A resolution",
+      "url": "https://doi.org/10.1073/pnas.84.7.1769",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "X-ray crystallography",
+      "setting": "Purified human milk lactoferrin",
+      "note": "Abstract verified through PMC304522. Two lobes and protein ligands; carbonate assignment was tentative at this resolution. Not an uptake study."
+    },
+    {
+      "authors": "Anderson BF, Baker HM, Norris GE, Rumball SV, Baker EN",
+      "year": 1990,
+      "title": "Apolactoferrin structure demonstrates ligand-induced conformational change in transferrins",
+      "url": "https://doi.org/10.1038/344784a0",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "X-ray crystallography",
+      "setting": "Human apolactoferrin crystal structure",
+      "note": "PubMed PMID2330032 verified. Open N-lobe and closed unliganded C-lobe; static structure does not specify every solution conformation."
+    },
+    {
+      "authors": "Ellison RT III, Giehl TJ, LaForce FM",
+      "year": 1988,
+      "title": "Damage of the outer membrane of enteric gram-negative bacteria by lactoferrin and transferrin",
+      "url": "https://doi.org/10.1128/iai.56.11.2774-2781.1988",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Controlled bacterial permeability assays",
+      "setting": "UDP-galactose epimerase-deficient E. coli and wild-type Salmonella Typhimurium strains",
+      "note": "PubMed PMID3169987 abstract. LPS release depended on conditions and was blocked by iron saturation; no human infection endpoint."
+    },
+    {
+      "authors": "Singh PK, Parsek MR, Greenberg EP, Welsh MJ",
+      "year": 2002,
+      "title": "A component of innate immunity prevents bacterial biofilm development",
+      "url": "https://doi.org/10.1038/417552a",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Bacterial biofilm and motility experiments",
+      "setting": "Pseudomonas aeruginosa flow-cell model",
+      "note": "Publisher abstract and figure captions inspected. Supports prevention of biofilm development at sub-growth-inhibitory exposure; not clinical treatment efficacy."
+    },
+    {
+      "authors": "Morgenthau A, Beddek A, Schryvers AB",
+      "year": 2014,
+      "title": "The Negatively Charged Regions of Lactoferrin Binding Protein B, an Adaptation against Anti-Microbial Peptides",
+      "url": "https://doi.org/10.1371/journal.pone.0086243",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Bacterial genetic perturbation and peptide killing assays",
+      "setting": "Neisseria meningitidis MC58 and LbpB derivatives",
+      "note": "PLOS full text, Figures1,4–8. Stability/export controls support interpretation; removal of shed LbpB during washing limits in-vivo extrapolation."
+    },
+    {
+      "authors": "Barber MF, Kronenberg Z, Yandell M, Elde NC",
+      "year": 2016,
+      "title": "Antimicrobial Functions of Lactoferrin Promote Genetic Conflicts in Ancient Primates and Modern Humans",
+      "url": "https://doi.org/10.1371/journal.pgen.1006063",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Comparative evolutionary sequence analysis",
+      "setting": "Primate lactoferrin orthologs and human population variation",
+      "note": "PLOS full text, Figures1–3. Selection and interface mapping support conflict; specific historical pathogens and fitness effects are inferred."
+    },
+    {
+      "authors": "Sil T, Kowalski CH, Scamfer S, Copeland N, Barber MF",
+      "year": 2026,
+      "title": "Retracing the origin and evolution of a cryptic antimicrobial peptide within mammalian lactoferrin",
+      "url": "https://doi.org/10.1371/journal.pbio.3003932",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Ancestral reconstruction and synthesized-peptide functional assays",
+      "setting": "Lactoferricin variants; P. aeruginosa PAO1/PA14, E. coli ATCC25922, S. aureus JE2/MN8 and S. agalactiae MNZ933",
+      "note": "Published August 25, 2026. PLOS Figures2–6; isolated peptides and inferred ancestors, not intact oral lactoferrin pharmacology."
+    },
+    {
+      "authors": "Troost FJ, Steijns J, Saris WH, Brummer RJ",
+      "year": 2001,
+      "title": "Gastric digestion of bovine lactoferrin in vivo in adults",
+      "url": "https://doi.org/10.1093/jn/131.8.2101",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Randomized crossover gastric-transit experiment",
+      "setting": "Twelve healthy adults; bovine lactoferrin test drinks administered by nasogastric tube",
+      "note": "Full text in Maastricht institutional repository. ApoLF was 20% saturated. Gastric recovery difference was not statistically significant (P = 0.09); no systemic bioavailability measured."
+    },
+    {
+      "authors": "Nappi C, Tommaselli GA, Morra I, Massaro M, Formisano C, Di Carlo C",
+      "year": 2009,
+      "title": "Efficacy and tolerability of oral bovine lactoferrin compared to ferrous sulfate in pregnant women with iron deficiency anemia: A prospective controlled randomized study",
+      "url": "https://doi.org/10.1080/00016340903117994",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Prospective randomized active-comparator trial",
+      "setting": "Pregnant women with anemia; 100 randomized, 97 completed four weeks",
+      "note": "Wiley Methods/TablesI–II. Reported nonsignificance versus tabulated Hb needs reconciliation; no equivalence margin or microbiome mediation established."
+    },
+    {
+      "authors": "El Amrousy D, El-Afify D, Elsawy A, Elsheikh M, Donia A, Nassar M",
+      "year": 2022,
+      "title": "Lactoferrin for iron-deficiency anemia in children with inflammatory bowel disease: a clinical trial",
+      "url": "https://doi.org/10.1038/s41390-022-02136-2",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Randomized active-comparator clinical trial",
+      "setting": "Children with IBD in remission and anemia; 92 randomized, 80 analyzed after three months",
+      "note": "Full article via d-nb.info/1264658265/34; Figure1/Table2. Completer analysis and contradictory discontinuation statements limit interpretation; no microbial mediation test."
+    },
+    {
+      "authors": "The ELFIN trial investigators group",
+      "year": 2019,
+      "title": "Enteral lactoferrin supplementation for very preterm infants: a randomised placebo-controlled trial",
+      "url": "https://doi.org/10.1016/S0140-6736(18)32221-9",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Multicenter randomized placebo-controlled trial",
+      "setting": "Very preterm infants in UK neonatal units; 2,182 with primary-outcome data",
+      "note": "Lancet abstract verified; full official HTA report also checked by source reviewer. Enteral bovine protein; late-onset infection endpoint, not anemia."
+    },
+    {
+      "authors": "Biswas GD, Sparling PF",
+      "year": 1995,
+      "title": "Characterization of lbpA, the structural gene for a lactoferrin receptor in Neisseria gonorrhoeae",
+      "url": "https://doi.org/10.1128/iai.63.8.2958-2967.1995",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Bacterial receptor gene disruption and complementation",
+      "setting": "N. gonorrhoeae receptor mutants and clinical isolates",
+      "note": "PMC173402 abstract verified. Receptor-dependent iron use varies among isolates; evidence does not generalize to all bacteria."
+    }
+  ],
+  "claims": [
+    {
+      "id": "two-ferric-sites",
+      "claim": "Lactoferrin has two ferric-iron binding sites, one per lobe.",
+      "refs": [
+        1,
+        2
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Purified human lactoferrin structures",
+      "boundary": "Source1 Abstract identifies ligands; source2 Abstract specifies Fe(III)/carbonate. Binding is not excretion."
+    },
+    {
+      "id": "apo-conformation",
+      "claim": "Apolactoferrin's crystal structure contains an open N-lobe and closed unliganded C-lobe.",
+      "refs": [
+        2
+      ],
+      "evidence": "observed",
+      "setting": "Human apolactoferrin crystal",
+      "boundary": "Abstract; do not convert a crystal conformation into universal solution behavior."
+    },
+    {
+      "id": "membrane-barrier",
+      "claim": "Lactoferrin caused LPS release and altered bacterial outer-membrane permeability under tested conditions.",
+      "refs": [
+        3
+      ],
+      "evidence": "model-causal",
+      "setting": "E. coli mutant and Salmonella Typhimurium in buffer assays",
+      "boundary": "Abstract: iron saturation blocked LPS release; chemistry-sensitive effect, not clinical bactericidal efficacy."
+    },
+    {
+      "id": "biofilm-behavior",
+      "claim": "Lactoferrin inhibited P. aeruginosa biofilm development at exposure below growth inhibition through iron-linked twitching behavior.",
+      "refs": [
+        4
+      ],
+      "evidence": "model-causal",
+      "setting": "In-vitro biofilm model",
+      "boundary": "Publisher Abstract and Figures1–4 captions; formation endpoint does not establish clearance of mature infection."
+    },
+    {
+      "id": "lactoferrin-piracy",
+      "claim": "Functional LbpA enabled N. gonorrhoeae to use lactoferrin-bound iron in the reported experiments.",
+      "refs": [
+        12
+      ],
+      "evidence": "model-causal",
+      "setting": "Receptor mutants and clinical isolates",
+      "boundary": "Abstract: loss of LbpA abolished use; clinical isolate heterogeneity precludes species-wide certainty."
+    },
+    {
+      "id": "lbpb-protection",
+      "claim": "Negatively charged LbpB regions protected meningococci against lactoferricin in killing assays.",
+      "refs": [
+        5
+      ],
+      "evidence": "model-causal",
+      "setting": "N. meningitidis MC58",
+      "boundary": "Figures1,4–8; stability/export controls, but washing removed shed protein and affected assay protection."
+    },
+    {
+      "id": "evolved-surfaces",
+      "claim": "Lactoferrin antimicrobial surfaces show signatures of recurrent positive selection in primates.",
+      "refs": [
+        6
+      ],
+      "evidence": "observed",
+      "setting": "Comparative sequence analysis",
+      "boundary": "Figures1–3; evolutionary-conflict interpretation, not direct identification of every selective agent."
+    },
+    {
+      "id": "peptide-evolution",
+      "claim": "Reconstructed lactoferricin peptides differed in microbial growth, viability, and membrane effects.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "Synthesized peptides and defined bacterial strains",
+      "boundary": "Figures2–6; ancestral inference and isolated-peptide assays do not measure oral intact-protein exposure."
+    },
+    {
+      "id": "gastric-survival",
+      "claim": "Gastric recovery was numerically higher for holoLF than low-saturation lactoferrin, but the difference was not statistically significant.",
+      "refs": [
+        8
+      ],
+      "evidence": "human-intervention",
+      "setting": "Twelve-person gastric crossover study",
+      "boundary": "Results/Discussion: P = 0.09. This numerical trend does not establish an iron-saturation effect; gastric recovery is not systemic uptake or efficacy."
+    },
+    {
+      "id": "pregnancy-outcomes",
+      "claim": "Both groups improved hematological measures, with abdominal-pain and constipation scores favoring lactoferrin in the pregnancy trial.",
+      "refs": [
+        9
+      ],
+      "evidence": "human-intervention",
+      "setting": "Four-week active-comparator study",
+      "boundary": "TablesI–II; no noninferiority margin; reported between-group nonsignificance needs reconciliation with Hb table."
+    },
+    {
+      "id": "pediatric-biomarkers",
+      "claim": "The pediatric IBD trial reported improved iron indices and lower IL-6 and hepcidin-25 with lactoferrin.",
+      "refs": [
+        10
+      ],
+      "evidence": "human-intervention",
+      "setting": "80 completers after three months",
+      "boundary": "Table2; Figure1 documents attrition. Biomarker shifts do not establish microbial mediation; side-effect discontinuation reporting conflicts."
+    },
+    {
+      "id": "elfin-null",
+      "claim": "ELFIN did not demonstrate a reduction in late-onset infection with its enteral bovine lactoferrin regimen.",
+      "refs": [
+        11
+      ],
+      "evidence": "human-intervention",
+      "setting": "Very preterm infants",
+      "boundary": "Abstract Findings: adjusted RR0.95, 95%CI0.86–1.04. This is application-specific contrary evidence, not a test of all formulations."
+    },
+    {
+      "id": "joint-exposure-hypothesis",
+      "claim": "Microbial response may depend jointly on available iron-binding capacity and active protein or peptide exposure.",
+      "refs": [
+        3,
+        4,
+        7,
+        8
+      ],
+      "evidence": "hypothesis",
+      "setting": "Proposed nonclinical community study",
+      "boundary": "Editorial synthesis. Iron restoration and peptide depletion must distinguish the predicted contributions; no human benefit is inferred."
+    }
+  ],
+  "share": {
+    "hook": "A host protein that locks away iron can become an iron source for microbes carrying the right receptor.",
+    "explanation": "In Neisseria gonorrhoeae experiments, functional LbpA enabled use of lactoferrin-bound iron.",
+    "refs": [
+      12
+    ],
+    "qualification": "This is receptor-dependent laboratory evidence, and clinical isolates differ. It does not mean lactoferrin feeds all pathogens or that oral supplementation increases infection risk."
+  },
+  "related": [
+    {
+      "url": "/library/lactoferrin-vs-ferrous-sulfate",
+      "title": "Lactoferrin versus ferrous sulfate",
+      "description": "The hematology comparison, read with population and mechanism limits in view."
+    },
+    {
+      "url": "/library/hepcidin-ferroportin-iron-redistribution",
+      "title": "Hepcidin and ferroportin",
+      "description": "How iron redistribution changes access across compartments."
+    },
+    {
+      "url": "/library/transferrin-ferritin-heme-recycling",
+      "title": "Transferrin, ferritin, and heme recycling",
+      "description": "Other protein-bound iron pools and microbial routes into them."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "The connected series on withholding, routing, and metal toxicity."
+    }
+  ]
+}

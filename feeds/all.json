@@ -6,6 +6,59 @@
   "feed_url": "https://microbialmetallomics.com/feeds/all.json",
   "items": [
     {
+      "id": "https://microbialmetallomics.com/library/vancomycin-zinc-binding-antimicrobial-mechanisms",
+      "url": "https://microbialmetallomics.com/library/vancomycin-zinc-binding-antimicrobial-mechanisms",
+      "title": "Vancomycin and zinc: starvation, assembly and resistance",
+      "content_text": "Vancomycin can bind zinc, yet added zinc can also strengthen its activity in resistant bacteria. The experiments distinguish starvation from drug assembly.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Zinc"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/transferrin-ferritin-heme-recycling",
+      "url": "https://microbialmetallomics.com/library/transferrin-ferritin-heme-recycling",
+      "title": "Transferrin, ferritin and the race to recycle heme",
+      "content_text": "How transferrin, ferritin, haptoglobin and hemopexin route iron, protect tissue and face microbial piracy—and which experiments distinguish those effects.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Nutritional immunity"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/silymarin-metal-binding-liver-evidence",
+      "url": "https://microbialmetallomics.com/library/silymarin-metal-binding-liver-evidence",
+      "title": "Silymarin, metal binding and the liver",
+      "content_text": "Milk-thistle chemistry can bind or reduce metals, but nickel protection, lead measurements and human liver trials answer different mechanistic questions.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Copper",
+        "Nickel",
+        "Lead",
+        "Environmental exposure"
+      ]
+    },
+    {
       "id": "https://microbialmetallomics.com/library/parkinsons-dementia-brain-metallomic-signature",
       "url": "https://microbialmetallomics.com/library/parkinsons-dementia-brain-metallomic-signature",
       "title": "Parkinson’s dementia: shared copper depletion, distinct metal patterns",
@@ -25,6 +78,57 @@
       ]
     },
     {
+      "id": "https://microbialmetallomics.com/library/lactoferrin-iron-withholding-microbial-countermeasures",
+      "url": "https://microbialmetallomics.com/library/lactoferrin-iron-withholding-microbial-countermeasures",
+      "title": "Lactoferrin: iron withholding and microbial countermeasures",
+      "content_text": "How lactoferrin withholds iron, disrupts microbial behavior, and faces bacterial countermeasures—and what oral human studies actually establish.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Nutritional immunity"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/hepcidin-ferroportin-iron-redistribution",
+      "url": "https://microbialmetallomics.com/library/hepcidin-ferroportin-iron-redistribution",
+      "title": "Hepcidin and ferroportin: iron redistribution in host defense",
+      "content_text": "How hepcidin controls ferroportin, redistributes iron during inflammation, and creates different tradeoffs for microbes and red-cell production.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Nutritional immunity"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/glutathione-metals-mitochondria-drug-metabolism",
+      "url": "https://microbialmetallomics.com/library/glutathione-metals-mitochondria-drug-metabolism",
+      "title": "Glutathione, metals and the mitochondrial reserve",
+      "content_text": "How glutathione supports enzymes, binds metals and enters mitochondria—and what drug metabolism does and does not establish about shared cellular reserve.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Copper"
+      ]
+    },
+    {
       "id": "https://microbialmetallomics.com/library/dementia-lewy-bodies-brain-metallomic-signatures",
       "url": "https://microbialmetallomics.com/library/dementia-lewy-bodies-brain-metallomic-signatures",
       "title": "Dementia’s regional metal signatures",
@@ -40,6 +144,43 @@
         "Iron",
         "Copper",
         "Neurobiology"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/saccharomyces-boulardii-metal-biosorption",
+      "url": "https://microbialmetallomics.com/library/saccharomyces-boulardii-metal-biosorption",
+      "title": "Can probiotic yeast carry metals out of the gut?",
+      "content_text": "How Saccharomyces boulardii and other yeasts bind lead, arsenic and mercury—and which experiments can distinguish adsorption from lasting removal.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Arsenic",
+        "Lead",
+        "Mercury",
+        "Environmental exposure"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/bile-acids-biliary-metal-excretion",
+      "url": "https://microbialmetallomics.com/library/bile-acids-biliary-metal-excretion",
+      "title": "Bile, metal export and the route back",
+      "content_text": "Bile carries metal-containing cargo, but bile acids, glutathione complexes, copper pumps and microbial transformations govern different steps toward elimination.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Copper",
+        "Arsenic",
+        "Environmental exposure"
       ]
     },
     {

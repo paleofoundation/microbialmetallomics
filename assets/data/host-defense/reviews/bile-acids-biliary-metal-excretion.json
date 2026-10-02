@@ -1,0 +1,727 @@
+{
+  "slug": "bile-acids-biliary-metal-excretion",
+  "title": "Bile, metal export and the route back",
+  "shortTitle": "Bile and metal excretion",
+  "series": "host-defense",
+  "description": "Bile carries metal-containing cargo, but bile acids, glutathione complexes, copper pumps and microbial transformations govern different steps toward elimination.",
+  "deck": "Finding a metal in bile is the beginning of a transport story. Whether it leaves the body depends on its chemical form, the exporting machinery and what happens in the intestine.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "bile acids, biliary excretion, glutathione conjugates, ATP7B, MRP2, ABCC2, copper, arsenic, methylmercury, enterohepatic circulation, microbiome",
+  "summary": {
+    "text": "Bile acids and biliary secretion are not synonyms. Copper has ATP7B-dependent export machinery; arsenic and mercury can travel with thiol ligands through species-dependent routes. Biliary delivery does not prove fecal elimination: ligand processing, intestinal return and microbial transformation can change the final balance.",
+    "refs": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      11
+    ]
+  },
+  "sections": [
+    {
+      "id": "bile-is-a-route",
+      "title": "Bile is a fluid; bile acids are one kind of cargo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The liver’s canalicular surface faces small channels that collect bile. A molecule reaching those channels has crossed a directional cellular boundary, but it has not necessarily left the body. “Bile acids bind metals,” “the liver secretes a metal into bile” and “the body eliminates that metal in feces” are three different claims. None should be substituted for another without an experiment that follows the relevant species through the next step.",
+          "refs": [
+            1,
+            2,
+            11
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Gerloff and colleagues identified the canalicular bile-salt export pump, now called BSEP/ABCB11, using expression systems and membrane transport experiments. That substrate-specific machinery differs from transporters handling other organic anions and metal-associated cargo. A bile-acid measurement therefore cannot stand in for a measurement of glutathione conjugates or copper export. Conversely, detecting a metal in bile does not establish that a bile acid bound it or carried it across the hepatocyte membrane.",
+          "refs": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Four observations that should not be called the same outcome",
+          "headers": [
+            "Observation",
+            "What it establishes",
+            "What remains unresolved"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Metal binds a ligand",
+                "A complex exists under tested chemical conditions.",
+                "Its transport, tissue distribution and elimination."
+              ],
+              "refs": [
+                2
+              ]
+            },
+            {
+              "cells": [
+                "Metal appears in collected bile",
+                "A biliary transfer step occurred.",
+                "How much returns when the intestine remains connected."
+              ],
+              "refs": [
+                2,
+                11
+              ]
+            },
+            {
+              "cells": [
+                "Bile volume rises",
+                "More fluid is moving.",
+                "Whether metal mass per unit time rises."
+              ],
+              "refs": [
+                4
+              ]
+            },
+            {
+              "cells": [
+                "Fecal metal rises",
+                "More metal exits in stool.",
+                "Whether it came from internal stores, unabsorbed intake or direct intestinal secretion."
+              ],
+              "refs": [
+                6,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful accounting distinction follows: biliary flux is concentration multiplied by collected volume per unit time. Stool concentration also needs stool mass and a collection interval. A large value in either fluid can reflect altered dilution. To connect secretion to body burden, an experiment must additionally account for absorbed input, urinary output, intestinal uptake and changes in tissue stores. These are measurement requirements, not assumptions that every exported atom completes an endlessly repeating cycle.",
+          "refs": [
+            4,
+            6,
+            11
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Compare biliary export with the host’s other metal defenses"
+        }
+      ]
+    },
+    {
+      "id": "copper-atp7b",
+      "title": "Copper export depends on cellular routing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Polishchuk and colleagues showed that copper challenge redirects ATP7B from the trans-Golgi network toward a subset of lysosomes. Their cell and mouse experiments implicated lysosomal exocytosis in delivery toward the canalicular surface. In polarized HepG2 cultures, manipulating this machinery changed copper detected in canalicular cysts; ATP7B silencing impaired export. The significance is a transport mechanism with manipulable steps, rather than a claim that bile acids generally chelate copper.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This evidence supports following copper through compartments: where a transporter sits can matter alongside how much transporter a cell makes. A proposed intervention that changes bile composition should therefore be tested for effects on ATP7B routing and directional copper flux, rather than judged from a bile-acid marker alone. Export into a culture cyst remains a different endpoint from fecal clearance in a person. The model opens that question; it does not complete it.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "There is historical evidence specifically connecting copper with bile salts, but the ligand assignment is not uniform. Lewis’s electrophoresis and fractionation work associated biliary copper with micellar components, particularly taurochenodeoxycholate. Frommer’s later human/rat bile chromatography instead emphasized low-molecular-weight protein-associated copper and showed that an apparent large complex depended on the elution conditions. These studies used different analytical approaches. Their disagreement motivates modern native speciation; neither justifies assigning all biliary copper to one bile acid.",
+          "refs": [
+            12,
+            13
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nor should mercury’s return pathway be transferred wholesale to copper. The 2024 ATSDR copper profile identifies bile followed by feces as the major elimination route and describes reabsorption of biliary copper as negligible under usual physiology. Copper exported into bile is therefore often effectively immobilized, although a proposed manipulation of that system still needs direct mass-balance evidence.",
+          "refs": [
+            14
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/copper",
+          "text": "See why copper form and location matter"
+        }
+      ]
+    },
+    {
+      "id": "arsenic-thiol-export",
+      "title": "Arsenic offers a defined glutathione–transporter example",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kala and colleagues combined bile collection with transporter-deficient rats and chemical analysis. After sodium arsenite challenge, loss of Mrp2 or experimental GSH depletion nearly abolished biliary arsenic recovery. They identified arsenic triglutathione and methylarsenic diglutathione among the biliary products. This connects a ligand, a transporter and collected output more directly than a binding assay alone.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The boundary is equally important: these were rat experiments with defined exposures and diverted bile. Their product distribution depended on exposure conditions. They do not establish that all arsenic species use this pathway, that bile dominates arsenic elimination in humans, or that more GSH automatically lowers total body arsenic. The next physiological question is whether the exported species persist through intestinal processing and avoid reabsorption.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/glutathione-metals-mitochondria-drug-metabolism",
+          "text": "Read how glutathione coordination differs from redox chemistry and drug conjugation"
+        }
+      ]
+    },
+    {
+      "id": "mercury-route-specificity",
+      "title": "Mercury exposes the danger of a universal transport story",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "“Mercury” includes inorganic Hg(II) and organomercury species such as methylmercury. Their ligands and routes cannot be treated as interchangeable. Dutczak and Ballatori measured methylmercury–GSH transport in isolated rat canalicular membrane vesicles. Uptake was temperature-sensitive and electrogenic, yet adding ATP did not stimulate it in that preparation. They interpreted the result as transport through reduced-GSH carriers. This experiment does not identify MRP2 as the universal exporter of methylmercury–GSH.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bridges and colleagues subsequently combined Mrp2-deficient rats with human MRP2-containing vesicles. Their vesicle assays supported transport of cysteine complexes of inorganic mercury and methylmercury. In rats, some fecal-export comparisons differed with Mrp2 status, but the difference after methylmercury chloride alone was not statistically significant. Because bile was not directly collected, fecal recovery could not uniquely locate the relevant export step. These results refine the route by ligand and model; they do not erase the earlier GSH-carrier evidence.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Element, ligand and model determine what the transporter evidence means",
+          "headers": [
+            "Cargo",
+            "Demonstrated system",
+            "Inference to preserve"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Copper",
+                "ATP7B trafficking and canalicular-cyst studies",
+                "A copper-routing mechanism; a bile-acid ligand was not established."
+              ],
+              "refs": [
+                3
+              ]
+            },
+            {
+              "cells": [
+                "Arsenite-derived GSH complexes",
+                "Mrp2-deficient rats with collected bile",
+                "Strong ligand/export connection under the tested conditions."
+              ],
+              "refs": [
+                2
+              ]
+            },
+            {
+              "cells": [
+                "Methylmercury–GSH",
+                "Rat canalicular membrane vesicles",
+                "ATP-independent transport in that preparation."
+              ],
+              "refs": [
+                5
+              ]
+            },
+            {
+              "cells": [
+                "Mercury–cysteine complexes",
+                "Human MRP2 vesicles and rat disposition",
+                "Different ligand evidence; whole-animal feces do not uniquely identify bile export."
+              ],
+              "refs": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bile flow adds another trap. Ballatori and Clarkson altered flow in anesthetized rats and found that absolute GSH and methylmercury secretion did not increase simply because the volume changed. Bile concentrations could move together while mass output stayed unchanged. Thus “promotes bile flow” is not equivalent to “increases mercury clearance.” The general research lesson is to measure cargo flux and its fate, not adopt a proxy because the organs are connected.",
+          "refs": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processing-and-return",
+      "title": "A bound metal can still return",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Exported ligands are biologically processed. In guinea pigs, Dutczak and Ballatori inhibited gamma-glutamyltransferase and changed recovery of methylmercury delivered as a GSH complex into the biliary tree. The corresponding cysteine complex behaved differently. Their interpretation was that host enzyme processing facilitates reabsorption before the material even reaches the intestine. The finding makes a bound species a potential transport intermediate, not necessarily a permanent trap.",
+          "refs": [
+            10
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Norseth’s rat experiments also demonstrated intestinal reabsorption of biliary mercury. The paper explicitly distinguished this from a demonstrated enterohepatic cycle because returned mercury was not predominantly secreted again into bile. That historical qualification matters: “enterohepatic return” can describe an observed gut-to-host step without implying that repeated cycling was quantified. Binding, secretion, reabsorption and resecretion each need their own evidence.",
+          "refs": [
+            11
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For a proposed intestinal binder, the discriminating observation would therefore be less portal-facing return of a tracked metal species and more net fecal recovery of internally derived metal. A fall in a soluble-metal assay could merely mean adsorption to biomass; a rise in fecal metal could merely mean less absorption of a newly ingested exposure. An experiment claiming clearance should distinguish those outcomes before assigning a therapeutic interpretation.",
+          "refs": [
+            6,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbial-transformations",
+      "title": "Microbes change bile acids and metals through different chemistry",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yao and colleagues isolated one microbial contribution using Bacteroides thetaiotaomicron VPI-5482 and an isogenic bile-salt-hydrolase deletion. Colonization of germ-free mice altered bile-acid composition and host metabolic phenotypes. The enzyme’s substrate specificity concerned removal of amino-acid conjugates from bile acids. No metal clearance was measured. The study provides a way to manipulate a microbial function precisely; it does not show that this enzyme cleaves GSH–metal complexes.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This distinction leaves an interesting hypothesis open. A changed bile-acid pool might alter host transport, intestinal conditions or transit and thereby modify a metal’s return. But bile-salt hydrolysis, host GSH-peptide processing and metal demethylation are separate reactions. Assigning all three to “deconjugation” would make an experiment uninterpretable: a change in one pathway could be mistaken for evidence about another.",
+          "refs": [
+            7,
+            10,
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Microbes might also use bile-acid remodeling to change their tolerance of the intestinal environment, but composition alone does not establish escape from host antimicrobial pressure. Yao’s reconstructed ileal bile-acid pools did not differ in the tested detergent property. A proposed microbial advantage therefore needs strain-specific growth or membrane-injury measurements in the actual mixture, alongside metal speciation; a bile-acid shift is insufficient evidence for either outcome.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Coe and colleagues connected human methylmercury elimination estimates with fecal microbial activity and tested microbiota dependence in mice. Removing microbiota slowed elimination; human microbiota restored faster elimination. Yet a candidate bacterium, Alistipes onderdonkii, failed when tested alone, human prebiotic responses varied, and elimination still occurred without microbiota. Demethylation helps explain the pattern but is not its sole determinant. The functional community matters more than attaching a clearance claim to one organism’s abundance.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Older mouse work by Rowland and colleagues likewise linked diet-dependent mercury elimination to gut flora, with antibiotic perturbation changing fecal loss and tissue retention. Because diet and antibiotics also influence the host, that design leaves multiple explanations. Together, these studies justify asking how microbial function changes a chemically defined metal’s fate. They do not establish a generic “detox microbiome,” uniform benefit from a prebiotic, or successful elimination simply because a bacterium binds mercury.",
+          "refs": [
+            9,
+            8
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/mercury",
+          "text": "Follow mercury speciation through host and microbial compartments"
+        }
+      ]
+    },
+    {
+      "id": "net-clearance-experiment",
+      "title": "Test the complete route, including return",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Does microbial bile-acid remodeling change net metal loss?",
+          "text": "The hypothesis is that microbial bile-acid remodeling changes metal clearance only when it changes host transport, metal speciation or intestinal return. Test BSH-positive and otherwise matched BSH-negative bacterial communities in a polarized liver–intestinal system, then a controlled gnotobiotic model. Study copper, arsenite-derived cargo and methylmercury separately. Treat bile-acid composition as a manipulated variable, not a clearance endpoint.",
+          "refs": [
+            7,
+            2,
+            3,
+            5,
+            8
+          ],
+          "measures": [
+            "Use isotopically distinguishable metal where feasible to separate internal stores from newly ingested material; recover bile-facing cargo, intestinal contents, portal-facing return, urine, feces and tissue retention over a defined interval.",
+            "Measure metal species alongside total element, GSH-associated cargo, bile-acid profiles, bile flow, transit and barrier integrity. Validate that sample preparation preserves labile complexes.",
+            "Measure ATP7B localization and ABCC2-dependent flux independently. Include sterile controls and host-enzyme controls so BSH effects cannot be confused with GSH-peptide processing.",
+            "Add back the deleted microbial function and use an independent community background. Match intake, flow and transit before attributing altered body burden to ligand chemistry."
+          ],
+          "decision": "The hypothesis weakens if bile acids change but metal species, return and net loss do not. If a fecal effect disappears after matching transit, revise the explanation to transit. If apparent loss reflects only reduced uptake of new intake, report exposure prevention rather than removal of internal stores. Increased biliary delivery with unchanged tissue burden warrants testing return, redistribution, compensating inputs and sampling duration; it does not establish successful clearance."
+        },
+        {
+          "type": "paragraph",
+          "text": "The scientific opportunity is to connect two experimentally tractable fields: microbial control of bile-acid composition and host transport of metal-containing cargo. A result can be informative even when clearance does not improve. Finding where a metal returns would identify the limiting step; finding no connection after a precise microbial perturbation would narrow an otherwise attractive hypothesis.",
+          "refs": [
+            7,
+            2,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are bile acids the same thing as bile?",
+      "answer": "No. Bile is the secreted fluid, whereas bile acids are one class of molecules within it. The presence of a metal in that fluid does not identify its ligand or the transporter that exported it."
+    },
+    {
+      "question": "Does more bile flow mean more metal elimination?",
+      "answer": "Not necessarily. Metal mass output depends on both concentration and volume over time, and final elimination also depends on reabsorption. Experimental rat results show that flow can change without increased absolute methylmercury secretion."
+    },
+    {
+      "question": "Can gut bacteria deconjugate glutathione–metal complexes?",
+      "answer": "That requires evidence for the specific enzyme and substrate. A bacterial bile-salt hydrolase acting on bile acids is not evidence that it processes GSH–metal cargo. Host GSH-peptide processing and microbial metal transformation must be tested separately."
+    },
+    {
+      "question": "What would prove that a bound metal was removed from the body?",
+      "answer": "Track internally derived metal through measured outputs and tissue stores. Stable binding in a tube, increased bile concentration or increased stool concentration alone cannot distinguish net loss from dilution, unabsorbed intake or redistribution."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Gerloff T, Stieger B, Hagenbuch B, Madon J, Landmann L, Roth J, Hofmann AF, Meier PJ",
+      "year": 1998,
+      "title": "The sister of P-glycoprotein represents the canalicular bile salt export pump of mammalian liver",
+      "url": "https://doi.org/10.1074/jbc.273.16.10046",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Transporter expression and membrane-vesicle transport experiments",
+      "setting": "Rat transporter expressed in Xenopus oocytes and Sf9 insect-cell vesicles; comparison with rat canalicular membranes",
+      "note": "Abstract. Supports distinction between bile acids and other biliary constituents. Does not establish that bile acids chelate or export metals. Full text not inspected."
+    },
+    {
+      "authors": "Kala SV, Neely MW, Kala G, Prater CI, Atwood DW, Rice JS, Lieberman MW",
+      "year": 2000,
+      "title": "The MRP2/cMOAT Transporter and Arsenic-Glutathione Complex Formation Are Required for Biliary Excretion of Arsenic",
+      "url": "https://doi.org/10.1074/jbc.M007030200",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Transporter-deficient and glutathione-depleted rat experiments with bile speciation",
+      "setting": "Wistar and Mrp2-deficient TR− rats; bile-duct cannulation; sodium arsenite challenge; BSO depletion; LC-MS, NMR and ICP-MS",
+      "note": "Figure 1 and Table II; rat bile collection/speciation. Exposure-dependent products and unstable complexes; not intact-gut human elimination."
+    },
+    {
+      "authors": "Polishchuk EV et al.",
+      "year": 2014,
+      "title": "Wilson Disease Protein ATP7B Utilizes Lysosomal Exocytosis to Maintain Copper Homeostasis",
+      "url": "https://doi.org/10.1016/j.devcel.2014.04.033",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Cell biological perturbations and mouse liver experiments",
+      "setting": "Human HepG2 hepatoma cells, polarized HepG2 canalicular cysts, HeLa models, mouse hepatocytes and liver-specific Tcfeb knockout mice",
+      "note": "Figures 1–7; trafficking and canalicular-cyst copper. Does not identify a bile-acid ligand or measure human fecal clearance."
+    },
+    {
+      "authors": "Ballatori N, Clarkson TW",
+      "year": 1983,
+      "title": "Biliary transport of glutathione and methylmercury",
+      "url": "https://doi.org/10.1152/ajpgi.1983.244.4.G435",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Experimental manipulation of bile flow and biliary thiol secretion",
+      "setting": "Anesthetized male and female rats",
+      "note": "Abstract. Strong counterexample to equating more bile volume with more metal export. Does not identify a molecular transporter or establish a human intervention. Full text not inspected."
+    },
+    {
+      "authors": "Dutczak WJ, Ballatori N",
+      "year": 1994,
+      "title": "Transport of the glutathione-methylmercury complex across liver canalicular membranes on reduced glutathione carriers",
+      "url": "https://doi.org/10.1016/S0021-9258(17)36946-6",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Radiolabeled conjugate transport in isolated membrane vesicles",
+      "setting": "Isolated Sprague-Dawley rat liver canalicular plasma membrane vesicles; CH3Hg–SG",
+      "note": "Abstract and publisher abstract at https://www.sciencedirect.com/science/article/pii/S0021925817369466. Essential qualification: this supports reduced-GSH carrier transport, not identification of MRP2 as the universal CH3Hg–SG exporter. Complex, species and membrane preparation matter. Full text not inspected."
+    },
+    {
+      "authors": "Bridges CC, Joshee L, Zalups RK",
+      "year": 2011,
+      "title": "MRP2 and the Handling of Mercuric Ions in Rats Exposed Acutely to Inorganic and Organic Species of Mercury",
+      "url": "https://doi.org/10.1016/j.taap.2010.11.015",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Mrp2-deficient rat disposition and recombinant human MRP2 vesicle experiments",
+      "setting": "Wistar and TR− rats after IV HgCl2 or CH3HgCl, with/without cysteine; inside-out Sf9 vesicles containing human MRP2",
+      "note": "Figures 4, 7–9; ligand-dependent results, no bile collection. Inconsistent methylmercury units between abstract and figures; no exposure number reproduced."
+    },
+    {
+      "authors": "Yao L, Seaton SC, Ndousse-Fetter S, Adhikari AA, DiBenedetto N, Mina AI, Banks AS, Bry L, Devlin AS",
+      "year": 2018,
+      "title": "A selective gut bacterial bile salt hydrolase alters host metabolism",
+      "url": "https://doi.org/10.7554/eLife.37182",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Isogenic bacterial enzyme deletion/complementation and gnotobiotic mouse study",
+      "setting": "Bacteroides thetaiotaomicron VPI-5482 wild type versus BT2086 deletion; 8–9-week-old male germ-free C57BL/6 mice",
+      "note": "Figures 2–4; B. thetaiotaomicron VPI-5482/BT2086 deletion in gnotobiotic mice. Mouse muricholates limit extrapolation; no metals measured."
+    },
+    {
+      "authors": "Coe GL, Krout IN, Munro-Ehrlich M, Beamish CR, Vorojeikina D, Colman DR, Boyd EJ, Walk ST, Rand MD",
+      "year": 2023,
+      "title": "Assessing the role of the gut microbiome in methylmercury demethylation and elimination in humans and gnotobiotic mice",
+      "url": "https://doi.org/10.1007/s00204-023-03548-7",
+      "kind": "primary",
+      "access": "full-text",
+      "studyType": "Human fish-exposure/prebiotic study, ex vivo fecal cultures, metagenomics, and gnotobiotic mouse experiments",
+      "setting": "Human volunteer fish-exposure/prebiotic study with hair-based elimination estimates; conventional, microbiota-depleted, humanized and A. onderdonkii-monocolonized mice. Analyzed human denominators vary by comparison.",
+      "note": "Figures 2–5; human observations and gnotobiotic mouse experiments. Candidate-species monocolonization and prebiotic responses were qualified; no universal microbial mechanism established."
+    },
+    {
+      "authors": "Rowland IR, Robinson RD, Doherty RA",
+      "year": 1984,
+      "title": "Effects of diet on mercury metabolism and excretion in mice given methylmercury: role of gut flora",
+      "url": "https://doi.org/10.1080/00039896.1984.10545872",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Diet and antibiotic perturbation of mercury elimination",
+      "setting": "Mice given methylmercuric chloride orally; pelleted, evaporated-milk, or synthetic diets; antibiotic suppression of gut flora",
+      "note": "Abstract. Antibiotics and diet can alter host physiology beyond microbiota. No single organism or enzymatic mechanism established, and this is not evidence to recommend a diet or antibiotic intervention. Full text not inspected."
+    },
+    {
+      "authors": "Dutczak WJ, Ballatori N",
+      "year": 1992,
+      "title": "gamma-Glutamyltransferase-dependent biliary-hepatic recycling of methyl mercury in the guinea pig",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1354255/",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Enzyme inhibition and retrograde biliary infusion",
+      "setting": "Male guinea pigs; radiolabeled methylmercury–GSH, –cysteine and –albumin complexes",
+      "note": "Abstract; complete abstract also indexed by EPA HERO record 2305120. Host biliary enzyme processing, not microbial BSH. Measures biliary-hepatic return before intestinal passage and cannot establish human whole-body benefit. Abstract-only; no dose or treatment recommendation."
+    },
+    {
+      "authors": "Norseth T",
+      "year": 1973,
+      "title": "Biliary Excretion and Intestinal Reabsorption of Mercury in the Rat after Injection of Methyl Mercuric Cloride",
+      "url": "https://doi.org/10.1111/j.1600-0773.1973.tb01528.x",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Rat biliary mercury and intestinal reabsorption experiments",
+      "setting": "Female rats given methylmercuric chloride; bile mercury binding and intestinal return over widely differing exposure levels",
+      "note": "Publisher abstract at https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0773.1973.tb01528.x. Historical counterevidence to simple recirculation language: author distinguished reabsorption from an enterohepatic cycle because returned mercury was not predominantly re-excreted. Prefer intestinal return/reabsorption where discussing this specific study. Older assertion that active secretion had not been demonstrated predates later membrane-transport work."
+    },
+    {
+      "authors": "Lewis KO",
+      "year": 1973,
+      "title": "The nature of the copper complexes in bile and their relationship to the absorption and excretion of copper in normal subjects and in Wilson's disease",
+      "url": "https://gut.bmj.com/content/14/3/221",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Electrophoresis, fractionation and physiological observations",
+      "setting": "Human bile including external biliary fistula observations; rat intestinal absorption",
+      "note": "Abstract only. Historical micellar/bile-salt assignment; no modern molecular speciation or proof that one ligand explains ATP7B disease."
+    },
+    {
+      "authors": "Frommer DJ",
+      "year": 1977,
+      "title": "Biliary copper excretion in man and the rat",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/892260/",
+      "kind": "primary",
+      "access": "abstract",
+      "studyType": "Radiocopper labeling and gel chromatography",
+      "setting": "Bile from control subjects, Wilson disease patients and rats",
+      "note": "Abstract only. Protein-associated chromatographic fractions; eluent-dependent artifact. Does not resolve every endogenous biliary copper ligand."
+    },
+    {
+      "authors": "Agency for Toxic Substances and Disease Registry",
+      "year": 2024,
+      "title": "Toxicological Profile for Copper: Chapter 3, Toxicokinetics, Susceptible Populations, Biomarkers, Chemical Interactions",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK610363/",
+      "kind": "guidance",
+      "access": "full-text",
+      "studyType": "Official toxicological synthesis",
+      "setting": "Human and animal copper disposition",
+      "note": "Section 3.1.4: biliary/fecal route and limited biliary copper return under usual physiology; not an intervention trial."
+    }
+  ],
+  "claims": [
+    {
+      "id": "bsep-substrate",
+      "claim": "BSEP-mediated bile-salt transport is distinct from metal-associated cargo export.",
+      "refs": [
+        1
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Rat transporter in oocytes and Sf9 vesicles",
+      "boundary": "Abstract; no metal transport or metal-binding endpoint."
+    },
+    {
+      "id": "atp7b-routing",
+      "claim": "ATP7B trafficking and lysosomal exocytosis contribute to canalicular copper handling.",
+      "refs": [
+        3
+      ],
+      "evidence": "model-causal",
+      "setting": "HepG2, other cell models and mouse experiments",
+      "boundary": "Figures 1–7; canalicular-cyst copper is not human fecal clearance."
+    },
+    {
+      "id": "copper-ligand-disagreement",
+      "claim": "Historical biliary copper studies made different ligand assignments.",
+      "refs": [
+        12,
+        13
+      ],
+      "evidence": "observed",
+      "setting": "Human and rat bile; electrophoresis and chromatography",
+      "boundary": "Abstracts only; method-dependent evidence. Modern native speciation is needed to reconcile the assignments."
+    },
+    {
+      "id": "copper-limited-return",
+      "claim": "Biliary copper reabsorption is generally limited under usual physiology.",
+      "refs": [
+        14
+      ],
+      "evidence": "established-mechanism",
+      "setting": "Official human/animal toxicokinetic synthesis",
+      "boundary": "Section 3.1.4; avoids generalizing methylmercury return to every metal."
+    },
+    {
+      "id": "arsenic-gsh-mrp2",
+      "claim": "Mrp2 and GSH were required for substantial biliary arsenic recovery in the tested rat model.",
+      "refs": [
+        2
+      ],
+      "evidence": "model-causal",
+      "setting": "Wistar/TR− rats after arsenite challenge",
+      "boundary": "Figure 1 and Table II; collected bile/speciation, not intact-gut human elimination."
+    },
+    {
+      "id": "mehggsh-carrier",
+      "claim": "Methylmercury–GSH transport was ATP-independent in isolated rat canalicular vesicles.",
+      "refs": [
+        5
+      ],
+      "evidence": "observed",
+      "setting": "Sprague-Dawley rat membrane vesicles",
+      "boundary": "Abstract; does not identify a universal MRP2 route."
+    },
+    {
+      "id": "mercury-mrp2-specificity",
+      "claim": "MRP2 handled tested mercury–cysteine species, with nonuniform fecal differences in rats.",
+      "refs": [
+        6
+      ],
+      "evidence": "model-causal",
+      "setting": "Human MRP2 vesicles and Wistar/TR− rats",
+      "boundary": "Figures 7–9; plain methylmercury chloride fecal difference was not significant; no bile collection."
+    },
+    {
+      "id": "flow-not-flux",
+      "claim": "Changing bile flow did not necessarily change absolute GSH/methylmercury secretion.",
+      "refs": [
+        4
+      ],
+      "evidence": "model-causal",
+      "setting": "Anesthetized rats",
+      "boundary": "Abstract; distinguishes fluid volume from cargo flux."
+    },
+    {
+      "id": "ggt-return",
+      "claim": "Host GGT-dependent processing facilitated methylmercury return in the guinea-pig biliary model.",
+      "refs": [
+        10
+      ],
+      "evidence": "model-causal",
+      "setting": "Retrograde biliary complex infusion",
+      "boundary": "Abstract; biliary-tree return, not microbial BSH or human treatment."
+    },
+    {
+      "id": "intestinal-return",
+      "claim": "Biliary mercury underwent intestinal reabsorption in rats.",
+      "refs": [
+        11
+      ],
+      "evidence": "observed",
+      "setting": "Female rat exposure experiments",
+      "boundary": "Abstract; author did not establish repeated enterohepatic cycling."
+    },
+    {
+      "id": "bsh-specificity",
+      "claim": "B. thetaiotaomicron BSH manipulation changed bile-acid composition without testing metal clearance.",
+      "refs": [
+        7
+      ],
+      "evidence": "model-causal",
+      "setting": "VPI-5482/BT2086 mutant; gnotobiotic mice",
+      "boundary": "Figures 2–4; bile-salt substrate specificity, mouse muricholate context."
+    },
+    {
+      "id": "microbiota-mehg",
+      "claim": "Microbiota influenced methylmercury elimination but no single candidate explained the whole effect.",
+      "refs": [
+        8
+      ],
+      "evidence": "model-causal",
+      "setting": "Humanized and microbiota-depleted mice; human observations",
+      "boundary": "Figures 2–5; human association is not causal; single-species and prebiotic findings were qualified."
+    },
+    {
+      "id": "diet-flora-mercury",
+      "claim": "Diet and antibiotic perturbations altered mercury elimination in mice.",
+      "refs": [
+        9
+      ],
+      "evidence": "observed",
+      "setting": "Oral methylmercury mouse experiments",
+      "boundary": "Abstract; interventions also affect host physiology."
+    },
+    {
+      "id": "bile-metal-hypothesis",
+      "claim": "Microbial bile-acid remodeling could change net metal loss through transport, speciation or return.",
+      "refs": [
+        2,
+        3,
+        7,
+        8,
+        10
+      ],
+      "evidence": "hypothesis",
+      "setting": "Proposed integrated liver–gut and gnotobiotic experiments",
+      "boundary": "Editorial synthesis; each link and overall mass balance require measurement, including a null outcome."
+    }
+  ],
+  "share": {
+    "hook": "More bile did not mean more methylmercury export in a rat experiment. Fluid flow and metal clearance are different measurements.",
+    "explanation": "A metal reaching bile can still be processed and reabsorbed before it leaves the body.",
+    "refs": [
+      4,
+      10,
+      11
+    ],
+    "qualification": "Evidence comes from particular rat and guinea-pig experiments; it does not establish a human bile-stimulating treatment."
+  },
+  "related": [
+    {
+      "url": "/library/glutathione-metals-mitochondria-drug-metabolism",
+      "title": "Glutathione and mitochondrial reserve",
+      "description": "The distinct chemistry of redox buffering, conjugation and metal coordination."
+    },
+    {
+      "url": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "How transport complements sequestration and immune metal control."
+    },
+    {
+      "url": "/metals/mercury",
+      "title": "Mercury",
+      "description": "Why methylmercury and inorganic mercury require separate transport stories."
+    },
+    {
+      "url": "/metals/arsenic",
+      "title": "Arsenic",
+      "description": "Chemical species determine which metabolism and export evidence applies."
+    },
+    {
+      "url": "/metals/copper",
+      "title": "Copper",
+      "description": "ATP7B and the balance between essential-metal supply and export."
+    }
+  ]
+}

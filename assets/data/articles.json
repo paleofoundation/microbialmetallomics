@@ -1,5 +1,67 @@
 [
   {
+    "title": "Vancomycin and zinc: starvation, assembly and resistance",
+    "description": "Vancomycin can bind zinc, yet added zinc can also strengthen its activity in resistant bacteria. The experiments distinguish starvation from drug assembly.",
+    "url": "/library/vancomycin-zinc-binding-antimicrobial-mechanisms",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Zinc"
+    ]
+  },
+  {
+    "title": "Transferrin, ferritin and the race to recycle heme",
+    "description": "How transferrin, ferritin, haptoglobin and hemopexin route iron, protect tissue and face microbial piracy—and which experiments distinguish those effects.",
+    "url": "/library/transferrin-ferritin-heme-recycling",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Iron",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Silymarin, metal binding and the liver",
+    "description": "Milk-thistle chemistry can bind or reduce metals, but nickel protection, lead measurements and human liver trials answer different mechanistic questions.",
+    "url": "/library/silymarin-metal-binding-liver-evidence",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Iron",
+      "Copper",
+      "Nickel",
+      "Lead",
+      "Environmental exposure"
+    ]
+  },
+  {
     "title": "Parkinson’s dementia: shared copper depletion, distinct metal patterns",
     "description": "Brain copper loss in Parkinson’s dementia overlaps Alzheimer’s but differs by region. What this signature enables for microbial metallomics research.",
     "url": "/library/parkinsons-dementia-brain-metallomic-signature",
@@ -22,6 +84,66 @@
     ]
   },
   {
+    "title": "Lactoferrin: iron withholding and microbial countermeasures",
+    "description": "How lactoferrin withholds iron, disrupts microbial behavior, and faces bacterial countermeasures—and what oral human studies actually establish.",
+    "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Iron",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Hepcidin and ferroportin: iron redistribution in host defense",
+    "description": "How hepcidin controls ferroportin, redistributes iron during inflammation, and creates different tradeoffs for microbes and red-cell production.",
+    "url": "/library/hepcidin-ferroportin-iron-redistribution",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Iron",
+      "Nutritional immunity"
+    ]
+  },
+  {
+    "title": "Glutathione, metals and the mitochondrial reserve",
+    "description": "How glutathione supports enzymes, binds metals and enters mitochondria—and what drug metabolism does and does not establish about shared cellular reserve.",
+    "url": "/library/glutathione-metals-mitochondria-drug-metabolism",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Iron",
+      "Copper"
+    ]
+  },
+  {
     "title": "Dementia’s regional metal signatures",
     "description": "Dementia brain-metal signatures reveal regional copper loss and iron gain. A critical review connects these patterns to testable microbial-metallomics research.",
     "url": "/library/dementia-lewy-bodies-brain-metallomic-signatures",
@@ -40,6 +162,49 @@
       "Iron",
       "Copper",
       "Neurobiology"
+    ]
+  },
+  {
+    "title": "Can probiotic yeast carry metals out of the gut?",
+    "description": "How Saccharomyces boulardii and other yeasts bind lead, arsenic and mercury—and which experiments can distinguish adsorption from lasting removal.",
+    "url": "/library/saccharomyces-boulardii-metal-biosorption",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Arsenic",
+      "Lead",
+      "Mercury",
+      "Environmental exposure"
+    ]
+  },
+  {
+    "title": "Bile, metal export and the route back",
+    "description": "Bile carries metal-containing cargo, but bile acids, glutathione complexes, copper pumps and microbial transformations govern different steps toward elimination.",
+    "url": "/library/bile-acids-biliary-metal-excretion",
+    "kind": "Paper review",
+    "date": "2026-10-02",
+    "updated": "2026-10-02",
+    "authors": [
+      "Microbial Metallomics"
+    ],
+    "status": "",
+    "sourceUrl": "",
+    "sourceDoi": "",
+    "studyDesign": "Narrative synthesis",
+    "setting": "Multiple study settings",
+    "topics": [
+      "Copper",
+      "Arsenic",
+      "Environmental exposure"
     ]
   },
   {

@@ -1,0 +1,52 @@
+{
+  "series": {
+    "host-defense": {
+      "id": "host-defense",
+      "route": "/host-metal-defense",
+      "title": "Host metal defenses",
+      "description": "Explore lactoferrin, hepcidin, glutathione and biliary metal handling: how host compartments change microbial access, and what the evidence makes possible.",
+      "deck": "The body does more than remove metals. It decides where they go, what binds them, and who can reach them.",
+      "opening": "These deep dives follow metal handling from a molecular interaction to a biological consequence. The central question travels across infection, inflammation, drug metabolism, and exposure: which metal pool changed—and for whom?",
+      "keywords": "host metal defenses, nutritional immunity, lactoferrin, hepcidin, ferroportin, transferrin, glutathione, biliary metal excretion, microbial metallomics",
+      "companion": {"url": "/unexpected-metal-biology", "label": "Unexpected metal biology"},
+      "frameworkTitle": "A research agenda built around destinations",
+      "framework": [
+        "Organize the evidence by the job a system performs: binding, buffering, transport, redistribution, or export. Calling all of these processes chelation hides the very differences that can explain a surprising result.",
+        "Every review separates the observed result from the proposed explanation, asks which compartment was actually measured, and identifies an observation that could change the interpretation. Human intervention findings, molecular experiments, and evolutionary inferences keep their own labels.",
+        "Read the host and microbial sides together. A metal concentration, an inflammatory marker, or a list of organisms is a starting point. The useful next question is how those observations connect to access and function—and whether the data can distinguish that connection from a competing explanation."
+      ],
+      "collectionTitle": "Follow a host strategy"
+    },
+    "hidden-mechanisms": {
+      "id": "hidden-mechanisms",
+      "route": "/unexpected-metal-biology",
+      "title": "Unexpected metal biology",
+      "description": "Investigate vancomycin and zinc, silymarin metal binding, and probiotic yeast biosorption through primary studies, competing explanations, and next questions.",
+      "deck": "A surprising interaction is the beginning of a scientific story. Follow it far enough to find out what it changes.",
+      "opening": "Can zinc change an antibiotic's behavior? Does a liver-protective signal demonstrate metal removal? Can a yeast that captures lead in water do the same in the gut? Each investigation follows the appealing idea through the measurements that support—or complicate—it.",
+      "keywords": "metal binding, vancomycin zinc, silymarin chelation, Saccharomyces boulardii, lead biosorption, microbial metallomics",
+      "companion": {"url": "/host-metal-defense", "label": "Host metal defenses"},
+      "frameworkTitle": "Make the surprise survive scrutiny",
+      "framework": [
+        "A useful field note should make someone pause and then give them a way to investigate. Each hook here carries its experimental setting, its sources, and the boundary that matters when it is shared.",
+        "Binding is one event in a longer chain. Ask whether a ligand changes a drug's assembly, keeps a metal from being absorbed, moves it between tissues, or supports its elimination. A favorable injury marker does not identify which of those events occurred.",
+        "The reviews turn unresolved claims into discriminating questions. They preserve contrary findings and distinguish an untested possibility from an unsuccessful test. Each includes an inspectable claim ledger so readers can follow the argument back to the original work."
+      ],
+      "collectionTitle": "Investigate a surprising mechanism"
+    }
+  },
+  "actions": {"withhold": "Bind & withhold", "route": "Route & recycle", "buffer": "Buffer & protect", "export": "Export & return", "drug": "Drug interactions", "plant": "Plant ligands", "biosorb": "Microbial capture"},
+  "articles": {
+    "lactoferrin-iron-withholding-microbial-countermeasures": {"action": "withhold", "label": "Binding, occupancy & microbial access"},
+    "hepcidin-ferroportin-iron-redistribution": {"action": "route", "label": "Iron redistribution & inflammation"},
+    "transferrin-ferritin-heme-recycling": {"action": "route", "label": "Transport, storage & recycling"},
+    "calprotectin-multimetal-nutritional-immunity": {"action": "withhold", "label": "Multiple metals & inflammatory context"},
+    "phagosomal-copper-zinc-intoxication": {"action": "route", "label": "Immune compartments & metal exposure"},
+    "metallothionein-metal-buffering-microbial-conflict": {"action": "buffer", "label": "Buffering, storage & release"},
+    "glutathione-metals-mitochondria-drug-metabolism": {"action": "buffer", "label": "Redox chemistry, organelles & medicines"},
+    "bile-acids-biliary-metal-excretion": {"action": "export", "label": "Secretion, reabsorption & net removal"},
+    "vancomycin-zinc-binding-antimicrobial-mechanisms": {"action": "drug", "label": "An antibiotic meets zinc"},
+    "silymarin-metal-binding-liver-evidence": {"action": "plant", "label": "Binding chemistry versus liver outcomes"},
+    "saccharomyces-boulardii-metal-biosorption": {"action": "biosorb", "label": "Strain identity, binding & digestive stability"}
+  }
+}
