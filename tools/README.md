@@ -23,4 +23,15 @@ Email signup uses Resend through the same-origin `/api/newsletter` endpoint. Rea
 
 ## Metals atlas
 
-Edit `assets/data/metals.json`, then run `python3 tools/build_metals.py` before `python3 tools/refresh_site.py`. Each prose field contains text and per-profile 1-based source indices; the generator validates them and emits static superscript citations with return links. It builds individual profiles, the searchable hub, and every homepage tile. Group labels are reading pathways rather than exclusive chemical or safety classifications. Verify each new source and keep study setting and limitations explicit.
+Edit `assets/data/metal-access.json` for the organizing thesis and compartment explorer, and `assets/data/metals.json` for element profiles and their optional `access` deep dives. Rebuild in this order:
+
+```sh
+python3 tools/build_access.py
+python3 tools/build_metals.py
+python3 tools/refresh_site.py
+npm run check
+```
+
+`build_access.py` creates Start here, Follow the metal, and the homepage thesis entry point. `build_metals.py` builds individual profiles, the searchable hub, and every homepage element tile. Optional profile access sections appear after exposure and chemical form, with matching contents links and their own stylesheet. Their text, including tables and claim cards, is included in atlas filtering. `refresh_site.py` runs last to update shared navigation, search records, sitemap entries, and asset hashes across all generated pages. If article metadata also changed, run `build_catalog.py` before this sequence.
+
+Each sourced prose field contains text and per-profile 1-based source indices; the generators validate references and emit static superscript citations with return links. Access blocks share the renderers in `access_render.py`. Preserve stable section IDs and distinguish observations, model-specific causal evidence, and proposed connections. Review dates remain in data and machine-readable metadata; do not add visible review-date labels to these pages. Group labels are reading pathways rather than exclusive chemical or safety classifications. Verify each new source and keep study setting and limitations explicit.

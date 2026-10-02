@@ -1,0 +1,669 @@
+{
+  "updated": "2026-10-02",
+  "sources": [
+    {
+      "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
+      "authors": "Nemeth E et al.",
+      "year": 2004,
+      "url": "https://doi.org/10.1126/science.1104742"
+    },
+    {
+      "title": "Zinc sequestration by the neutrophil protein calprotectin enhances Salmonella growth in the inflamed gut",
+      "authors": "Liu JZ, Jellbauer S, Poe AJ, Ton V, Pesciaroli M, Kehl-Fie TE, Restrepo NA, Hosking MP, Edwards RA, Battistoni A, Pasquali P, Lane TE, Chazin WJ, Vogl T, Roth J, Skaar EP, Raffatellu M",
+      "year": 2012,
+      "url": "https://doi.org/10.1016/j.chom.2012.01.017"
+    },
+    {
+      "title": "A role for the ATP7A copper-transporting ATPase in macrophage bactericidal activity",
+      "authors": "White C et al.",
+      "year": 2009,
+      "url": "https://doi.org/10.1074/jbc.m109.070201"
+    },
+    {
+      "title": "The siderophore yersiniabactin binds copper to protect pathogens during infection",
+      "authors": "Chaturvedi KS et al.",
+      "year": 2012,
+      "url": "https://doi.org/10.1038/nchembio.1020"
+    },
+    {
+      "title": "Dietary Manganese Promotes Staphylococcal Infection of the Heart",
+      "authors": "Juttukonda LJ et al.",
+      "year": 2017,
+      "url": "https://doi.org/10.1016/j.chom.2017.08.009"
+    },
+    {
+      "title": "Increased Dietary Manganese Impairs Neutrophil Extracellular Trap Formation Rendering Neutrophils Ineffective at Combating Staphylococcus aureus",
+      "authors": "Monteith AJ et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1128/iai.00685-21"
+    },
+    {
+      "title": "Preliminary Comparison of Fractional Absorption of Zinc Sulphate, Zinc Gluconate, and Zinc Aspartate after Oral Supplementation in Healthy Human Volunteers",
+      "authors": "Piacenza F, Giacconi R, Costarelli L, Malavolta M",
+      "year": 2023,
+      "url": "https://doi.org/10.3390/nu15081885"
+    },
+    {
+      "title": "Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than from zinc oxide",
+      "authors": "Wegmüller R, Tay F, Zeder C, Brnic M, Hurrell RF",
+      "year": 2014,
+      "url": "https://doi.org/10.3945/jn.113.181487"
+    },
+    {
+      "title": "Oral zinc aspartate treats experimental autoimmune encephalomyelitis",
+      "authors": "Schubert C, Guttek K, Grüngreiff K, Thielitz A, Bühling F, Reinhold A, Brocke S, Reinhold D",
+      "year": 2014,
+      "url": "https://doi.org/10.1007/s10534-014-9786-8"
+    },
+    {
+      "title": "Zinc sulphate: A reasonable choice for depression management in patients with multiple sclerosis: A randomized, double-blind, placebo-controlled clinical trial",
+      "authors": "Salari S, Khomand P, Arasteh M, Yousefzamani B, Hassanzadeh K",
+      "year": 2015,
+      "url": "https://doi.org/10.1016/j.pharep.2015.01.002"
+    },
+    {
+      "title": "Gut bacteria from multiple sclerosis patients modulate human T cells and exacerbate symptoms in mouse models",
+      "authors": "Cekanaviciute E, Yoo BB, Runia TF, Debelius JW, Singh S, Nelson CA, Kanner R, Bencosme Y, Lee YK, Hauser SL, Crabtree-Hartman E, Sand IK, Gacias M, Zhu Y, Casaccia P, Cree BAC, Knight R, Mazmanian SK, Baranzini SE",
+      "year": 2017,
+      "url": "https://doi.org/10.1073/pnas.1711235114"
+    },
+    {
+      "title": "IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin",
+      "authors": "Nemeth E et al.",
+      "year": 2004,
+      "url": "https://doi.org/10.1172/jci20945"
+    },
+    {
+      "title": "Single values of serum transferrin receptor and transferrin receptor ferritin index can be used to detect true and functional iron deficiency in rheumatoid arthritis patients with anemia",
+      "authors": "Suominen P et al.",
+      "year": 2000,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10817554/"
+    },
+    {
+      "title": "Oral versus intravenous iron replacement therapy distinctly alters the gut microbiota and metabolome in patients with IBD",
+      "authors": "Lee T et al.",
+      "year": 2017,
+      "url": "https://doi.org/10.1136/gutjnl-2015-309940"
+    },
+    {
+      "title": "Effects of iron supplementation on dominant bacterial groups in the gut, faecal SCFA and gut inflammation: a randomised, placebo-controlled intervention trial in South African children",
+      "authors": "Dostal A et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1017/s0007114514001160"
+    },
+    {
+      "title": "Deconfounded, quantitative microbiome profiling identifies robust multiple sclerosis markers and clinical covariate associations",
+      "authors": "Pauwels A, Devolder L, Falony G, D'haeseleer M, Nagels G, Van Remoortel A, Derrien M, D'hooghe M, Raes J",
+      "year": 2026,
+      "url": "https://doi.org/10.1080/19490976.2026.2681876"
+    },
+    {
+      "title": "Human gut microbes use multiple transporters to distinguish vitamin B₁₂ analogs and compete in the gut",
+      "authors": "Degnan PH et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1016/j.chom.2013.12.007"
+    },
+    {
+      "title": "Mobilization of vitamin B12 transporters alters competitive dynamics in a human gut microbe",
+      "authors": "Frye KA et al.",
+      "year": 2021,
+      "url": "https://doi.org/10.1016/j.celrep.2021.110164"
+    },
+    {
+      "title": "Hepcidin is the major predictor of erythrocyte iron incorporation in anemic African children",
+      "authors": "Prentice AM et al.",
+      "year": 2012,
+      "url": "https://doi.org/10.1182/blood-2011-11-391219"
+    },
+    {
+      "title": "Hepcidin-guided screen-and-treat interventions for young children with iron-deficiency anaemia in The Gambia: an individually randomised, three-arm, double-blind, controlled, proof-of-concept, non-inferiority trial",
+      "authors": "Wegmüller R et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/s2214-109x(22)00449-1"
+    },
+    {
+      "title": "Oral vitamin B12 supplement is delivered to the distal gut, altering the corrinoid profile and selectively depleting Bacteroides in C57BL/6 mice",
+      "authors": "Kelly CJ et al.",
+      "year": 2019,
+      "url": "https://doi.org/10.1080/19490976.2019.1597667"
+    },
+    {
+      "title": "Serum hepcidin concentrations correlate with ferritin in patients with inflammatory bowel disease",
+      "authors": "Mecklenburg I et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1016/j.crohns.2014.04.008"
+    }
+  ],
+  "thesis": {
+    "title": "Enough metal. Available to whom?",
+    "eyebrow": "Start here · An organizing thesis",
+    "deck": "The most useful question in microbial metallomics is not simply how much metal is present. It is which organism can reach which chemical form, in which compartment, with what effect on host and community.",
+    "intro": "This is the field guide’s editorial framework: connect chemistry, microbial function, host regulation, and clinical outcomes, with each connection labeled by the evidence supporting it.",
+    "description": "An organizing thesis for microbial metallomics: chemical form, compartments, host–microbial competition, zinc and MS, iron restriction, and testable evidence gaps.",
+    "sections": [
+      {
+        "id": "access",
+        "title": "Metal amount is not metal access",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A supplement label describes an input. A blood result samples a circulating pool. A microbiome report describes a community through the assay used to measure it. None, alone, tells us where the metal went, who used it, or whether that use helped the host. The central task is to connect these observations rather than substitute one for another.",
+            "refs": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Iron makes the distinction concrete: hepcidin can reduce ferroportin-mediated export from cells, restricting delivery to the circulation. Zinc offers a different example: an inflammatory metal-binding protein can disadvantage susceptible microbes while a competitor with effective acquisition machinery retains an advantage. “Less available” always needs an answer to “available to whom?”",
+            "refs": [
+              1,
+              2
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Five questions to ask of every metal–microbe claim",
+            "headers": [
+              "Question",
+              "What must be specified",
+              "A misleading shortcut"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Chemical form",
+                  "Ion, oxidation state, ligand, particle, or metal-containing molecule; dissolution and transformation.",
+                  "Treating every compound containing the same element as the same exposure."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Local pool",
+                  "Gut lumen, mucosa, blood, tissue, or an intracellular compartment; bound versus exchangeable metal.",
+                  "Calling a low blood value a map of the entire body."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Access machinery",
+                  "Transporters, binding molecules, efflux, host sequestration, and their activity in that setting.",
+                  "Assuming a detected gene is active or every strain has the same capacity."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Biological function",
+                  "What changes: enzyme activity, respiration, competition, barrier function, or immune behavior?",
+                  "Treating a taxonomic shift as the mechanism itself."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Host outcome",
+                  "Absorption, cellular use, inflammation, symptoms, and disease course are distinct endpoints.",
+                  "Calling any microbiome change harmful, or any absorption increase therapeutic."
+                ],
+                "refs": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These are linked questions, not a validated equation or risk score. The proposed advance of this atlas is to keep the connections visible—and to mark the ones the evidence has not yet made.",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "immune-geography",
+        "title": "Nutritional immunity has a geography",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Host defense does not always mean removing a metal. In a macrophage model, ATP7A-dependent copper trafficking contributed to bacterial killing. In separate work, the bacterial ligand yersiniabactin buffered copper toxicity, and copper–yersiniabactin complexes were detected in human urinary infection samples. Metal delivery and microbial protection can therefore oppose one another. These studies do not constitute a single experiment tracing the same copper pool.",
+            "refs": [
+              3,
+              4
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Location can also change the result of the same dietary intervention. In mice, a manganese-rich diet worsened staphylococcal infection in the heart without the same pattern in liver and kidney. Subsequent work implicated altered neutrophil function as well. A story about feeding a bacterium can miss an effect on the cell trying to contain it.",
+            "refs": [
+              5,
+              6
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "This is why “high” and “low” require a specimen, compartment, method, and comparison. Hypozincemia means low circulating zinc; it does not name zinc status inside every immune cell. A tissue elemental map is not a measurement of its labile, readily exchangeable intracellular pool. The spatial question belongs beside the concentration.",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "zinc-case",
+        "title": "Zinc: better absorption is only one connection",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Formulation matters, but the comparison matters just as much. A preliminary crossover study in eight healthy adults estimated greater zinc absorption from aspartate than from gluconate or sulfate when given with milk. It did not test oxide. A different 15-person trial found lower absorption from oxide than from citrate or gluconate under its own conditions. Combining their percentages into an aspartate-versus-oxide ranking would combine different experiments.",
+            "refs": [
+              7,
+              8
+            ]
+          },
+          {
+            "type": "claims",
+            "items": [
+              {
+                "status": "Supported in a small human study",
+                "claim": "Aspartate can change estimated host absorption.",
+                "finding": "The absorption finding is real within the tested protocol. It is an endpoint about the host.",
+                "missing": "Direct measurement of the zinc remaining in the gut, its chemical availability, and microbial acquisition before claiming that aspartate bypasses microbes.",
+                "refs": [
+                  7
+                ]
+              },
+              {
+                "status": "Preclinical signal · human mechanism unresolved",
+                "claim": "Aspartate has a preclinical signal in an MS model.",
+                "finding": "Oral zinc aspartate improved experimental autoimmune encephalomyelitis in mice. A small human MS trial studied sulfate and depression; it found no between-group difference in the neurological examinations reported.",
+                "missing": "A human formulation comparison with disease outcomes and evidence that a microbial zinc mechanism mediates any benefit.",
+                "refs": [
+                  9,
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Calprotectin fits the question but does not answer it by itself. Its abundance is not a measurement of zinc occupancy, zinc flux, or which organism acquired the withheld metal. Likewise, an MS-associated microbial community does not reveal its zinc economy simply from the species names. Human cohort associations and experimental immune effects provide reasons to investigate, not proof of zinc theft.",
+            "refs": [
+              2,
+              11
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Read the zinc comparison, compartment map, and MS evidence ledger",
+            "url": "/metals/zinc"
+          }
+        ]
+      },
+      {
+        "id": "iron-case",
+        "title": "Iron: depleted stores and restricted delivery are different problems",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Absolute iron deficiency means stores are depleted. In inflammatory iron restriction, iron may be retained in storage and recycling cells while its delivery for red-cell production is constrained. Both can coexist. These are two mechanisms to distinguish, not an exhaustive classification of anemia. Human inflammatory signaling experiments and cellular ferroportin experiments explain a route from inflammation to reduced circulating iron.",
+            "refs": [
+              12,
+              1,
+              13
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The attractive hypothesis is that oral iron can increase intestinal microbial exposure while host delivery remains limited. That is a question about competing destinations, not proof that every unsuccessful course of ferrous sulfate fed a pathogen. In an IBD trial, oral and intravenous treatment produced different microbial and metabolic changes, while both improved iron deficiency; changes in disease activity were not dependent on route.",
+            "refs": [
+              14
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Counterevidence must be visible. A South African child trial improved iron status without detecting changes in the measured bacterial groups, short-chain fatty acids, or fecal calprotectin. Its setting and targeted assays matter. The defensible claim is that microbial effects vary with the population, formulation, background ecology, and endpoint—not that replacement is intrinsically harmful.",
+            "refs": [
+              15
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Read the iron map: depletion, restriction, delivery, and formulation",
+            "url": "/metals/iron"
+          }
+        ]
+      },
+      {
+        "id": "signature",
+        "title": "A disease signature must become a functional question",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A list of taxa is the beginning of a hypothesis, not the end of a mechanism. A higher relative abundance can reflect a fall in another population. Species labels do not establish transporter content, expression, access to substrate, or actual metal transfer. Quantitative microbiome profiling in MS shows why bacterial load and confounding can change which associations remain robust.",
+            "refs": [
+              16
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Chemical selectivity can be very specific: gut bacterial transporters distinguish vitamin B12-related corrinoids. These are cobalt-containing molecules, not interchangeable supplies of free cobalt. Transporter mobility can also change competitive behavior within a gut microbial species. Functional capacity cannot safely be frozen into a permanent “good” or “bad” species label.",
+            "refs": [
+              17,
+              18
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "The missing links between a signature and an intervention",
+            "headers": [
+              "Evidence layer",
+              "What it contributes",
+              "What remains unproved"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Community association",
+                  "A reproducible association after diet, medication, stool characteristics, and absolute load are considered.",
+                  "That the organisms cause the disease or share one metal-handling phenotype."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Functional potential",
+                  "Genes and pathways that could acquire, transform, exclude, or redistribute a metal.",
+                  "That they are expressed, chemically supplied, or important in this host."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Activity and flux",
+                  "Evidence of expression, metabolites, local chemical pools, and movement between compartments.",
+                  "That changing this flux changes the clinical outcome."
+                ],
+                "refs": []
+              },
+              {
+                "cells": [
+                  "Causal and clinical effect",
+                  "An intervention changes the proposed pathway and a meaningful host endpoint.",
+                  "Whether that pathway mediates the host effect; generalization beyond the tested population, formulation, and setting."
+                ],
+                "refs": []
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The next useful “signature” would join microbial functions to host regulation and metal chemistry in the same people over time. That is a research objective. This site does not currently possess a validated signature that selects a supplement for an individual.",
+            "refs": []
+          }
+        ]
+      },
+      {
+        "id": "falsifiable",
+        "title": "Make the thesis capable of being wrong",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A strong mechanism is not automatically a successful treatment rule. Hepcidin predicted use of oral iron in children, yet a later hepcidin-guided strategy that reduced iron exposure was less effective at improving hemoglobin and failed its prespecified non-inferiority test. Prediction and intervention answer different questions.",
+            "refs": [
+              19,
+              20
+            ]
+          },
+          {
+            "type": "proposal",
+            "title": "Test access, not just abundance",
+            "text": "The zinc and iron literature suggests a shared measurement problem: host uptake, microbial exposure, and clinical benefit are usually studied separately. A useful clinical research comparison would connect them prospectively.",
+            "refs": [],
+            "measures": [
+              "Define the actual formulation, food context, route, and relevant host state before comparing outcomes.",
+              "Measure host uptake or use alongside a defensible estimate of the local available metal pool; total stool concentration alone is insufficient.",
+              "Track microbial functions and absolute community measures, with inflammation, medications, and baseline deficiency considered.",
+              "Specify the host endpoint and the result that would contradict the proposed microbial mechanism before interpreting the data."
+            ],
+            "decision": "If a formulation improves host uptake without changing the proposed microbial pathway, its benefit may be real while the microbial-bypass explanation is wrong."
+          },
+          {
+            "type": "paragraph",
+            "text": "A change in the microbiome is also not a clinical endpoint by itself. In one mouse study, oral vitamin B12 changed distal-gut corrinoids and selected bacterial abundances without improving or worsening the measured colitis outcome. Null and discordant results help identify which part of a story actually explains the host.",
+            "refs": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": "use-the-atlas",
+        "title": "Use the atlas as a map of connections",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Read each profile in two directions: from the chemical form toward the host outcome, and backward from a disease observation toward the measurements needed to explain it. Zinc and iron are the first full worked examples of this approach. Across the broader atlas, distinguish a demonstrated mechanism from a plausible connection and a proposed test.",
+            "refs": []
+          },
+          {
+            "type": "link",
+            "text": "Follow the metal through four mechanism cases",
+            "url": "/metal-access"
+          },
+          {
+            "type": "link",
+            "text": "Browse the complete metals atlas",
+            "url": "/metals"
+          },
+          {
+            "type": "link",
+            "text": "Choose methods for measuring metals and microbes",
+            "url": "/methods"
+          },
+          {
+            "type": "link",
+            "text": "Read the evidence guide",
+            "url": "/evidence-guide"
+          },
+          {
+            "type": "link",
+            "text": "Download the framework and linked evidence (JSON)",
+            "url": "/assets/data/metal-access.json"
+          },
+          {
+            "type": "link",
+            "text": "Contribute a source, counterexample, or correction",
+            "url": "/contribute"
+          }
+        ]
+      }
+    ]
+  },
+  "explorer": {
+    "title": "Follow the metal.",
+    "eyebrow": "A qualitative mechanism explorer",
+    "deck": "Choose a case. Trace the compartments. Find the connection that still needs evidence.",
+    "intro": "These diagrams organize findings from distinct studies. Arrows describe a proposed route through the question; they do not mean that every step has been demonstrated in one experiment. There are no calculated doses or predicted patient outcomes.",
+    "description": "Explore zinc absorption, iron restriction, copper defense, and corrinoid selection through sourced compartment diagrams and explicit missing evidence.",
+    "cases": [
+      {
+        "id": "zinc-access",
+        "label": "Zinc · absorption and competition",
+        "scope": "Human absorption + separate microbial models",
+        "title": "Does more zinc reach the host—or less reach the microbes?",
+        "blocks": [
+          {
+            "type": "path",
+            "caption": "One input, two access questions",
+            "steps": [
+              {
+                "label": "Formulation in the gut",
+                "text": "Aspartate, oxide, sulfate, and gluconate are formulation labels. The human comparisons tested different subsets under different food and measurement conditions.",
+                "refs": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "label": "Host branch · uptake",
+                "text": "A higher absorbed fraction describes entry into the host. It does not identify how much remaining zinc is usable by a particular gut organism.",
+                "refs": []
+              },
+              {
+                "label": "Microbial branch · local access",
+                "text": "Calprotectin and microbial acquisition machinery can change competition in an inflamed niche. This was studied separately from the human formulation comparisons.",
+                "refs": [
+                  2
+                ]
+              }
+            ],
+            "layout": "fork"
+          },
+          {
+            "type": "paragraph",
+            "text": "The tempting inference is that better host absorption leaves less zinc for microbes. That may change total residual exposure, but chemical accessibility, timing, and location still need measurement. “Aspartate bypasses microbes” remains an untested explanation in the evidence assembled here.",
+            "refs": []
+          },
+          {
+            "type": "link",
+            "text": "Open the formulation and MS evidence ledger",
+            "url": "/metals/zinc#formulations"
+          }
+        ]
+      },
+      {
+        "id": "iron-delivery",
+        "label": "Iron · stores and delivery",
+        "scope": "Cellular mechanism + human intervention evidence",
+        "title": "The dose enters the gut. Does usable iron reach the marrow?",
+        "blocks": [
+          {
+            "type": "path",
+            "caption": "Separate entry, export, and use",
+            "steps": [
+              {
+                "label": "Intestinal exposure",
+                "text": "Oral replacement introduces iron into the lumen. Its microbial and metabolic effects can differ from intravenous delivery.",
+                "refs": [
+                  14
+                ]
+              },
+              {
+                "label": "Host export",
+                "text": "Hepcidin binding to ferroportin reduces cellular iron export. Iron can be retained while circulating delivery falls.",
+                "refs": [
+                  1
+                ]
+              },
+              {
+                "label": "Red-cell production",
+                "text": "Hemoglobin response is a host outcome, not a direct readout of microbial feeding. A biomarker-guided reduction in exposure did not preserve efficacy in one child trial.",
+                "refs": [
+                  20
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "First distinguish depleted stores, inflammatory restriction, and mixtures. Even in inflammatory bowel disease, depleted stores can accompany low hepcidin. Inflammation does not guarantee a closed export gate in every patient.",
+            "refs": [
+              22
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Open the iron depletion and restriction map",
+            "url": "/metals/iron#iron-pools"
+          }
+        ]
+      },
+      {
+        "id": "copper-defense",
+        "label": "Copper · delivery and buffering",
+        "scope": "Distinct cellular, chemical, and human-specimen studies",
+        "title": "A metal delivered as a defense can meet a microbial buffer.",
+        "blocks": [
+          {
+            "type": "path",
+            "caption": "Opposing processes, assembled across studies",
+            "steps": [
+              {
+                "label": "Host trafficking",
+                "text": "A macrophage study implicated ATP7A-dependent copper delivery in antibacterial activity.",
+                "refs": [
+                  3
+                ]
+              },
+              {
+                "label": "Microbial ligand",
+                "text": "Yersiniabactin binds copper and can protect bacteria from its toxicity.",
+                "refs": [
+                  4
+                ]
+              },
+              {
+                "label": "Infection compartment",
+                "text": "Copper–yersiniabactin complexes were detected in human urinary infection specimens. Detection does not establish their contribution to each patient’s severity.",
+                "refs": [
+                  4
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The missing connection is simultaneous measurement of host delivery, ligand-bound versus accessible copper, and the host outcome in the same setting. A total copper result cannot supply all three. These studies do not establish that changing dietary copper would reproduce either mechanism.",
+            "refs": []
+          },
+          {
+            "type": "link",
+            "text": "Read the copper profile",
+            "url": "/metals/copper"
+          }
+        ]
+      },
+      {
+        "id": "corrinoid-selectivity",
+        "label": "Cobalt · molecule and transporter",
+        "scope": "Gut bacterial mechanisms + a mouse supplementation study",
+        "title": "The cobalt atom does not tell you who can use the molecule.",
+        "blocks": [
+          {
+            "type": "path",
+            "caption": "Chemical identity meets selective access",
+            "steps": [
+              {
+                "label": "Corrinoid mixture",
+                "text": "Vitamin B12 and related corrinoids contain cobalt. Their molecular differences matter to microbial use.",
+                "refs": [
+                  17
+                ]
+              },
+              {
+                "label": "Transporter repertoire",
+                "text": "Multiple transporters can discriminate among analogs; transferable transport capacity can change competition within a species.",
+                "refs": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "label": "Community and host",
+                "text": "Oral B12 altered distal-gut corrinoids and some bacterial abundances in mice without changing the measured colitis outcome.",
+                "refs": [
+                  21
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The transporter studies have not shown that transporter selectivity caused the separate supplementation-associated community shift. Nor do they establish whether a particular community’s corrinoid handling limits host benefit in a defined clinical setting. Free cobalt supplementation is not an equivalent intervention.",
+            "refs": []
+          },
+          {
+            "type": "link",
+            "text": "Read the cobalt profile",
+            "url": "/metals/cobalt"
+          }
+        ]
+      }
+    ]
+  }
+}

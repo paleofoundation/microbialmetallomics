@@ -1,4 +1,4 @@
-"""Refresh shared navigation, asset versions, search index and sitemap. Run after build_catalog.py."""
+"""Refresh shared navigation, asset versions, search and sitemap after content generators."""
 from pathlib import Path
 import re,json,html,hashlib
 from urllib.parse import urlsplit
@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 ORIGIN='https://microbialmetallomics.com'
 links=[('/start-here','Start here'),('/research','Research'),('/library','Paper Reviews'),('/topics','Topics'),('/people',"Who’s Who"),('/commentary','Commentary')]
 nav='<nav class="nav-links" aria-label="Primary">'+''.join('<a href="'+url+'">'+title+'</a>' for url,title in links)+'</nav>'
-mega='''<div class="mega-menu" id="mega-menu"><div class="wrap"><div class="mega-grid"><div class="mega-col"><h5>Read the field</h5><a href="/start-here"><b>Start here</b><span>Three reading pathways</span></a><a href="/science"><b>The Science</b><span>How microbes use and compete for metals</span></a><a href="/metals"><b>The Metals</b><span>Element-by-element profiles</span></a><a href="/glossary"><b>Glossary</b><span>Find a term and its meaning</span></a><a href="/blog"><b>Essays</b><span>The metal–microbiome–disease axis</span></a></div><div class="mega-col"><h5>Work with the evidence</h5><a href="/evidence"><b>Evidence explorer</b><span>Search, filter, and export the catalog</span></a><a href="/library"><b>Paper Reviews</b><span>Studies, read in context</span></a><a href="/commentary"><b>Critical Commentary</b><span>Close readings and open questions</span></a><a href="/methods"><b>Methods comparison</b><span>Match a tool to a question</span></a><a href="/evidence-guide"><b>Evidence guide</b><span>Design, inference, and publication status</span></a></div><div class="mega-col"><h5>People &amp; participation</h5><a href="/people"><b>Who’s Who</b><span>Researchers, expertise, and public contacts</span></a><a href="/projects"><b>Research questions</b><span>Proposed directions and missing measurements</span></a><a href="/contribute"><b>Contribute or correct</b><span>Prepare a sourced suggestion</span></a><a href="/reading-list"><b>Saved reading</b><span>Your list on this browser</span></a><a href="/about"><b>About this resource</b><span>Purpose and affiliations</span></a></div><div class="mega-col"><h5>Follow &amp; understand</h5><a href="/newsletter"><b>Follow the field</b><span>Ways to keep up with new writing</span></a><a href="/feeds"><b>RSS feeds</b><span>All writing or a selected section</span></a><a href="/updates"><b>Latest &amp; changes</b><span>New articles and site revisions</span></a><a href="/editorial"><b>Editorial standards</b><span>Sources, disclosures, and corrections</span></a><a href="/landscape"><b>Research Landscape</b><span>Journals, facilities, and milestones</span></a></div></div></div></div>'''
+mega='''<div class="mega-menu" id="mega-menu"><div class="wrap"><div class="mega-grid"><div class="mega-col"><h5>Read the field</h5><a href="/start-here"><b>Start here</b><span>The organizing thesis</span></a><a href="/metal-access"><b>Follow the metal</b><span>Form, compartment, and microbial access</span></a><a href="/science"><b>The Science</b><span>How microbes use and compete for metals</span></a><a href="/metals"><b>The Metals</b><span>Element-by-element profiles</span></a><a href="/glossary"><b>Glossary</b><span>Find a term and its meaning</span></a><a href="/blog"><b>Essays</b><span>The metal–microbiome–disease axis</span></a></div><div class="mega-col"><h5>Work with the evidence</h5><a href="/evidence"><b>Evidence explorer</b><span>Search, filter, and export the catalog</span></a><a href="/library"><b>Paper Reviews</b><span>Studies, read in context</span></a><a href="/commentary"><b>Critical Commentary</b><span>Close readings and open questions</span></a><a href="/methods"><b>Methods comparison</b><span>Match a tool to a question</span></a><a href="/evidence-guide"><b>Evidence guide</b><span>Design, inference, and publication status</span></a></div><div class="mega-col"><h5>People &amp; participation</h5><a href="/people"><b>Who’s Who</b><span>Researchers, expertise, and public contacts</span></a><a href="/projects"><b>Research questions</b><span>Proposed directions and missing measurements</span></a><a href="/contribute"><b>Contribute or correct</b><span>Prepare a sourced suggestion</span></a><a href="/reading-list"><b>Saved reading</b><span>Your list on this browser</span></a><a href="/about"><b>About this resource</b><span>Purpose and affiliations</span></a></div><div class="mega-col"><h5>Follow &amp; understand</h5><a href="/newsletter"><b>Follow the field</b><span>Ways to keep up with new writing</span></a><a href="/feeds"><b>RSS feeds</b><span>All writing or a selected section</span></a><a href="/updates"><b>Latest &amp; changes</b><span>New articles and site revisions</span></a><a href="/editorial"><b>Editorial standards</b><span>Sources, disclosures, and corrections</span></a><a href="/landscape"><b>Research Landscape</b><span>Journals, facilities, and milestones</span></a></div></div></div></div>'''
 footerlinks='<p class="utility-links"><a href="/about">About</a><a href="/editorial">Editorial standards</a><a href="/editorial#privacy">Privacy</a><a href="/contribute">Contribute / correct</a><a href="/feeds">RSS</a><a href="/updates">Updates</a><a href="/reading-list">Saved reading</a></p>'
 footercredit='<p class="project-credit">© 2026 Microbial Metallomics. A project associated with <a href="https://microbiomemedicine.com/">Microbiome Medicine</a> and <a href="https://www.wikibiome.com/">Wikibiome.com</a>.</p>'
 cat_hash=hashlib.sha256((ROOT/'assets/data/articles.json').read_bytes()).hexdigest()[:12]
@@ -46,15 +46,26 @@ for p in [*ROOT.glob('*.html'), *(ROOT/'metals').glob('*.html')]:
  if p.name in ['404.html','index.html']:continue
  route='/'+p.relative_to(ROOT).with_suffix('').as_posix();s=p.read_text();title=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S);desc=re.search(r'<meta name="description" content="([^"]*)"',s)
  if not title:continue
- record={'kind':'Element profile' if route.startswith('/metals/') else ('Guide' if p.stem in ['start-here','evidence-guide','methods','editorial','about','projects'] else 'Section'),'title':html.unescape(re.sub('<[^>]+>','',title.group(1))),'url':route,'desc':html.unescape(desc.group(1)) if desc else ''}
+ record={'kind':'Element profile' if route.startswith('/metals/') else ('Guide' if p.stem in ['start-here','metal-access','evidence-guide','methods','editorial','about','projects'] else 'Section'),'title':html.unescape(re.sub('<[^>]+>','',title.group(1))),'url':route,'desc':html.unescape(desc.group(1)) if desc else ''}
  if route in byurl:byurl[route].update(record)
  else:index.append(record);byurl[route]=record
 # Search includes element symbols, enzymes, organisms, and grouped lanthanide names.
+def readable_access(value):
+ if isinstance(value,str):return value
+ if isinstance(value,list):return ' '.join(readable_access(item) for item in value)
+ if isinstance(value,dict):return ' '.join(readable_access(item) for key,item in value.items() if key not in {'id','type','url','refs','layout'})
+ return ''
 metals_path=ROOT/'assets/data/metals.json'
 if metals_path.exists():
  for r in json.loads(metals_path.read_text()):
   if r['url'] in byurl:
    byurl[r['url']]['desc']=' '.join([r['symbol'],r['role'],r['summary']['text'],*r['tags'],*[study['system'] for study in r.get('studies',[])],*[m['name']+' '+m['symbol'] for m in r.get('members',[])]])
+   if r.get('access'):byurl[r['url']]['desc']+=' '+readable_access(r['access'])
+access_path=ROOT/'assets/data/metal-access.json'
+if access_path.exists():
+ access_data=json.loads(access_path.read_text())
+ for route,key in [('/start-here','thesis'),('/metal-access','explorer')]:
+  if route in byurl:byurl[route]['desc']=readable_access(access_data[key])
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
 # Sitemap: all public pages with stable canonical URLs, excluding device-local reading list.
 from xml.sax.saxutils import escape

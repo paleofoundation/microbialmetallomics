@@ -148,7 +148,7 @@
         ]
       },
       {
-        "text": "Spatial limits to nutritional immunity. In a mouse systemic-infection model, high dietary manganese increased its availability in the heart and favored S. aureus. Calprotectin accumulated around cardiac abscesses but did not effectively restrict manganese within their centers. The location of a defense protein mattered as much as its presence.",
+        "text": "Spatial limits to nutritional immunity. In infected mouse hearts, calprotectin surrounded abscesses but failed to restrict manganese in their centers.",
         "refs": [
           3
         ]
@@ -222,9 +222,9 @@
       {
         "title": "A nutrient advantage at the infection site",
         "system": "S. aureus systemic infection in mice",
-        "design": "Animal dietary manipulation with tissue metal mapping.",
-        "finding": "Excess dietary manganese favored cardiac infection where calprotectin did not effectively withhold the metal.",
-        "interpretation": "This is tissue-specific pathogen fitness, not a general gut-community response.",
+        "design": "Mouse dietary manipulation and tissue metal mapping.",
+        "finding": "High dietary manganese favored cardiac infection.",
+        "interpretation": "An organ-specific infection result; human intake effects remain untested.",
         "refs": [
           3
         ]
@@ -252,14 +252,14 @@
     "name": "Iron",
     "atomicNumber": 26,
     "category": "essential",
-    "role": "Iron acquisition, iron-sulfur enzymes, and environmental respiration",
+    "role": "Iron stores, inflammatory restriction, microbial access, and formulation-dependent outcomes",
     "summary": {
-      "text": "Iron links nutrient competition, enzyme activity, and environmental respiration. Its oxidation state, ligands, and mineral structure determine what a microbe can use. Host-associated evidence extends from siderophore chemistry to randomized infant-fortification studies, making iron a useful example of why an essential nutrient can produce different microbial outcomes depending on formulation and ecological context.",
+      "text": "Iron is a nutrient, an enzyme cofactor, and an environmental electron acceptor. In the host, depleted stores and restricted delivery are distinct problems that may coexist. A useful microbial account must follow iron into local chemical pools, then connect acquisition and competition to host benefit or harm.",
       "refs": [
         1,
         3,
-        4,
-        5
+        6,
+        7
       ]
     },
     "mechanisms": [
@@ -302,11 +302,11 @@
       ]
     },
     "limits": {
-      "text": "Fecal community shifts are not equivalent to clinical infection, and inflammatory biomarkers are not complete disease diagnoses. The fortification trials also addressed iron deficiency, so microbiome findings must be interpreted alongside host outcomes. Siderophore-dependent virulence is strain-specific and cannot be assigned to every member of a genus from its relative abundance.",
+      "text": "These studies do not support a universal “feed the host, starve the microbes” product ranking. Route and formulation can change exposure; microbial shifts need interpretation alongside host efficacy. IV iron is not established here as a universal solution, and a biomarker that predicts uptake does not automatically produce an effective treatment algorithm.",
       "refs": [
-        1,
-        4,
-        5
+        10,
+        13,
+        15
       ]
     },
     "sources": [
@@ -339,12 +339,72 @@
         "authors": "Paganini D, Uyoga MA, Kortman GAM, Cercamondi CI, Moretti D, Barth-Jaeggi T, Schwab C, Boekhorst J, Timmerman HM, Lacroix C, Karanja S, Zimmermann MB",
         "year": 2017,
         "url": "https://doi.org/10.1136/gutjnl-2017-314418"
+      },
+      {
+        "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
+        "authors": "Nemeth E et al.",
+        "year": 2004,
+        "url": "https://doi.org/10.1126/science.1104742"
+      },
+      {
+        "title": "Single values of serum transferrin receptor and transferrin receptor ferritin index can be used to detect true and functional iron deficiency in rheumatoid arthritis patients with anemia",
+        "authors": "Suominen P et al.",
+        "year": 2000,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10817554/"
+      },
+      {
+        "title": "IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin",
+        "authors": "Nemeth E et al.",
+        "year": 2004,
+        "url": "https://doi.org/10.1172/jci20945"
+      },
+      {
+        "title": "Serum hepcidin concentrations correlate with ferritin in patients with inflammatory bowel disease",
+        "authors": "Mecklenburg I et al.",
+        "year": 2014,
+        "url": "https://doi.org/10.1016/j.crohns.2014.04.008"
+      },
+      {
+        "title": "Oral versus intravenous iron replacement therapy distinctly alters the gut microbiota and metabolome in patients with IBD",
+        "authors": "Lee T et al.",
+        "year": 2017,
+        "url": "https://doi.org/10.1136/gutjnl-2015-309940"
+      },
+      {
+        "title": "Effects of iron supplementation on dominant bacterial groups in the gut, faecal SCFA and gut inflammation: a randomised, placebo-controlled intervention trial in South African children",
+        "authors": "Dostal A et al.",
+        "year": 2014,
+        "url": "https://doi.org/10.1017/s0007114514001160"
+      },
+      {
+        "title": "Oral iron supplements increase hepcidin and decrease iron absorption from daily or twice-daily doses in iron-depleted young women",
+        "authors": "Moretti D et al.",
+        "year": 2015,
+        "url": "https://doi.org/10.1182/blood-2015-05-642223"
+      },
+      {
+        "title": "A novel nano-iron supplement versus standard treatment for iron deficiency anaemia in children 6-35 months (IHAT-GUT trial): a double-blind, randomised, placebo-controlled non-inferiority phase II trial in The Gambia",
+        "authors": "Mohammed NI et al.",
+        "year": 2023,
+        "url": "https://doi.org/10.1016/j.eclinm.2023.101853"
+      },
+      {
+        "title": "Hepcidin is the major predictor of erythrocyte iron incorporation in anemic African children",
+        "authors": "Prentice AM et al.",
+        "year": 2012,
+        "url": "https://doi.org/10.1182/blood-2011-11-391219"
+      },
+      {
+        "title": "Hepcidin-guided screen-and-treat interventions for young children with iron-deficiency anaemia in The Gambia: an individually randomised, three-arm, double-blind, controlled, proof-of-concept, non-inferiority trial",
+        "authors": "Wegmüller R et al.",
+        "year": 2023,
+        "url": "https://doi.org/10.1016/s2214-109x(22)00449-1"
       }
     ],
     "tags": [
+      "Iron deficiency",
+      "Hepcidin",
       "Siderophores",
-      "Nutritional immunity",
-      "Iron-sulfur clusters",
       "Human intervention",
       "Environmental redox"
     ],
@@ -365,20 +425,181 @@
     ],
     "researchQuestions": [
       {
-        "text": "Which combinations of iron form, absorption, background diet, and baseline microbiota explain variation in infant community responses?",
+        "text": "Which measurable microbial acquisition functions explain differences in host benefit or adverse outcomes between formulations, beyond baseline deficiency and inflammation?",
         "refs": [
-          4,
-          5
+          1,
+          13
         ]
       },
       {
-        "text": "Can siderophore profiling distinguish functionally different strains when taxonomic surveys report the same organism?",
+        "text": "Can a combined measure of host regulation, local iron chemistry, and microbial activity predict response better than any one layer—and then improve outcomes when prospectively tested?",
         "refs": [
-          1
+          14,
+          15
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "access": [
+      {
+        "id": "iron-pools",
+        "title": "Two mechanisms of iron shortage—and their overlap",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Anemia describes a red-cell or hemoglobin problem; it is not itself a diagnosis of iron depletion. Absolute deficiency and inflammatory restriction are two important iron mechanisms, not the only causes of anemia. Their overlap matters: a person can have inflammation and genuinely depleted stores.",
+            "refs": [
+              7
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Distinguish the pool from the delivery problem",
+            "headers": [
+              "State",
+              "Mechanistic picture",
+              "Interpretive limit"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Absolute depletion",
+                  "Stores are reduced, limiting iron available for erythropoiesis.",
+                  "Inflammation can coexist; a single circulating result does not resolve the mixture."
+                ],
+                "refs": [
+                  7
+                ]
+              },
+              {
+                "cells": [
+                  "Inflammatory restriction",
+                  "IL-6 can increase hepcidin; hepcidin reduces ferroportin-mediated cellular export, limiting circulating delivery.",
+                  "This is regulated iron redistribution, not evidence that all iron in all tissues is excessive."
+                ],
+                "refs": [
+                  8,
+                  6
+                ]
+              },
+              {
+                "cells": [
+                  "Mixed deficiency and inflammation",
+                  "In an IBD cohort, low ferritin accompanied low hepcidin despite inflammatory activity.",
+                  "Inflammation does not automatically establish high hepcidin in every patient."
+                ],
+                "refs": [
+                  9
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The phrase “the body is trying to get iron out of the labile pool” needs a specified pool. Hepcidin–ferroportin biology concerns export and systemic availability; it is not a direct measurement of labile iron inside every cell. In a small marrow-characterized rheumatoid arthritis cohort, additional iron markers helped distinguish deficient stores and predict response—illustrating why the diagnostic question needs more than anemia alone.",
+            "refs": [
+              7,
+              6
+            ]
+          }
+        ],
+        "nav": "Depletion & restriction"
+      },
+      {
+        "id": "iron-route",
+        "title": "Oral iron: separate host response from microbial effects",
+        "blocks": [
+          {
+            "type": "claims",
+            "items": [
+              {
+                "status": "Randomized human route comparison",
+                "claim": "Microbial change did not equal clinical worsening.",
+                "finding": "In a trial including Crohn’s disease, ulcerative colitis, and noninflamed iron-deficient controls, oral sulfate and intravenous sucrose produced distinct microbial and metabolic changes. Both improved iron deficiency; disease-activity changes were independent of route.",
+                "missing": "A demonstrated causal chain from a particular iron-access function to a clinically important outcome.",
+                "refs": [
+                  10
+                ]
+              },
+              {
+                "status": "Randomized human counterexample",
+                "claim": "Ferrous sulfate did not disrupt every measured community.",
+                "finding": "In iron-deficient South African schoolchildren, supplementation improved iron status without detected changes in ten measured bacterial groups, fecal short-chain fatty acids, or calprotectin.",
+                "missing": "Broader functional measurements and replication in other ecologies; a targeted null result is not proof of no possible effect.",
+                "refs": [
+                  11
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These findings sit beside the Kenyan infant fortification studies above. Different baseline ecology, age, formulation, and measurement scope can produce different results. It is plausible that unabsorbed iron supports some organisms, but identifying that path requires more than a poor hemoglobin response or an increase in relative abundance.",
+            "refs": [
+              4,
+              11
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Host feedback also changes exposure over time. Stable-isotope studies in iron-depleted women found that oral sulfate increased hepcidin and reduced absorption of a subsequent dose. The fraction absorbed and the absolute amount absorbed are different quantities. Timing is part of the mechanism; this experiment does not provide a microbiome-based dosing rule.",
+            "refs": [
+              12
+            ]
+          }
+        ],
+        "nav": "Host & microbial outcomes"
+      },
+      {
+        "id": "iron-formulations",
+        "title": "A formulation can matter without proving microbial exclusion",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The IHAT-GUT phase II trial randomized 642 young Gambian children to iron hydroxide adipate tartrate, ferrous sulfate, or placebo. IHAT met the trial’s non-inferiority criterion for the composite efficacy endpoint. The rate of moderate-to-severe diarrhea was lower than with sulfate, while the proportion experiencing at least one such episode was similar. These are different safety measures.",
+            "refs": [
+              13
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Interpret the comparison at its actual scale: phase II, different elemental doses selected for estimated comparable bioavailability, and 80% confidence intervals. The result supports further formulation research; it does not prove general superiority or establish that a particular pathogen was denied iron.",
+            "refs": [
+              13
+            ]
+          }
+        ],
+        "nav": "Formulation evidence"
+      },
+      {
+        "id": "iron-test",
+        "title": "The decisive question is where replacement goes",
+        "blocks": [
+          {
+            "type": "proposal",
+            "title": "Measure host use and microbial exposure together",
+            "text": "A stronger study would distinguish failure to absorb, restricted export, inadequate stores, ongoing losses, and microbial competition instead of assigning every weak response to the microbiome.",
+            "refs": [],
+            "measures": [
+              "Characterize iron stores and inflammatory context, accounting for mixed states.",
+              "Measure host incorporation or a meaningful hematologic response alongside the local iron species accessible to microbes.",
+              "Connect microbial acquisition functions and metabolites to absolute community changes, rather than treat a taxonomic list as a flux measurement.",
+              "Judge the formulation using host efficacy and clinical adverse outcomes as well as microbial endpoints."
+            ],
+            "decision": "If host response improves with no change in the proposed microbial function, that function is not established as the mediator."
+          },
+          {
+            "type": "paragraph",
+            "text": "A final caution against overconfident precision: hepcidin predicted oral iron utilization in one study, but a later hepcidin-guided child trial reduced iron exposure at the cost of a worse hemoglobin response and failed non-inferiority. Mechanistic plausibility must survive a clinical comparison.",
+            "refs": [
+              14,
+              15
+            ]
+          }
+        ],
+        "nav": "Discriminating the mechanisms"
+      }
+    ]
   },
   {
     "symbol": "Co",
@@ -396,7 +617,7 @@
     },
     "mechanisms": [
       {
-        "text": "Selective uptake. Bacteroides thetaiotaomicron has three functional corrinoid transporters. Their apparent redundancy concealed different preferences for vitamin B12 analogs. In competition experiments, retaining or losing one transporter changed fitness according to the available corrinoid, including during colonization of gnotobiotic mice. Transporter specificity can therefore influence community membership.",
+        "text": "Selective uptake. Bacteroides thetaiotaomicron has three corrinoid transporters; comparisons revealed distinct analog preferences. The transporter repertoire therefore helps determine access to cobalt-containing cofactors.",
         "refs": [
           1
         ]
@@ -471,9 +692,9 @@
       {
         "title": "Hidden specificity in vitamin uptake",
         "system": "B. thetaiotaomicron strains differing in corrinoid transporters",
-        "design": "In vitro competition plus animal colonization in gnotobiotic mice.",
-        "finding": "Transporters with overlapping annotations supplied different competitive advantages depending on the corrinoid available.",
-        "interpretation": "A gene family that looks redundant may encode access to distinct nutrient niches.",
+        "design": "Culture competition and gnotobiotic-mouse colonization.",
+        "finding": "Corrinoid identity and transporter deletion changed competitive fitness.",
+        "interpretation": "Shared gene annotations did not imply interchangeable nutrient access.",
         "refs": [
           1
         ]
@@ -675,7 +896,7 @@
       }
     ],
     "microbiome": {
-      "text": "These studies establish mechanisms in environmental bacteria, bacterial cultures, and a macrophage cell line. They do not directly measure copper-driven changes in a human gut community. The host-cell work identifies a localized interaction between host transport and bacterial export.",
+      "text": "The macrophage study tests host–bacterium interaction, not a human gut-community response.",
       "refs": [
         3
       ]
@@ -729,9 +950,9 @@
       {
         "title": "Copper trafficking at the host–pathogen interface",
         "system": "RAW264.7 macrophages and E. coli",
-        "design": "In vitro infection with host ATP7A silencing and a bacterial copA mutant.",
-        "finding": "Host ATP7A contributed to killing, while bacterial CopA protected against it.",
-        "interpretation": "The experiment supports a transport-dependent interaction, not a human intake effect.",
+        "design": "Macrophage ATP7A silencing and bacterial copA deletion.",
+        "finding": "Host transport and bacterial export affected survival.",
+        "interpretation": "Cell-model evidence; dietary effects were not tested.",
         "refs": [
           3
         ]
@@ -758,56 +979,53 @@
     "name": "Zinc",
     "atomicNumber": 30,
     "category": "essential",
-    "role": "Nutrient limitation, metal competition, and colonization resistance",
+    "role": "Chemical form, host–microbial access, and the missing links in zinc–MS hypotheses",
     "summary": {
-      "text": "Zinc can support microbial growth, restrict it through competition with another metal, or be withheld by host defenses. Whether zinc favors a pathogen depends on the organism’s uptake systems and the surrounding community. Experiments in pneumococci, Salmonella, and mouse Clostridioides difficile infection demonstrate different mechanisms that should not be collapsed into a single beneficial-or-harmful label.",
+      "text": "Zinc connects nutrient acquisition, host metal withholding, and competition with other metals. Its effects depend on the accessible pool and the organisms sharing it. Human absorption comparisons, microbial models, and MS research answer different parts of that question; the sections below keep their connections and missing links visible.",
       "refs": [
         1,
-        2,
-        3
+        3,
+        4
       ]
     },
     "mechanisms": [
       {
-        "text": "Blocking access to manganese. In Streptococcus pneumoniae, excess extracellular Zn(II) bound the manganese-acquisition protein PsaA and impaired Mn(II) uptake. The zinc-bound protein was unusually stable. Growth inhibition and weakened oxidative-stress defenses followed manganese starvation even without a comparable rise in intracellular zinc: the competing ion acted at the gateway.",
+        "text": "Competition at the gateway. In Streptococcus pneumoniae, zinc binding to PsaA impaired manganese acquisition and weakened oxidative-stress defenses. A harmful zinc exposure can therefore act through deprivation of another metal.",
         "refs": [
           1
         ]
       },
       {
-        "text": "Withholding zinc can reshape competition. Calprotectin restricts microbial access to nutrient metals during inflammation. Salmonella Typhimurium overcame zinc restriction using the high-affinity transporter ZnuABC. A znuA mutant lost fitness in the inflamed mouse intestine, and that defect was rescued when calprotectin was absent. Effective scavenging let Salmonella compete against other gut microbes.",
+        "text": "Restriction can select competitors. In the inflamed mouse gut, high-affinity zinc acquisition supported Salmonella competition under calprotectin-mediated withholding. That advantage belongs to a particular acquisition system in a particular niche.",
         "refs": [
           3
         ]
       },
       {
-        "text": "Excess supply changes colonization resistance. In mice, a zinc-enriched diet changed the gut microbiota and reduced the antibiotic exposure needed to permit C. difficile infection. After infection, the diet increased disease severity and toxin activity. The same study found an antimicrobial and protective role for calprotectin-mediated metal limitation.",
+        "text": "Supply can alter community resistance. In a mouse C. difficile model, excess dietary zinc altered the microbiota and increased susceptibility in an antibiotic-dependent setting. The dietary salts were carbonate—not oxide—and the study did not test MS.",
         "refs": [
           2
         ]
       }
     ],
     "microbiome": {
-      "text": "The community and infection experiments support causal mechanisms in animals. They also explain an apparent paradox: metal restriction can suppress susceptible organisms while giving a better-equipped competitor a relative advantage. That does not mean the host defense is generally ineffective. It means the outcome depends on the uptake capacities of organisms sharing the restricted niche.",
+      "text": "MS-associated communities have produced immune effects in cell and mouse experiments, but those experiments did not identify zinc handling as the causal function. Their findings cannot be joined to a zinc absorption trial as though the microbial mechanism had been measured.",
       "refs": [
-        2,
-        3
+        5
       ]
     },
     "exposure": {
-      "text": "The pneumococcal experiments emphasized the zinc-to-manganese balance, whereas the C. difficile work manipulated diet and antibiotic exposure. The Salmonella study changed bacterial transport and host calprotectin. These are different interventions. Fecal zinc concentration alone cannot reconstruct local metal competition, binding by host proteins, or the amount available to a given transporter.",
+      "text": "Formulation performance depends partly on dissolution conditions. A small gastric-pH study found the lowest plasma zinc response with oxide at higher pH. This was not an isotope absorption trial or a test of microbial exclusion. Ordinary oral oxide and zinc-oxide nanoparticle antimicrobial studies also describe different exposures.",
       "refs": [
-        1,
-        2,
-        3
+        6
       ]
     },
     "limits": {
-      "text": "The PsaA mechanism is demonstrated for particular transport machinery, not every bacterium. The dietary experiment does not define a human zinc threshold for C. difficile susceptibility. Likewise, detecting ZnuABC in a metagenome indicates a possible acquisition strategy; its competitive importance depends on expression, inflammation, and the zinc supplies accessible to neighboring microbes.",
+      "text": "The chemical form, organism, compartment, and outcome cannot be swapped across studies. Evidence for a transporter mechanism or an animal response is useful without being a human treatment result. Lower mean serum zinc is likewise not evidence that every person with MS is deficient.",
       "refs": [
         1,
-        2,
-        3
+        12,
+        7
       ]
     },
     "sources": [
@@ -819,7 +1037,7 @@
       },
       {
         "title": "Dietary zinc alters the microbiota and decreases resistance to Clostridium difficile infection",
-        "authors": "Zackular JP et al.",
+        "authors": "Zackular JP, Moore JL, Jordan AT, Juttukonda LJ, Noto MJ, Nicholson MR, Crews JD, Semler MW, Zhang Y, Ware LB, Washington MK, Chazin WJ, Caprioli RM, Skaar EP",
         "year": 2016,
         "url": "https://doi.org/10.1038/nm.4174"
       },
@@ -828,35 +1046,107 @@
         "authors": "Liu JZ, Jellbauer S, Poe AJ, Ton V, Pesciaroli M, Kehl-Fie TE, Restrepo NA, Hosking MP, Edwards RA, Battistoni A, Pasquali P, Lane TE, Chazin WJ, Vogl T, Roth J, Skaar EP, Raffatellu M",
         "year": 2012,
         "url": "https://doi.org/10.1016/j.chom.2012.01.017"
+      },
+      {
+        "title": "Preliminary Comparison of Fractional Absorption of Zinc Sulphate, Zinc Gluconate, and Zinc Aspartate after Oral Supplementation in Healthy Human Volunteers",
+        "authors": "Piacenza F, Giacconi R, Costarelli L, Malavolta M",
+        "year": 2023,
+        "url": "https://doi.org/10.3390/nu15081885"
+      },
+      {
+        "title": "Gut bacteria from multiple sclerosis patients modulate human T cells and exacerbate symptoms in mouse models",
+        "authors": "Cekanaviciute E, Yoo BB, Runia TF, Debelius JW, Singh S, Nelson CA, Kanner R, Bencosme Y, Lee YK, Hauser SL, Crabtree-Hartman E, Sand IK, Gacias M, Zhu Y, Casaccia P, Cree BAC, Knight R, Mazmanian SK, Baranzini SE",
+        "year": 2017,
+        "url": "https://doi.org/10.1073/pnas.1711235114"
+      },
+      {
+        "title": "Effect of intragastric pH on the absorption of oral zinc acetate and zinc oxide in young healthy volunteers",
+        "authors": "Henderson LM, Brewer GJ, Dressman JB, Swidan SZ, DuRoss DJ, Adair CH, Barnett JL, Berardi RR",
+        "year": 1995,
+        "url": "https://doi.org/10.1177/0148607195019005393"
+      },
+      {
+        "title": "Lower Serum Zinc Levels in Patients with Multiple Sclerosis Compared to Healthy Controls",
+        "authors": "Pawlitzki M, Uebelhör J, Sweeney-Reed CM, Stephanik H, Hoffmann J, Lux A, Reinhold D",
+        "year": 2018,
+        "url": "https://doi.org/10.3390/nu10080967"
+      },
+      {
+        "title": "Pathogenic implications of distinct patterns of iron and zinc in chronic MS lesions",
+        "authors": "Popescu BF, Frischer JM, Webb SM, Tham M, Adiele RC, Robinson CA, Fitz-Gibbon PD, Weigand SD, Metz I, Nehzati S, George GN, Pickering IJ, Brück W, Hametner S, Lassmann H, Parisi JE, Yong G, Lucchinetti CF",
+        "year": 2017,
+        "url": "https://doi.org/10.1007/s00401-017-1696-8"
+      },
+      {
+        "title": "ZIP3 is essential for the encephalitogenic function of pTh17 cells by regulating intracellular zinc levels",
+        "authors": "Drmić D, Wang L, Noyer L, Zhong L, Feske S",
+        "year": 2026,
+        "url": "https://doi.org/10.1016/j.jtemb.2026.127819"
+      },
+      {
+        "title": "Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than from zinc oxide",
+        "authors": "Wegmüller R, Tay F, Zeder C, Brnic M, Hurrell RF",
+        "year": 2014,
+        "url": "https://doi.org/10.3945/jn.113.181487"
+      },
+      {
+        "title": "Zinc availability from zinc-enriched yeast studied with an in vitro digestion/Caco-2 cell culture model",
+        "authors": "Maares M, Keil C, Pallasdies L, Schmacht M, Senz M, Nissen J, Kieserling H, Drusch S, Haase H",
+        "year": 2022,
+        "url": "https://doi.org/10.1016/j.jtemb.2022.126934"
+      },
+      {
+        "title": "Oral zinc aspartate treats experimental autoimmune encephalomyelitis",
+        "authors": "Schubert C, Guttek K, Grüngreiff K, Thielitz A, Bühling F, Reinhold A, Brocke S, Reinhold D",
+        "year": 2014,
+        "url": "https://doi.org/10.1007/s10534-014-9786-8"
+      },
+      {
+        "title": "Zinc sulphate: A reasonable choice for depression management in patients with multiple sclerosis: A randomized, double-blind, placebo-controlled clinical trial",
+        "authors": "Salari S, Khomand P, Arasteh M, Yousefzamani B, Hassanzadeh K",
+        "year": 2015,
+        "url": "https://doi.org/10.1016/j.pharep.2015.01.002"
+      },
+      {
+        "title": "Gut microbiome of multiple sclerosis patients and paired household healthy controls reveal associations with disease risk and course",
+        "authors": "iMSMS Consortium",
+        "year": 2022,
+        "url": "https://doi.org/10.1016/j.cell.2022.08.021"
+      },
+      {
+        "title": "Deconfounded, quantitative microbiome profiling identifies robust multiple sclerosis markers and clinical covariate associations",
+        "authors": "Pauwels A, Devolder L, Falony G, D'haeseleer M, Nagels G, Van Remoortel A, Derrien M, D'hooghe M, Raes J",
+        "year": 2026,
+        "url": "https://doi.org/10.1080/19490976.2026.2681876"
       }
     ],
     "tags": [
-      "Metal competition",
-      "Manganese uptake",
+      "Zinc formulations",
       "Nutritional immunity",
-      "Mouse microbiome",
-      "C. difficile"
+      "Calprotectin",
+      "Multiple sclerosis",
+      "Compartmental zinc"
     ],
     "group": "cofactors",
     "slug": "zinc",
     "url": "/metals/zinc",
     "studies": [
       {
-        "title": "A transporter changes the outcome of metal withholding",
-        "system": "S. Typhimurium during murine intestinal inflammation",
-        "design": "Animal infection and bacterial mutant competition, supported by culture experiments.",
-        "finding": "Loss of ZnuA impaired colonization under calprotectin-mediated restriction; removing calprotectin relieved that defect.",
-        "interpretation": "The comparison ties a microbial nutrient-acquisition system to a specific host pressure.",
+        "title": "Different competitors experience the same restriction differently",
+        "system": "Inflamed mouse intestine",
+        "design": "Host and microbial genetic comparisons, supported by culture studies.",
+        "finding": "The competitive defect associated with loss of ZnuA was relieved in calprotectin-deficient hosts.",
+        "interpretation": "This supports a host–microbial acquisition interaction; it is not a measurement of zinc competition in human MS.",
         "refs": [
           3
         ]
       },
       {
-        "title": "A diet–antibiotic interaction",
-        "system": "Mouse microbiota and C. difficile infection",
-        "design": "Animal dietary intervention with antibiotic and infection challenges.",
-        "finding": "Excess zinc lowered resistance to infection and worsened disease under the experimental conditions.",
-        "interpretation": "The result supports an ecological interaction between nutrient supply and antibiotics, not a clinical intake recommendation.",
+        "title": "Antibiotic context changes the dietary result",
+        "system": "Mouse C. difficile infection",
+        "design": "Dietary intervention with antibiotic and infection comparisons.",
+        "finding": "High dietary zinc worsened infection outcomes under the studied conditions; without antibiotics, the diets did not permit colonization.",
+        "interpretation": "The interaction matters. This is not a human oxide-versus-aspartate trial.",
         "refs": [
           2
         ]
@@ -864,20 +1154,215 @@
     ],
     "researchQuestions": [
       {
-        "text": "Can measurements of accessible zinc and manganese predict transporter-level competition better than total stool metals?",
+        "text": "Does directly measured microbial zinc acquisition explain formulation responses beyond host absorption alone?",
         "refs": [
-          1,
-          3
+          4,
+          11
         ]
       },
       {
-        "text": "Which zinc-responsive community functions account for loss of colonization resistance before C. difficile challenge?",
+        "text": "Do MS-associated functional pathways change zinc transfer in vivo, or are their associations explained by other substrates, treatments, or community features?",
         "refs": [
-          2
+          14,
+          15
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "access": [
+      {
+        "id": "zinc-pools",
+        "title": "A zinc result needs a compartment",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Measurements that answer different questions",
+            "headers": [
+              "Pool or signal",
+              "What the evidence measures",
+              "What it cannot identify alone"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Blood",
+                  "One MS cohort had lower average serum zinc than controls, generally within reference ranges; treatment was a relevant covariate.",
+                  "Whole-body depletion, intestinal microbial capture, or zinc inside a specific immune-cell population."
+                ],
+                "refs": [
+                  7
+                ]
+              },
+              {
+                "cells": [
+                  "Chronic MS lesions",
+                  "Elemental imaging found lower zinc in chronic white-matter lesions than in surrounding normal-appearing white matter, accompanying myelin loss.",
+                  "A labile intracellular pool; the iron-rich lesion-rim pattern should not be reassigned to zinc."
+                ],
+                "refs": [
+                  8
+                ]
+              },
+              {
+                "cells": [
+                  "Immune cells",
+                  "A ZIP3 study linked cytosolic zinc regulation to pathogenic Th17-cell function in EAE.",
+                  "That a human dietary zinc form caused the cellular state or would correct it."
+                ],
+                "refs": [
+                  9
+                ]
+              },
+              {
+                "cells": [
+                  "Calprotectin",
+                  "An inflammatory protein with metal-withholding activity.",
+                  "Zinc-binding occupancy, microbial zinc uptake, or the source of a patient’s low circulating zinc."
+                ],
+                "refs": [
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Use “hypozincemia” for low circulating zinc. Describe low or excess tissue zinc with its anatomical and chemical context. Lower serum zinc and a zinc-dependent pathogenic cell process are not logically inconsistent; they concern different pools.",
+            "refs": []
+          }
+        ],
+        "nav": "Zinc compartments"
+      },
+      {
+        "id": "formulations",
+        "title": "Formulation evidence: compare like with like",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "What the zinc studies actually compared",
+            "headers": [
+              "Study and setting",
+              "Observed result",
+              "Boundary of inference"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Aspartate / gluconate / sulfate · 8 healthy adults",
+                  "Greater estimated fractional absorption with aspartate in a crossover study with milk.",
+                  "Preliminary, indirect urinary isotope estimate; no oxide, microbes, or MS arm."
+                ],
+                "refs": [
+                  4
+                ]
+              },
+              {
+                "cells": [
+                  "Citrate / gluconate / oxide · 15 healthy adults, without food",
+                  "Oxide absorption was lower; a few participants absorbed little or none.",
+                  "Different conditions and isotope method; no aspartate arm."
+                ],
+                "refs": [
+                  10
+                ]
+              },
+              {
+                "cells": [
+                  "Oxide / aspartate and other forms · digestion and Caco-2 model",
+                  "Oxide was somewhat less available in the tested intestinal model.",
+                  "An in vitro comparison is not a human head-to-head trial."
+                ],
+                "refs": [
+                  11
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Higher host absorption does not establish intact-chelate transport, bacterial exclusion, or preferential delivery to the cells that need zinc. Less unabsorbed mass might alter microbial exposure, but the chemical availability and site of that residual zinc remain separate questions. The human studies above cannot prove that aspartate goes straight to the host while oxide feeds its microbiota.",
+            "refs": []
+          }
+        ],
+        "nav": "Compare formulations"
+      },
+      {
+        "id": "ms-evidence",
+        "title": "MS: separate the evidence before connecting it",
+        "blocks": [
+          {
+            "type": "claims",
+            "items": [
+              {
+                "status": "Animal intervention",
+                "claim": "Aspartate has a genuine preclinical signal.",
+                "finding": "Oral zinc aspartate reduced clinical and histopathological EAE signs.",
+                "missing": "Human MS efficacy, a direct oxide comparator, and microbial mediation.",
+                "refs": [
+                  12
+                ]
+              },
+              {
+                "status": "Small human trial · symptom outcome",
+                "claim": "The clinical zinc study tested sulfate.",
+                "finding": "In 43 people with MS and depression, a 12-week sulfate trial improved depression scores; reported neurological examinations did not differ between groups.",
+                "missing": "An aspartate trial and adequately tested disease-course outcomes.",
+                "refs": [
+                  13
+                ]
+              },
+              {
+                "status": "Human association · functional potential",
+                "claim": "A microbial pathway can suggest a mineral question.",
+                "finding": "The household-paired iMSMS study found increased phytate-degradation pathway potential in untreated MS. This suggests a question about mineral release, not measured zinc transfer.",
+                "missing": "Pathway activity, zinc speciation and flux, and who acquires any released mineral.",
+                "refs": [
+                  14
+                ]
+              },
+              {
+                "status": "Quantitative cohort · confounding matters",
+                "claim": "MS-associated taxa do not establish zinc handling.",
+                "finding": "A quantitative MS study showed that bacterial load and covariates materially affect associations, including the robustness of Akkermansia findings.",
+                "missing": "A reproducible microbial-function signature that predicts formulation response.",
+                "refs": [
+                  15
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The assembled evidence does not establish that ordinary zinc oxide supplementation worsens MS, or that aspartate helps human MS by denying zinc to microbes. Those are hypotheses with several missing connections, not interchangeable summaries of these studies.",
+            "refs": []
+          }
+        ],
+        "nav": "MS evidence ledger"
+      },
+      {
+        "id": "zinc-test",
+        "title": "What would discriminate the explanations?",
+        "blocks": [
+          {
+            "type": "proposal",
+            "title": "Pair host absorption with microbial access",
+            "text": "A useful formulation comparison would test whether the putative advantage is improved host uptake, changed local microbial access, an immune effect, or some combination. The existing absorption and EAE studies do not distinguish these explanations.",
+            "refs": [
+              4,
+              12
+            ],
+            "measures": [
+              "Use a direct comparison in the same population and food context, with matched interpretation of elemental input and host uptake.",
+              "Characterize residual intestinal zinc chemistry alongside microbial acquisition functions; species abundance alone is insufficient.",
+              "Keep calprotectin, circulating zinc, microbial function, and clinical outcomes as separate measurements.",
+              "For MS, account for disease-modifying treatment and assess a prespecified clinical endpoint rather than infer benefit from a microbiome shift."
+            ],
+            "decision": "If host uptake improves but microbial access does not change, reject the bypass explanation without discarding the absorption result."
+          }
+        ],
+        "nav": "Discriminating the mechanisms"
+      }
+    ]
   },
   {
     "symbol": "Mo",
