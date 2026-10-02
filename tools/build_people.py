@@ -3,6 +3,7 @@
 from pathlib import Path
 from html import escape as esc
 import json,re
+from author_identity import orcid_link
 ROOT=Path(__file__).resolve().parents[1]
 ORIGIN='https://microbialmetallomics.com'
 people=json.loads((ROOT/'assets/data/people.json').read_text())
@@ -29,10 +30,12 @@ def visual(r):
  return '<div class="person-monogram" aria-hidden="true">'+esc(initials)+'<span>FIELD GUIDE</span></div>'
 def links(r):
  items=list(r.get('profileLinks',[]))
- if r.get('orcid'):items.append({'label':'ORCID '+r['orcid'],'url':'https://orcid.org/'+r['orcid']})
+ rendered=''.join('<a href="'+esc(x['url'],quote=True)+'">'+esc(x['label'])+'</a>' for x in items)
+ if r.get('orcid'):rendered+=orcid_link(r['orcid'],r['name'])
+ items=[]
  if r.get('orcidSource'):items.append({'label':'ORCID source: institutional CV','url':r['orcidSource']})
  if r.get('emailSource'):items.append({'label':'Professional email: institutional source','url':r['emailSource']})
- return '<div class="person-links">'+''.join('<a href="'+esc(x['url'],quote=True)+'">'+esc(x['label'])+'</a>' for x in items)+'</div>'
+ return '<div class="person-links">'+rendered+''.join('<a href="'+esc(x['url'],quote=True)+'">'+esc(x['label'])+'</a>' for x in items)+'</div>'
 def works(r):
  if not r.get('works'):return ''
  return '<section class="person-works"><h2>'+esc(r.get('worksTitle','Selected research & writing'))+'</h2>'+''.join('<div class="person-work"><a href="'+esc(w['url'],quote=True)+'">'+esc(w['title'])+' →</a>'+('<p class="person-work-type">'+esc(w['type'])+'</p>' if w.get('type') else '')+('<p class="person-work-note">'+esc(w['note'])+'</p>' if w.get('note') else '')+'</div>' for w in r['works'])+'</section>'
