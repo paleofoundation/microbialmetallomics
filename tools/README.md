@@ -17,7 +17,7 @@ The second command refreshes shared navigation, asset content hashes, search rec
 
 New article pages also need the existing author, sharing, source-status, reading-list, and citation markup. Keep static catalog fallback cards in evidence.html, library.html, and topics.html in step with newly added articles. Citation downloads refer to the website page; the primary-source DOI is a separate link.
 
-Directory profiles are rendered in people.html; source records and public-contact provenance are in assets/data/people.json. Use only verified public professional contacts and source-credited portraits.
+Researcher profiles are generated from `assets/data/people.json`; the directory argument and exposure context are in `assets/data/people-context.json`. Run `python3 tools/build_people.py`, then `python3 tools/refresh_site.py`, then `npm run check`. Each profile must explain a concrete contribution, its significance, the next scientific question, and its evidence. Preserve established directory anchors, existing biographies, public-contact provenance, and source-credited portraits. Significance and future directions are editorial synthesis; distinguish them from established study findings. Do not add visible review-date labels.
 
 Email signup uses Resend through the same-origin `/api/newsletter` endpoint. Readers must confirm their email before joining the digest. Newsletter editions are prepared and sent manually; see [Newsletter operations](NEWSLETTER.md) for audience selection, unsubscribe links, quotas, and configuration. RSS feeds remain available without signup. Contribution briefs remain local until readers send them through the linked professional contact form.
 

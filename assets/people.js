@@ -8,7 +8,7 @@
   const count = document.getElementById('people-count');
   const empty = document.getElementById('people-empty');
   const normalize = text => text.replace(/[łŁ]/g, 'l').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const searchText = new Map(records.map(record => [record, normalize(record.textContent)]));
+  const searchText = new Map(records.map(record => [record, normalize(record.textContent + " " + (record.dataset.discovery || ""))]));
   function filter(updateUrl = true) {
     const terms = normalize(query.value.trim()).split(/\s+/).filter(Boolean);
     let visible = 0;

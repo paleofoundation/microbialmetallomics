@@ -1,0 +1,50 @@
+{
+  "intro": "The discoveries behind microbial metallomics explain how metals power microbial life, how metal competition changes infection, and how the wrong metal can disable a biological function. Meet the people making those connections measurable—and opening new possibilities for medicine and environmental science.",
+  "title": "Microbiome medicine needs the chemistry behind the organisms.",
+  "argument": "A taxonomic profile can identify organisms without revealing whether their enzymes have the right cofactors, whether the host is withholding a nutrient, or whether a contaminant has changed chemical form. Microbial metallomics supplies that missing layer of explanation. The people below contribute different pieces: mechanisms, measurements, ecological insight, therapeutic concepts, and evidence that can inform exposure standards.",
+  "frontiers": [
+    {
+      "title": "New antimicrobial targets",
+      "text": "Benoit’s nickel-chelation research illustrates a larger opportunity: identifying the metal-dependent functions an infection relies on. The promise is a new set of biological targets, with efficacy and selectivity to be established in the relevant host.",
+      "url": "/people/stephane-benoit",
+      "link": "See the DMG evidence"
+    },
+    {
+      "title": "Why the wrong metal matters",
+      "text": "An enzyme can be present yet unable to do its job because the metal occupying its active site is unsuitable. Mismetallation links metal competition to a specific failure of biological function—something an organism count or total-metal result can miss.",
+      "url": "/people/james-a-imlay",
+      "link": "Follow the mechanism"
+    },
+    {
+      "title": "Seeing the relevant metal pool",
+      "text": "Speciation and imaging researchers make it possible to ask which chemical forms are present and where they accumulate. These methods help turn an exposure concern or a microbiome hypothesis into a question that can be tested.",
+      "url": "/people/uwe-karst",
+      "link": "Meet the measurement scientists"
+    }
+  ],
+  "exposureTitle": "From everyday exposure to a biological mechanism",
+  "exposureParagraphs": [
+    "For foods, agricultural inputs, textiles, orthodontic appliances, and jewellery, useful investigation follows a sequence: what metal is released, in what chemical form, into which compartment, and with what effect? The researchers in this directory make different parts of that sequence accessible. The amount detected is a starting point; local chemistry and biological response give it meaning.",
+    "Mismetallation provides a concrete molecular example. Gu and Imlay connected oxidative stress in bacteria to loss of catalytic iron, occupation by zinc, and reduced enzyme activity. This establishes a mechanism of functional disruption. Whether a particular real-world exposure produces that mechanism requires evidence at the relevant concentration and site.",
+    "Piercing-related nickel sensitization is a different endpoint: an immune response. A Danish schoolgirl study found that the association with piercing differed before and after nickel-exposure regulation. It supports taking the contact route and the material seriously, without predicting that every pierced child will develop an allergy or attributing the response to a microbiome mechanism.",
+    "Orthodontic research illustrates why the compartment matters. One study found higher nickel in dental plaque and a retained saliva fraction in patients with appliances, while filtered saliva did not show the same difference. A separate study of specific dental alloys found measurable release without patch-test reactions in the nickel-sensitive participants tested. Local accumulation, microbial function, sensitization, and clinical harm each need their own evidence."
+  ],
+  "sources": [
+    {
+      "label": "Gu & Imlay (2013) — Enzyme mismetallation during oxidative stress",
+      "url": "https://doi.org/10.1111/mmi.12263"
+    },
+    {
+      "label": "Jensen et al. (2002) — Piercing, nickel regulation, and sensitization",
+      "url": "https://doi.org/10.1046/j.1365-2133.2002.04666.x"
+    },
+    {
+      "label": "Fors & Persson (2006) — Nickel in plaque and saliva with orthodontic appliances",
+      "url": "https://doi.org/10.1093/ejo/cji091"
+    },
+    {
+      "label": "Jensen et al. (2003) — Dental alloy release and patch-test responses",
+      "url": "https://doi.org/10.1034/j.1600-0536.2003.00118.x"
+    }
+  ]
+}
