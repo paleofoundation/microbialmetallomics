@@ -1,0 +1,890 @@
+{
+  "slug": "endometriosis-metals-microbiome",
+  "title": "Endometriosis: do the metal and microbial signatures converge?",
+  "shortTitle": "Endometriosis: metals, microbes, and host defense",
+  "description": "Trace iron retention, nickel, microbial signatures, nutritional immunity, and intervention evidence in endometriosis. A sourced test of competing mechanisms.",
+  "deck": "Menstrual iron, nickel-sensitive chemistry, microbial inflammation, and host defense form a connected research question. The task is to establish which processes occur together, in which patients, and what changes when one of them is altered.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "endometriosis, microbial metallomics, nickel, iron, arsenic, cadmium, lead, nutritional immunity, hepcidin, microbiome, triangulation, Bradford Hill",
+  "summaryTitle": "The strongest starting point is a local iron–host–microbial interface.",
+  "summary": {
+    "text": "Endometriosis studies place altered iron handling and bacterial inflammatory signals in a shared pelvic setting. Human cell experiments show how hepcidin can retain iron and amplify inflammation. Separately, a lower stool metabolite, 4-hydroxyindole, led to an intervention that improved disease phenotypes in mice. These are useful points of convergence: they make a connected metal–microbial explanation worth testing and identify the functions to follow. The next step is to join those functions, metal access, and host response in the same disease setting.",
+    "refs": [
+      3,
+      8,
+      40
+    ]
+  },
+  "sources": [
+    {
+      "title": "Iron overload in the peritoneal cavity of women with pelvic endometriosis",
+      "authors": "Van Langendonckt A, Casanas-Roux F, Donnez J",
+      "year": 2002,
+      "url": "https://doi.org/10.1016/S0015-0282(02)03346-0"
+    },
+    {
+      "title": "Iron storage is significantly increased in peritoneal macrophages of endometriosis patients and correlates with iron overload in peritoneal fluid",
+      "authors": "Lousse JC et al.",
+      "year": 2009,
+      "url": "https://doi.org/10.1016/j.fertnstert.2008.02.103"
+    },
+    {
+      "title": "Hepcidin as a key regulator of iron homeostasis triggers inflammatory features in the normal endometrium",
+      "authors": "Izumi Y et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.freeradbiomed.2023.10.402"
+    },
+    {
+      "title": "The Influence of Lactoferrin in Plasma and Peritoneal Fluid on Iron Metabolism in Women with Endometriosis",
+      "authors": "Skarżyńska E et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.3390/ijms24021619"
+    },
+    {
+      "title": "Elevated levels of whole blood nickel in a group of Sri Lankan women with endometriosis: a case control study",
+      "authors": "Silva N, Senanayake H, Waduge V",
+      "year": 2013,
+      "url": "https://doi.org/10.1186/1756-0500-6-13"
+    },
+    {
+      "title": "The association between exposure to multiple toxic metals and the risk of endometriosis: Evidence from the results of blood and follicular fluid",
+      "authors": "Shen L et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.scitotenv.2022.158882"
+    },
+    {
+      "title": "Trace elements and endometriosis: the ENDO study",
+      "authors": "Pollack AZ et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.1016/j.reprotox.2013.05.009"
+    },
+    {
+      "title": "Escherichia coli contamination of menstrual blood and effect of bacterial endotoxin on endometriosis",
+      "authors": "Khan KN et al.",
+      "year": 2010,
+      "url": "https://doi.org/10.1016/j.fertnstert.2010.04.053"
+    },
+    {
+      "title": "Fusobacterium infection facilitates the development of endometriosis through the phenotypic transition of endometrial fibroblasts",
+      "authors": "Muraoka A et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1126/scitranslmed.add1531"
+    },
+    {
+      "title": "Fusobacterium nucleatum is not significantly present in eutopic endometrium from patients with minimal-mild and moderate-severe endometriosis",
+      "authors": "Graciano-España MC et al.",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.fertnstert.2025.06.035"
+    },
+    {
+      "title": "Gut microbiome in endometriosis: a cohort study on 1000 individuals",
+      "authors": "Pérez-Prieto I et al.",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12916-024-03503-y"
+    },
+    {
+      "title": "Microbiome analysis in women with endometriosis: Does a microbiome exist in peritoneal fluid and ovarian cystic fluid?",
+      "authors": "Oishi S et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1002/rmb2.12441"
+    },
+    {
+      "title": "Endometrial microbiota is more diverse in people with endometriosis than symptomatic controls",
+      "authors": "Wessels JM et al.",
+      "year": 2021,
+      "url": "https://doi.org/10.1038/s41598-021-98380-3"
+    },
+    {
+      "title": "Crucial role for human Toll-like receptor 4 in the development of contact allergy to nickel",
+      "authors": "Schmidt M et al.",
+      "year": 2010,
+      "url": "https://doi.org/10.1038/ni.1919"
+    },
+    {
+      "title": "MD-2 Determinants of Nickel and Cobalt-Mediated Activation of Human TLR4",
+      "authors": "Oblak A, Pohar J, Jerala R",
+      "year": 2015,
+      "url": "https://doi.org/10.1371/journal.pone.0120583"
+    },
+    {
+      "title": "Overproduction and characterization of a dimeric non-zinc glyoxalase I from Escherichia coli: evidence for optimal activation by nickel ions",
+      "authors": "Clugston SL et al.",
+      "year": 1998,
+      "url": "https://doi.org/10.1021/bi972791w"
+    },
+    {
+      "title": "Identification of glyoxalase A in group B Streptococcus and its contribution to methylglyoxal tolerance and virulence",
+      "authors": "Akbari MS et al.",
+      "year": 2025,
+      "url": "https://doi.org/10.1128/iai.00540-24"
+    },
+    {
+      "title": "Host-derived nitrate boosts growth of E. coli in the inflamed gut",
+      "authors": "Winter SE et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.1126/science.1232467"
+    },
+    {
+      "title": "Repurposing dichloroacetate for the treatment of women with endometriosis",
+      "authors": "Horne AW et al.",
+      "year": 2019,
+      "url": "https://doi.org/10.1073/pnas.1916144116"
+    },
+    {
+      "title": "Gut microbiota–derived short-chain fatty acids protect against the progression of endometriosis",
+      "authors": "Chadchan SB et al.",
+      "year": 2021,
+      "url": "https://doi.org/10.26508/lsa.202101224"
+    },
+    {
+      "title": "Fruit and vegetable consumption and risk of endometriosis",
+      "authors": "Harris HR, Eke AC, Chavarro JE, Missmer SA",
+      "year": 2018,
+      "url": "https://doi.org/10.1093/humrep/dey014"
+    },
+    {
+      "title": "Nickel hyperaccumulation as an elemental defense of Streptanthus polygaloides (Brassicaceae): influence of herbivore feeding mode",
+      "authors": "Jhee EM, Boyd RS, Eubanks MD",
+      "year": 2005,
+      "url": "https://doi.org/10.1111/j.1469-8137.2005.01504.x"
+    },
+    {
+      "title": "Modifiable life style factors and risk for incident endometriosis",
+      "authors": "Hemmert R et al.",
+      "year": 2019,
+      "url": "https://doi.org/10.1111/ppe.12516"
+    },
+    {
+      "title": "Associations of perinatal characteristics with endometriosis: a nationwide birth cohort study",
+      "authors": "Gao M, Scott K, Koupil I",
+      "year": 2020,
+      "url": "https://doi.org/10.1093/ije/dyz140"
+    },
+    {
+      "title": "Irritable Bowel Syndrome-Like Disorders in Endometriosis: Prevalence of Nickel Sensitivity and Effects of a Low-Nickel Diet. An Open-Label Pilot Study",
+      "authors": "Borghini R et al.",
+      "year": 2020,
+      "url": "https://doi.org/10.3390/nu12020341"
+    },
+    {
+      "title": "The impact of metronidazole on pain persistence after fertility-sparing endometriosis surgery: METROFERT randomized study",
+      "authors": "Quevedo A et al.",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.ajog.2024.07.006"
+    },
+    {
+      "title": "Lactobacillus gasseri OLL2809 is effective especially on the menstrual pain and dysmenorrhea in endometriosis patients: randomized, double-blind, placebo-controlled study",
+      "authors": "Itoh H et al.",
+      "year": 2011,
+      "url": "https://doi.org/10.1007/s10616-010-9326-5"
+    },
+    {
+      "title": "Probiotic supplementation improves quality of life and modulates oestradiol in women with endometriosis: a randomised double-blind pilot trial",
+      "authors": "Jara J et al.",
+      "year": 2026,
+      "url": "https://doi.org/10.1080/13625187.2026.2644896"
+    },
+    {
+      "title": "Probiotic Bacteria Reduce Salmonella Typhimurium Intestinal Colonization by Competing for Iron",
+      "authors": "Deriu E et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.1016/j.chom.2013.06.007"
+    },
+    {
+      "title": "Microcins mediate competition among Enterobacteriaceae in the inflamed gut",
+      "authors": "Sassone-Corsi M et al.",
+      "year": 2016,
+      "url": "https://doi.org/10.1038/nature20557"
+    },
+    {
+      "title": "Capric acid secreted by S. boulardii inhibits C. albicans filamentous growth, adhesion and biofilm formation",
+      "authors": "Murzyn A et al.",
+      "year": 2010,
+      "url": "https://doi.org/10.1371/journal.pone.0012050"
+    },
+    {
+      "title": "Commensal Protection of Staphylococcus aureus against Antimicrobials by Candida albicans Biofilm Matrix",
+      "authors": "Kong EF et al.",
+      "year": 2016,
+      "url": "https://doi.org/10.1128/mBio.01365-16"
+    },
+    {
+      "title": "Inhibiting antibiotic-resistant Enterobacteriaceae by microbiota-mediated intracellular acidification",
+      "authors": "Sorbara MT et al.",
+      "year": 2019,
+      "url": "https://doi.org/10.1084/jem.20181639"
+    },
+    {
+      "title": "Berberine: A Natural pqs System Inhibitor in Pseudomonas aeruginosa for Foodborne Infection Control",
+      "authors": "Ning W et al.",
+      "year": 2026,
+      "url": "https://doi.org/10.1021/acs.jafc.5c13958"
+    },
+    {
+      "title": "Thymol Impacts the Progression of Endometriosis by Disrupting Estrogen Signaling Pathways and Inflammatory Responses",
+      "authors": "Zhang Y et al.",
+      "year": 2024,
+      "url": "https://doi.org/10.3390/ijms252313150"
+    },
+    {
+      "title": "Endometriosis — Microbiome Medicine",
+      "authors": "Pendergrass K, Eyer K, Aleru D, Aristotelous G",
+      "year": 2025,
+      "url": "https://microbiomemedicine.com/conditions/endometriosis"
+    },
+    {
+      "title": "The Environment and Disease: Association or Causation?",
+      "authors": "Hill AB",
+      "year": 1965,
+      "url": "https://doi.org/10.1177/003591576505800503"
+    },
+    {
+      "title": "Triangulation in aetiological epidemiology",
+      "authors": "Lawlor DA, Tilling K, Davey Smith G",
+      "year": 2016,
+      "url": "https://doi.org/10.1093/ije/dyw314"
+    },
+    {
+      "authors": "Talwar C et al.",
+      "year": 2025,
+      "title": "A role for gut mycobiome and altered fungal–bacterial interactions in women with endometriosis",
+      "url": "https://doi.org/10.1093/biolre/ioaf148"
+    },
+    {
+      "authors": "Talwar C et al.",
+      "year": 2025,
+      "title": "Identification of distinct stool metabolites in women with endometriosis for non-invasive diagnosis and potential for microbiota-based therapies",
+      "url": "https://doi.org/10.1016/j.medj.2024.09.006"
+    }
+  ],
+  "sections": [
+    {
+      "id": "framework",
+      "title": "A framework for finding relationships that survive a test",
+      "nav": "The reasoning framework",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Microbiome Medicine endometriosis page brings condition-associated microbes together with interventions and clinical outcomes. Its central requirement is concordance: a proposed microbiome-targeted intervention should change the relevant signature and improve the condition in the same context. This synthesis develops that approach by asking whether metal access and nutritional immunity make the microbial and intervention findings fit a specific causal explanation.",
+          "refs": [
+            36
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bradford Hill’s viewpoints offer a way to reason from temporality, consistency, plausibility, coherence, and experiment without pretending that a checklist proves causation. Modern triangulation adds a demanding requirement: different approaches should address the same causal question and have different sources of bias. A mechanism can guide discovery before an RCT; a clinical benefit does not, by itself, identify the mechanism.",
+          "refs": [
+            37,
+            38
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the collection’s evidence-convergence framework"
+        }
+      ]
+    },
+    {
+      "id": "iron-and-host-defense",
+      "title": "Iron matters because the pool and the cell matter",
+      "nav": "Iron & nutritional immunity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Retrograde menstrual material offers a route by which endometrial cells, heme-containing material, and bacterial products could reach the pelvis together. Human studies found higher peritoneal-fluid iron and ferritin in defined settings and more stored iron in peritoneal macrophages. This makes local metal handling a biological starting point. It does not mean that every patient has high circulating iron or that all detected iron is available to microbes.",
+          "refs": [
+            1,
+            2,
+            8
+          ]
+        },
+        {
+          "type": "path",
+          "caption": "A host mechanism supported by human samples and stromal-cell experiments. The microbial consequence is a separate question.",
+          "steps": [
+            {
+              "label": "A local signal",
+              "text": "Menstrual hepcidin was higher in one small endometriosis comparison; iron totals did not significantly differ in that study.",
+              "refs": [
+                3
+              ]
+            },
+            {
+              "label": "A transport change",
+              "text": "Hepcidin reduced ferroportin in stromal cells, limiting iron export and increasing intracellular Fe²⁺.",
+              "refs": [
+                3
+              ]
+            },
+            {
+              "label": "A functional consequence",
+              "text": "Hepcidin with iron increased reactive oxygen species and inflammatory cytokines in the tested cells.",
+              "refs": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nutritional immunity changes distribution. Retaining iron inside a host cell can reduce what an extracellular organism can acquire while changing the resources encountered by an intracellular organism. The proposed microbial explanation therefore needs a location: which organism, outside or inside which cell, using heme, transferrin-bound iron, ferritin-associated iron, or a labile pool? None can be inferred from total iron alone.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Lactoferrin and ferritin also need compartment-specific interpretation. In a paired plasma/peritoneal study, the ferritin ratio distinguished cases from controls, but the lactoferrin ratio did not distinguish all cases; a stage comparison did differ. Concentration is not the same as iron saturation, bacterial access, or demonstrated antimicrobial function.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/hepcidin-ferroportin-iron-redistribution",
+          "text": "Follow hepcidin and ferroportin"
+        },
+        {
+          "type": "link",
+          "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+          "text": "Follow lactoferrin and microbial countermeasures"
+        }
+      ]
+    },
+    {
+      "id": "metallomic-pattern",
+      "title": "The metal signature is informative, but not uniform",
+      "nav": "Compare metal signals",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Selected human findings. Different specimens and populations cannot be pooled as a single high-metal phenotype.",
+          "headers": [
+            "Measured compartment",
+            "Finding",
+            "Implication for the model"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Whole-blood nickel; Sri Lanka, 50 cases and 50 controls",
+                "Geometric mean nickel 2.6 versus 0.8 µg/L. Lead and cadmium did not differ.",
+                "A nickel signal worth following; the study did not measure microbial function or establish time order."
+              ],
+              "refs": [
+                5
+              ]
+            },
+            {
+              "cells": [
+                "Blood and follicular fluid; reproductive-center case-control sample, 609 participants",
+                "Higher blood arsenic, cadmium, and lead categories were associated with endometriosis; overlapping fluid subsets also showed selected associations.",
+                "Supports exposure/handling hypotheses in this setting. Does not establish arsenic-species effects, microbial mediation, or that exposure preceded disease."
+              ],
+              "refs": [
+                6
+              ]
+            },
+            {
+              "cells": [
+                "Blood and urine; ENDO operative cohort, 473 women",
+                "Continuous-element models were null. The highest blood-cadmium category had lower odds; selected urinary copper/chromium categories were positive.",
+                "Contradicts a universal positive Cd/Pb pattern. Urinary nickel and whole-blood nickel are different measurements."
+              ],
+              "refs": [
+                7
+              ]
+            },
+            {
+              "cells": [
+                "Peritoneal fluid and macrophages",
+                "Local iron, ferritin, transferrin saturation, and macrophage storage differed in studies of defined populations.",
+                "A local accessible-pool hypothesis must distinguish stored from available iron and account for cycle phase."
+              ],
+              "refs": [
+                1,
+                2
+              ]
+            },
+            {
+              "cells": [
+                "Menstrual blood and cultured host stromal cells",
+                "Higher hepcidin, with intracellular iron retention after a mechanistic perturbation.",
+                "A redistribution mechanism can operate without a higher bulk-fluid iron total."
+              ],
+              "refs": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The inference should explain the discordance as well as the positive findings. Geography, fertility-clinic selection, disease phenotype, cycle phase, exposure timing, and specimen type can alter the comparison. They are variables to measure, not automatic explanations that rescue a favored hypothesis.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "microbial-signature",
+      "title": "Which microbial signal occurs in which compartment?",
+      "nav": "Match the microbial niche",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Khan and colleagues found more E. coli colony formation in menstrual samples and higher endotoxin in menstrual and peritoneal fluid. This supports a local bacterial-product hypothesis. Menstrual fluid is not peripheral bloodstream bacteremia; the finding does not establish bacteria surviving unrecognized in the circulation.",
+          "refs": [
+            8
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Muraoka and colleagues supplied a stronger model-level connection: Fusobacterium enrichment in an ovarian-endometriosis-focused human cohort, TGF-β-linked conversion toward TAGLN-positive myofibroblast behavior, and antibiotic-responsive lesions in mice. This is a partial triangle connecting an organism, host mechanism, and intervention response. The metal dependence of that route was not measured.",
+          "refs": [
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Talwar and colleagues offer a positive functional example. In 18 women with endometriosis and 31 controls, stool 4-hydroxyindole (4HI) was lower in cases, with targeted analysis confirming the finding. Administering 4HI reduced lesions, inflammation, and mechanical hypersensitivity in mice; benefits also appeared in established-lesion models and xenografts made with immortalized human endometriotic cells. This connects a human metabolite signature with an intervention and a disease phenotype. The work supports the proposed direction of research while leaving human therapeutic benefit and metal mediation open.",
+          "refs": [
+            40
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "The signature must survive replication and respect the sampled niche.",
+          "headers": [
+            "Primary comparison",
+            "Result",
+            "What this changes"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Independent eutopic-endometrium qPCR; 55 cases, 37 controls",
+                "No significant case–control Fusobacterium enrichment, including severity-stratified comparisons.",
+                "The earlier signal cannot be treated as a universal marker. Subtype and sampling hypotheses need prospective tests."
+              ],
+              "refs": [
+                10
+              ]
+            },
+            {
+              "cells": [
+                "Estonian stool metagenomics; 136 cases, 864 controls",
+                "No significant taxonomic, functional-pathway, diversity, or estrobolome differences after multiple-testing adjustment.",
+                "A broad fecal signature is not assured. This does not exclude a local pelvic process or a defined active-disease subgroup."
+              ],
+              "refs": [
+                11
+              ]
+            },
+            {
+              "cells": [
+                "Low-biomass pelvic sampling with negative controls; 18 cases, 18 controls",
+                "No specific peritoneal or ovarian-cyst-fluid community after accounting for background.",
+                "Sequence detection must be compared with procedural background. Transient bacterial products remain a different possibility."
+              ],
+              "refs": [
+                12
+              ]
+            },
+            {
+              "cells": [
+                "Small endometrial sequencing study; 12 cases, 9 symptomatic controls",
+                "Differences included both Gram-positive and Gram-negative taxa; other Gram-negative taxa favored controls.",
+                "Do not substitute a universal Gram-negative bloom for strain-resolved measurement."
+              ],
+              "refs": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful disease signature need not occur in every patient. It must identify the subgroup and location in which its proposed functions are present, active, and relevant. Absolute abundance, viability, microbial products, and host response answer different parts of that question.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "nickel-and-lps",
+      "title": "Nickel can change the host’s response without making more LPS",
+      "nav": "Nickel, LPS & TLR4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The attractive hypothesis is that nickel changes a microbial function, increasing inflammatory exposure. There is also a direct host alternative: nickel ions can activate human TLR4, a receptor involved in sensing LPS. Receptor experiments distinguished nickel recognition from LPS recognition and showed a species difference—ordinary mouse TLR4 did not respond in the same way.",
+          "refs": [
+            14
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate cell study found that nickel and LPS could act synergistically. That makes interaction biologically plausible, but stronger TLR4 activity cannot tell us whether there is more LPS, altered LPS chemistry, or greater host responsiveness. These experiments were not performed in an endometriosis cohort.",
+          "refs": [
+            15
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The discriminating prediction is specific: a nickel-driven microbial route should connect measured nickel exposure to altered microbial activity or endotoxin before the host response. A direct-receptor route could change inflammation with little change in microbial abundance. Both might operate, but their contributions require separate evidence.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/metals/nickel",
+          "text": "Read organism-specific nickel mechanisms"
+        }
+      ]
+    },
+    {
+      "id": "glyoxalase-and-metabolism",
+      "title": "The glyoxalase idea has a biochemical foothold",
+      "nav": "Glyoxalase & metabolism",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "E. coli provides a verified nickel-activated glyoxalase example. Its glyoxalase I was optimally activated by nickel in biochemical experiments. Glyoxalase helps process the glutathione adduct of methylglyoxal, a reactive carbonyl compound. This supplies a concrete candidate link between metal availability and microbial carbonyl defense.",
+          "refs": [
+            16
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate study established that group B Streptococcus glyoxalase A contributes to methylglyoxal tolerance, resistance to neutrophil killing, and survival in mouse blood. Its nickel dependence remained unresolved. Putative nickel-transport annotations did not settle cofactor identity. Group B Streptococcus is Gram-positive, so it cannot also provide an LPS arm of the explanation.",
+          "refs": [
+            17
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Together these findings justify asking whether nickel-supported carbonyl defense matters in an endometriosis-associated organism. They do not demonstrate that link in the same strain or tissue. Resistance to immune killing is also different from failure of immune recognition, and bloodstream persistence is not established here as a defining feature of endometriosis.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Low oxygen does not uniquely identify fermentation. In an inflamed-gut model, host-derived nitrate supported E. coli through anaerobic respiration. In endometriosis, enhanced glycolysis and lactate production have been measured in host peritoneal mesothelial cells. Host lactate therefore cannot be assigned to bacterial metabolism without further evidence.",
+          "refs": [
+            18,
+            19
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The direction of metabolic intervention matters too. The microbial fermentation product n-butyrate reduced lesion growth in mouse models and growth of human endometriotic cells. The useful objective is to change a harmful function in a defined niche, while preserving functions that restrain inflammation or competitors.",
+          "refs": [
+            20
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/molybdenum",
+          "text": "How inflammation can create a respiratory growth opportunity"
+        }
+      ]
+    },
+    {
+      "id": "diet-and-smoking",
+      "title": "Diet and smoking must constrain the explanation",
+      "nav": "Diet & exposure timing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The prospective Nurses’ Health Study II analysis included 70,835 women and 2,609 laparoscopically confirmed incident cases. At least one daily serving of citrus, including citrus juices, was associated with lower risk than less than one weekly serving: RR 0.78, 95% CI 0.69–0.89. Cruciferous vegetables showed a positive trend, but the extreme-category estimate was less precise: RR 1.13, 95% CI 0.95–1.34. Total vegetable intake was not associated with risk.",
+          "refs": [
+            21
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This divergence is worth investigating. The study did not measure dietary nickel, tissue nickel, LPS, or microbial mediation. Nickel hyperaccumulation is documented in particular Brassicaceae such as Streptanthus polygaloides; that plant-ecology finding does not establish that ordinary broccoli, cabbage, cauliflower, or Brussels sprouts delivered a comparable exposure. The hypothesis needs actual food-metal measurements, not family membership as a proxy.",
+          "refs": [
+            21,
+            22
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Smoking also needs a time window. An ENDO analysis using presurgical cotinine found no adult-smoking association after adjustment: RR 1.0, 95% CI 0.7–1.6. A Swedish birth cohort instead found associations with maternal smoking during pregnancy. These do not support one interchangeable smoking signal or identify nickel, cadmium, lead, or microbes as its mediator.",
+          "refs": [
+            23,
+            24
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Citrus could act through nutritional, inflammatory, ecological, or correlated behavioral routes. A nickel hypothesis becomes more informative if it predicts which measured intermediate changes; the observational diet result alone cannot choose that route or establish a treatment effect.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "intervention-evidence",
+      "title": "Does changing the system improve the disease?",
+      "nav": "Clinical intervention signals",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Disease-specific intervention results: what changed, and whether the proposed mechanism was measured.",
+          "headers": [
+            "Intervention and study",
+            "Disease outcome",
+            "What the result can triangulate"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Low-nickel diet; open-label pilot in women with gastrointestinal symptoms",
+                "47 entered the dietary phase; 31 completed and 16 withdrew. Several symptom scores improved.",
+                "A preliminary clinical signal with 34% attrition during the dietary phase. No microbial, metal-enzyme, or pathogen-clearance measurements; nickel sensitivity and wider diet changes remain alternatives."
+              ],
+              "refs": [
+                25
+              ]
+            },
+            {
+              "cells": [
+                "Heat-killed L. gasseri OLL2809; small randomized placebo-controlled trial",
+                "Menstrual pain and dysmenorrhea improved over 12 weeks.",
+                "Supports a symptom signal. Heat-killed bacteria cannot establish live competition, colonization, or acidification; host immune mediation was proposed, not demonstrated in the trial."
+              ],
+              "refs": [
+                27
+              ]
+            },
+            {
+              "cells": [
+                "L. salivarius CECT 30632; 2026 randomized pilot, 37 women receiving dienogest",
+                "Reported pain/quality-of-life and estradiol changes; overall vaginal diversity did not differ.",
+                "A named strain with estrogen-metabolizing activity and an adjunct clinical signal. Metal mediation and pathogen displacement were not established."
+              ],
+              "refs": [
+                28
+              ]
+            },
+            {
+              "cells": [
+                "Postoperative metronidazole; METROFERT randomized trial",
+                "88 randomized, 72 in the final cohort; pain persistence at six weeks was 84% versus 88%, P=.74.",
+                "No significant benefit in this setting. Mouse antibiotic lesion findings do not close the human clinical triangle. The trial does not resolve an organism-selected subgroup with documented target engagement."
+              ],
+              "refs": [
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An intervention can improve pain while leaving lesion burden or the proposed microbial pathway unchanged. Those are different outcomes. Likewise, a negative postoperative pain trial weighs against that regimen’s expected benefit without proving that every microbial mechanism is absent. The next clinical claim should specify the phenotype, mediator, and endpoint in advance.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "functional-interventions",
+      "title": "Interventions can test several different microbial vulnerabilities",
+      "nav": "Functions an intervention could change",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The examples below explain how the framework can work. They are evidence from their named systems; none supplies a complete endometriosis clinical mechanism. Killing, reducing virulence, changing resource access, and altering host signaling are different effects and should be recorded separately.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Fungal interactions now have a disease-specific foothold. Talwar and colleagues found altered gut fungal–bacterial co-abundance patterns in women with endometriosis; fungal depletion reduced disease progression in mice. This supports investigating community interactions. It does not yet identify Candida shielding a named pathogen in pelvic lesions, metal mediation, or a human antifungal benefit.",
+          "refs": [
+            39
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Mechanistic precedents and the disease-specific bridge still needed.",
+          "headers": [
+            "Function targeted",
+            "Demonstrated example",
+            "What endometriosis research would need"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Compete for a metal",
+                "E. coli Nissle 1917 restricted Salmonella through iron acquisition in a mouse gut model, with the lipocalin-2 environment affecting competition.",
+                "The relevant strain and accessible metal pool in the affected niche, followed by a disease outcome."
+              ],
+              "refs": [
+                29
+              ]
+            },
+            {
+              "cells": [
+                "Interfere with a competitor",
+                "EcN microcins contributed to competition among Enterobacteriaceae in the inflamed mouse gut.",
+                "For a prebiotic claim, evidence that its substrate supports this producer and function—not just a higher taxon abundance."
+              ],
+              "refs": [
+                30
+              ]
+            },
+            {
+              "cells": [
+                "Reduce virulence without killing",
+                "S. boulardii products, including capric acid, reduced Candida filamentation, adhesion, and biofilm formation in culture.",
+                "Presence and causal relevance of the fungal partner; an in-vivo effect on the proposed microbial interaction."
+              ],
+              "refs": [
+                31
+              ]
+            },
+            {
+              "cells": [
+                "Remove protection supplied by another species",
+                "A Candida biofilm matrix increased S. aureus antimicrobial tolerance in a mixed-biofilm model.",
+                "Evidence of that partnership in endometriosis. Protection from an antimicrobial is not automatically concealment from immune recognition."
+              ],
+              "refs": [
+                32
+              ]
+            },
+            {
+              "cells": [
+                "Change local acidity",
+                "Microbial short-chain fatty acids inhibited Enterobacteriaceae through intracellular acidification in the proximal-colon context.",
+                "The actual site, metabolites, pH, and target response; a specific intervention and clinical endpoint."
+              ],
+              "refs": [
+                33
+              ]
+            },
+            {
+              "cells": [
+                "Alter signaling and virulence output",
+                "Berberine inhibited Pseudomonas quorum-sensing outputs in experimental work implicating PqsR.",
+                "The same target and relevant exposure in endometriosis; benefits elsewhere do not identify this mechanism here."
+              ],
+              "refs": [
+                34
+              ]
+            },
+            {
+              "cells": [
+                "Test a terpene’s route of action",
+                "Thymol affected estrogen signaling, inflammatory responses, and endometriosis progression in mouse and Ishikawa-cell experiments.",
+                "A microbial mechanism must be distinguished from the observed direct host effects, then connected to a human outcome."
+              ],
+              "refs": [
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/library/saccharomyces-boulardii-metal-biosorption",
+          "text": "Read the separate evidence for S. boulardii and metal binding"
+        }
+      ]
+    },
+    {
+      "id": "coherence-verdict",
+      "title": "What currently fits—and what would change the explanation",
+      "nav": "The convergence test",
+      "blocks": [
+        {
+          "type": "claims",
+          "items": [
+            {
+              "status": "Human observations + host-cell mechanism",
+              "claim": "Local iron redistribution can amplify inflammation.",
+              "finding": "Peritoneal iron storage and the hepcidin–ferroportin mechanism give this part of the model a direct biological foundation.",
+              "missing": "Which disease-associated microbial function uses or changes the relevant iron pool.",
+              "refs": [
+                2,
+                3
+              ]
+            },
+            {
+              "status": "Human signature + preclinical intervention",
+              "claim": "A depleted microbial metabolite can identify a functional intervention.",
+              "finding": "Lower stool 4HI in the human comparison led to supplementation that improved several disease-related outcomes in mouse models.",
+              "missing": "Independent human replication, the relevant microbial producers and route of action, and whether any metal-dependent step mediates the effect.",
+              "refs": [
+                40
+              ]
+            },
+            {
+              "status": "Partial convergence; human replication differs",
+              "claim": "A defined microbe can change endometrial cell behavior.",
+              "finding": "Fusobacterium–TGF-β work connects organism, host phenotype, and animal intervention; a later human cohort did not reproduce enrichment.",
+              "missing": "A reproducible subgroup and human target-engagement/outcome link, with metal dependence measured rather than assumed.",
+              "refs": [
+                9,
+                10
+              ]
+            },
+            {
+              "status": "Mechanistically plausible; cross-study bridge open",
+              "claim": "Nickel-supported carbonyl defense could affect microbial persistence.",
+              "finding": "E. coli nickel-activated glyoxalase and GBS glyoxalase-dependent survival establish different parts of a possible relationship.",
+              "missing": "The same organism, cofactor, expressed function, and disease compartment.",
+              "refs": [
+                16,
+                17
+              ]
+            },
+            {
+              "status": "Competing mechanism with direct evidence",
+              "claim": "Nickel can amplify host sensing without increasing bacterial burden.",
+              "finding": "Human TLR4 activation and nickel–LPS synergy provide a host explanation that must be tested alongside microbial mediation.",
+              "missing": "Its contribution at measured local exposures in endometriosis.",
+              "refs": [
+                14,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "type": "proposal",
+          "title": "Connect the measurements within the same disease subgroup",
+          "text": "The next useful study would align the proposed cause, mediator, and outcome in time and place. A coherent result should make at least one competing explanation less likely.",
+          "measures": [
+            "Record endometriosis phenotype, cycle phase, treatment, diet and exposure timing; compare matched clinical groups rather than merging unrelated disease stages.",
+            "Pair clinically justified samples with controls for collection and extraction background; separate bacterial products from viable organisms and relative abundance from absolute load.",
+            "Measure local metal amount, binding and accessible pools together with microbial functional activity and host iron-routing proteins.",
+            "Distinguish direct nickel-associated receptor activation from changes in microbial endotoxin, and distinguish host lactate from microbial metabolic output.",
+            "For a disease-specific intervention, assess whether the proposed target changes before pain, lesion-related measures, or another prespecified endpoint. Measure plausible host-mediated alternatives too."
+          ],
+          "decision": "A consistent local function–metal–host relationship that precedes benefit would strengthen the proposed route. Clinical improvement without the predicted intermediate would redirect the mechanistic explanation. Reproducible failure of a well-matched prediction should revise the model."
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of triangulation is that every additional result can constrain the explanation. It can identify a promising subgroup, reveal a direct host route, or eliminate an attractive but incorrect microbial link. The research program advances by making these differences visible.",
+          "refs": []
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does endometriosis have one established microbiome signature?",
+      "answer": "Published findings vary with the compartment, population, disease phenotype, and analytical method. Local bacterial-product and organism-specific results coexist with larger null stool studies and non-replication. A useful signature must specify its setting and be tested independently."
+    },
+    {
+      "question": "Does elevated iron mean pathogens have more iron to use?",
+      "answer": "Only if the relevant chemical pool is accessible to the organism. Ferritin storage, heme, intracellular retention, protein binding, and extracellular labile iron are different resources. A bulk measurement does not identify which is available."
+    },
+    {
+      "question": "Does symptom improvement on a low-nickel diet validate the microbial hypothesis?",
+      "answer": "It contributes a preliminary clinical signal. The published pilot did not measure microbial changes or nickel-dependent enzymes, so it cannot distinguish microbial mediation from nickel sensitivity, accompanying dietary changes, or other explanations."
+    },
+    {
+      "question": "Must mechanistic research wait for randomized trials?",
+      "answer": "No. A grounded mechanism and a discriminating prediction are useful before a definitive trial. The type of conclusion must match the evidence: a promising causal model, a demonstrated model mechanism, and a proven clinical effect are different claims."
+    }
+  ]
+}

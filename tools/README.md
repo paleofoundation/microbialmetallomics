@@ -77,6 +77,8 @@ Researcher profiles must explain explicitly how each person's work advances the 
 
 ## Disease signatures
 
+The pathway now compares metal findings with disease-specific microbial findings and nutritional immunity. Its `*-synthesis.json` files develop cross-study explanations, while `*-review.json` files retain their named primary-paper focus. For triangulation, track the same disease, relevant compartment, microbial function, intervention target, and clinical endpoint; favor evidence with different sources of bias. State where agreement is measured and where a cross-study bridge remains a hypothesis. Retain contrary findings and competing host mechanisms. Credit an originating framework separately from the primary studies supporting its scientific claims.
+
 `assets/data/disease-signatures/` owns the research pathway and its five paper reviews. Run `python3 tools/build_disease_signatures.py`, `python3 tools/build_catalog.py`, and `python3 tools/refresh_site.py`, then `npm run check`. The generator preserves source DOI links, article controls, numbered citations, FAQ metadata, and existing review section anchors. The collection distinguishes postmortem regional findings, spatial proof of concept, and prospective serum associations; it is not a systematic review or a diagnostic tool. Preserve cohort reuse, measurement units, and unresolved source discrepancies when updating findings. Keep hypotheses and discriminating experiments explicit.
 
 The homepage feature and library/evidence pathway cards are maintained in their HTML. Update static catalog fallback cards in library.html, evidence.html, and topics.html when review metadata changes. Shared navigation and reciprocal atlas links come from refresh_site.py and internal-links.json.

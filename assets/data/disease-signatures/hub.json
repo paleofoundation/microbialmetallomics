@@ -1,18 +1,15 @@
 {
   "title": "Metallomic Signatures of Disease",
   "shortTitle": "Metallomic signatures of disease",
-  "description": "Explore disease metal signatures in dementia, colorectal cancer and pregnancy—and the experiments that could connect them to microbial mechanisms.",
-  "deck": "Disease can leave a pattern across metals, tissues, and cells. The opportunity is to turn that pattern into a mechanism: who moves the metal, who uses it, and what changes when that access changes.",
+  "description": "Compare disease metal patterns with microbial functions, nutritional immunity, and intervention evidence. Includes an endometriosis synthesis and five metallomic paper reviews.",
+  "deck": "A metal pattern, a microbial signature, and an intervention result become more informative when they point to the same biological process. Trace the chemistry, the host response, and the outcome—and test the links between them.",
   "published": "2026-10-02",
   "updated": "2026-10-02",
   "keywords": "metallomic signatures of disease, microbial metallomics, dementia, copper, iron, zinc, manganese, microbiome medicine, spatial metallomics",
-  "summaryTitle": "The signature is a starting point for finding the mechanism.",
+  "summaryTitle": "Look for convergence. Make each causal link explicit.",
   "summary": {
-    "text": "In the dementia with Lewy bodies study that anchors this collection, the cingulate gyrus contained less copper but more iron than control tissue. In Alzheimer’s disease, lower copper concentrations extended across the sampled brain while iron and zinc changes depended on the region. These patterns ask a more revealing question than whether a patient has “high metals” or “low metals”: which biological systems have lost access, which compartments retain metal, and why do those changes occur together?",
-    "refs": [
-      1,
-      2
-    ]
+    "text": "The aim is to explain why a disease signature occurs and identify the intervention that could change its underlying process. Start with the measured metal pool, connect it to an active microbial function and a host defense, then ask whether changing that function changes the disease outcome. Agreement across independent kinds of evidence can prioritize a mechanism before a definitive trial. A missing measurement remains a research question; a contradictory result must change the explanation.",
+    "refs": []
   },
   "cards": {
     "dementia-lewy-bodies-brain-metallomic-signatures": {
@@ -111,9 +108,228 @@
       "year": 2004,
       "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
       "url": "https://doi.org/10.1126/science.1104742"
+    },
+    {
+      "title": "Microbiota from Alzheimer’s patients induce deficits in cognition and hippocampal neurogenesis",
+      "authors": "Grabrucker S et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1093/brain/awad303"
+    },
+    {
+      "title": "Gut microbiota in dementia with Lewy bodies",
+      "authors": "Nishiwaki H et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41531-022-00428-2"
+    },
+    {
+      "title": "Metagenomics of Parkinson’s disease implicates the gut microbiome in multiple disease mechanisms",
+      "authors": "Wallen ZD et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41467-022-34667-x"
+    },
+    {
+      "title": "A distinct Fusobacterium nucleatum clade dominates the colorectal cancer niche",
+      "authors": "Zepeda-Rivera M et al.",
+      "year": 2024,
+      "url": "https://doi.org/10.1038/s41586-024-07182-w"
+    },
+    {
+      "title": "Gestational diabetes is driven by microbiota-induced inflammation months before diagnosis",
+      "authors": "Pinto Y et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1136/gutjnl-2022-328406"
+    },
+    {
+      "title": "The Environment and Disease: Association or Causation?",
+      "authors": "Hill AB",
+      "year": 1965,
+      "url": "https://doi.org/10.1177/003591576505800503"
+    },
+    {
+      "title": "Triangulation in aetiological epidemiology",
+      "authors": "Lawlor DA, Tilling K, Davey Smith G",
+      "year": 2016,
+      "url": "https://doi.org/10.1093/ije/dyw314"
     }
   ],
   "sections": [
+    {
+      "id": "triangulation",
+      "nav": "How to test convergence",
+      "title": "Three lines of evidence, one explicit causal question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This approach draws on Bradford Hill’s viewpoints for causal reasoning and on triangulation across methods with different sources of bias. Logic is useful before definitive clinical trials when it generates predictions and weighs alternatives. It does not turn three compatible associations into proof of one pathway.",
+          "refs": [
+            16,
+            17
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A disease-associated microbe, a laboratory-sensitive organism, and a beneficial clinical intervention form a candidate triangulated signal. To strengthen it, check that the organism or function, accessible metal, body compartment, achievable exposure, and clinical endpoint actually match. Several papers repeating the same cohort or the same untested assumption do not supply independent confirmation.",
+          "refs": []
+        },
+        {
+          "type": "path",
+          "caption": "A framework for evaluating a proposed mechanism. Each connection needs its own evidence.",
+          "steps": [
+            {
+              "label": "The disease signature",
+              "text": "Which microbial strain or activity and which metal pool differ, in which specimen and disease stage?"
+            },
+            {
+              "label": "The mechanistic connection",
+              "text": "Does that function use or alter the measured resource, and does the host response have the predicted effect?"
+            },
+            {
+              "label": "The intervention test",
+              "text": "Does the intervention change the proposed mediator before it changes a disease-relevant outcome?"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Record the status of the connection, rather than counting supportive papers.",
+          "headers": [
+            "Evidence state",
+            "What it means",
+            "What moves the explanation forward"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Observed association",
+                "A metal, microbe, or outcome differs or covaries.",
+                "Repeat it in an independent population and establish time order."
+              ]
+            },
+            {
+              "cells": [
+                "Mechanism demonstrated in a model",
+                "A defined perturbation changes a biological process in that setting.",
+                "Establish that the same process operates in the disease compartment."
+              ]
+            },
+            {
+              "cells": [
+                "Convergent candidate",
+                "Independent findings make compatible predictions about the same route.",
+                "Measure the mediator and discriminate competing explanations."
+              ]
+            },
+            {
+              "cells": [
+                "Contradictory evidence",
+                "A well-matched test gives the wrong direction or fails despite verified target engagement.",
+                "Revise or reject the affected connection; do not add an ad hoc rescue story."
+              ]
+            },
+            {
+              "cells": [
+                "Unmeasured link",
+                "The proposed bridge has not been tested.",
+                "Name the missing observation; absence of a test is different from a negative result."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Clinical benefit strengthens the intervention leg without uniquely identifying its mechanism. An antimicrobial can also act on host inflammation, a dietary change can alter many nutrients, and a probiotic can act through immune signals without displacing a pathogen. Target engagement and mediation distinguish these possibilities. Conversely, an unselected negative trial may leave a biomarker-defined subgroup hypothesis open; that subgroup must be prespecified and tested, not assumed after the fact.",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "paired-signatures",
+      "nav": "Compare microbial signatures",
+      "title": "Do the existing disease signatures point in the same direction?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are comparisons across selected studies, not paired multi-omic datasets. The table shows what each microbiome result contributes and the bridge it still cannot supply. Nutritional immunity is one candidate host process among others; it should be measured in the relevant compartment.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "Microbial evidence alongside the five metallomic reviews. Cohorts and outcomes remain distinct.",
+          "headers": [
+            "Disease setting",
+            "Microbial signature or test",
+            "Coherence judgment and missing link"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Dementia with Lewy bodies",
+                "R. torques and Collinsella enrichment; altered fecal bile-acid ratio in a separate DLB cohort.",
+                "A barrier/metabolite route is plausible. It does not establish altered biliary metal loss or explain regional brain copper and iron."
+              ],
+              "refs": [
+                1,
+                12
+              ]
+            },
+            {
+              "cells": [
+                "Alzheimer’s disease",
+                "Desulfovibrio enrichment, lower Coprococcus, higher fecal calprotectin; donor-microbiota effects in rats.",
+                "Microbial and inflammatory evidence supports a route to test. Copper delivery and the brain metallome were not linked in those participants."
+              ],
+              "refs": [
+                2,
+                11
+              ]
+            },
+            {
+              "cells": [
+                "Parkinson’s disease dementia",
+                "A general PD metagenomic cohort shows enriched inflammatory features and depleted SCFA-production pathways.",
+                "The functional direction is compatible with inflammation. Dementia-specific participants and a measured path to brain copper depletion are missing."
+              ],
+              "refs": [
+                3,
+                13
+              ]
+            },
+            {
+              "cells": [
+                "Colorectal cancer",
+                "F. nucleatum animalis clade 2 enrichment plus clade-specific metabolic traits and mouse effects.",
+                "A defined organism can be sought in the spatial metal map. Its location, metal access, and immune context were not measured together in the one-tumor atlas."
+              ],
+              "refs": [
+                4,
+                14
+              ]
+            },
+            {
+              "cells": [
+                "Pregnancy with obesity",
+                "Early microbial/inflammatory differences precede gestational diabetes in a separate pregnancy study.",
+                "A useful temporal model, but GDM differs from the hemorrhage and neonatal outcomes emphasized in UPBEAT. This does not close that causal chain."
+              ],
+              "refs": [
+                5,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/host-metal-defense",
+          "text": "Read how host proteins withhold, retain, route, and export metals"
+        },
+        {
+          "type": "link",
+          "url": "/library/endometriosis-metals-microbiome",
+          "text": "Work through the endometriosis example in detail"
+        }
+      ]
+    },
     {
       "id": "read-the-pattern",
       "title": "Read the pattern before naming a cause",
@@ -413,5 +629,12 @@
       "question": "Are these signatures ready to diagnose disease?",
       "answer": "The reviewed findings have different purposes and levels of validation. The dementia comparisons are exploratory; the colorectal work is a one-specimen spatial proof of concept; UPBEAT reports prospective associations. None of those descriptions is equivalent to an independently validated clinical diagnostic test."
     }
-  ]
+  ],
+  "featuredSynthesis": {
+    "url": "/library/endometriosis-metals-microbiome",
+    "label": "Worked synthesis · Endometriosis",
+    "title": "Iron, nickel, microbes, and the test of convergence",
+    "description": "Menstrual iron, local host defenses, bacterial signals, diet, and clinical interventions: where the evidence connects, where it disagrees, and which measurement would decide.",
+    "linkText": "Read the endometriosis synthesis"
+  }
 }

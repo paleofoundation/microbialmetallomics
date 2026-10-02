@@ -163,6 +163,11 @@
   "related": {
     "/metals/nickel": [
       {
+        "url": "/library/endometriosis-metals-microbiome",
+        "title": "Endometriosis: metals, microbes, and host defense",
+        "description": "Test where local iron handling, microbial findings, nickel, and intervention results support the same explanation—and where they diverge."
+      },
+      {
         "url": "/blog/nickel-gut-microbiome-disease",
         "title": "Dietary nickel and the gut microbiome",
         "description": "Follow the proposed connections between nickel handling and host outcomes."
@@ -189,6 +194,11 @@
       }
     ],
     "/metals/iron": [
+      {
+        "url": "/library/endometriosis-metals-microbiome",
+        "title": "Endometriosis: metals, microbes, and host defense",
+        "description": "Test where local iron handling, microbial findings, nickel, and intervention results support the same explanation—and where they diverge."
+      },
       {
         "url": "/disease-signatures",
         "title": "Metallomic signatures of disease",
@@ -722,6 +732,11 @@
     ],
     "/disease-signatures": [
       {
+        "url": "/library/endometriosis-metals-microbiome",
+        "title": "Endometriosis: metals, microbes, and host defense",
+        "description": "Test where local iron handling, microbial findings, nickel, and intervention results support the same explanation—and where they diverge."
+      },
+      {
         "url": "/blog/metal-microbiome-disease-axis",
         "title": "The metal–microbiome–disease axis",
         "description": "The organizing argument for studying access and function together."
@@ -766,6 +781,47 @@
         "url": "/disease-signatures",
         "title": "Metallomic signatures of disease",
         "description": "Connect measured patterns to host physiology and microbial function."
+      }
+    ],
+    "/library/endometriosis-metals-microbiome": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Use the triangulation method to compare disease-specific metal patterns, microbial functions, host defenses, and intervention evidence."
+      },
+      {
+        "url": "/metals/iron",
+        "title": "Iron: access, location, and microbial function",
+        "description": "Distinguish stored iron from the chemical forms and compartments available to host cells and microbes."
+      },
+      {
+        "url": "/metals/nickel",
+        "title": "Nickel: cofactors and host recognition",
+        "description": "Follow nickel-dependent microbial chemistry while separating enzyme evidence from proposed disease effects."
+      },
+      {
+        "url": "/library/hepcidin-ferroportin-iron-redistribution",
+        "title": "Hepcidin and ferroportin: redistributing iron",
+        "description": "Trace how host iron retention changes access across compartments, and why the microbial consequence depends on location."
+      },
+      {
+        "url": "/library/lactoferrin-iron-withholding-microbial-countermeasures",
+        "title": "Lactoferrin: withholding iron and microbial countermeasures",
+        "description": "Separate iron binding, microbial responses, and measured host outcomes before connecting them to disease."
+      }
+    ],
+    "/library/hepcidin-ferroportin-iron-redistribution": [
+      {
+        "url": "/library/endometriosis-metals-microbiome",
+        "title": "Endometriosis: metals, microbes, and host defense",
+        "description": "Test where local iron handling, microbial findings, nickel, and intervention results support the same explanation—and where they diverge."
+      }
+    ],
+    "/library/lactoferrin-iron-withholding-microbial-countermeasures": [
+      {
+        "url": "/library/endometriosis-metals-microbiome",
+        "title": "Endometriosis: metals, microbes, and host defense",
+        "description": "Test where local iron handling, microbial findings, nickel, and intervention results support the same explanation—and where they diverge."
       }
     ]
   }

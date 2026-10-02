@@ -192,6 +192,38 @@
       ]
     },
     {
+      "id": "microbiome-coherence",
+      "nav": "Does the microbiome signature fit?",
+      "title": "Does the microbiome signature fit the metal pattern?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nishiwaki and colleagues studied stool microbiota in 28 people with DLB within a larger synucleinopathy cohort. Ruminococcus torques and Collinsella were increased, while short-chain-fatty-acid-producing genera were reduced. The fecal ursodeoxycholic-acid-to-precursor ratio was also higher. This adds microbial metabolism to the disease comparison; genus enrichment alone does not identify a harmful function.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These observations can motivate a gut-barrier, bile-acid, inflammation, and metal-routing model, but they do not account directly for the regional copper and iron measurements. No paired brain metallome was obtained in that microbiome study. In particular, a fecal bile-acid ratio is not a measurement of biliary copper elimination or brain copper delivery.",
+          "refs": [
+            1,
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The discriminating question is whether a defined microbial activity predicts host metal handling and the vulnerable brain region. If the same taxa track transit or medication while the metal pattern tracks tissue pathology independently, the signatures share a disease context without establishing the proposed causal bridge.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the same coherence test across diseases"
+        }
+      ]
+    },
+    {
       "id": "shared-and-distinct",
       "title": "Shared depletion can coexist with distinct disease biology",
       "blocks": [
@@ -376,6 +408,12 @@
       "year": 2016,
       "title": "Gut microbiota regulate motor deficits and neuroinflammation in a model of Parkinson’s disease",
       "url": "https://doi.org/10.1016/j.cell.2016.11.018"
+    },
+    {
+      "title": "Gut microbiota in dementia with Lewy bodies",
+      "authors": "Nishiwaki H et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41531-022-00428-2"
     }
   ]
 }

@@ -29,10 +29,11 @@ def schema(data, route, hub=False):
             'author': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN + '/about'},
             'publisher': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN}}
     if not hub:
-        page['citation'] = data['paper']['url']
+        page['citation'] = data['paper']['url'] if data.get('paper') else [s['url'] for s in data['sources']]
         page['isPartOf'] = {'@type': 'CollectionPage', '@id': ORIGIN + '/disease-signatures', 'name': 'Metallomic signatures of disease'}
     else:
         page['hasPart'] = [{'@type': 'Article', 'url': ORIGIN + '/library/' + r['slug'], 'name': r['title']} for r in reviews]
+        page['hasPart'] += [{'@type': 'Article', 'url': ORIGIN + '/library/' + r['slug'], 'name': r['title']} for r in syntheses]
     faq = {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': f['question'], 'acceptedAnswer': {'@type': 'Answer', 'text': f['answer']}} for f in data.get('faqs', [])]}
     crumbs = {'@type': 'BreadcrumbList', 'itemListElement': [
         {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': ORIGIN + '/'},
@@ -67,7 +68,8 @@ def controls(data, route):
 
 def cite_panel(data, route):
     url = ORIGIN + route
-    text = 'Microbial Metallomics. ' + data['title'] + '. ' + data['published'] + '. ' + url
+    title = data['title'] + ('' if data['title'].endswith(('.', '?', '!')) else '.')
+    text = 'Microbial Metallomics. ' + title + ' ' + data['published'] + '. ' + url
     payload = {'title': data['title'], 'date': data['published'], 'authors': ['Microbial Metallomics'], 'url': url}
     return '<details class="citation-panel" id="cite-this-page" data-citation><summary>Cite this page</summary><p data-citation-text>' + esc(text) + '</p><div class="article-tools"><button class="text-action" data-citation-copy type="button">Copy citation</button><button class="text-action" data-citation-bibtex type="button">Download BibTeX</button><button class="text-action" data-citation-ris type="button">Download RIS</button></div><p class="tool-status" data-citation-status role="status"></p></details><script id="page-citation-data" type="application/json">' + json.dumps(payload, ensure_ascii=False) + '</script><p class="print-source">Published at ' + url + '</p>'
 
@@ -93,7 +95,7 @@ def faq(data):
 def sidebar(data, hub=False):
     nav = '<a href="#article-summary">The central idea</a>'
     if hub:
-        nav += '<a href="#papers">Compare the papers</a>'
+        nav += '<a href="#synthesis-heading">Endometriosis synthesis</a><a href="#papers">Compare the papers</a>'
     nav += ''.join('<a href="#' + esc(s['id']) + '">' + esc(s.get('nav', s['title'])) + '</a>' for s in data['sections'])
     nav += '<a href="#faq">Questions</a><a href="#references">References</a>'
     return '<aside class="signature-sidebar"><div class="toc-label">In this ' + ('research pathway' if hub else 'review') + '</div><nav aria-label="On this page">' + nav + '</nav><div class="signature-sidebar-links"><a href="/disease-signatures">Disease-signature collection →</a><a href="/blog/metal-microbiome-disease-axis">The organizing essay →</a><a href="/metal-access">Follow the metal →</a></div></aside>'
@@ -114,6 +116,26 @@ def render_review(data):
     (ROOT / (route.lstrip('/') + '.html')).write_text(head(data, route) + content + SUFFIX)
 
 
+def render_synthesis(data):
+    route = '/library/' + data['slug']
+    cite = Citations(data['sources'])
+    summary = '<section id="article-summary" class="signature-summary"><p class="access-evidence-label">The working explanation</p><h2>' + esc(data['summaryTitle']) + '</h2><p>' + cite.cite(data['summary']) + '</p></section>'
+    body = chapters(data, cite.cite)
+    assert set(cite.order) == set(range(1, len(data['sources']) + 1)), data['slug']
+    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/disease-signatures">Disease signatures</a><span>/</span><span>' + esc(data['shortTitle']) + '</span></nav><p class="eyebrow">Disease signatures · Research synthesis</p><h1>' + esc(data['title']) + '</h1><p class="article-lead">' + esc(data['deck']) + '</p><p class="signature-byline">Research synthesis by <a href="/about">Microbial Metallomics</a></p>' + controls(data, route) + '</div></section>'
+    references = cite.references().replace('Primary studies supporting the linked statements.', 'Primary studies and methodological sources supporting the linked statements; the originating framework is credited separately.')
+    article = '<div class="article-format">Selected evidence synthesis · Human observations, experimental mechanisms, and intervention studies. <a href="/disease-signatures#triangulation">How we test convergence</a></div>' + summary + body + faq(data) + references + cite_panel(data, route)
+    content = '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + article + '</article>' + sidebar(data).replace('In this review', 'In this synthesis') + '</div></main>'
+    (ROOT / (route.lstrip('/') + '.html')).write_text(head(data, route) + content + SUFFIX)
+
+
+def featured_synthesis():
+    d = hub_data.get('featuredSynthesis')
+    if not d:
+        return ''
+    return '<section class="signature-entry" aria-labelledby="synthesis-heading"><p class="eyebrow">' + esc(d['label']) + '</p><h2 id="synthesis-heading"><a href="' + esc(d['url']) + '">' + esc(d['title']) + '</a></h2><p>' + esc(d['description']) + '</p><a href="' + esc(d['url']) + '">' + esc(d['linkText']) + ' →</a></section>'
+
+
 def cards():
     parts = []
     for r in reviews:
@@ -129,14 +151,15 @@ def render_hub():
     summary = '<section id="article-summary" class="signature-summary"><p class="access-evidence-label">The central idea</p><h2>' + esc(d['summaryTitle']) + '</h2><p>' + cite.cite(d['summary']) + '</p></section>'
     body = chapters(d, cite.cite)
     assert set(cite.order) == set(range(1, len(d['sources']) + 1))
-    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Disease signatures</span></nav><p class="eyebrow">A research pathway</p><h1>' + esc(d['title']) + '</h1><p class="article-lead">' + esc(d['deck']) + '</p><div class="signature-hero-links"><a href="#papers">Explore the five papers →</a><a href="/library/dementia-lewy-bodies-brain-metallomic-signatures">Begin with the dementia study →</a></div></div></section>'
-    content = '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + summary + cards() + body + faq(d) + cite.references() + '</article>' + sidebar(d, True) + '</div></main>'
+    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Disease signatures</span></nav><p class="eyebrow">A research pathway</p><h1>' + esc(d['title']) + '</h1><p class="article-lead">' + esc(d['deck']) + '</p><div class="signature-hero-links"><a href="/library/endometriosis-metals-microbiome">The endometriosis synthesis →</a><a href="#paired-signatures">Compare metal and microbial signatures →</a><a href="#papers">Explore the five papers →</a></div></div></section>'
+    content = '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + summary + featured_synthesis() + cards() + body + faq(d) + cite.references() + '</article>' + sidebar(d, True) + '</div></main>'
     suffix = re.sub(r'<script[^>]*src="/assets/disease-signatures.js[^>]*></script>\s*', '', SUFFIX)
     suffix = suffix.replace('</body>', '<script src="/assets/disease-signatures.js" defer></script>\n</body>')
     (ROOT / 'disease-signatures.html').write_text(head(d, route, True) + content + suffix)
 
 
 reviews = [json.loads(p.read_text()) for p in sorted(DATA.glob('*-review.json'))]
+syntheses = [json.loads(p.read_text()) for p in sorted(DATA.glob('*-synthesis.json'))]
 hub_data = json.loads((DATA / 'hub.json').read_text())
 order = list(hub_data['cards'])
 reviews.sort(key=lambda r: order.index(r['slug']))
@@ -144,5 +167,7 @@ assert len(reviews) == 5
 if __name__ == '__main__':
     for review in reviews:
         render_review(review)
+    for synthesis in syntheses:
+        render_synthesis(synthesis)
     render_hub()
-    print('Built disease-signature pathway and', len(reviews), 'paper reviews.')
+    print('Built disease-signature pathway,', len(reviews), 'paper reviews, and', len(syntheses), 'research syntheses.')

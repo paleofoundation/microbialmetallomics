@@ -53,8 +53,8 @@
   const explorer = $('[data-catalogue]');
   if (explorer) {
     articles().then(all => {
-      const locked = explorer.dataset.kindLock;
-      const records = locked ? all.filter(x => x.kind === locked) : all;
+      const locked = explorer.dataset.kindLock?.split('|');
+      const records = locked ? all.filter(x => locked.includes(x.kind)) : all;
       const form = $('[data-catalogue-form]', explorer);
       const out = $('[data-catalogue-results]', explorer);
       const status = $('[data-catalogue-count]', explorer);

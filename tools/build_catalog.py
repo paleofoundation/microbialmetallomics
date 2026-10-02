@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://microbialmetallomics.com'
 # These descriptions are explicitly stated in the existing cited reviews.
 DESIGNS = {
+ 'endometriosis-metals-microbiome': ('Research synthesis','Multiple study settings'),
  'lactoferrin-iron-withholding-microbial-countermeasures': ('Narrative synthesis','Multiple study settings'),
  'hepcidin-ferroportin-iron-redistribution': ('Narrative synthesis','Multiple study settings'),
  'transferrin-ferritin-heme-recycling': ('Narrative synthesis','Multiple study settings'),
@@ -50,6 +51,9 @@ DESIGNS = {
  'arnr-4fe4s-nitric-oxide-sensing': ('Laboratory study','Molecular mechanism'),
  'spatial-metallomics-colorectal-cancer': ('Methods / proof of concept','Human tissue'),
 }
+KINDS = {
+ 'endometriosis-metals-microbiome': 'Research synthesis',
+}
 METALS = ['Iron','Zinc','Copper','Nickel','Manganese','Arsenic','Cadmium','Lead','Mercury','Gallium','Cobalt','Molybdenum','Tungsten']
 THEMES = {'Nutritional immunity':r'nutritional immunity|infection|immune|pathogen', 'Early life':r'infant|child|prenatal|pediatric|pregnan|baby|neonatal', 'Neurobiology':r'parkinson|alzheimer|dementia|neuro|brain|cognition|depression', 'Metabolic health':r'obesity|metabolic|diabetes|fatty liver', 'Environmental exposure':r'fertilizer|soil|arsenic|cadmium|lead|mercury|tobacco|exposure', 'Methods & measurement':r'spectro|metalloproteom|proteome|spatial|cofactor|biosynthesis', 'Vaginal microbiome':r'vaginal|tampon'}
 
@@ -66,7 +70,7 @@ def build():
    article=next((n for n in nodes if n.get('@type') in ['Article','BlogPosting','ScholarlyArticle']),None)
    if not article:continue
    url='/'+str(file.relative_to(ROOT).with_suffix(''));headline=article['headline'];description=article.get('description','')
-   category='Critical Commentary' if 'data-article-type="commentary"' in source else kind
+   category='Critical Commentary' if 'data-article-type="commentary"' in source else KINDS.get(file.stem,kind)
    names=article.get('author',{});names=names if isinstance(names,list) else [names]
    authors=[a.get('name','Microbial Metallomics') for a in names]
    status=''
@@ -97,7 +101,7 @@ def build():
   row={k:record[k] for k in columns};row['authors']='; '.join(row['authors']);row['topics']='; '.join(row['topics']);row['url']=ORIGIN+row['url'];writer.writerow(row)
  (data/'reading-catalogue.csv').write_text(output.getvalue())
  feed=ROOT/'feeds';feed.mkdir(exist_ok=True)
- for name,items in [('all',records),('commentary',[r for r in records if r['kind']=='Critical Commentary']),('reviews',[r for r in records if r['kind']=='Paper review']),('research',[r for r in records if r['kind']=='Original research'])]:
+ for name,items in [('all',records),('commentary',[r for r in records if r['kind']=='Critical Commentary']),('reviews',[r for r in records if r['kind'] in ['Paper review','Research synthesis']]),('research',[r for r in records if r['kind']=='Original research'])]:
   pieces=['<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>', '<title>Microbial Metallomics — '+name.title()+'</title><link>'+ORIGIN+'</link><description>New writing, research summaries, and paper reviews from Microbial Metallomics.</description><language>en-US</language><atom:link href="'+ORIGIN+'/feeds/'+name+'.xml" rel="self" type="application/rss+xml"/>']
   for r in items:
    date=format_datetime(datetime.fromisoformat(r['date']).replace(tzinfo=timezone.utc)) if r['date'] else ''

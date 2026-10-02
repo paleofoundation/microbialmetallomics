@@ -129,6 +129,38 @@
       ]
     },
     {
+      "id": "microbiome-coherence",
+      "nav": "Does the microbiome signature fit?",
+      "title": "Does the microbiome signature fit the metal pattern?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wallen and colleagues profiled fecal metagenomes from 490 people with Parkinson’s disease and 234 controls. E. coli and Klebsiella species were enriched alongside inflammatory microbial features, while several short-chain-fatty-acid-producing species and pathways were depleted. These are gene-content and abundance measurements; they do not directly measure LPS flux, microbial metal uptake, or enzyme activity.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This signature makes inflammation and nutrient competition reasonable routes to investigate. It does not yet explain the copper-depleted postmortem brain, and a general Parkinson’s cohort cannot stand in for Parkinson’s disease dementia. The proposed bridge needs the right clinical subgroup, microbial function, host transport protein, and brain compartment.",
+          "refs": [
+            1,
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Test coherence by asking whether the microbial functional signal precedes a host metal-routing change and predicts copper-dependent function beyond gut transit, medication, diet, and disease severity. Improving constipation would be a valuable outcome, but would not by itself establish reversal of the cerebral metal pattern.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the same coherence test across diseases"
+        }
+      ]
+    },
+    {
       "id": "microbial-functions",
       "title": "Ask which microbial function predicts the host pattern",
       "blocks": [
@@ -262,6 +294,12 @@
       "year": 2024,
       "title": "Metallomic analysis of brain tissues distinguishes between cases of dementia with Lewy bodies, Alzheimer’s disease, and Parkinson’s disease dementia",
       "url": "https://doi.org/10.3389/fnins.2024.1412356"
+    },
+    {
+      "title": "Metagenomics of Parkinson’s disease implicates the gut microbiome in multiple disease mechanisms",
+      "authors": "Wallen ZD et al.",
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41467-022-34667-x"
     }
   ]
 }

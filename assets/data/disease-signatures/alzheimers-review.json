@@ -113,6 +113,38 @@
       ]
     },
     {
+      "id": "microbiome-coherence",
+      "nav": "Does the microbiome signature fit?",
+      "title": "Does the microbiome signature fit the metal pattern?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In a separate Alzheimer’s cohort, Grabrucker and colleagues found more Desulfovibrio, less Coprococcus, and higher fecal calprotectin; the taxonomic analysis used a 10% false-discovery threshold. Plasma LPS was not significantly higher. Microbiota transfer to rats affected memory-related behavior and hippocampal neurogenesis. This supports a microbial contribution to those model phenotypes without requiring a measured rise in circulating LPS.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The fit with the copper signature remains an inference. Gut inflammation makes host metal routing a credible connecting process, but fecal calprotectin does not demonstrate copper theft or explain lower copper across the brain. These were different participants, specimens, and experiments. The joint hypothesis predicts a link between active microbial functions, host transport, and copper-dependent activity—not merely two disease-associated group differences.",
+          "refs": [
+            1,
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful comparison would ask whether microbial and inflammatory changes precede altered copper delivery, and whether the relationship remains after accounting for cell loss, medication, and nutritional status. A copper-independent microbial effect on neurogenesis is an equally important competing explanation.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the same coherence test across diseases"
+        }
+      ]
+    },
+    {
       "id": "microbial-question",
       "title": "What this enables for microbial metallomics",
       "blocks": [
@@ -232,6 +264,12 @@
       "year": 2024,
       "title": "Metallomic analysis of brain tissues distinguishes between cases of dementia with Lewy bodies, Alzheimer’s disease, and Parkinson’s disease dementia",
       "url": "https://doi.org/10.3389/fnins.2024.1412356"
+    },
+    {
+      "title": "Microbiota from Alzheimer’s patients induce deficits in cognition and hippocampal neurogenesis",
+      "authors": "Grabrucker S et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1093/brain/awad303"
     }
   ]
 }

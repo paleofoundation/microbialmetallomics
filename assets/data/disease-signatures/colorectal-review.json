@@ -69,6 +69,40 @@
       ]
     },
     {
+      "id": "microbiome-coherence",
+      "nav": "Does the microbiome signature fit?",
+      "title": "Does the microbiome signature fit the metal pattern?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zepeda-Rivera and colleagues resolved a useful microbial signature below the species level: Fusobacterium nucleatum subspecies animalis clade 2 was enriched in colorectal tumors and stool. The work combined human samples with strain comparisons and mouse experiments; clade 2 increased intestinal adenomas in the tested model. Its metabolic and acid-resistance features demonstrate why a genus label is too coarse for a mechanistic explanation.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The next connection is spatial. Does this clade occupy the metal-rich neighborhoods identified by elemental imaging, and which iron forms or host binding proteins define access there? The metal-imaging specimen and microbial cohorts were separate. Co-location, microbial expression, and chemical availability must be measured before assigning the tumor’s iron or copper pattern to this organism.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An acidic niche is not automatically hostile to the candidate organism: acid resistance differed between clades. Likewise, reducing a tissue metal total could affect tumor cells, immune cells, and microbes differently. A coherent intervention hypothesis specifies which local function changes before the tumor-relevant outcome.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the same coherence test across diseases"
+        }
+      ]
+    },
+    {
       "id": "relevance-to-the-metal-microbiome-diseas",
       "title": "A bridge to intratumoral microbiology",
       "blocks": [
@@ -177,6 +211,12 @@
       "year": 2022,
       "title": "Effect of the intratumoral microbiota on spatial and cellular heterogeneity in cancer",
       "url": "https://doi.org/10.1038/s41586-022-05435-0"
+    },
+    {
+      "title": "A distinct Fusobacterium nucleatum clade dominates the colorectal cancer niche",
+      "authors": "Zepeda-Rivera M et al.",
+      "year": 2024,
+      "url": "https://doi.org/10.1038/s41586-024-07182-w"
     }
   ]
 }

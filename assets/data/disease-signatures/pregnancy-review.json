@@ -117,6 +117,38 @@
       ]
     },
     {
+      "id": "microbiome-coherence",
+      "nav": "Does the microbiome signature fit?",
+      "title": "Does the microbiome signature fit the metal pattern?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pinto and colleagues followed 394 women from the first trimester and found microbial, metabolite, and inflammatory differences before gestational diabetes diagnosis. Prevotella was lower after adjustment; selected fecal short-chain fatty acids were also reduced. Donor microbiota from the primary and two additional pregnancy cohorts induced inflammatory and glucose-handling phenotypes in mice. This gives a temporal microbial lead and a model perturbation.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It is adjacent evidence for the UPBEAT question, not a replication of its metal associations. Gestational diabetes is a different outcome from antepartum hemorrhage or neonatal intensive-care admission. Neither the donor study nor its mouse results identify the cause of UPBEAT’s manganese and phosphorus signals.",
+          "refs": [
+            1,
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Convergence would require the same pregnancy outcome, time window, and metal compartment, with microbial functions and host binding or transport measured together. A shared inflammatory marker is insufficient if the metal and microbial findings predict different endpoints. This is how the comparison can refine a hypothesis instead of forcing unrelated associations into agreement.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/disease-signatures#triangulation",
+          "text": "Use the same coherence test across diseases"
+        }
+      ]
+    },
+    {
       "id": "mechanistic-interpretation",
       "title": "The copper–iron divergence raises a better question",
       "blocks": [
@@ -245,6 +277,12 @@
       "year": 2025,
       "title": "UPBEAT-metallomics: outcome inference analysis code",
       "url": "https://github.com/vonMeyennLab/UPBEAT-metallomics/blob/main/analysis/main/Metallomics/06_metallomics_inference_outcome.Rmd"
+    },
+    {
+      "title": "Gestational diabetes is driven by microbiota-induced inflammation months before diagnosis",
+      "authors": "Pinto Y et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1136/gutjnl-2022-328406"
     }
   ]
 }
