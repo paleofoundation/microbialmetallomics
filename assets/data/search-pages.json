@@ -8,8 +8,8 @@
     "description": "How microbes acquire metals, deliver enzyme cofactors, avoid mismetallation, and compete with hosts. Explore the mechanisms and the research behind them."
   },
   "/metals": {
-    "title": "Metals & Microbes: The Microbial Metallomics Atlas",
-    "description": "Explore 62 sourced profiles covering 70 elements: microbial enzymes, metal resistance, transformation, host competition, and open research questions."
+    "title": "The Metals Atlas: Microbial Mechanisms, Element by Element",
+    "description": "Explore 62 profiles covering 70 elements. Follow iron mimicry, microbial cofactors, metal transformation, and the experiments explaining why each mechanism matters."
   },
   "/start-here": {
     "title": "Start Here: Metal Availability & the Microbiome",
@@ -46,5 +46,9 @@
   "/library/heavy-metals-obesity-pregnancy-upbeat": {
     "title": "UPBEAT Maternal Metallomics: Serum Metals & Pregnancy",
     "description": "UPBEAT links maternal manganese and phosphorus to later outcomes. What the evidence means, and how to test host and microbial metal handling."
+  },
+  "/metals/gallium": {
+    "title": "Gallium: Iron Mimicry, Siderophores & Biofilms",
+    "description": "How gallium mimics ferric iron, enters microbial iron pathways, and disrupts redox-dependent functions and biofilms. Mechanisms, primary studies, and open questions."
   }
 }

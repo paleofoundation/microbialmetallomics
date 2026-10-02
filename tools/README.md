@@ -40,6 +40,10 @@ npm run check
 
 Each sourced prose field contains text and per-profile 1-based source indices; the generators validate references and emit static superscript citations with return links. Access blocks share the renderers in `access_render.py`. Preserve stable section IDs and distinguish observations, model-specific causal evidence, and proposed connections. Review dates remain in data and machine-readable metadata; do not add visible review-date labels to these pages. Group labels are reading pathways rather than exclusive chemical or safety classifications. Verify each new source and keep study setting and limitations explicit.
 
+The atlas has its own permanent page at `/metals` and a primary-navigation link labeled **Metals atlas**, including on mobile. Keep this access prominent. Each element profile leads with its mechanism and biological significance. Explain what the chemical property enables, how a microbe acquires or encounters that form, which machinery it changes, and why the consequence matters. For poorly resolved mechanisms, identify the measured interaction and the missing causal step precisely.
+
+Optional `mechanismSpotlight` data supplies a specific `title`, two to five `steps` (each with `title`, `text`, and source `refs`), and a sourced `significance` paragraph. The generator renders these before the experiment inventory and includes them in atlas search. Keep recognition, transport, enzyme chemistry, and microbial phenotype distinct when the evidence separates them. Gallium, for example, requires both the Fe(III)/Ga(III) recognition story and the missing iron redox function; siderophore binding alone does not establish bacterial uptake. Preserve contrary findings in their relevant evidence sections and explain the mechanistic opportunity in the opening.
+
 ## Pillar essay
 
 Edit `assets/data/pillar-essay.json` for the pillar essay, its primary sources, and its FAQs. Rebuild in this order:

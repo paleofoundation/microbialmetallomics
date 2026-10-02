@@ -133,11 +133,10 @@
     "category": "essential",
     "role": "Oxidative-stress defense and environmental manganese cycling",
     "summary": {
-      "text": "Manganese can protect bacterial metabolism from oxidative stress and can also supply energy to specialized environmental communities. At an infection site, access to manganese becomes a contest between microbial defenses and host metal-binding proteins. These functions depend on location and chemical form: manganese in a bacterial enzyme, an abscess, and a mineral-oxidizing culture does not represent the same biological exposure.",
+      "text": "Manganese equips Staphylococcus aureus with defenses against superoxide. Host calprotectin can bind that manganese before the bacterium acquires it, weakening those defenses and helping neutrophils kill. This links metal withholding directly to immune attack. In a separate environmental metabolism, specialized bacteria obtain energy by oxidizing manganese and use it to support carbon fixation.",
       "refs": [
         1,
-        2,
-        3
+        2
       ]
     },
     "mechanisms": [
@@ -245,21 +244,53 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "Withhold manganese, weaken the defense against superoxide",
+      "steps": [
+        {
+          "title": "Bind the accessible metal",
+          "text": "Calprotectin released by host immune cells captures manganese and zinc. Metal-binding-defective calprotectin lost its growth-inhibitory activity in the experiments, tying the effect to metal sequestration.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Disarm bacterial protection",
+          "text": "In S. aureus, manganese restriction reduced superoxide dismutase activity and other manganese-dependent superoxide defenses. Intracellular superoxide consequently increased.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Strengthen immune killing",
+          "text": "With its superoxide defenses weakened, S. aureus became more vulnerable to neutrophils. Metal withholding and oxidative attack therefore reinforce one another in this infection model.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "The critical variable is manganese within reach of the pathogen. Calprotectin failed to restrict manganese in mouse heart-abscess centers, making spatial access a concrete explanation to test when withholding succeeds in one niche but fails in another.",
+        "refs": [
+          1,
+          3
+        ]
+      }
+    }
   },
   {
     "symbol": "Fe",
     "name": "Iron",
     "atomicNumber": 26,
     "category": "essential",
-    "role": "Iron stores, inflammatory restriction, microbial access, and formulation-dependent outcomes",
+    "role": "Siderophore capture, immune evasion, and iron-dependent metabolism",
     "summary": {
-      "text": "Iron is a nutrient, an enzyme cofactor, and an environmental electron acceptor. In the host, depleted stores and restricted delivery are distinct problems that may coexist. A useful microbial account must follow iron into local chemical pools, then connect acquisition and competition to host benefit or harm.",
+      "text": "Siderophores capture iron that bacteria otherwise struggle to acquire. The host can intercept that delivery, while pathogens can modify the carrier to escape. This molecular contest helps determine microbial growth and virulence. Iron also supplies enzyme cofactors and respiratory substrates; its biological effect depends on which organism reaches which chemical pool.",
       "refs": [
         1,
-        3,
-        6,
-        7
+        2,
+        3
       ]
     },
     "mechanisms": [
@@ -599,7 +630,39 @@
         ],
         "nav": "Discriminating the mechanisms"
       }
-    ]
+    ],
+    "mechanismSpotlight": {
+      "title": "Capture iron. Evade the host's interception.",
+      "steps": [
+        {
+          "title": "Bind the scarce nutrient",
+          "text": "E. coli secretes enterobactin, a siderophore that tightly binds ferric iron, Fe(III), allowing the bacterium to acquire a growth-limiting resource.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Change the carrier's chemistry",
+          "text": "Host lipocalin 2 captures iron-loaded enterobactin. The bacterial iroA pathway adds glucose groups to create salmochelins; these bulky modifications obstruct the host protein's binding pocket.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Preserve access and growth",
+          "text": "The modified siderophores retained iron-delivery function while escaping lipocalin 2 in the tested system. Adding iroA increased E. coli virulence in mice through that escape mechanism.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "A small change to an iron carrier can alter infection without changing the element itself. The research opportunity is to measure carrier identity and host interception alongside iron abundance.",
+        "refs": [
+          1
+        ]
+      }
+    }
   },
   {
     "symbol": "Co",
@@ -725,7 +788,41 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "A cobalt cofactor must fit the microbe that uses it",
+      "steps": [
+        {
+          "title": "Recognize the whole molecule",
+          "text": "Cobamides contain cobalt but differ in their lower ligand, a molecular group attached beneath the cobalt-containing ring. These structural differences influence microbial access and use; total cobalt cannot identify the usable cofactor.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "title": "Cut and rebuild an incompatible cofactor",
+          "text": "Akkermansia muciniphila MucT borrows cobamides rather than synthesizing them from scratch. Its CbiR enzyme cuts the nucleotide loop, initiating replacement of the lower ligand and enabling use of several supplied cobamides.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "title": "Turn specificity into a competitive advantage",
+          "text": "Bacteroides thetaiotaomicron takes another route: its transporters favor different cobamide forms. Removing a single transporter changed competitive fitness in mice, showing that acquisition specificity can shape colonization.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "The ecological resource is a chemically particular cobalt-containing molecule. Measuring cofactor structures together with transport and remodeling can reveal exchanges that an elemental assay or a generic vitamin-B12 annotation misses.",
+        "refs": [
+          1,
+          3
+        ]
+      }
+    }
   },
   {
     "symbol": "Ni",
@@ -734,11 +831,10 @@
     "category": "essential",
     "role": "Urease, [NiFe]-hydrogenases, and nickel-dependent glyoxalase I",
     "summary": {
-      "text": "Nickel supports several specialized microbial enzymes, but using it requires controlled uptake, storage, and delivery to the correct protein. Helicobacter pylori provides a well-studied host-associated example because both urease and hydrogenase require nickel. Other organisms use nickel differently: E. coli glyoxalase I is an instructive case where an enzyme’s metal preference differs from familiar versions in other species.",
+      "text": "For Helicobacter pylori, nickel helps turn stomach acidity into a survivable condition: nickel-loaded urease converts urea to ammonia, raising local pH. The bacterium also uses a nickel-containing hydrogenase. Storage and delivery proteins keep these enzymes supplied. Nickel use remains organism-specific: E. coli glyoxalase I provides a separate, biochemically established example.",
       "refs": [
         1,
         2,
-        3,
         4
       ]
     },
@@ -853,7 +949,40 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "Nickel makes an acid-survival enzyme work",
+      "steps": [
+        {
+          "title": "Load the enzyme correctly",
+          "text": "H. pylori urease requires nickel in its active site. Accessory proteins coordinate enzyme maturation; producing the urease protein alone does not establish an active catalyst.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "title": "Convert urea into protection",
+          "text": "Active urease hydrolyzes urea into ammonia and carbon dioxide. Ammonia helps raise pH around the bacterium, supporting survival in the acidic gastric environment.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "title": "Buffer an interrupted supply",
+          "text": "The nickel-binding proteins Hpn and Hpn-like provide reserves. Mutants lacking both colonized nickel-depleted mice less effectively; wild-type colonization remained similar across the tested diets.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "Nickel trafficking connects metal access to a specific survival reaction. A useful next test is whether disrupting delivery lowers urease nickel occupancy and acid survival even when external nickel remains available.",
+        "refs": [
+          1,
+          4
+        ]
+      }
+    }
   },
   {
     "symbol": "Cu",
@@ -862,7 +991,7 @@
     "category": "essential",
     "role": "Methane oxidation, copper acquisition, and metal toxicity",
     "summary": {
-      "text": "Copper can be a microbial cofactor, a resource that requires specialized capture, and a stress imposed by the host. Methane-oxidizing bacteria illustrate the acquisition problem; E. coli illustrates damage and defense; macrophage experiments show that host copper transport can influence bacterial survival. The common thread is delivery to a particular molecular target, rather than total copper alone.",
+      "text": "Copper can disable bacterial metabolism by stripping iron from exposed iron–sulfur enzyme clusters. In E. coli, that damage interrupts amino-acid production even without oxygen. Host cells can also deliver copper toward engulfed bacteria, while microbial exporters oppose the exposure. Copper's useful cofactor roles and destructive effects depend on where it is delivered.",
       "refs": [
         1,
         2,
@@ -972,20 +1101,52 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "Copper can dismantle an iron-dependent enzyme",
+      "steps": [
+        {
+          "title": "Reach an exposed cluster",
+          "text": "Some E. coli dehydratases expose their iron–sulfur clusters to solvent. Cu(I) attacks these sites; the observed iron loss is consistent with copper binding the cluster's sulfur ligands.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "title": "Interrupt a biosynthetic pathway",
+          "text": "Cluster damage inactivates enzymes needed to make branched-chain amino acids. Supplying those amino acids rescued growth in the experiments, connecting a molecular lesion to a metabolic consequence. Oxygen was unnecessary for the damage.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "title": "Make delivery a contest",
+          "text": "In cultured macrophages, the host ATP7A transporter supported bacterial killing, while the E. coli CopA exporter protected bacteria. These experiments establish opposing copper-transport functions; they did not identify every damaged bacterial target inside macrophages.",
+          "refs": [
+            3
+          ]
+        }
+      ],
+      "significance": {
+        "text": "Copper exposure must be traced to vulnerable proteins. Export, binding, and cluster repair can change susceptibility even at the same external concentration, providing concrete mechanisms to test across microbes.",
+        "refs": [
+          2,
+          3
+        ]
+      }
+    }
   },
   {
     "symbol": "Zn",
     "name": "Zinc",
     "atomicNumber": 30,
     "category": "essential",
-    "role": "Chemical form, host–microbial access, and the missing links in zinc–MS hypotheses",
+    "role": "Zinc capture, manganese-transport blockade, and host–microbial competition",
     "summary": {
-      "text": "Zinc connects nutrient acquisition, host metal withholding, and competition with other metals. Its effects depend on the accessible pool and the organisms sharing it. Human absorption comparisons, microbial models, and MS research answer different parts of that question; the sections below keep their connections and missing links visible.",
+      "text": "Zinc can inhibit a bacterium by blocking its access to manganese. In Streptococcus pneumoniae, zinc occupies a metal-binding gateway and leaves the cell less able to resist oxidative attack. Elsewhere, high-affinity zinc uptake helps microbes compete under host zinc withholding. The local metal mixture and the acquisition machinery determine the outcome.",
       "refs": [
         1,
-        3,
-        4
+        3
       ]
     },
     "mechanisms": [
@@ -1362,7 +1523,39 @@
         ],
         "nav": "Discriminating the mechanisms"
       }
-    ]
+    ],
+    "mechanismSpotlight": {
+      "title": "The wrong metal can block the right nutrient",
+      "steps": [
+        {
+          "title": "Compete at the entry point",
+          "text": "PsaA normally captures manganese for S. pneumoniae. When extracellular zinc is sufficiently high relative to manganese, Zn(II) competes for the same binding site.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Trap the binding protein",
+          "text": "Zinc forms an unusually stable PsaA complex that releases its metal poorly. Manganese accumulation falls even though intracellular zinc changes little: the transport gateway becomes a bottleneck.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Lose oxidative defenses",
+          "text": "Manganese starvation slows growth and makes the pneumococcus more sensitive to oxidative stress and neutrophil killing. The consequence follows from depriving manganese-dependent defenses of their resource.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "Zinc toxicity can operate through another metal's shortage. This gives a testable prediction: susceptibility should track the zinc-to-manganese balance and PsaA function, rather than zinc concentration alone.",
+        "refs": [
+          1
+        ]
+      }
+    }
   },
   {
     "symbol": "Mo",
@@ -1490,7 +1683,43 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "A metal cofactor turns inflammation into a growth opportunity",
+      "steps": [
+        {
+          "title": "Build a respiratory catalyst",
+          "text": "E. coli incorporates molybdenum into a cofactor used by nitrate reductases and respiratory formate dehydrogenases. These enzymes let the cell exploit electron acceptors and donors that fermentation alone cannot use in the same way.",
+          "refs": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "title": "Supply the missing electron acceptor",
+          "text": "Inflammation generates host-derived nitrate in the mouse intestine. E. coli can pass electrons to nitrate through its respiratory machinery and gain a competitive growth advantage; nitrate-respiration mutants lose that advantage.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "title": "Test the metal-dependent advantage",
+          "text": "Tungstate disrupted molybdenum-cofactor-dependent metabolism and suppressed Enterobacteriaceae expansion in mouse colitis. It removed a respiratory advantage that was conditional on the inflamed environment.",
+          "refs": [
+            2
+          ]
+        }
+      ],
+      "significance": {
+        "text": "A community bloom can arise because host inflammation supplies substrates for existing metal-dependent machinery. The useful question is where cofactor activity and respiratory resources coincide—not whether total molybdenum alone predicts dysbiosis.",
+        "refs": [
+          1,
+          2,
+          4
+        ]
+      }
+    }
   },
   {
     "symbol": "W",
@@ -1610,32 +1839,67 @@
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "The same metal can enable one enzyme and disable another",
+      "steps": [
+        {
+          "title": "Install tungsten in a native catalyst",
+          "text": "Some cultured gut microbes incorporate tungsten into oxidoreductases. These enzymes oxidize aldehydes to their corresponding acids and transfer the released electrons to cellular carriers.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "title": "Require the correct metal for conversion",
+          "text": "Brevibacillus massiliensis produced furoic acid from supplied furfural when tungsten was available; molybdenum did not substitute. Its purified enzyme transferred electrons to ferredoxin and remained active in air with that partner present.",
+          "refs": [
+            3
+          ]
+        },
+        {
+          "title": "Disrupt a competitor's cofactor",
+          "text": "In Enterobacteriaceae, tungsten can instead replace molybdenum in a cofactor and impair respiratory enzymes. Tungstate suppressed their inflammation-associated expansion in mouse colitis—a distinct effect from supporting native tungsten enzymes.",
+          "refs": [
+            2
+          ]
+        }
+      ],
+      "significance": {
+        "text": "Metal similarity does not guarantee biochemical interchangeability. Testing tungsten's community effects requires measuring both aldehyde conversion and competing molybdenum-dependent respiration; whether these mechanisms improve human health remains unresolved.",
+        "refs": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
   },
   {
     "symbol": "Be",
     "name": "Beryllium",
     "atomicNumber": 4,
     "category": "Alkaline-earth metal",
-    "role": "Evidence from bacterial-enzyme inhibition",
+    "role": "A laboratory mimic of the phosphate signal that switches regulators on",
     "summary": {
-      "text": "Beryllium has two distinct connections to microbial biochemistry: inhibition of selected enzymes and experimental stabilization of bacterial signaling proteins. These are useful molecular observations, but neither establishes a nutritional role or a characteristic response of an intact microbiome. Beryllium is a light alkaline-earth metal; chemical identity matters more here than the loose label “heavy metal.”",
+      "text": "Beryllofluoride can make a bacterial signaling protein behave as though it has been phosphorylated. In NtrC, it stabilizes an active-state analogue and makes a normally transient regulatory switch easier to study. This is a chemically specific use of beryllium to probe signaling; beryllium sulfate has a separate record of inhibiting selected enzymes.",
       "refs": [
-        1,
-        2
+        2,
+        1
       ]
     },
     "mechanisms": [
       {
-        "text": "Beryllium sulfate inhibited alkaline phosphatase, including the Escherichia coli enzyme, and phosphoglucomutase in an enzyme comparison. Many other enzymes were much less sensitive. This selectivity argues against describing beryllium as a uniform inhibitor of all microbial metabolism.",
-        "refs": [
-          1
-        ]
-      },
-      {
         "text": "Beryllofluoride can mimic the phosphorylated aspartate that activates bacterial response regulators. In NtrC, functional assays and NMR supported a stable analogue of the active signaling state. This is a deliberately constructed laboratory probe, chemically distinct from beryllium sulfate.",
         "refs": [
           2
+        ]
+      },
+      {
+        "text": "Beryllium sulfate inhibited alkaline phosphatase, including the Escherichia coli enzyme, and phosphoglucomutase in an enzyme comparison. Many other enzymes were much less sensitive. This selectivity argues against describing beryllium as a uniform inhibitor of all microbial metabolism.",
+        "refs": [
+          1
         ]
       }
     ],
@@ -1711,23 +1975,24 @@
     "name": "Aluminum",
     "atomicNumber": 13,
     "category": "Metal",
-    "role": "Light-metal exposure and intestinal ecology",
+    "role": "Organic-acid chemistry and strain-dependent sequestration",
     "summary": {
-      "text": "Aluminum connects environmental microbial adaptation with experimental intestinal ecology. Some bacteria change their metabolism when challenged with aluminum complexes, while oral exposure changes selected gut taxa in mice. These observations describe different biological levels and should be read separately. Aluminum is a light metal; it does not need to be a “heavy metal” to merit attention in metallomics.",
+      "text": "Microbial metabolism can change the ligands surrounding aluminum. Aluminum-stressed Pseudomonas fluorescens redirected organic-acid metabolism toward oxalate, including a signal consistent with complexed oxalate. Food- and gut-associated bacteria also differed in their ability to remove Al(III) from solution. These findings identify chemical handling as the starting point; they do not yet establish which route explains intestinal community changes in exposed animals.",
       "refs": [
-        1,
-        3
+        2,
+        3,
+        1
       ]
     },
     "mechanisms": [
       {
-        "text": "Aluminum-stressed Pseudomonas fluorescens produced oxalate when metabolizing citrate or aluminum-citrate. NMR and enzyme measurements linked the response to altered organic-acid metabolism. The chemical ligands surrounding aluminum can therefore be part of the microbial response, rather than passive background ingredients.",
+        "text": "Alter the ligand environment. Aluminum-stressed P. fluorescens produced oxalate from citrate or aluminum-citrate. Cell-fraction experiments linked the response to glyoxylate oxidation, with greater oxalate production in stressed cells. Free and putatively complexed oxalate were distinguished by NMR. The organism was changing organic-acid chemistry around the metal, not simply tolerating an unchanged dissolved dose.",
         "refs": [
           3
         ]
       },
       {
-        "text": "A screen of 225 food- and gut-associated bacterial strains measured removal of dissolved metals by ICP-MS. Aluminum removal varied among isolates and differed from lead and cadmium binding. Lactic acid bacteria, bifidobacteria, and Enterobacterales did not share a single predictable aluminum-binding capacity.",
+        "text": "Separate sequestration from an uptake mechanism. A screen of 225 food- and gut-associated strains measured loss of dissolved metal by ICP-MS. Aluminum removal varied among isolates and differed from lead and cadmium removal. This identifies candidate binding phenotypes, but does not by itself determine whether aluminum was surface-bound, transported, or precipitated, nor whether it would remain unavailable during intestinal transit.",
         "refs": [
           2
         ]
@@ -1941,25 +2206,24 @@
     "name": "Germanium",
     "atomicNumber": 32,
     "category": "contaminant",
-    "role": "Strain-dependent tolerance to germanium dioxide",
+    "role": "Ligand-dependent entry through a substrate-uptake pathway",
     "summary": {
-      "text": "Germanium is a metalloid with direct evidence for strain-dependent growth inhibition and ligand-dependent bacterial uptake. The most useful distinction is between tolerating a germanium exposure and accumulating the element: a culture can do one without demonstrating a beneficial biological use for it.",
+      "text": "The molecule carrying germanium can determine whether a bacterium accumulates it. Pseudomonas putida accumulated more germanium with catechol than with acetate alone, and a later uptake phase tracked catechol degradation. The investigators proposed entry of a germanium–catechol complex through an induced substrate-transport system. This makes ligand recognition a concrete mechanistic hypothesis, while the exact transporter remains unresolved.",
       "refs": [
-        1,
         2
       ]
     },
     "mechanisms": [
       {
-        "text": "A survey of 21 bacterial and 13 yeast strains tested germanium dioxide in broth. Some bacteria tolerated concentrations that prevented yeast growth; medium pH altered these responses. Previously exposed bacterial cultures sometimes grew better on re-exposure, suggesting adaptation under the tested conditions.",
-        "refs": [
-          1
-        ]
-      },
-      {
         "text": "Pseudomonas putida accumulated more germanium when catechol was available than when acetate alone was supplied. A second phase of accumulation accompanied catechol degradation. The investigators interpreted this as uptake of a germanium–catechol complex through an inducible substrate-transport system.",
         "refs": [
           2
+        ]
+      },
+      {
+        "text": "A survey of 21 bacterial and 13 yeast strains tested germanium dioxide in broth. Some bacteria tolerated concentrations that prevented yeast growth; medium pH altered these responses. Previously exposed bacterial cultures sometimes grew better on re-exposure, suggesting adaptation under the tested conditions.",
+        "refs": [
+          1
         ]
       }
     ],
@@ -2040,18 +2304,17 @@
     "name": "Arsenic",
     "atomicNumber": 33,
     "category": "Metalloid",
-    "role": "Speciation-changing toxicant",
+    "role": "Gut microbial chemistry changes the arsenic species encountered by the host",
     "summary": {
-      "text": "Arsenic has a two-way relationship with microbial communities: microbes change arsenic chemistry, and arsenic exposure is associated with changes in those communities. Human observations now include longitudinal infant data, while gut simulators and mouse experiments provide more direct tests of transformation and host protection. None of these models alone captures every exposure scenario.",
+      "text": "Gut microbes can modify arsenic before it is absorbed, adding methyl groups and forming sulfur-containing arsenicals. These reactions change the molecules present, and methylation is not automatically detoxification: a human-colon culture produced reactive MMA(III) as well as other products. Mouse experiments also show that an intact microbiota can protect against acute arsenic exposure. Transformation chemistry and host protection therefore need to be measured together.",
       "refs": [
         1,
-        2,
-        4
+        2
       ]
     },
     "mechanisms": [
       {
-        "text": "Human colon communities cultured in a gut simulator methylated and thiolated inorganic arsenic and arsenic released from contaminated soils. Products included the reactive trivalent compound MMA(III) and a sulfur-containing methylated arsenical. “Methylated” therefore cannot be used as a synonym for detoxified.",
+        "text": "Change the molecule, change the exposure. In a simulated human colon, active microbial communities converted inorganic arsenic and arsenic released from soil into methylated and sulfur-containing products. The products included MMA(III) and monomethylmonothioarsonic acid. Sterilized controls did not produce the same methylated or thiolated arsenicals. This establishes community-dependent chemical conversion; it does not identify a single responsible organism or show that every product is less harmful.",
         "refs": [
           1
         ]
@@ -2167,31 +2430,32 @@
     "name": "Cadmium",
     "atomicNumber": 48,
     "category": "Metal",
-    "role": "Toxicant with a specialized algal enzyme exception",
+    "role": "An alternative carbon-acquisition cofactor in marine diatoms",
     "summary": {
-      "text": "Cadmium spans two very different biological settings: an experimental intestinal toxicant and a functional enzyme metal in certain marine diatoms. The diatom exception is important for environmental biochemistry, but it is not evidence that cadmium is a human nutrient. Its effects depend on the organism, chemical availability, and the supply of competing metals such as zinc.",
+      "text": "A metal usually studied for toxicity can perform useful chemistry in the right enzyme. When zinc was scarce, the marine diatom Thalassiosira weissflogii used a cadmium-containing carbonic anhydrase to support inorganic-carbon acquisition and growth. Carbonic anhydrase interconverts carbon dioxide and bicarbonate, connecting the metal site to photosynthetic carbon supply. This specialized adaptation is separate from cadmium’s intestinal toxicity.",
       "refs": [
         3,
-        4
+        4,
+        1
       ]
     },
     "mechanisms": [
       {
-        "text": "Germ-free mice accumulated more orally administered cadmium than conventionally colonized mice over six weeks. Differences in intestinal metal-handling gene expression accompanied this effect, suggesting that microbial presence influences both luminal metal availability and host physiology.",
-        "refs": [
-          1
-        ]
-      },
-      {
-        "text": "In zinc-limited Thalassiosira weissflogii cultures, cadmium increased growth and carbonic anhydrase activity, especially when carbon dioxide was limiting. A cadmium-containing protein distinct from the familiar zinc enzyme connected the growth response to inorganic-carbon acquisition.",
+        "text": "Keep carbon acquisition working when zinc is scarce. Lane and Morel found that cadmium increased carbonic-anhydrase activity and growth in zinc-limited T. weissflogii, with a stronger effect when carbon dioxide was limiting. The cadmium-containing protein differed from the familiar zinc enzyme. The organism was using alternative metalloenzyme machinery to sustain a carbon-acquisition reaction.",
         "refs": [
           3
         ]
       },
       {
-        "text": "Follow-up work identified and characterized the cadmium-containing carbonic anhydrase CDCA1. This supplied a molecular basis for cadmium use by the diatom, moving the evidence beyond a growth response to a specific metal-containing protein.",
+        "text": "A molecular identity for the alternative enzyme. Follow-up purification and sequence work identified CDCA1 as a cadmium-containing carbonic anhydrase. Spectroscopy was consistent with cadmium bound to thiolate ligands and an activated water molecule. This links the unusual metal to an enzyme active site, rather than treating cadmium-associated growth as evidence for an unspecified stimulatory effect.",
         "refs": [
           4
+        ]
+      },
+      {
+        "text": "Germ-free mice accumulated more orally administered cadmium than conventionally colonized mice over six weeks. Differences in intestinal metal-handling gene expression accompanied this effect, suggesting that microbial presence influences both luminal metal availability and host physiology.",
+        "refs": [
+          1
         ]
       }
     ],
@@ -2633,19 +2897,26 @@
     "name": "Mercury",
     "atomicNumber": 80,
     "category": "Metal",
-    "role": "Microbial methylation and demethylation",
+    "role": "Microbial methyl transfer changes mercury’s exposure hazard",
     "summary": {
-      "text": "Mercury illustrates how microbes can both create and transform an exposure hazard. Environmental methylation produces methylmercury, whereas intestinal demethylation can contribute to elimination after ingestion. These reactions occur in different organisms and settings and should not be collapsed into one “mercury detox” pathway.",
+      "text": "Microbes change mercury’s biological consequences by changing its molecular form. HgcAB-dependent methylation converts inorganic mercury into methylmercury, using a cobalt-containing cobalamin cofactor and iron–sulfur chemistry. Intestinal demethylation is a separate process that can contribute to elimination after ingestion. The central question is which chemical conversion is occurring, where, and at what rate—not simply whether mercury and microbes coexist.",
       "refs": [
         1,
-        2
+        2,
+        4
       ]
     },
     "mechanisms": [
       {
-        "text": "Deleting hgcA or hgcB abolished mercury methylation in Desulfovibrio desulfuricans ND132 and Geobacter sulfurreducens PCA. The proteins were linked to corrinoid and iron–sulfur chemistry, supplying a genetic foundation for studying methylmercury formation.",
+        "text": "Two necessary proteins. Deleting hgcA or hgcB abolished mercury methylation in the two tested anaerobic bacteria. HgcA was identified as a corrinoid-protein candidate and HgcB as an iron–sulfur ferredoxin, connecting the conversion to methyl-transfer and electron-transfer machinery.",
         "refs": [
           1
+        ]
+      },
+      {
+        "text": "Where the methyl group comes from. Zheng and colleagues purified the membrane-associated HgcAB complex and demonstrated transfer from S-adenosyl-L-methionine, or SAM, to its cobalamin center. HgcB contains two [4Fe–4S] clusters. Cell-lysate methylmercury assays and purified-protein measurements identified SAM as the methyl donor; the purification detergent impaired the mercury-transfer half-reaction. This resolves a chemical step without presenting the entire catalytic cycle as fully reconstituted.",
+        "refs": [
+          4
         ]
       },
       {
@@ -2693,6 +2964,12 @@
         "authors": "Podar M, Gilmour CC, Brandt CC et al.",
         "year": 2015,
         "url": "https://doi.org/10.1126/sciadv.1500675"
+      },
+      {
+        "title": "S-adenosyl-L-methionine is the unexpected methyl donor for the methylation of mercury by the membrane-associated HgcAB complex",
+        "authors": "Zheng K et al.",
+        "year": 2024,
+        "url": "https://doi.org/10.1073/pnas.2408086121"
       }
     ],
     "tags": [
@@ -2866,18 +3143,23 @@
     "name": "Lead",
     "atomicNumber": 82,
     "category": "Metal",
-    "role": "Oral toxicant and microbiome-dependent bioavailability",
+    "role": "Microbial binding and host handling change lead bioavailability",
     "summary": {
-      "text": "Lead research now includes experimental microbiota-dependent absorption in mice and observational human studies spanning infancy to later childhood. The evidence supports an interaction between exposure and intestinal ecology, while leaving important causal questions open. Microbial community differences are not a substitute for directly measuring lead exposure.",
+      "text": "A gut community can change how much ingested lead reaches the host. Bacterial isolates differ greatly in their capacity to remove Pb(II) from solution, while germ-free mice absorbed and distributed more lead than conventional mice. Binding in the lumen and altered host metal-handling pathways are plausible contributors. The mouse comparison establishes a microbiota-dependent effect, but does not by itself separate those routes.",
       "refs": [
         1,
-        3,
-        4
+        5
       ]
     },
     "mechanisms": [
       {
-        "text": "After six weeks of oral exposure, germ-free mice had higher lead absorption and distribution into blood and organs than conventional animals. Differences in intestinal metal-handling genes suggest that the microbiota can affect host physiology as well as the lead remaining in the gut lumen.",
+        "text": "Binding can change the available pool. A screen of food- and gut-associated isolates found large differences in Pb(II) removal, including between strains of the same species. Removing metal from a test solution demonstrates sequestration under those conditions; it does not establish active transport into cells or a reduction in absorption in a living intestine.",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "text": "The host side changes too. After six weeks of oral exposure, germ-free mice had more lead in blood and organs than conventional mice. Intestinal metal-handling gene expression also differed. Microbial presence therefore affects the exposure outcome, but the experiment does not assign all protection to direct bacterial binding. Testing binding separately from host responses is necessary to resolve the mechanism.",
         "refs": [
           1
         ]
@@ -2933,6 +3215,12 @@
         "authors": "Eggers S, Midya V, Bixby M et al.",
         "year": 2023,
         "url": "https://doi.org/10.3389/fmicb.2023.1193919"
+      },
+      {
+        "title": "Assessment of Pb(II), Cd(II), and Al(III) Removal Capacity of Bacteria from Food and Gut Ecological Niches: Insights into Biodiversity to Limit Intestinal Biodisponibility of Toxic Metals",
+        "authors": "George F, Mahieux S, Daniel C et al.",
+        "year": 2021,
+        "url": "https://doi.org/10.3390/microorganisms9020456"
       }
     ],
     "tags": [
@@ -2988,13 +3276,12 @@
     "name": "Titanium",
     "atomicNumber": 22,
     "category": "materials",
-    "role": "Nanoparticle exposure and soil nitrogen cycling",
+    "role": "Particle contact, microbial spatial organization, and nutrient cycling",
     "summary": {
-      "text": "Titanium connects microbial ecology to both engineered particles and biomaterial surfaces. The clearest distinction is chemical form: titanium dioxide particles dispersed through soil or intestinal contents create different exposures from a fixed metal implant. Soil experiments reveal changes in nitrogen transformations, while gut models show that community composition, population density, metabolism, and spatial organization need separate measurements. A stable diversity index is not a complete test of biological inactivity.",
+      "text": "Titanium dioxide can change how microbes organize as well as which microbes are present. In culture, E171 particles clustered with bacteria and enhanced biofilm formation; in exposed mice, small compositional shifts accompanied changes in metabolites and intestinal markers. These observations motivate a physical-contact mechanism, but the causal link from particle-associated culture biofilms to effects inside the animal remains unresolved. Soil work separately connects nanoparticle exposure to impaired nitrification.",
       "refs": [
-        1,
         2,
-        3
+        1
       ]
     },
     "mechanisms": [
@@ -3005,7 +3292,7 @@
         ]
       },
       {
-        "text": "A mouse study of food-grade E171 found relatively small compositional changes but altered bacterial metabolites and intestinal inflammatory markers. Separate culture experiments with E. coli and Enterococcus faecalis showed enhanced biofilm formation. Those culture observations identify a possible spatial interaction with particles; they do not demonstrate that identical biofilms formed inside the treated animals.",
+        "text": "A spatial effect can escape a taxonomic survey. E171 particles clustered with E. coli and Enterococcus faecalis and enhanced culture biofilm endpoints. The mouse experiment found relatively modest community-composition changes alongside metabolic and intestinal effects. Particle-associated clustering supplies a testable route from exposure to altered microbial organization; it does not prove that biofilms caused the mouse outcomes. Measuring particle location and biofilm structure in vivo would distinguish that explanation from other host or microbial responses.",
         "refs": [
           2
         ]
@@ -3104,46 +3391,57 @@
     "name": "Gallium",
     "atomicNumber": 31,
     "category": "Metal",
-    "role": "Iron mimic under antimicrobial investigation",
+    "role": "Iron mimic that turns microbial iron acquisition into a vulnerability",
     "summary": {
-      "text": "Gallium is a test of microbial metal recognition: a metal sufficiently similar to ferric iron can enter iron-handling pathways yet fail to perform the same biochemical work. Research has progressed from Pseudomonas cultures and mouse infections to human trials. That progression matters, because a plausible nutrient-targeting mechanism and an early clinical signal did not guarantee success on a later randomized trial endpoint.",
+      "text": "Gallium makes the distinction between acquiring a metal and using it impossible to miss. Its Ga³⁺ ion resembles ferric iron, Fe³⁺, but cannot perform iron’s redox chemistry. Siderophores—the molecules microbes release to scavenge iron—can therefore encounter a convincing chemical substitute that supplies no usable iron. The result depends on which siderophore binds it, where gallium goes, and which microbial functions lose access to working iron.",
       "refs": [
-        1,
-        2,
-        3
+        5
       ]
     },
     "mechanisms": [
       {
-        "text": "Kaneko and colleagues found that gallium inhibited Pseudomonas aeruginosa growth and biofilm development and killed both suspended and biofilm-associated bacteria. Effects included reduced iron uptake and disturbance of the iron-responsive regulator PvdS. Iron availability altered susceptibility, making the nutritional conditions of the assay part of the result rather than a background detail.",
+        "text": "Kaneko and colleagues also found impaired iron uptake and repression of PvdS, a regulator of pyoverdine production. Forced PvdS expression partly protected bacteria. Yet added pyoverdine reduced gallium uptake and protected growth, and mutants lacking major siderophore systems still acquired gallium. These findings rule out a simple equation between abundant siderophores and gallium susceptibility.",
         "refs": [
           1
         ]
       },
       {
-        "text": "Later experiments used cystic-fibrosis sputum, a more demanding matrix than standard broth. Micromolar gallium inhibited bacterial growth, interfered with iron-dependent enzymes, and increased susceptibility to oxidants. Macrophage antibacterial activity was retained in the tested assays. These observations connect an iron-metabolism mechanism to an infection-associated environment without establishing activity against every organism in that environment.",
+        "text": "Ross-Gillespie and colleagues demonstrated another way to disrupt the search for iron: gallium bound extracellular pyoverdine and impaired its iron-scavenging service. In their iron-limited cultures, this siderophore quenching explained much of the growth inhibition. Gallium therefore need not enter a cell to deprive it of usable iron.",
+        "refs": [
+          5
+        ]
+      },
+      {
+        "text": "Goss and colleagues measured inhibition of ribonucleotide reductase and catalase, but not aconitase or superoxide dismutase, under the tested conditions. Bacteria also became more vulnerable to peroxides. These activity assays establish selective functional effects; they do not by themselves demonstrate gallium occupying every affected enzyme’s iron site.",
         "refs": [
           2
+        ]
+      },
+      {
+        "text": "The host environment changes the competition. Bonchi and colleagues found reduced susceptibility to gallium nitrate in human serum compared with an iron-poor laboratory medium. Strong protein-degrading isolates were less susceptible, consistent with proteases freeing iron from serum proteins. A transport pathway matters only in the context of the metal sources actually available.",
+        "refs": [
+          6
         ]
       }
     ],
     "microbiome": {
-      "text": "The 2018 phase-1 study reported improved lung function in people with cystic fibrosis and chronic P. aeruginosa infection. The subsequent randomized IGNITE study enrolled 119 adults and did not meet its primary day-28 lung-function responder endpoint: 22/60 gallium recipients versus 17/56 evaluable placebo recipients responded. Secondary microbiological outcomes do not replace that negative primary result. Registry results were posted in 2019 and are not a peer-reviewed efficacy publication.",
+      "text": "The 2018 phase-1 study reported improved lung function in people with cystic fibrosis and chronic P. aeruginosa infection. The subsequent randomized IGNITE trial enrolled 119 adults and did not meet its primary day-28 lung-function responder endpoint: 22/60 gallium recipients versus 17/56 evaluable placebo recipients responded. Secondary microbiological outcomes do not replace that negative primary result. The registry results were posted in 2019; they are not a peer-reviewed efficacy publication.",
       "refs": [
         2,
         3
       ]
     },
     "exposure": {
-      "text": "The clinical experiments used intravenous gallium nitrate under defined protocols, not environmental gallium or an oral supplement. IGNITE compared five consecutive days of infusion with saline placebo. Laboratory formulation, available iron, and the host compartment all affect the interpretation of activity; an administered gallium dose does not describe its freely available concentration at a bacterial cell.",
+      "text": "IGNITE used five consecutive days of intravenous gallium nitrate under a defined protocol. Environmental gallium, another gallium complex, and that formulation are different exposures. Bonchi’s serum experiments show why total concentration is insufficient: host proteins, proteolysis, and competing iron sources change bacterial access and response.",
       "refs": [
-        1,
-        3
+        3,
+        6
       ]
     },
     "limits": {
-      "text": "These studies concern an infected airway and selected pathogens, not beneficial remodeling of a healthy microbiome. Phase-1 tolerability and short-term outcome signals leave repeated dosing, durable benefit, and effects on coexisting organisms to be tested. The randomized primary-endpoint result should remain visible whenever the earlier clinical signal is discussed.",
+      "text": "The biofilm results concern defined P. aeruginosa models. They do not establish that gallium eliminates all pathogen biofilms or beneficially remodels a healthy microbiome. The clinical studies concern an infected airway; repeated dosing, durable benefit, and effects on coexisting organisms remain open. The randomized trial’s negative primary result constrains treatment claims without erasing the mechanistic findings.",
       "refs": [
+        1,
         2,
         3
       ]
@@ -3166,27 +3464,66 @@
         "authors": "University of Washington; ClinicalTrials.gov",
         "year": 2019,
         "url": "https://clinicaltrials.gov/study/NCT02354859"
+      },
+      {
+        "title": "Pyochelin Potentiates the Inhibitory Activity of Gallium on Pseudomonas aeruginosa",
+        "authors": "Frangipani E, Bonchi C, Minandri F, Imperi F, Visca P",
+        "year": 2014,
+        "url": "https://doi.org/10.1128/AAC.03154-14"
+      },
+      {
+        "title": "Gallium-mediated siderophore quenching as an evolutionarily robust antibacterial treatment",
+        "authors": "Ross-Gillespie A, Weigert M, Brown SP, Kümmerli R",
+        "year": 2014,
+        "url": "https://doi.org/10.1093/emph/eou003"
+      },
+      {
+        "title": "Pyoverdine and Proteases Affect the Response of Pseudomonas aeruginosa to Gallium in Human Serum",
+        "authors": "Bonchi C, Frangipani E, Imperi F, Visca P",
+        "year": 2015,
+        "url": "https://doi.org/10.1128/AAC.01097-15"
       }
     ],
     "tags": [
-      "Iron mimic",
-      "Antimicrobial",
+      "Iron mimicry",
+      "Siderophores",
+      "Pyochelin",
       "Pseudomonas",
       "Biofilm",
-      "Early clinical research"
+      "Redox chemistry"
     ],
     "group": "materials",
     "slug": "gallium",
     "url": "/metals/gallium",
     "studies": [
       {
-        "title": "Iron handling as an antibacterial target",
-        "system": "P. aeruginosa cultures and mouse lung infection models",
-        "design": "Growth, biofilm, iron-regulation, and infection experiments.",
-        "finding": "Gallium inhibited multiple bacterial states under the tested conditions.",
-        "interpretation": "Mechanistic coherence supports further development but remains dependent on iron availability and delivery.",
+        "title": "Iron rescues biofilm development",
+        "system": "P. aeruginosa flow-cell biofilms",
+        "design": "Gallium exposure with an iron-addition rescue.",
+        "finding": "Biofilm maturation was blocked and restored by added iron.",
+        "interpretation": "The rescue connects the phenotype to iron availability.",
         "refs": [
           1
+        ]
+      },
+      {
+        "title": "An uptake route tested genetically",
+        "system": "P. aeruginosa PAO1 in iron-poor medium",
+        "design": "Pyochelin synthesis and transport mutants; cellular gallium measured by ICP-OES.",
+        "finding": "Disrupting pyochelin synthesis or FptA/FptX transport reduced gallium accumulation and susceptibility.",
+        "interpretation": "The route has experimental support; residual uptake shows that it is not the only route.",
+        "refs": [
+          4
+        ]
+      },
+      {
+        "title": "Enzyme function in context",
+        "system": "P. aeruginosa enzyme assays and cystic-fibrosis sputum supernatants",
+        "design": "Enzyme activity, peroxide sensitivity, and growth measurements.",
+        "finding": "Selected iron-dependent activities fell; gallium inhibited growth in sputum supernatants.",
+        "interpretation": "Functional evidence in an airway-associated matrix precedes any treatment claim.",
+        "refs": [
+          2
         ]
       },
       {
@@ -3194,7 +3531,7 @@
         "system": "Adults with cystic fibrosis and chronic P. aeruginosa infection",
         "design": "Placebo-controlled phase-2 IGNITE trial, NCT02354859.",
         "finding": "The primary day-28 responder comparison was not statistically significant.",
-        "interpretation": "Microbiological and earlier time-point signals require interpretation alongside the prespecified primary outcome.",
+        "interpretation": "Read early clinical and microbiological signals alongside this prespecified result.",
         "refs": [
           3
         ]
@@ -3202,15 +3539,59 @@
     ],
     "researchQuestions": [
       {
-        "text": "Which iron sources and sputum characteristics predict susceptibility during treatment, and do those predictors translate into sustained clinical benefit?",
+        "text": "Proposed next experiment: compare gallium nitrate and gallium–pyochelin in clinical isolates and matched uptake mutants in patient-derived sputum. Measure cellular gallium, iron availability, enzyme activity, and biofilm structure together. If pyochelin-mediated delivery is decisive there, disrupting its transporter should selectively weaken the complex’s advantage.",
         "refs": [
-          1,
-          2,
-          3
+          4
+        ]
+      },
+      {
+        "text": "Can protein degradation or siderophores from neighboring microbes restore iron access during gallium exposure? Controlled mixed communities, defined iron sources, and measurements of each organism’s growth would distinguish nutrient rescue from failure of gallium delivery. This is a research hypothesis, not an established microbiome effect.",
+        "refs": [
+          6
         ]
       }
     ],
-    "reviewed": "2026-10-02"
+    "reviewed": "2026-10-02",
+    "mechanismSpotlight": {
+      "title": "Gallium turns the search for iron against the microbe.",
+      "steps": [
+        {
+          "title": "Recognition: an iron look-alike",
+          "text": "Ga³⁺ and Fe³⁺ share a charge and similar ionic dimensions. Iron-binding molecules can accept gallium because metal recognition depends on this chemistry. Siderophores can bind the mimic while searching for the iron a bacterium needs.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "title": "Access: the siderophore determines the route",
+          "text": "In Pseudomonas aeruginosa, pyochelin can deliver gallium through its iron-uptake machinery. Frangipani and colleagues measured greater cellular gallium and stronger growth inhibition with gallium–pyochelin. This is a demonstrated route, not a universal property of every siderophore.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "title": "Chemistry: binding does not make a working cofactor",
+          "text": "Iron can cycle between Fe³⁺ and Fe²⁺ as enzymes transfer electrons. Ga³⁺ cannot perform that cycle under physiological conditions. Gallium exposure reduced P. aeruginosa ribonucleotide reductase and catalase activities, connecting disrupted iron use to DNA precursor production and peroxide defense.",
+          "refs": [
+            2,
+            5
+          ]
+        },
+        {
+          "title": "Consequence: biofilm development can fail",
+          "text": "In Kaneko and colleagues’ flow-cell experiments, gallium prevented attached P. aeruginosa cells from developing mature biofilm structures. Added iron reversed this effect. Higher concentrations also killed cells within established laboratory biofilms: biofilm prevention and biofilm killing were separate experiments.",
+          "refs": [
+            1
+          ]
+        }
+      ],
+      "significance": {
+        "text": "The opportunity is to exploit a pathogen’s dependence on iron acquisition: its nutrient-scavenging machinery can become a delivery route for a disruptive mimic. Gallium makes transport specificity a testable design question—can the right ligand carry the wrong metal into the right microbe?",
+        "refs": [
+          4
+        ]
+      }
+    }
   },
   {
     "symbol": "Zr",
@@ -3712,25 +4093,24 @@
     "name": "Silver",
     "atomicNumber": 47,
     "category": "Metal",
-    "role": "Antimicrobial ion and resistance pressure",
+    "role": "Released silver ions disrupt bacterial proteins and membranes",
     "summary": {
-      "text": "Silver illustrates both the power and the ambiguity of metal-based antimicrobial claims. Dissolved Ag(I), metallic particles, their coatings, and the ions released during an experiment are different parts of an exposure. Mechanistic work supports multiple bacterial targets, but particle chemistry and bacterial adaptation can substantially change the outcome. Killing a pathogen in a model does not establish selective benefit to a human microbial community.",
+      "text": "Silver’s antimicrobial action depends on the chemical species that reaches a bacterium. Ag(I) can disrupt protein chemistry, iron homeostasis, metabolism, and membrane integrity; in tested nanoparticle preparations, oxidative release of Ag(I) explained the antibacterial activity. The particle can therefore act as an ion source, while its size and coating control delivery. Bacterial responses can also aggregate particles and reduce their activity.",
       "refs": [
         1,
         2,
-        3,
-        4
+        3
       ]
     },
     "mechanisms": [
       {
-        "text": "Morones-Ramirez and colleagues found that silver disrupted disulfide-bond formation, metabolism, iron homeostasis, and membrane permeability in Gram-negative bacteria. Antibiotic combinations increased activity against difficult bacterial states, including persisters and biofilms, with supporting mouse infection experiments. Those results concern defined combination regimens; they do not demonstrate the efficacy of an unrelated silver-containing product.",
+        "text": "Protein damage can open another route of attack. In Gram-negative bacteria, Morones-Ramirez and colleagues connected Ag(I) exposure to disrupted disulfide-bond formation, altered iron homeostasis and metabolism, and increased membrane permeability. These changes helped otherwise poorly effective antibiotic regimens reach or damage bacteria, including in tested persister, biofilm, and mouse-infection settings. The mechanistic point is that a metal can weaken several defenses at once, rather than acting at one antibiotic-binding site.",
         "refs": [
           1
         ]
       },
       {
-        "text": "Xiu and colleagues compared coated silver nanoparticles with silver nitrate in E. coli assays. Under strictly anaerobic synthesis and testing conditions that prevented oxidative ion release, their particles were not toxic. Across the tested particle sizes and coatings, toxicity tracked released silver ions. This is strong evidence for an ion-mediated mechanism in that experimental system, rather than proof that every silver nanoparticle behaves identically.",
+        "text": "The particle must release the active species. Xiu and colleagues prevented oxidative dissolution by synthesizing and testing silver nanoparticles without oxygen. Under those conditions the tested particles did not kill E. coli. When Ag(I) release was possible, their toxicity followed the silver-ion dose response across different sizes and coatings. This separates the delivery material from the molecular toxicant and makes dissolved silver, oxygen, and coating chemistry necessary parts of the exposure measurement.",
         "refs": [
           2
         ]
@@ -4456,9 +4836,9 @@
     "name": "Bismuth",
     "atomicNumber": 83,
     "category": "Metal",
-    "role": "Antimicrobial metal substitution",
+    "role": "Replacing catalytic zinc to disable antibiotic resistance",
     "summary": {
-      "text": "Bismuth links antimicrobial metallomics to direct metal substitution and broader metabolic disruption. The clearest molecular example is displacement of zinc from bacterial metallo-β-lactamases. Work in Helicobacter pylori, however, shows that bismuth drugs can affect many proteins and pathways. A single substituted metal site is therefore not a universal explanation for every bismuth-sensitive bacterium.",
+      "text": "Bismuth can disable a resistance enzyme by replacing the metal that makes it work. In tested metallo-β-lactamases, Bi(III) displaced catalytic Zn(II), stopping the enzymes from breaking open β-lactam antibiotics and restoring meropenem activity in bacterial assays and mice. This is metal substitution with a functional consequence: the antibiotic survives because the bacterial enzyme loses its chemistry. Bismuth also affects other targets in Helicobacter pylori.",
       "refs": [
         1,
         2,
@@ -4467,7 +4847,7 @@
     },
     "mechanisms": [
       {
-        "text": "Wang and colleagues used structural and functional experiments to show that one Bi(III) ion could displace two Zn(II) ions from tested metallo-β-lactamases. These enzymes otherwise hydrolyze important β-lactam antibiotics. Colloidal bismuth subcitrate restored meropenem activity against MBL-positive bacteria in vitro and in a mouse infection model, supporting a drug-repurposing hypothesis rather than a demonstrated clinical combination therapy.",
+        "text": "Substitute the cofactor, disable the defense. Metallo-β-lactamases use zinc to activate water for attack on the antibiotic’s β-lactam ring. Wang and colleagues showed structurally that one Bi(III) ion displaced two Zn(II) ions from tested enzymes and inhibited them. Colloidal bismuth subcitrate then restored meropenem activity against MBL-positive bacteria in culture and a mouse infection model. The work connects a particular metal-site replacement to recovery of antibiotic function; it does not imply that every resistance mechanism depends on zinc.",
         "refs": [
           1
         ]
@@ -4780,19 +5160,24 @@
     "name": "Lanthanum",
     "atomicNumber": 57,
     "category": "Lanthanide",
-    "role": "Cofactor in selected bacterial alcohol dehydrogenases",
+    "role": "A catalytic metal for bacterial alcohol oxidation",
     "summary": {
-      "text": "Lanthanum is a functional cofactor in selected bacterial alcohol dehydrogenases. Its importance extends beyond fitting a metal into an enzyme: cells must recognize, acquire, transport, and store the ion. The best-characterized systems are specialized environmental bacteria, and their requirements do not imply a lanthanum requirement for people or for every microbiome.",
+      "text": "Lanthanum can occupy an enzyme’s catalytic site rather than merely stick to a bacterium. In ExaF, La(III) works with the organic cofactor PQQ in alcohol oxidation; the lanthanum-containing enzyme efficiently processed ethanol, whereas the preparation obtained with calcium alone had little activity. Acquiring this metal can therefore unlock useful substrate chemistry for a bacterium.",
       "refs": [
-        1,
-        3
+        1
       ]
     },
     "mechanisms": [
       {
-        "text": "ExaF from Methylobacterium extorquens AM1 preferentially incorporated La(III) when calcium was also available. With its PQQ cofactor, the purified enzyme oxidized ethanol and also acted on several other alcohol or aldehyde substrates. This extended lanthanide biochemistry beyond methanol oxidation alone.",
+        "text": "A metal–cofactor partnership. ExaF purified from Methylobacterium extorquens AM1 preferentially contained La(III) even when calcium was available, together with PQQ, the redox cofactor. Enzyme assays connected that metal choice to ethanol oxidation and activity on other alcohol or aldehyde substrates.",
         "refs": [
           1
+        ]
+      },
+      {
+        "text": "Why the metal’s chemistry matters. In related XoxF alcohol dehydrogenases, lanthanides act as Lewis acids: they draw electron density toward themselves within the PQQ-containing catalytic site. Comparative enzyme experiments and calculations connect metal size and coordination to activity. This provides a chemical rationale for metal preference; the detailed reaction pathway and performance of each enzyme require their own tests.",
+        "refs": [
+          4
         ]
       },
       {
@@ -4844,6 +5229,12 @@
         "authors": "Roszczenko-Jasińska P, Vu HN, Subuyuj GA et al.",
         "year": 2020,
         "url": "https://doi.org/10.1038/s41598-020-69401-4"
+      },
+      {
+        "title": "Impact of the lanthanide contraction on the activity of a lanthanide-dependent methanol dehydrogenase – a kinetic and DFT study",
+        "authors": "Lumpe H, Pol A, Op den Camp HJM, Daumann LJ",
+        "year": 2018,
+        "url": "https://doi.org/10.1039/C8DT01238E"
       }
     ],
     "tags": [
@@ -4899,12 +5290,11 @@
     "name": "Cerium",
     "atomicNumber": 58,
     "category": "Lanthanide",
-    "role": "Methanol-dehydrogenase cofactor",
+    "role": "Enabling the methanol-oxidation step in methane metabolism",
     "summary": {
-      "text": "Cerium has a well-defined role in the methanol-oxidizing machinery of selected bacteria and a separate documented effect on extracellular polymer production. Its biological interpretation depends on chemical form: dissolved Ce(III) in culture is not interchangeable with cerium-oxide nanoparticles or other cerium-containing materials.",
+      "text": "Cerium is part of the machinery that lets selected bacteria use methane. After methane is converted to methanol, a cerium-containing XoxF methanol dehydrogenase carries out the next oxidation step. In Methylacidiphilum fumariolicum SolV, lanthanide availability was required for growth and the metal was located in the enzyme. That links an environmental metal supply to a defined carbon-processing reaction.",
       "refs": [
-        1,
-        2
+        1
       ]
     },
     "mechanisms": [
@@ -5097,18 +5487,17 @@
     "name": "Neodymium",
     "atomicNumber": 60,
     "category": "Lanthanide",
-    "role": "Structurally verified microbial enzyme cofactor",
+    "role": "A PQQ-associated enzyme metal whose acquisition controls access to catalysis",
     "summary": {
-      "text": "Neodymium connects enzyme structure, metal preference, and mineral acquisition in microbial metallomics. It has been directly identified in an active methanol dehydrogenase, yet not every lanthanide-using bacterium prefers it. Work comparing soluble and poorly soluble neodymium sources also reveals how microbes obtain the metal before using it.",
+      "text": "Neodymium can be built directly into a working methanol-oxidation enzyme. Structure and activity measurements place Nd in the PQQ-containing active site of XoxF1. The biological challenge starts earlier: poorly soluble neodymium must first be made accessible, and a secreted metallophore called methylolanthanin contributes to acquisition. Uptake and catalysis are two distinct links in the same metal-dependent pathway.",
       "refs": [
         1,
-        2,
         3
       ]
     },
     "mechanisms": [
       {
-        "text": "XoxF1 purified from Methylacidimicrobium thermophilum AP8 contained neodymium after growth with it as the sole supplied lanthanide. Metal measurements, X-ray crystallography, and kinetic assays tied Nd to a functional methanol-oxidizing active site.",
+        "text": "Locate the metal where chemistry happens. XoxF1 purified from Methylacidimicrobium thermophilum AP8 after growth with neodymium contained Nd in its active site alongside PQQ. Metal analysis, crystallography, and methanol-oxidation assays connect the element to a functioning catalytic assembly. Finding neodymium somewhere in a cell would not establish that connection.",
         "refs": [
           1
         ]
@@ -5515,9 +5904,9 @@
     "name": "Strontium",
     "atomicNumber": 38,
     "category": "Alkaline-earth metal",
-    "role": "Urease-linked mineral immobilization",
+    "role": "Urease changes water chemistry so growing minerals capture strontium",
     "summary": {
-      "text": "Strontium illustrates how microbial activity changes a mineral habitat. Urea-degrading bacteria can drive carbonate precipitation that captures dissolved Sr. The useful process is mineral formation: the element is transferred from water into a solid rather than consumed or destroyed.",
+      "text": "Strontium can be captured because bacteria build a different chemical environment. Urea breakdown releases ammonium and bicarbonate and raises pH, favoring calcium-carbonate formation. Dissolved Sr can then enter or associate with the growing mineral. The microbe drives the precipitation chemistry; strontium is transferred into a solid rather than consumed as food.",
       "refs": [
         1,
         2
@@ -5525,8 +5914,9 @@
     },
     "mechanisms": [
       {
-        "text": "Ureolysis changes solution chemistry and promotes calcium carbonate precipitation. In artificial groundwater, the rate of mineral growth and incubation temperature affected how Sr entered calcite. A single removal percentage therefore cannot describe every aquifer.",
+        "text": "Make a mineral trap. Ureolytic bacteria break down urea, changing pH and inorganic-carbon supply so carbonate minerals precipitate. Sr(II) can be incorporated during calcium-carbonate growth or retained at mineral surfaces. Experiments in artificial groundwater showed that temperature and growth kinetics altered incorporation, making mineral formation rate part of the capture mechanism.",
         "refs": [
+          1,
           2
         ]
       },
