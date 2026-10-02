@@ -11,7 +11,7 @@ python3 tools/build_catalog.py
 python3 tools/refresh_site.py
 ```
 
-The first command updates the 54-page reading catalog, CSV export, RSS feeds, and JSON Feed from published article metadata. Design labels are explicitly maintained in `DESIGNS`; do not infer evidence strength from a topic or publication format. The catalog describes this site’s coverage, not a systematic review dataset.
+The first command updates the 57-page reading catalog, CSV export, RSS feeds, and JSON Feed from published article metadata. Design labels are explicitly maintained in `DESIGNS`; do not infer evidence strength from a topic or publication format. The catalog describes this site’s coverage, not a systematic review dataset.
 
 The second command refreshes shared navigation, asset content hashes, search records, RSS discovery, and the sitemap. Vercel caches `/assets` immutably, so rerun this command after changing CSS, JavaScript, or catalog files.
 
@@ -70,3 +70,9 @@ Researcher profiles must explain explicitly how each person's work advances the 
 `assets/data/search-pages.json` maintains concise titles and descriptions for key search intents. Do not create near-duplicate keyword pages or increase word counts merely for search. Preserve primary sources, author identity, distinct page purposes, clear definitions, and the mechanism-to-hypothesis method. No metadata or AI-specific text file guarantees a ranking or citation.
 
 `npm run check` includes discovery-graph/sitemap consistency and linking regressions. After a successful deployment, `python3 tools/notify_indexnow.py --submit` notifies participating engines of the published sitemap; pass specific canonical URLs to notify only those pages. Without `--submit`, it is a local dry run. IndexNow receipt does not establish indexing or ranking. Search Console and Bing Webmaster Tools are the reference for index coverage, search clicks/impressions, and available AI citation reports. Do not fabricate traffic or rank baselines when account reports are unavailable.
+
+## Disease signatures
+
+`assets/data/disease-signatures/` owns the research pathway and its five paper reviews. Run `python3 tools/build_disease_signatures.py`, `python3 tools/build_catalog.py`, and `python3 tools/refresh_site.py`, then `npm run check`. The generator preserves source DOI links, article controls, numbered citations, FAQ metadata, and existing review section anchors. The collection distinguishes postmortem regional findings, spatial proof of concept, and prospective serum associations; it is not a systematic review or a diagnostic tool. Preserve cohort reuse, measurement units, and unresolved source discrepancies when updating findings. Keep hypotheses and discriminating experiments explicit.
+
+The homepage feature and library/evidence pathway cards are maintained in their HTML. Update static catalog fallback cards in library.html, evidence.html, and topics.html when review metadata changes. Shared navigation and reciprocal atlas links come from refresh_site.py and internal-links.json.

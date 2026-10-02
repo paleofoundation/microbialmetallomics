@@ -6,6 +6,63 @@
   "feed_url": "https://microbialmetallomics.com/feeds/all.json",
   "items": [
     {
+      "id": "https://microbialmetallomics.com/library/parkinsons-dementia-brain-metallomic-signature",
+      "url": "https://microbialmetallomics.com/library/parkinsons-dementia-brain-metallomic-signature",
+      "title": "Parkinson’s dementia: shared copper depletion, distinct metal patterns",
+      "content_text": "Brain copper loss in Parkinson’s dementia overlaps Alzheimer’s but differs by region. What this signature enables for microbial metallomics research.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Zinc",
+        "Copper",
+        "Manganese",
+        "Neurobiology"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/dementia-lewy-bodies-brain-metallomic-signatures",
+      "url": "https://microbialmetallomics.com/library/dementia-lewy-bodies-brain-metallomic-signatures",
+      "title": "Dementia’s regional metal signatures",
+      "content_text": "Dementia brain-metal signatures reveal regional copper loss and iron gain. A critical review connects these patterns to testable microbial-metallomics research.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Copper",
+        "Neurobiology"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/alzheimers-brain-copper-metallomic-signature",
+      "url": "https://microbialmetallomics.com/library/alzheimers-brain-copper-metallomic-signature",
+      "title": "Alzheimer’s disease: copper depletion and regional metal contrasts",
+      "content_text": "Alzheimer’s brain copper loss and regional iron and zinc changes reveal a spatial disease signature—and define experiments for microbial metallomics.",
+      "date_published": "2026-10-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Zinc",
+        "Copper",
+        "Neurobiology",
+        "Methods & measurement"
+      ]
+    },
+    {
       "id": "https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot",
       "url": "https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot",
       "title": "Tampon Metals and the Vaginal Microbiome: The Blind Spot in the Risk Assessment",
@@ -836,25 +893,6 @@
       ]
     },
     {
-      "id": "https://microbialmetallomics.com/library/spatial-metallomics-colorectal-cancer",
-      "url": "https://microbialmetallomics.com/library/spatial-metallomics-colorectal-cancer",
-      "title": "Spatial Metallomics in Colorectal Cancer: Copper-Immune and Iron-EMT Pathways",
-      "content_text": "Spatial metallomics pairs LA-ICP-TOF-MS with Visium transcriptomics in colorectal cancer, mapping copper to immune genes and iron to EMT at the tumor front.",
-      "date_published": "2025-11-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "Microbial Metallomics"
-        }
-      ],
-      "tags": [
-        "Paper review",
-        "Iron",
-        "Copper",
-        "Nutritional immunity",
-        "Methods & measurement"
-      ]
-    },
-    {
       "id": "https://microbialmetallomics.com/library/wheat-iron-binding-proteome",
       "url": "https://microbialmetallomics.com/library/wheat-iron-binding-proteome",
       "title": "Proteome-Scale Mapping of Iron-Binding Proteins in Bread Wheat",
@@ -868,6 +906,24 @@
       "tags": [
         "Paper review",
         "Iron",
+        "Methods & measurement"
+      ]
+    },
+    {
+      "id": "https://microbialmetallomics.com/library/spatial-metallomics-colorectal-cancer",
+      "url": "https://microbialmetallomics.com/library/spatial-metallomics-colorectal-cancer",
+      "title": "Colorectal cancer: mapping metals, cells, and microbial questions",
+      "content_text": "Colorectal cancer metal maps reveal distinct copper and iron neighborhoods. What they measured, and how to test microbial access, host response and disease.",
+      "date_published": "2025-11-11T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microbial Metallomics"
+        }
+      ],
+      "tags": [
+        "Paper review",
+        "Iron",
+        "Copper",
         "Methods & measurement"
       ]
     },
@@ -939,8 +995,8 @@
     {
       "id": "https://microbialmetallomics.com/library/heavy-metals-obesity-pregnancy-upbeat",
       "url": "https://microbialmetallomics.com/library/heavy-metals-obesity-pregnancy-upbeat",
-      "title": "Maternal Metallomic Profiles in Pregnancy with Obesity: A Secondary Analysis of UPBEAT",
-      "content_text": "UPBEAT analysis profiled 18 serum metals in 755 pregnant women with obesity: elevated manganese linked to antepartum hemorrhage, phosphorus to NICU care.",
+      "title": "Maternal metallomics: what UPBEAT opens for microbial research",
+      "content_text": "UPBEAT links maternal manganese and phosphorus to later outcomes. What the evidence means, and how to test host and microbial metal handling.",
       "date_published": "2025-11-10T00:00:00Z",
       "authors": [
         {

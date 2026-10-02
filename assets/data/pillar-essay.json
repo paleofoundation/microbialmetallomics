@@ -284,6 +284,80 @@
       "nav": "From signature to function"
     },
     {
+      "id": "disease-signatures-as-constraints",
+      "title": "A disease metal signature tells a microbial hypothesis what it must explain",
+      "nav": "Disease metal signatures",
+      "aliases": [],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Disease metallomics makes a microbial hypothesis more demanding—and more useful. A proposed mechanism must explain the direction, location and timing of the elemental changes, including the observations that resist a simple story of deficiency or excess. The signature supplies a phenotype against which an explanation can fail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Post-mortem Alzheimer’s tissue showed copper depletion across all seven sampled regions, alongside regional iron and zinc increases; cerebellar zinc instead fell. Parkinson’s disease dementia also showed widespread copper loss, without significant regional iron changes in that dataset. The Lewy body dementia study found another regional pattern, including lower copper with higher iron in the cingulate gyrus. The 2024 comparison reused the earlier AD/PDD datasets: these are connected observations, not three independent replications.",
+          "refs": [
+            25,
+            26,
+            24
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Move from a disease pattern to a testable microbial mechanism. The later steps are proposed research, not results of the brain studies.",
+          "headers": [
+            "Evidence step",
+            "What would advance the explanation"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Observed signature",
+                "Replicate the regional pattern with independent donors and matched anatomy. Bulk tissue concentration does not establish usable metal or microbial capture."
+              ]
+            },
+            {
+              "cells": [
+                "Mechanistic connection",
+                "Pair expressed microbial metal-handling functions with host transport, metal speciation and compartment-specific flux. Separate altered absorption from redistribution or changing cell populations."
+              ]
+            },
+            {
+              "cells": [
+                "Causal test",
+                "Perturb the nominated microbial function while controlling metal intake; demonstrate the predicted host-metal change and functional consequence, then test a specific rescue."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "proposal",
+          "title": "Make shared copper loss and divergent regional patterns part of the same test",
+          "text": "A candidate community function should predict more than lower host copper. Test whether it can also account for where copper falls and why iron or zinc moves differently. No organisms or microbial functions were measured in these brain studies.",
+          "refs": [
+            24,
+            25,
+            26
+          ],
+          "measures": [
+            "Use repeated paired intestinal and systemic measurements to identify a directional candidate, then test neural delivery in an appropriate model.",
+            "Compare intact versus disrupted microbial metal-handling functions with genetic complementation; measure host transport, chemical pools and the predicted enzyme activity."
+          ],
+          "decision": "If microbial perturbation changes community composition but leaves the predicted metal flux unchanged, that weakens the proposed route. If restoring host delivery rescues function without changing microbial activity, host allocation may be the more direct intervention target."
+        },
+        {
+          "type": "link",
+          "text": "Explore the metallomic signatures of disease research program",
+          "url": "/disease-signatures"
+        },
+        {
+          "type": "link",
+          "text": "Read the Lewy body dementia paper and the experiments its regional map makes possible",
+          "url": "/library/dementia-lewy-bodies-brain-metallomic-signatures"
+        }
+      ]
+    },
+    {
       "id": "ms-as-an-open-question",
       "title": "MS shows how to connect evidence without collapsing it",
       "blocks": [
@@ -607,6 +681,24 @@
       "authors": "Coryell M, McAlpine M, Pinkham NV et al.",
       "year": 2018,
       "url": "https://doi.org/10.1038/s41467-018-07803-9"
+    },
+    {
+      "authors": "Scholefield M, Church SJ, Xu J, Cooper GJS",
+      "year": 2024,
+      "title": "Metallomic analysis of brain tissues distinguishes between cases of dementia with Lewy bodies, Alzheimer’s disease, and Parkinson’s disease dementia",
+      "url": "https://doi.org/10.3389/fnins.2024.1412356"
+    },
+    {
+      "authors": "Xu J et al.",
+      "year": 2017,
+      "title": "Evidence for widespread, severe brain copper deficiency in Alzheimer’s dementia",
+      "url": "https://doi.org/10.1039/c7mt00074j"
+    },
+    {
+      "authors": "Scholefield M et al.",
+      "year": 2021,
+      "title": "Widespread Decreases in Cerebral Copper Are Common to Parkinson’s Disease Dementia and Alzheimer’s Disease Dementia",
+      "url": "https://doi.org/10.3389/fnagi.2021.641222"
     }
   ]
 }

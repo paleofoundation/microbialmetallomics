@@ -1,0 +1,182 @@
+{
+  "slug": "spatial-metallomics-colorectal-cancer",
+  "title": "Colorectal cancer: mapping metals, cells, and microbial questions",
+  "shortTitle": "Spatial metallomics in colorectal cancer",
+  "description": "Colorectal cancer metal maps reveal distinct copper and iron neighborhoods. What they measured, and how to test microbial access, host response and disease.",
+  "deck": "Metal geography gives microbial hypotheses an address. The next task is to measure who occupies that address and which metal pool they can actually use.",
+  "published": "2025-11-11",
+  "updated": "2026-10-02",
+  "keywords": "spatial metallomics, colorectal cancer, copper, iron, tumor microbiome, microbial metal access",
+  "design": "Methods / proof of concept",
+  "setting": "Human tissue",
+  "paper": {
+    "title": "Integration of elemental imaging and spatial transcriptomic profiling for proof-of-concept metals-based pathway analysis of colon tumor microenvironment",
+    "authors": "Srivastava A, Shaik N, Lu Y, Chan M, Diallo A, Zavras J, Han S, Punshon T, Jackson B, Vahdat L, Liu X, Mittal V, Lau K, Gui J, Vaickus L, Hoopes J, Kolling F, Perreard L, Marotti J, Levy J",
+    "year": 2025,
+    "journal": "Metallomics 17(10):mfaf034",
+    "doi": "10.1093/mtomcs/mfaf034",
+    "url": "https://doi.org/10.1093/mtomcs/mfaf034"
+  },
+  "summary": {
+    "text": "A tumor’s average iron concentration cannot tell us whether iron sits in bleeding vessels, stromal stores, cancer cells or a pool that nearby bacteria can acquire. That distinction could decide whether an intervention deprives a tumor, impairs immunity, or changes a microbial niche. Srivastava and colleagues make the distinction experimentally approachable: their proof-of-concept maps elemental geography onto gene expression and tissue architecture in one colorectal tumor. Its importance is the opportunity to ask which cells and processes share a metal-rich neighborhood, and then test who controls access to that metal.",
+    "refs": [
+      1
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-the-study-examined",
+      "title": "What the maps actually measured",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The study combines 5 μm elemental imaging with 55 μm Visium transcriptomic spots on adjacent tissue sections. Integration occurs at the larger spot scale. In this specimen, copper tracked tumor and immune-response regions; iron tracked stromal/mesenchymal features and programs associated with invasion and matrix remodeling. Zinc also marked the tumor interface and normal muscle architecture. These are locally distinct patterns, not a universal “high metals” cancer state.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elemental abundance is not chemical speciation or a measurement of labile metal. The study did not profile microorganisms. Its within-specimen spatial models are not a validated diagnostic classifier; neighboring spots also cannot substitute for independent patients.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "link",
+          "text": "Elemental imaging, speciation and their different answers",
+          "url": "/methods"
+        }
+      ]
+    },
+    {
+      "id": "methods-pairing-elemental-imaging-with-s",
+      "title": "Why the neighborhood matters",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A bulk concentration compresses several biological economies into one number. A vascular region, macrophage-rich interface and growing cancer-cell cluster can contain similar totals for different reasons. Conversely, the same tissue total could conceal deprivation in one cell population and accumulation in another. A useful microbial-metallomic signature therefore needs coordinates: element, chemical pool, tissue compartment, host cell, microbial function and time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The CRC paper establishes part of those coordinates. It does not identify microbial occupants or measure their access to the mapped metals. That missing layer now has a concrete place to go. Rather than correlating a stool taxon with a whole-tumor metal concentration, researchers can ask whether a bacterial microniche sits within the particular iron-, copper- or zinc-associated host program that matters to disease."
+        },
+        {
+          "type": "link",
+          "text": "Iron: acquisition, sequestration and microbial competition",
+          "url": "/metals/iron"
+        }
+      ]
+    },
+    {
+      "id": "relevance-to-the-metal-microbiome-diseas",
+      "title": "A bridge to intratumoral microbiology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An independent study by Galeano Niño and colleagues showed that bacteria in human colorectal and oral tumors occupy organized microniches with distinct immune and epithelial features, and used spatial, single-cell and experimental methods to examine their effects. Put beside the elemental workflow, this provides a practical research direction: apply both approaches to the same tumors.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The justified hypothesis is that some host metal distributions help select microbial functions, while microbes and host responses help remodel those distributions. This predicts local relationships with expressed acquisition, storage or resistance systems, not simply with a genus name. A bacterium bearing an iron transporter is not necessarily using it in that tissue; a copper-rich host compartment is not necessarily accessible or hospitable to that bacterium. The relevant question is whether the organism is demonstrably responding to the particular chemical conditions around it."
+        }
+      ]
+    },
+    {
+      "id": "key-findings-copper-with-immunity-iron-w",
+      "title": "Iron: invasion signal, bleeding signal, or shared resource?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The iron–EMT association gives several competing explanations to test. An invasive niche might require iron-dependent host metabolism. Previous bleeding might deposit heme or stored iron in stroma. Bacteria might exploit a fraction of that material and amplify inflammation. Each explanation could produce an iron-rich map, yet each implies a different intervention.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "proposal",
+          "title": "Separate microbial capture from bleeding and host storage",
+          "text": "Co-map iron chemistry, host architecture and bacterial activity, then test the inferred acquisition function in a controlled tumor system.",
+          "measures": [
+            "Locate hemorrhage, heme, ferritin and iron-handling cells beside the elemental image.",
+            "Measure accessible iron and local microbial activity, using contamination controls.",
+            "Compare matched microbes with intact acquisition, targeted disruption and genetic complementation; measure both host and microbial outcomes."
+          ],
+          "decision": "A function-dependent fitness effect that changes with metal availability and is restored by complementation supports microbial selection. A pattern that persists without microbes and follows bleeding or host composition favors a host-driven explanation."
+        }
+      ]
+    },
+    {
+      "id": "mechanistic-interpretation",
+      "title": "Copper: the intervention must preserve useful biology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Copper co-localization with immune pathways creates a particularly consequential ambiguity. The same metal may support tumor metabolism, accompany immune infiltration, and participate in microbial stress. The study did not establish which of these accounts for each hotspot. A “copper-high” label alone therefore cannot select a therapeutic direction.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A discriminating study would measure host copper transport and immune function alongside microbial copper-resistance expression. In a tractable model, a microbial efflux defect should alter persistence specifically where bioavailable copper creates stress; rescue and host-transport perturbations would test the proposed mechanism. If changing copper reduces bacteria but also disables useful immune activity, that tradeoff becomes visible. Spatial selectivity could then become an intervention design requirement rather than an afterthought."
+        },
+        {
+          "type": "link",
+          "text": "Copper at the host–microbe interface",
+          "url": "/metals/copper"
+        }
+      ]
+    },
+    {
+      "id": "a-testable-disease-signature",
+      "title": "What would turn this into a disease signature?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Start with multiple patients, tumor and adjacent non-tumor regions, and matching tissue architectures. Use spatial models that account for neighboring measurements, quantify preparation artifacts, and validate the resulting signature in held-out patients. Add bacterial localization with contamination controls and functional microbial measurements; add speciation or labile-pool assays where the claim concerns access. A static map then becomes the starting point for flux and perturbation experiments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike the dementia comparison, which asks whether regional post-mortem element patterns distinguish disease groups, this CRC study resolves different neighborhoods inside one tumor. It establishes a method for locating a mechanism, not an independently validated cancer classifier. Its strongest contribution to microbial metallomics is the ability to replace “metals and microbes are both associated with cancer” with a sharper question: which metal pool, in which neighborhood, selects which microbial activity, and does changing that activity change the host’s disease program?"
+        },
+        {
+          "type": "link",
+          "text": "Compare spatial tumors, regional brain tissue and circulating profiles",
+          "url": "/disease-signatures"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Did this study show that bacteria caused the metal patterns?",
+      "answer": "No. The study mapped host elemental and molecular features in one colorectal tumor and did not measure microorganisms. The microbial value is a specific next experiment: co-map bacteria, accessible metal pools and host programs, then perturb the proposed microbial function."
+    },
+    {
+      "question": "Was the combined analysis performed at single-cell resolution?",
+      "answer": "No. Elemental imaging used 5 μm resolution, but the integrated elemental and transcriptomic analysis aggregated signals to 55 μm Visium spots across adjacent tissue sections."
+    },
+    {
+      "question": "Does high tumor iron or copper identify a treatment?",
+      "answer": "A total-metal hotspot cannot by itself identify whether a metal supports cancer cells, host immunity, microbial growth or storage after bleeding. Intervention research must distinguish those pools and measure benefits and tradeoffs in each compartment."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Srivastava A, Shaik N, Lu Y, Chan M, Diallo A, Zavras J, Han S, Punshon T, Jackson B, Vahdat L, Liu X, Mittal V, Lau K, Gui J, Vaickus L, Hoopes J, Kolling F, Perreard L, Marotti J, Levy J",
+      "year": 2025,
+      "title": "Integration of elemental imaging and spatial transcriptomic profiling for proof-of-concept metals-based pathway analysis of colon tumor microenvironment",
+      "url": "https://doi.org/10.1093/mtomcs/mfaf034"
+    },
+    {
+      "authors": "Galeano Niño JL, Wu H, LaCourse KD, et al.",
+      "year": 2022,
+      "title": "Effect of the intratumoral microbiota on spatial and cellular heterogeneity in cancer",
+      "url": "https://doi.org/10.1038/s41586-022-05435-0"
+    }
+  ]
+}

@@ -15,6 +15,9 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://microbialmetallomics.com'
 # These descriptions are explicitly stated in the existing cited reviews.
 DESIGNS = {
+ 'dementia-lewy-bodies-brain-metallomic-signatures': ('Observational study','Human postmortem tissue'),
+ 'alzheimers-brain-copper-metallomic-signature': ('Observational study','Human postmortem tissue'),
+ 'parkinsons-dementia-brain-metallomic-signature': ('Observational study','Human postmortem tissue'),
  'iron-fortification-kenyan-infant-microbiome': ('Randomized trial','Human'),
  'iron-supplements-microbiome-reproductive-women': ('Randomized trial','Human'),
  'lactobacillus-plantarum-299v-oral-iron': ('Randomized trial','Human'),
@@ -40,7 +43,7 @@ DESIGNS = {
  'spatial-metallomics-colorectal-cancer': ('Methods / proof of concept','Human tissue'),
 }
 METALS = ['Iron','Zinc','Copper','Nickel','Manganese','Arsenic','Cadmium','Lead','Mercury','Gallium','Cobalt','Molybdenum','Tungsten']
-THEMES = {'Nutritional immunity':r'nutritional immunity|infection|immune|pathogen', 'Early life':r'infant|child|prenatal|pediatric|pregnan|baby|neonatal', 'Neurobiology':r'parkinson|neuro|brain|cognition|depression', 'Metabolic health':r'obesity|metabolic|diabetes|fatty liver', 'Environmental exposure':r'fertilizer|soil|arsenic|cadmium|lead|mercury|tobacco|exposure', 'Methods & measurement':r'spectro|metalloproteom|proteome|spatial|cofactor|biosynthesis', 'Vaginal microbiome':r'vaginal|tampon'}
+THEMES = {'Nutritional immunity':r'nutritional immunity|infection|immune|pathogen', 'Early life':r'infant|child|prenatal|pediatric|pregnan|baby|neonatal', 'Neurobiology':r'parkinson|alzheimer|dementia|neuro|brain|cognition|depression', 'Metabolic health':r'obesity|metabolic|diabetes|fatty liver', 'Environmental exposure':r'fertilizer|soil|arsenic|cadmium|lead|mercury|tobacco|exposure', 'Methods & measurement':r'spectro|metalloproteom|proteome|spatial|cofactor|biosynthesis', 'Vaginal microbiome':r'vaginal|tampon'}
 
 def plain(value):
  return ' '.join(unescape(re.sub('<[^>]+>',' ',value or '')).split())

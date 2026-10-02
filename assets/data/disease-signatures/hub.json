@@ -1,0 +1,417 @@
+{
+  "title": "Metallomic Signatures of Disease",
+  "shortTitle": "Metallomic signatures of disease",
+  "description": "Explore disease metal signatures in dementia, colorectal cancer and pregnancy—and the experiments that could connect them to microbial mechanisms.",
+  "deck": "Disease can leave a pattern across metals, tissues, and cells. The opportunity is to turn that pattern into a mechanism: who moves the metal, who uses it, and what changes when that access changes.",
+  "published": "2026-10-02",
+  "updated": "2026-10-02",
+  "keywords": "metallomic signatures of disease, microbial metallomics, dementia, copper, iron, zinc, manganese, microbiome medicine, spatial metallomics",
+  "summaryTitle": "The signature is a starting point for finding the mechanism.",
+  "summary": {
+    "text": "In the dementia with Lewy bodies study that anchors this collection, the cingulate gyrus contained less copper but more iron than control tissue. In Alzheimer’s disease, lower copper concentrations extended across the sampled brain while iron and zinc changes depended on the region. These patterns ask a more revealing question than whether a patient has “high metals” or “low metals”: which biological systems have lost access, which compartments retain metal, and why do those changes occur together?",
+    "refs": [
+      1,
+      2
+    ]
+  },
+  "cards": {
+    "dementia-lewy-bodies-brain-metallomic-signatures": {
+      "group": "brain",
+      "label": "Anchor study · Scholefield et al. · 2024",
+      "finding": "Dementia with Lewy bodies: regional elemental changes and an exploratory comparison with Alzheimer’s and Parkinson’s disease dementia.",
+      "opportunity": "Separate a shared disturbance of metal handling from disease-specific regional vulnerability.",
+      "missing": "Paired microbial functions, host metal transport, and chemical forms in the same participants."
+    },
+    "alzheimers-brain-copper-metallomic-signature": {
+      "group": "brain",
+      "label": "Brain tissue · Xu et al. · 2017",
+      "finding": "Lower copper throughout sampled tissue coexists with regional increases in iron and zinc.",
+      "opportunity": "Test whether copper delivery, cell composition, or sequestration explains the tissue pattern.",
+      "missing": "Measure community metal handling alongside host transport and copper-dependent function."
+    },
+    "parkinsons-dementia-brain-metallomic-signature": {
+      "group": "brain",
+      "label": "Brain tissue · Scholefield et al. · 2021",
+      "finding": "Widespread lower copper overlaps with Alzheimer’s disease, but regional patterns differ.",
+      "opportunity": "Distinguish a common downstream stress from distinct routes into neurodegeneration.",
+      "missing": "Longitudinal microbial and metal measurements before advanced disease."
+    },
+    "spatial-metallomics-colorectal-cancer": {
+      "group": "tumor",
+      "label": "Spatial proof of concept · Srivastava et al. · 2025",
+      "finding": "Elemental imaging aligns with host gene expression in one colorectal tumor.",
+      "opportunity": "Locate the metal, host cell program, and microbial niche in a shared tissue map.",
+      "missing": "Direct bacterial localization, microbial metal-handling activity, and chemical speciation."
+    },
+    "heavy-metals-obesity-pregnancy-upbeat": {
+      "group": "serum",
+      "label": "Prospective associations · Agostinho de Sousa et al. · 2025",
+      "finding": "Early-pregnancy serum elemental profiles associate with selected later outcomes in women living with obesity.",
+      "opportunity": "Test when a circulating pattern reflects inflammation, transport, diet, or microbial ecology.",
+      "missing": "Repeated paired stool, serum, inflammatory, and metal-binding measurements."
+    }
+  },
+  "sources": [
+    {
+      "authors": "Scholefield M, Church SJ, Xu J, Cooper GJS",
+      "year": 2024,
+      "title": "Metallomic analysis of brain tissues distinguishes between cases of dementia with Lewy bodies, Alzheimer’s disease, and Parkinson’s disease dementia",
+      "url": "https://doi.org/10.3389/fnins.2024.1412356"
+    },
+    {
+      "authors": "Xu J et al.",
+      "year": 2017,
+      "title": "Evidence for widespread, severe brain copper deficiency in Alzheimer’s dementia",
+      "url": "https://doi.org/10.1039/c7mt00074j"
+    },
+    {
+      "authors": "Scholefield M et al.",
+      "year": 2021,
+      "title": "Widespread Decreases in Cerebral Copper Are Common to Parkinson’s Disease Dementia and Alzheimer’s Disease Dementia",
+      "url": "https://doi.org/10.3389/fnagi.2021.641222"
+    },
+    {
+      "authors": "Srivastava A et al.",
+      "year": 2025,
+      "title": "Integration of elemental imaging and spatial transcriptomic profiling for proof-of-concept metals-based pathway analysis of colon tumor microenvironment",
+      "url": "https://doi.org/10.1093/mtomcs/mfaf034"
+    },
+    {
+      "authors": "Agostinho de Sousa J et al.",
+      "year": 2025,
+      "title": "Metallomic profiles of pregnant women living with obesity in the UK: a secondary analysis of UPBEAT",
+      "url": "https://doi.org/10.1093/mtomcs/mfaf031"
+    },
+    {
+      "authors": "Deschemin JC et al.",
+      "year": 2016,
+      "title": "The microbiota shifts the iron sensing of intestinal cells",
+      "url": "https://doi.org/10.1096/fj.15-276840"
+    },
+    {
+      "authors": "Sampson TR et al.",
+      "year": 2016,
+      "title": "Gut Microbiota Regulate Motor Deficits and Neuroinflammation in a Model of Parkinson’s Disease",
+      "url": "https://doi.org/10.1016/j.cell.2016.11.018"
+    },
+    {
+      "authors": "Liu JZ et al.",
+      "year": 2012,
+      "title": "Zinc sequestration by the neutrophil protein calprotectin enhances Salmonella growth in the inflamed gut",
+      "url": "https://doi.org/10.1016/j.chom.2012.01.017"
+    },
+    {
+      "authors": "Chaturvedi KS et al.",
+      "year": 2012,
+      "title": "The siderophore yersiniabactin binds copper to protect pathogens during infection",
+      "url": "https://doi.org/10.1038/nchembio.1020"
+    },
+    {
+      "authors": "Nemeth E et al.",
+      "year": 2004,
+      "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
+      "url": "https://doi.org/10.1126/science.1104742"
+    }
+  ],
+  "sections": [
+    {
+      "id": "read-the-pattern",
+      "title": "Read the pattern before naming a cause",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A metallomic signature is a pattern of elemental measurements defined by its specimen, method, and clinical setting. Its reproducibility must be tested. A candidate signature can guide discovery before it qualifies as a diagnostic test. Its value increases when the pattern makes competing explanations predict different results.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "These studies answer different questions; their measurements cannot be pooled as one disease score.",
+          "headers": [
+            "Study",
+            "What the measurement can reveal",
+            "What would strengthen the inference"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "DLB, 2024",
+                "Regional total-element differences and exploratory cross-dementia separation.",
+                "Independent cases and controls; harmonized anatomical regions; held-out validation."
+              ],
+              "refs": [
+                1
+              ]
+            },
+            {
+              "cells": [
+                "Alzheimer’s, 2017",
+                "Copper loss across sampled regions with contrasting iron and zinc changes.",
+                "Cell-resolved metal pools and assays of copper-dependent function."
+              ],
+              "refs": [
+                2
+              ]
+            },
+            {
+              "cells": [
+                "PDD, 2021",
+                "Shared copper depletion with a different regional pattern.",
+                "Age-balanced replication with independent controls and earlier disease stages."
+              ],
+              "refs": [
+                3
+              ]
+            },
+            {
+              "cells": [
+                "Colorectal cancer, 2025",
+                "Elemental maps aligned to host transcriptomic neighborhoods in one specimen.",
+                "Multiple patients; bacterial localization; retain the distinction between 5 μm metal imaging and 55 μm transcriptomic spots."
+              ],
+              "refs": [
+                4
+              ]
+            },
+            {
+              "cells": [
+                "UPBEAT, 2025",
+                "Serum measurements taken before later pregnancy outcomes.",
+                "Replication and repeated measurements; assess the signals that survive multiple-testing correction."
+              ],
+              "refs": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The three dementia papers are connected evidence, not three independent replications. The DLB paper compares new DLB measurements with earlier AD and PDD data; the PDD analysis also uses selected historical controls. The reviews track this relationship and unresolved region labels explicitly. A coherent pattern across related datasets is valuable, but a new laboratory and a new cohort would test a different and necessary question.",
+          "refs": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nor is an elemental total a map of bioavailability. Digestion-based ICP-MS tells us how much of an element is present in the sampled tissue. It does not, on its own, show oxidation state, ligand, accessible pool, enzyme occupancy, or the cell carrying it. This collection treats those missing dimensions as the next measurements to make.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/methods",
+          "text": "Choose methods for amount, location, and chemical form"
+        }
+      ]
+    },
+    {
+      "id": "the-microbial-bridge",
+      "title": "The microbial bridge has testable foundations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A microbiome explanation becomes stronger when it specifies a route by which microbes change host metal handling. Deschemin and colleagues found that colonization changed intestinal iron-related proteins in mice, while the measured systemic iron parameters did not change. That is a concrete precedent for a local host–microbial metal phenotype being missed by a circulating measurement. It does not establish the cause of a dementia brain signature.",
+          "refs": [
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate experiment by Sampson and colleagues linked gut microbiota to motor and neuroinflammatory phenotypes in α-synuclein-overexpressing mice, including effects of microbiota from Parkinson’s donors. It did not measure the regional metallome reviewed here. Together these studies motivate an experiment that measures both pathways; they do not yet connect them in one causal chain.",
+          "refs": [
+            7
+          ]
+        },
+        {
+          "type": "path",
+          "caption": "A proposed chain to test—not a mechanism already demonstrated in the dementia cohorts.",
+          "steps": [
+            {
+              "label": "Microbial function",
+              "text": "A community changes metal binding, transformation, uptake, or inflammatory signaling."
+            },
+            {
+              "label": "Host routing",
+              "text": "Intestinal transport, circulating ligands, immune retention, and tissue delivery change."
+            },
+            {
+              "label": "Disease compartment",
+              "text": "A specified cell loses or gains a functional metal pool, altering its activity."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The critical opportunity is to connect the arrows experimentally. A shift in a bacterial genus is not enough: strains can differ in metal acquisition, expression depends on the local environment, and a gene can be present without carrying the relevant flux. A useful signature therefore records the community’s active chemistry alongside its membership.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/blog/metal-microbiome-disease-axis#a-functional-signature",
+          "text": "Read the pillar essay’s argument for a functional microbial signature"
+        }
+      ]
+    },
+    {
+      "id": "from-taxa-to-functions",
+      "title": "Ask what the community can do to the metal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use a disease signature to prioritize functional questions, then test the organisms and pathways capable of answering them. Do not reverse-engineer a list of pathogens from a copper or iron measurement alone.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "Candidate research measurements—not organism diagnoses from a metal panel.",
+          "headers": [
+            "Observed or suspected pattern",
+            "Measure the microbial function",
+            "Measure the host response and competing explanation"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Local iron retention with poor circulating availability",
+                "Siderophore production and uptake; iron-binding metabolites; absolute microbial load and expression.",
+                "Hepcidin, ferroportin, ferritin, inflammation, bleeding, and cell composition. Host regulation could generate the pattern without microbial metal theft."
+              ],
+              "refs": [
+                10
+              ]
+            },
+            {
+              "cells": [
+                "Inflamed, zinc-restricted intestinal niche",
+                "High-affinity zinc uptake and fitness under calprotectin exposure.",
+                "Local zinc availability and calprotectin, rather than assuming serum zinc describes the gut niche."
+              ],
+              "refs": [
+                8
+              ]
+            },
+            {
+              "cells": [
+                "Copper-associated microbial survival",
+                "Secreted metal-binding chemistry and copper stress responses, tested in the relevant strain.",
+                "Copper delivery and immune-cell activity. A binding molecule may protect a microbe from copper toxicity rather than simply deprive the host."
+              ],
+              "refs": [
+                9
+              ]
+            },
+            {
+              "cells": [
+                "A brain elemental pattern with a gut community association",
+                "Matched metagenomics, metatranscriptomics, metal-binding metabolites, and functional cultures.",
+                "Diet, medication, gut transit, intestinal transport, blood–brain interfaces, pathology, and tissue cell composition; establish which route changes first."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Liu and colleagues showed why the ecological setting matters: calprotectin-mediated zinc restriction can favor Salmonella equipped to compete in the inflamed gut. Chaturvedi and colleagues showed that yersiniabactin can bind copper and protect a uropathogen. Neither result identifies those organisms in a dementia cohort. Both show why “more metal feeds bacteria” is too coarse to be a research model: host defense, microbial resistance, and chemical form can change the sign of the effect.",
+          "refs": [
+            8,
+            9
+          ]
+        },
+        {
+          "type": "link",
+          "url": "/metals/zinc",
+          "text": "Follow zinc, calprotectin, and microbial competition"
+        },
+        {
+          "type": "link",
+          "url": "/metals/copper",
+          "text": "Follow copper nutrition, trafficking, and antimicrobial pressure"
+        }
+      ]
+    },
+    {
+      "id": "the-next-study",
+      "title": "Design the study that makes the explanations disagree",
+      "blocks": [
+        {
+          "type": "proposal",
+          "title": "Pair the community with the compartment",
+          "text": "Recruit a well-defined disease cohort and matched comparison groups, collecting repeated microbial and metal measurements from the same people. Treat the postmortem pattern as a discovery map for selecting tissue and functions, not as a ready-made blood test.",
+          "measures": [
+            "Record diet, supplement formulation and route, medication, age, sex, renal function, inflammatory state, gut transit, and disease stage before choosing a model.",
+            "Pair stool and blood at the same visits; add tissue or cerebrospinal fluid only when clinically justified or ethically collected for research. Do not substitute one specimen for another.",
+            "Measure elemental amounts alongside binding proteins, selected chemical species, microbial genes and transcripts, and absolute abundance. Preserve preanalytical controls, blanks, and batch information.",
+            "Predefine the proposed mediator and time order. Keep participants—not tissue regions from the same participant—separate across model training and validation.",
+            "Prespecify multiple-testing control. Fit preprocessing and feature selection within training data only, so validation remains independent of discovery.",
+            "Validate the pattern in a new cohort before using it to stratify a perturbation experiment."
+          ],
+          "decision": "If the microbial function precedes the host metal change, predicts it beyond covariates, and can reproduce it in an appropriate model, the bridge strengthens. If the metal pattern instead tracks cell loss or inflammation independently of that function, the research should follow that route."
+        },
+        {
+          "type": "proposal",
+          "title": "Perturb the proposed function, then rescue it",
+          "text": "Choose an isolate or defined community carrying the candidate function. Compare it with a matched disruption of that function under physiologically relevant metal forms, concentrations, and inflammatory conditions.",
+          "measures": [
+            "Track metal movement with suitable stable isotopes where feasible, separating microbial biomass, extracellular complexes, host cells, and tissue pools.",
+            "Measure host enzyme activity and microbial fitness together. Restoring a concentration without restoring function is a different outcome.",
+            "Use genetic complementation or a chemically specific rescue. A broadly toxic chelator that suppresses all growth does not isolate the proposed mechanism.",
+            "Ask whether changing the community function changes the host metal phenotype before it changes the disease-relevant outcome."
+          ],
+          "decision": "Loss of the phenotype after a targeted disruption and its return with rescue would support that function’s role in the tested model. Failure despite confirmed target engagement would weigh against the proposed route, rather than merely add another association."
+        }
+      ]
+    },
+    {
+      "id": "what-the-field-gains",
+      "title": "What the field gains from doing this well",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The immediate product is a better map of unanswered biology: distinguish shared metal-handling failure from disease-specific vulnerability; distinguish microbial cause from microbial adaptation to host disease; identify which assays are missing before testing an intervention. A positive mechanism could eventually support functional patient subgroups, local biomarkers, or interventions that change a particular metal route. A well-designed negative result can eliminate an attractive but incorrect route.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "For microbiome medicine, this changes the unit of explanation. The target is not merely an organism that is enriched in disease, nor a serum metal that differs between groups. It is a defined interaction: an expressed microbial function, acting on an accessible metal pool, through a host pathway, in a disease-relevant compartment. That is a research program capable of generating its next experiment.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a selected, source-checked research pathway, not an exhaustive systematic review. The selection spans regional brain measurements, spatial tumor biology, and prospective serum data to show how the question changes with the specimen. Study-specific discrepancies, alternative explanations, and discriminating experiments are detailed in each review.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "url": "/start-here",
+          "text": "Start with the organizing thesis: enough metal, available to whom?"
+        },
+        {
+          "type": "link",
+          "url": "/metals/iron",
+          "text": "Work through iron restriction, delivery, and microbial access"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a disease’s metal signature identify the responsible microbes?",
+      "answer": "Not by itself. It can prioritize microbial functions to investigate. Identifying a contribution requires paired microbial measurements, evidence that the function is active in the relevant compartment, and experiments that distinguish it from host regulation and other explanations."
+    },
+    {
+      "question": "Why investigate microbial mechanisms before a treatment is proven?",
+      "answer": "A mechanism is a reason to design a discriminating experiment. It does not have to wait for a clinical treatment result. The key is to state the proposed chain clearly and identify what would support, weaken, or refute it."
+    },
+    {
+      "question": "Does copper depletion in a brain study mean copper supplements would help?",
+      "answer": "A lower tissue total does not reveal whether the problem is intake, transport, sequestration, cell loss, or functional delivery. The next task is to identify the affected pool and demonstrate that changing it restores the relevant function."
+    },
+    {
+      "question": "Are these signatures ready to diagnose disease?",
+      "answer": "The reviewed findings have different purposes and levels of validation. The dementia comparisons are exploratory; the colorectal work is a one-specimen spatial proof of concept; UPBEAT reports prospective associations. None of those descriptions is equivalent to an independently validated clinical diagnostic test."
+    }
+  ]
+}

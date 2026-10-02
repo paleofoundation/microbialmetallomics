@@ -1,0 +1,250 @@
+{
+  "slug": "heavy-metals-obesity-pregnancy-upbeat",
+  "title": "Maternal metallomics: what UPBEAT opens for microbial research",
+  "shortTitle": "Maternal metallomics in UPBEAT",
+  "description": "UPBEAT links maternal manganese and phosphorus to later outcomes. What the evidence means, and how to test host and microbial metal handling.",
+  "deck": "An early serum association is a clue to investigate. The next step is to identify whether intake, host redistribution, microbial access or a combination produced it.",
+  "published": "2025-11-10",
+  "updated": "2026-10-02",
+  "keywords": "maternal metallomics, UPBEAT, pregnancy obesity, manganese, phosphorus, microbial metal handling",
+  "design": "Observational study",
+  "setting": "Human",
+  "paper": {
+    "title": "Metallomic profiles of pregnant women living with obesity in the UK: a secondary analysis of UPBEAT",
+    "authors": "Agostinho de Sousa J, Griffiths A, Dalrymple KV, White SL, von Meyenn F, Poston L, Rigutto-Farebrother J, Flynn AC, on behalf of the UPBEAT Consortium",
+    "year": 2025,
+    "journal": "Metallomics 17(8):mfaf031",
+    "doi": "10.1093/mtomcs/mfaf031",
+    "url": "https://doi.org/10.1093/mtomcs/mfaf031"
+  },
+  "summary": {
+    "text": "Agostinho de Sousa and colleagues profiled 18 serum elements in 755 pregnant women living with obesity. Samples were collected at 15–18 weeks, before the late pregnancy and neonatal outcomes analyzed. Higher manganese was associated with later antepartum hemorrhage, and higher phosphorus with neonatal intensive-care admission. This is a prospective association map in a defined population. The route toward microbial metallomics is to investigate the processes behind the signals, while preserving the difference between a circulating marker and a microbial resource.",
+    "refs": [
+      1
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-the-study-examined",
+      "title": "A blood profile is the beginning of an explanation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A blood metal concentration is an outcome of several processes: intake, absorption, binding, storage, inflammation, transport and elimination. It is not a direct measurement of what a microbe can obtain in the gut or what the placenta delivers to a fetus. That is precisely why the UPBEAT metallomics study matters. It identifies associations worth explaining and creates an opportunity to connect systemic measurements to the biological compartments that produced them.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These elemental associations were observational, even though the samples came from a randomized diet-and-activity trial. Serum was collected before randomization; only one elemental timepoint was analyzed. The retained panel included nonmetal elements and had no nickel, lead, cadmium or arsenic measurements available for the final analyses.",
+          "refs": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-findings-manganese-phosphorus-and-ou",
+      "title": "Which findings are strong enough to pursue?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Outcome associations, with multiple-testing results retained",
+          "headers": [
+            "Serum element and later outcome",
+            "Estimate and participants",
+            "FDR result"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Manganese → antepartum hemorrhage after 34 weeks",
+                "OR 4.62 (95% CI 2.06–12.4); 22 events among 683 participants",
+                "q=.027; association merits replication"
+              ],
+              "refs": [
+                1
+              ]
+            },
+            {
+              "cells": [
+                "Phosphorus → neonatal intensive-care admission",
+                "OR 2.83 (1.75–4.67); 56 events among 698 participants",
+                "q=.001; heterogeneous clinical endpoint"
+              ],
+              "refs": [
+                1
+              ]
+            },
+            {
+              "cells": [
+                "Strontium → late hemorrhage",
+                "OR 1.55 (1.11–2.17)",
+                "q=.12; nominal association only"
+              ],
+              "refs": [
+                1
+              ]
+            },
+            {
+              "cells": [
+                "Magnesium → neonatal intensive-care admission",
+                "OR .61 (.39–.94)",
+                "q=.3; do not call this protective"
+              ],
+              "refs": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Numeric predictors were standardized, so these odds ratios refer to a standard-deviation increase in modeled concentration, not a one-microgram increase. The author code explicitly applies standard scaling. The hemorrhage model had few events relative to its 34 predictors, making model stability and independent replication particularly important.",
+          "refs": [
+            1,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Two weaker findings clarify the standard for the next study. Strontium’s hemorrhage association did not survive FDR correction, nor did magnesium’s inverse association with intensive-care admission. Replication should preserve these contrary results rather than selecting only attractive metal narratives. Total elemental phosphorus also differs from the clinical inorganic-phosphate measurement.",
+          "refs": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanistic-interpretation",
+      "title": "The copper–iron divergence raises a better question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Increasing BMI was associated with higher circulating copper and lower iron. The useful question is whether that pattern reflects nutrient supply, altered binding and distribution, inflammation, or a combination. The study did not measure a mechanism that settles those alternatives. A follow-up could combine elemental concentrations with ceruloplasmin, inflammatory markers, hepcidin, transferrin saturation, ferritin and functional iron measures. This would help distinguish iron redistribution from deficient intake and characterize what an elevated copper total actually contains.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Reference state also matters. Mean copper exceeded a cited non-pregnancy range but lay within a cited pregnancy range. Physiology can change a metallomic profile without converting it into contamination. A disease signature must earn its interpretation through suitable comparators, rather than treating any departure from a generic reference value as pathology.",
+          "refs": [
+            1
+          ]
+        },
+        {
+          "type": "link",
+          "text": "Iron delivery, host sequestration and microbial access",
+          "url": "/metals/iron"
+        }
+      ]
+    },
+    {
+      "id": "relevance-to-the-metal-microbiome-diseas",
+      "title": "What the microbiome adds—and what must be measured",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The microbial hypothesis is not that high serum manganese identifies a particular pathogen. No microbial data were collected. The important possibility is that altered host metal handling and altered microbial resource access may be coupled, with inflammation, intestinal transport or microbial products connecting them."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a mechanistic precedent for asking this question. Diaz-Ochoa and colleagues showed experimentally that Salmonella can use manganese-acquisition systems to resist calprotectin-mediated sequestration, sustain oxidative-stress defenses and compete in the inflamed intestine. This demonstrates why metal access and microbial function can matter even when a bulk element concentration is uninformative. It does not establish Salmonella in these pregnancies or tell us that the women with higher serum manganese had more available manganese in the gut.",
+          "refs": [
+            2
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful pregnancy study would therefore collect repeated serum and stool samples, document diet, supplements, renal/hepatic indicators and inflammatory state, and measure microbial metal-acquisition/resistance capacity alongside community composition. Stool totals alone would remain incomplete: soluble or otherwise accessible pools and microbial expression would be more informative about competition. Placental and cord measurements, where ethically and practically available, would test the maternal–fetal compartment rather than assuming serum represents it."
+        },
+        {
+          "type": "link",
+          "text": "Manganese acquisition and oxidative-stress defense",
+          "url": "/metals/manganese"
+        }
+      ]
+    },
+    {
+      "id": "methods-measuring-the-maternal-metallome",
+      "title": "Make the competing explanations disagree",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If the signal mainly reflects systemic redistribution, it should track host binding proteins, inflammatory state or organ handling, potentially without a corresponding increase in luminal availability. If altered intake or absorption dominates, timed intake data and appropriate absorption measures should account for a substantial part of the pattern. If microbes contribute, their functional activity should provide information beyond those host variables, precede relevant changes where repeated sampling permits, and alter metal handling in a controlled experimental system."
+        },
+        {
+          "type": "proposal",
+          "title": "Test whether a microbial function changes host metal delivery",
+          "text": "Take cohort-derived hypotheses into model communities or host–microbe co-cultures before inferring a clinical intervention.",
+          "measures": [
+            "Compare intact microbial acquisition pathways with targeted disruption and genetic complementation.",
+            "Measure both host metal delivery and microbial capture, alongside the relevant chemical pool.",
+            "Test whether the effect depends on the metal conditions predicted by the human cohort."
+          ],
+          "decision": "A change in microbial abundance without the predicted change in metal handling weakens the proposed mechanism. A reproducible function-dependent effect supports advancing to the next model and independent human validation."
+        },
+        {
+          "type": "link",
+          "text": "What different metallomics methods can and cannot measure",
+          "url": "/methods"
+        }
+      ]
+    },
+    {
+      "id": "limitations-and-clinical-takeaway",
+      "title": "How this extends a disease-signature program",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regional brain metallomics compares disease-associated patterns in post-mortem tissue. Spatial CRC metallomics maps distinct neighborhoods within a tumor. UPBEAT examines circulating elements before later clinical events. Their contribution is complementary: regional specificity, local context and temporal ordering. Their measurements are not interchangeable."
+        },
+        {
+          "type": "paragraph",
+          "text": "UPBEAT’s future value lies in turning an early serum association into an independently replicated, compartment-aware explanation. That requires external validation, defined outcomes, repeated measurements and mechanistic tests. A successful program could ultimately identify whether a metal signal marks exposure, host adaptation, microbial competition or some combination—and thus which biological process deserves intervention. The present paper supplies the starting observations and a population in which those questions can now be asked precisely."
+        },
+        {
+          "type": "link",
+          "text": "The disease-signatures research program",
+          "url": "/disease-signatures"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is UPBEAT a validated metallomic diagnostic signature?",
+      "answer": "No. This was an exploratory association analysis of serum elements in pregnant women with obesity, without a non-obese comparison group or an externally validated diagnostic classifier."
+    },
+    {
+      "question": "Did the metal measurement precede the reported complications?",
+      "answer": "Yes. Serum was collected at 15–18 weeks and the studied hemorrhage and neonatal outcomes occurred later. The study had one elemental timepoint, so it cannot resolve the trajectory or causal process behind the associations."
+    },
+    {
+      "question": "Does higher serum manganese reveal a manganese-dependent pathogen?",
+      "answer": "No. There were no microbial measurements, and serum concentration does not establish metal availability in the gut. A microbial explanation requires matched compartment measurements, functional evidence and a test that distinguishes it from host-only redistribution."
+    }
+  ],
+  "sources": [
+    {
+      "authors": "Agostinho de Sousa J, Griffiths A, Dalrymple KV, White SL, von Meyenn F, Poston L, Rigutto-Farebrother J, Flynn AC, on behalf of the UPBEAT Consortium",
+      "year": 2025,
+      "title": "Metallomic profiles of pregnant women living with obesity in the UK: a secondary analysis of UPBEAT",
+      "url": "https://doi.org/10.1093/mtomcs/mfaf031"
+    },
+    {
+      "authors": "Diaz-Ochoa VE, Lam D, Lee CS, et al.",
+      "year": 2016,
+      "title": "Salmonella mitigates oxidative stress and thrives in the inflamed gut by evading calprotectin-mediated manganese sequestration",
+      "url": "https://doi.org/10.1016/j.chom.2016.05.005"
+    },
+    {
+      "authors": "vonMeyennLab / UPBEAT metallomics authors",
+      "year": 2025,
+      "title": "UPBEAT-metallomics: outcome inference analysis code",
+      "url": "https://github.com/vonMeyennLab/UPBEAT-metallomics/blob/main/analysis/main/Metallomics/06_metallomics_inference_outcome.Rmd"
+    }
+  ]
+}

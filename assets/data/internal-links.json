@@ -108,6 +108,13 @@
       "terms": [
         "metal access"
       ]
+    },
+    {
+      "url": "/disease-signatures",
+      "terms": [
+        "metallomic signatures of disease",
+        "disease metallomic signatures"
+      ]
     }
   ],
   "related": {
@@ -135,6 +142,16 @@
     ],
     "/metals/iron": [
       {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/library/dementia-lewy-bodies-brain-metallomic-signatures",
+        "title": "Dementia with Lewy bodies: a regional metal signature",
+        "description": "Read the source-checked study and its implications for paired microbial and host measurements."
+      },
+      {
         "url": "/blog/dietary-iron-microbiome-enteric-infection",
         "title": "Dietary iron and enteric infection",
         "description": "Connect nutrient delivery with intestinal ecology and infection research."
@@ -156,6 +173,11 @@
       }
     ],
     "/metals/zinc": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
       {
         "url": "/glossary/calprotectin",
         "title": "Calprotectin and metal withholding",
@@ -247,6 +269,16 @@
     ],
     "/metals/copper": [
       {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/library/dementia-lewy-bodies-brain-metallomic-signatures",
+        "title": "Dementia with Lewy bodies: a regional metal signature",
+        "description": "Read the source-checked study and its implications for paired microbial and host measurements."
+      },
+      {
         "url": "/glossary/mismetallation",
         "title": "Mismetallation: the wrong metal in the wrong place",
         "description": "Why metal occupancy can change an enzyme’s biological function."
@@ -263,6 +295,11 @@
       }
     ],
     "/metals/manganese": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
       {
         "url": "/glossary/calprotectin",
         "title": "Calprotectin and metal withholding",
@@ -480,6 +517,131 @@
         "url": "/methods",
         "title": "Methods for measuring the relevant metal pool",
         "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/selenium": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      }
+    ],
+    "/microbiome": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      }
+    ],
+    "/methods": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      }
+    ],
+    "/science": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      }
+    ],
+    "/library/dementia-lewy-bodies-brain-metallomic-signatures": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/metal-access",
+        "title": "Follow the metal",
+        "description": "Connect chemical form, compartments, and biological access."
+      },
+      {
+        "url": "/methods",
+        "title": "Measure the missing layer",
+        "description": "Choose tools for elemental amount, speciation, and location."
+      }
+    ],
+    "/library/parkinsons-dementia-brain-metallomic-signature": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/metal-access",
+        "title": "Follow the metal",
+        "description": "Connect chemical form, compartments, and biological access."
+      },
+      {
+        "url": "/methods",
+        "title": "Measure the missing layer",
+        "description": "Choose tools for elemental amount, speciation, and location."
+      }
+    ],
+    "/library/alzheimers-brain-copper-metallomic-signature": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/metal-access",
+        "title": "Follow the metal",
+        "description": "Connect chemical form, compartments, and biological access."
+      },
+      {
+        "url": "/methods",
+        "title": "Measure the missing layer",
+        "description": "Choose tools for elemental amount, speciation, and location."
+      }
+    ],
+    "/library/spatial-metallomics-colorectal-cancer": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/metal-access",
+        "title": "Follow the metal",
+        "description": "Connect chemical form, compartments, and biological access."
+      },
+      {
+        "url": "/methods",
+        "title": "Measure the missing layer",
+        "description": "Choose tools for elemental amount, speciation, and location."
+      }
+    ],
+    "/library/heavy-metals-obesity-pregnancy-upbeat": [
+      {
+        "url": "/disease-signatures",
+        "title": "Metallomic signatures of disease",
+        "description": "Compare regional brain, spatial tumor, and serum patterns—and the experiments that connect them to microbial function."
+      },
+      {
+        "url": "/metal-access",
+        "title": "Follow the metal",
+        "description": "Connect chemical form, compartments, and biological access."
+      },
+      {
+        "url": "/methods",
+        "title": "Measure the missing layer",
+        "description": "Choose tools for elemental amount, speciation, and location."
+      }
+    ],
+    "/disease-signatures": [
+      {
+        "url": "/blog/metal-microbiome-disease-axis",
+        "title": "The metal–microbiome–disease axis",
+        "description": "The organizing argument for studying access and function together."
+      },
+      {
+        "url": "/metals",
+        "title": "The metal atlas",
+        "description": "Explore the microbial biology of each element."
       }
     ]
   }

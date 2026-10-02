@@ -22,5 +22,29 @@
   "/metals/nickel": {
     "title": "Nickel in Bacteria: Urease, Hydrogenases & Metal Trafficking",
     "description": "How microbes acquire and use nickel in urease, [NiFe]-hydrogenases, and glyoxalase I. Explore primary studies, host interactions, and open research questions."
+  },
+  "/disease-signatures": {
+    "title": "Metallomic Signatures of Disease & Microbial Mechanisms",
+    "description": "Explore disease metal signatures in dementia, colorectal cancer and pregnancy—and the experiments that could connect them to microbial mechanisms."
+  },
+  "/library/dementia-lewy-bodies-brain-metallomic-signatures": {
+    "title": "Dementia Metal Signatures: Lewy Bodies, Alzheimer’s & PDD",
+    "description": "Dementia brain-metal signatures reveal regional copper loss and iron gain. A critical review connects these patterns to testable microbial-metallomics research."
+  },
+  "/library/alzheimers-brain-copper-metallomic-signature": {
+    "title": "Alzheimer’s Brain Metals: Copper, Iron & Zinc Patterns",
+    "description": "Alzheimer’s brain copper loss and regional iron and zinc changes reveal a spatial disease signature—and define experiments for microbial metallomics."
+  },
+  "/library/parkinsons-dementia-brain-metallomic-signature": {
+    "title": "Parkinson’s Dementia: Regional Brain Metal Signatures",
+    "description": "Brain copper loss in Parkinson’s dementia overlaps Alzheimer’s but differs by region. What this signature enables for microbial metallomics research."
+  },
+  "/library/spatial-metallomics-colorectal-cancer": {
+    "title": "Colorectal Cancer: Spatial Metallomics & Microbial Niches",
+    "description": "Colorectal cancer metal maps reveal distinct copper and iron neighborhoods. What they measured, and how to test microbial access, host response and disease."
+  },
+  "/library/heavy-metals-obesity-pregnancy-upbeat": {
+    "title": "UPBEAT Maternal Metallomics: Serum Metals & Pregnancy",
+    "description": "UPBEAT links maternal manganese and phosphorus to later outcomes. What the evidence means, and how to test host and microbial metal handling."
   }
 }
