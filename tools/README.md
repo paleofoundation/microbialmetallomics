@@ -76,3 +76,9 @@ Researcher profiles must explain explicitly how each person's work advances the 
 `assets/data/disease-signatures/` owns the research pathway and its five paper reviews. Run `python3 tools/build_disease_signatures.py`, `python3 tools/build_catalog.py`, and `python3 tools/refresh_site.py`, then `npm run check`. The generator preserves source DOI links, article controls, numbered citations, FAQ metadata, and existing review section anchors. The collection distinguishes postmortem regional findings, spatial proof of concept, and prospective serum associations; it is not a systematic review or a diagnostic tool. Preserve cohort reuse, measurement units, and unresolved source discrepancies when updating findings. Keep hypotheses and discriminating experiments explicit.
 
 The homepage feature and library/evidence pathway cards are maintained in their HTML. Update static catalog fallback cards in library.html, evidence.html, and topics.html when review metadata changes. Shared navigation and reciprocal atlas links come from refresh_site.py and internal-links.json.
+
+## Homepage editorial hierarchy
+
+Keep the featured essay and latest writing as the first content section below the masthead and navigation. The desktop lead uses two thirds for the essay and one third for latest writing; mobile stacks them in that order. Selected reading image cards follow, then the compact field introduction. New collections and explainers belong below the editorial lead.
+
+`assets/homepage.css` owns these homepage additions. The three `assets/home-*.jpg` images are conceptual editorial illustrations, not study figures or measured metal maps. Retain the visible illustration label. `build_access.py` refreshes the `article[data-access-intro]` card inside the selected-reading grid; it must not insert a separate banner above the lead. Run `refresh_site.py` and `npm run check` after updates.

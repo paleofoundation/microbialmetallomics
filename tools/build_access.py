@@ -50,14 +50,8 @@ body = hero(explorer, 'Follow the metal') + '<div class="wrap access-explorer"><
 
 home_path = ROOT / 'index.html'
 home = home_path.read_text()
-callout = '<section class="access-home-callout" data-access-intro><div class="wrap"><div><p class="eyebrow">Start with a better question</p><h2>Enough metal.<br>Available to whom?</h2></div><div><p>A low blood measurement, a metal-rich tissue, and a nutrient-starved microbe can coexist. Follow the chemical form, the compartment, and the competition before interpreting the dose.</p><a href="/start-here">Read the organizing thesis →</a><a href="/metal-access">Follow the metal →</a></div></div></section>'
-if 'data-access-intro' in home:
-    home, count = re.subn(r'<section[^>]*data-access-intro[^>]*>.*?</section>', callout, home, flags=re.S)
-    assert count == 1
-else:
-    assert home.count('<section class="home-field-tools">') == 1
-    home = home.replace('<section class="home-field-tools">', callout + '\n<section class="home-field-tools">')
-if '/assets/metal-access.css' not in home:
-    home = home.replace('</head>', '<link rel="stylesheet" href="/assets/metal-access.css">\n</head>')
+callout = '<article class="home-reading-card" data-access-intro>\n          <a class="home-reading-image" href="/start-here" tabindex="-1" aria-hidden="true"><img src="/assets/home-metal-access.jpg" width="960" height="640" alt="" loading="lazy" decoding="async"></a>\n          <p class="home-reading-type">The organizing thesis</p>\n          <h3><a href="/start-here">Enough metal. Available to whom?</a></h3>\n          <p>A low blood measurement, a metal-rich tissue, and a nutrient-starved microbe can coexist. Follow the form, the compartment, and the competition.</p>\n          <div class="home-reading-links"><a href="/start-here">Read the thesis <span aria-hidden="true">→</span></a><a href="/metal-access">Follow the metal <span aria-hidden="true">→</span></a></div>\n        </article>'
+home, count = re.subn(r'<article[^>]*data-access-intro[^>]*>.*?</article>', lambda match: callout, home, flags=re.S)
+assert count == 1, 'Expected one metal-access card in the homepage selected-reading grid.'
 home_path.write_text(home)
 print('Built the access thesis,', len(explorer['cases']), 'mechanism cases, and homepage entry point.')

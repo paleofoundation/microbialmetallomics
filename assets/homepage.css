@@ -1,0 +1,43 @@
+/* Homepage hierarchy: editorial lead, selected reading, then field orientation. */
+.home-page .journal-masthead h1{margin:0}
+.home-page .journal-front-grid{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.home-page .home-selected{padding:30px 0 28px;border-top:2px solid var(--ink)}
+.home-selected .journal-section-label{margin-bottom:25px}
+.home-reading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.home-reading-card{display:flex;flex-direction:column;min-width:0}
+.home-reading-image{display:block;background:var(--surface-2);margin-bottom:20px;overflow:hidden}
+.home-reading-image img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.home-reading-type{font-size:.75rem;line-height:1.5;font-weight:650;color:var(--copper);margin:0 0 10px}
+.home-reading-card h3{font-size:1.65rem;line-height:1.22;margin:0 0 13px;font-weight:600}
+.home-reading-card h3 a{color:var(--ink);text-decoration:none}
+.home-reading-card h3 a:hover{color:var(--copper);text-decoration:underline;text-underline-offset:4px}
+.home-reading-card>p:not(.home-reading-type){font-size:.9375rem;line-height:1.8;color:var(--ink-soft);margin:0 0 20px}
+.home-reading-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:auto;font-size:.8125rem;font-weight:650}
+.home-reading-links a{color:var(--patina);text-decoration:underline;text-underline-offset:4px}
+.home-reading-links a:focus-visible,.home-reading-card h3 a:focus-visible,.home-introduction-links a:focus-visible{outline:2px solid var(--patina);outline-offset:5px}
+.home-art-note{font-size:.75rem;line-height:1.5;color:var(--ink-mute);margin:24px 0 0;text-align:right}
+.home-page .home-introduction{padding:30px 0;background:var(--surface-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.home-introduction-grid{display:grid;grid-template-columns:1fr 1.7fr;gap:45px;align-items:start}
+.home-introduction .eyebrow{font-size:.75rem;letter-spacing:.1em;line-height:1.6;margin:0 0 9px;color:var(--patina)}
+.home-introduction h2{font-size:1.7rem;line-height:1.25;margin:0;max-width:23ch}
+.home-introduction-links{display:flex;flex-wrap:wrap;gap:10px 25px;margin-top:17px;font-size:.8125rem;line-height:1.6;font-weight:650}
+.home-introduction-links a{color:var(--patina)}
+@media(max-width:940px){
+  .home-page .journal-front-grid{grid-template-columns:minmax(0,1fr) 260px}
+  .home-reading-grid{gap:22px}
+  .home-reading-card h3{font-size:1.4rem}
+  .home-introduction-grid{gap:30px;grid-template-columns:1fr 1.4fr}
+}
+@media(max-width:680px){
+  .home-page .home-selected{padding:25px 0}
+  .home-reading-grid{grid-template-columns:1fr;gap:28px}
+  .home-reading-card+.home-reading-card{border-top:1px solid var(--line);padding-top:28px}
+  .home-reading-image{margin-bottom:16px}
+  .home-reading-card h3{font-size:1.6rem}
+  .home-reading-card>p:not(.home-reading-type){margin-bottom:14px}
+  .home-art-note{text-align:left;margin-top:20px}
+  .home-page .home-introduction{padding:28px 0}
+  .home-introduction-grid{grid-template-columns:1fr;gap:18px}
+  .home-introduction h2{max-width:none}
+  .home-introduction-links{display:grid;gap:12px}
+}
