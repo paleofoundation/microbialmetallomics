@@ -9,7 +9,7 @@
       "id": "https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot",
       "url": "https://microbialmetallomics.com/blog/tampon-metals-vaginal-microbiome-blind-spot",
       "title": "Tampon Metals and the Vaginal Microbiome: The Blind Spot in the Risk Assessment",
-      "content_text": "A toxicological risk assessment found tampon metals pose negligible systemic risk. But bioavailable there means absorbed into the blood, and the vaginal microbial community on the tampon surface was never assessed.",
+      "content_text": "A 2026 FDA risk assessment by Jin et al. calls the metals in tampons safe, but only for one endpoint: the fraction absorbed systemically into the blood. That verdict rests on a single word, bioavailable. The vaginal microbes live on the surface, not in the bloodstream, and were never assessed.",
       "date_published": "2026-09-28T00:00:00Z",
       "authors": [
         {
@@ -43,8 +43,8 @@
     {
       "id": "https://microbialmetallomics.com/blog/metal-microbiome-disease-axis",
       "url": "https://microbialmetallomics.com/blog/metal-microbiome-disease-axis",
-      "title": "The Metal-Microbiome-Disease Axis: How Heavy Metals May Drive Disease Through the Gut",
-      "content_text": "The metal-microbiome-disease axis: heavy-metal exposure reshapes the gut microbiome, and that dysbiosis may drive metabolic, neurological and gut disease.",
+      "title": "The Metal–Microbiome–Disease Axis: Who Gets the Metal?",
+      "content_text": "Metals change microbial ecology; microbes change metal chemistry; inflammation changes local metal access. Follow the mechanisms connecting exposure, nutritional immunity, and disease.",
       "date_published": "2026-07-16T00:00:00Z",
       "authors": [
         {
@@ -53,8 +53,9 @@
       ],
       "tags": [
         "Essay",
-        "Neurobiology",
-        "Metabolic health",
+        "Iron",
+        "Zinc",
+        "Nutritional immunity",
         "Environmental exposure"
       ]
     },

@@ -1,0 +1,607 @@
+{
+  "title": "The Metal–Microbiome–Disease Axis: Who Gets the Metal?",
+  "shortTitle": "The Metal–Microbiome–Disease Axis",
+  "description": "Metals change microbial ecology; microbes change metal chemistry; inflammation changes local metal access. Follow the mechanisms connecting exposure, nutritional immunity, and disease.",
+  "deck": "Disease may depend on who can use a metal, where, and in what form. Following that access reveals connections that a dose, a blood result, or a microbial signature can miss.",
+  "published": "2026-07-16",
+  "updated": "2026-10-02",
+  "keywords": "metal-microbiome-disease axis, microbial metallomics, metal access, nutritional immunity, iron deficiency, zinc, microbial function, speciation",
+  "summary": "The metal–microbiome–disease axis is best understood as a set of reciprocal processes: metals can change microbial communities, microbes can change metal chemistry, and host inflammation can redistribute the resources available to both. The central disease question is which of those processes interact in a particular setting. This essay follows three causal possibilities—microbial mediation, altered metal handling, and inflammatory feedback—and asks what would distinguish them. Zinc and iron show why essential nutrients belong in the same framework as contaminants, and why metal quantity alone cannot explain metal function.",
+  "takeaways": [
+    "A metal measurement needs a chemical form, a compartment, and a biological recipient before it becomes a mechanism.",
+    "Microbial mediation of injury, microbial modification of exposure, and disease-driven changes in microbial access are different causal claims.",
+    "Formulation and host regulation can change where a nutrient goes; improved absorption alone does not establish microbial exclusion.",
+    "A useful disease signature must connect microbial functions to metal movement and meaningful host outcomes."
+  ],
+  "sections": [
+    {
+      "id": "the-access-problem",
+      "title": "The problem may be access",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A low iron result invites an apparently simple response: supply more iron. But low circulating availability can arise because stores are depleted, because cellular export is restricted, or because those states overlap. Inflammation can increase hepcidin, and hepcidin can reduce iron export through ferroportin. The host can then struggle to deliver iron for red-cell production while retaining it elsewhere. The location and movement of iron matter as much as its presence.",
+          "refs": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Now add the gut community. An oral formulation enters a compartment occupied by microbes before the host has absorbed it. A blood measurement and a stool measurement describe different parts of that encounter. Neither tells us, on its own, how much iron reached host cells, which organisms acquired the remainder, or whether microbial acquisition contributed to the clinical outcome.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the question that gives microbial metallomics its explanatory power: a resource can be present without reaching the biological process that needs it. It may be bound, chemically transformed, retained in another compartment, excluded by a transporter, or captured by a competitor. “Enough metal” becomes a question about access.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The same logic brings essential nutrients and environmental contaminants into one framework without treating them as interchangeable. For an essential nutrient, host supply and microbial competition must be considered together. For a contaminant, the relevant question may be how a microbial transformation changes the chemical exposure. Element identity is the beginning of the explanation.",
+          "refs": []
+        }
+      ],
+      "aliases": [
+        "the-thesis-in-one-paragraph"
+      ],
+      "nav": "The access problem"
+    },
+    {
+      "id": "three-relationships",
+      "title": "One axis, three causal relationships",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The original appeal of the axis was straightforward: metal exposure can alter a microbiome, and microbial changes can influence health. But putting those statements beside one another does not show that the microbial change carried the effect of a particular exposure. The host and its microbiota might respond independently to the same metal. Disease might also change both the microbiome and the metal measurement.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "Three causal questions inside the metal–microbiome–disease axis",
+          "headers": [
+            "Relationship",
+            "Proposed sequence",
+            "What needs to be established"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "Microbial mediation",
+                "A defined metal exposure changes a microbial function; that functional change contributes to a host outcome.",
+                "The microbial process carries some of the exposure effect, beyond direct host effects and shared causes."
+              ],
+              "refs": []
+            },
+            {
+              "cells": [
+                "Modification of metal handling",
+                "A microbial function changes the chemical species, binding, or disposition of a metal encountered by the host.",
+                "The altered chemistry or transfer changes host exposure or outcome. Prior harmful dysbiosis is not required."
+              ],
+              "refs": []
+            },
+            {
+              "cells": [
+                "Inflammatory feedback",
+                "A host response changes local metal access; this changes microbial activity, which may then modify the host response.",
+                "Both directions operate in the relevant compartment and time window; a closed loop cannot be inferred from one arrow."
+              ],
+              "refs": []
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These relationships can coexist, but they require different evidence. A finding that microbes protect a host from toxicity is not automatically evidence that an exposure first caused disease-producing dysbiosis. A disease-associated community can be a consequence of inflammation and still contribute to its persistence. The scientific work is to identify the direction, timing, and importance of those contributions.",
+          "refs": []
+        }
+      ],
+      "aliases": [
+        "link-one-heavy-metals-reshape-the-gut-mi",
+        "link-two-a-disrupted-microbiome-drives-d",
+        "closing-the-loop-the-combined-axis"
+      ],
+      "nav": "Three causal relationships"
+    },
+    {
+      "id": "changing-the-exposure",
+      "title": "Microbes can change the exposure itself",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consider arsenic, a metalloid included in this atlas because its microbial chemistry is directly relevant. In a laboratory gut model, human colon communities transformed inorganic arsenic and arsenic released from contaminated soils into methylated and sulfur-containing species. Some products were reactive compounds. A label such as “methylated” therefore does not, by itself, establish detoxification. The product and its biological behavior must be identified.",
+          "refs": [
+            22
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate mouse study found that the microbiome contributed to protection against acute arsenic toxicity. That result establishes a community contribution in the tested models; it does not establish a universal protective microbiome or quantify the contribution to chronic human disease. The conceptual point is that microbial activity can modify how an exposure is handled, even when the question is not whether the exposure created a disease-like community.",
+          "refs": [
+            23
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These examples concern modification of metal handling. The gut model demonstrates chemical transformation; the mouse experiment establishes a microbiome contribution to susceptibility without proving that the same transformation explains protection. Together they change the exposure question: what was administered, what microbes encountered, and what the host absorbed may differ. A taxonomic survey alone cannot reconstruct that chemistry.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "text": "Follow the arsenic chemistry and its evidence limits",
+          "url": "/metals/arsenic"
+        }
+      ],
+      "aliases": [],
+      "nav": "Microbes change exposure"
+    },
+    {
+      "id": "inflammation-and-access",
+      "title": "Inflammation changes the ecological conditions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Metal access can change from the host side. During inflammation, host binding proteins and transport systems alter the resources available in particular compartments. This makes nutritional immunity an ecological pressure as well as a defense mechanism. The relevant question is how the organisms sharing that compartment respond.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "In an inflamed mouse intestine, calprotectin-mediated zinc restriction favored Salmonella equipped to compete under that restriction. This does not make withholding generally ineffective. It shows that the same host pressure can have different consequences for organisms with different acquisition capacities. A relative microbial advantage is not the same thing as unrestricted nutrient abundance.",
+          "refs": [
+            12
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Host defense can also involve delivery. A macrophage study linked ATP7A-dependent copper trafficking to antibacterial activity. Separate work showed that yersiniabactin could bind copper and protect bacteria from copper toxicity; copper–yersiniabactin complexes were detected in human urinary infection samples. Host delivery and microbial buffering are opposing processes. Demonstrating both in separate systems is a reason to investigate their interaction, not proof that a single clinical copper measurement captures it.",
+          "refs": [
+            13,
+            14
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The zinc example establishes a host-to-microbe direction: withholding changes competition. A feedback hypothesis adds a return path, in which the resulting microbial activity helps maintain inflammation. That second direction needs its own evidence. A raised calprotectin concentration supplies neither a measurement of zinc-binding occupancy nor a direct estimate of microbial zinc acquisition. It is a host signal that must be connected to the chemistry.",
+          "refs": []
+        }
+      ],
+      "aliases": [
+        "the-shared-mechanisms-that-carry-the-sig",
+        "why-metals-are-special-the-metallomic-di"
+      ],
+      "nav": "Inflammation & ecology"
+    },
+    {
+      "id": "iron-as-a-test",
+      "title": "Iron tests the framework against human outcomes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Iron makes the clinical tension tangible. A person can need replacement while host regulation limits delivery. Depletion and inflammatory restriction can coexist, and the balance is not fixed: in an inflammatory bowel disease cohort, depleted stores were associated with low hepcidin despite inflammatory activity. “Inflamed” does not automatically mean that every patient has the same export restriction.",
+          "refs": [
+            4
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The microbial consequences of replacement also vary. Trials in Kenyan infants found adverse changes in measured gut bacterial groups and fecal calprotectin with iron-containing powders. A trial in South African schoolchildren improved iron status without detecting changes in the bacterial groups, short-chain fatty acids, or fecal calprotectin it measured. The populations, baseline ecology, formulations, and assays differed. These are conditions to explain, not results to average into a universal verdict on iron.",
+          "refs": [
+            7,
+            6
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "An oral-versus-intravenous trial adds a useful distinction. Both routes improved iron deficiency, while microbial and metabolic responses differed. Changes in disease activity were not dependent on route. A microbial shift can accompany successful replacement without being established as a cause of clinical deterioration.",
+          "refs": [
+            5
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These trials measure responses to replacement; they do not establish microbial mediation. “Ferrous sulfate feeds pathogens while the patient remains iron-starved” is a mechanism to investigate in a specified setting, not a diagnosis supplied by a poor treatment response. Failure to absorb, restricted export, ongoing losses, depleted stores, and microbial competition are different explanations. A useful study connects host iron use and local microbial access instead of treating one as a proxy for the other.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "text": "Read the iron map: stores, restriction, formulation, and outcomes",
+          "url": "/metals/iron"
+        }
+      ],
+      "aliases": [],
+      "nav": "The iron test"
+    },
+    {
+      "id": "form-is-part-of-the-mechanism",
+      "title": "Chemical form changes the question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Small healthy-adult studies found higher estimated zinc absorption with aspartate than gluconate or sulfate when given with milk, and lower absorption with oxide than citrate or gluconate without food. These were separate studies with different conditions. They support attention to formulation while leaving the direct human aspartate-versus-oxide comparison unanswered.",
+          "refs": [
+            8,
+            9
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Even a direct absorption advantage would leave a second question open. Did a formulation increase host uptake, decrease the amount of accessible zinc encountered by microbes, change the location of that encounter, or do several of those things? Better host absorption does not demonstrate that the compound travels intact past microbial competition. The remaining material may differ in amount, chemical availability, and residence time.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The important comparison is therefore more demanding than “which salt is better absorbed?” It asks whether host benefit and microbial exposure move together or come apart. That is a testable proposition, and it gives formulation research a biological target beyond a ranking on a label.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "text": "Compare the actual zinc formulations and study settings",
+          "url": "/metals/zinc#formulations"
+        }
+      ],
+      "aliases": [],
+      "nav": "Formulation & access"
+    },
+    {
+      "id": "a-functional-signature",
+      "title": "A community signature needs a functional explanation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An organism’s name does not tell us which metal pool it can use in a particular host. Species may contain different strains, and genetic capacity does not establish expression or transfer of a metal. Community measurements introduce another complication: an increase in relative abundance can reflect a decrease elsewhere. Quantitative profiling in MS shows how bacterial load and clinical covariates can change which taxonomic associations remain robust.",
+          "refs": [
+            18
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Corrinoid transporters provide one documented example of chemically selective access.",
+          "refs": [
+            15
+          ]
+        },
+        {
+          "type": "link",
+          "text": "Explore corrinoid selection and competition",
+          "url": "/metals/cobalt"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the community as a whole, the next question is how those capacities interact. Does a transformation change what a neighboring organism can use? Does binding keep a metal local or make it accessible through a particular uptake system? Does the host response change the competitive setting? These are questions about the community’s combined activity. A list of organisms labeled “metal-loving” cannot answer them.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Nor does a community change automatically establish a host effect. A mouse vitamin B12 study altered distal-gut corrinoids and selected bacterial abundances without changing the measured colitis outcome. The chemical, microbial, and clinical layers must each earn their place in the explanation.",
+          "refs": [
+            16
+          ]
+        }
+      ],
+      "aliases": [],
+      "nav": "From signature to function"
+    },
+    {
+      "id": "ms-as-an-open-question",
+      "title": "MS shows how to connect evidence without collapsing it",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MS brings several relevant observations together. One cohort had lower average serum zinc than controls, generally within reference ranges. A separate cellular and EAE study implicated intracellular zinc regulation in pathogenic Th17-cell function. Lower circulating zinc and a zinc-dependent immune process can coexist because they concern different pools. Neither observation maps the zinc available to gut microbes.",
+          "refs": [
+            19,
+            20
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The iMSMS study found increased phytate-degradation pathway potential in untreated MS. That raises a specific metallomic question: if the pathway is active, does it change mineral release, and who acquires the released material? The study did not measure zinc flux. Converting annotated pathway abundance into zinc transfer would skip the central measurement.",
+          "refs": [
+            17
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Intervention evidence occupies another layer. Oral zinc aspartate improved EAE in mice. A small human MS trial tested sulfate and found an improvement in depression scores, without a between-group difference in the neurological examinations reported. These are different compounds, systems, and endpoints. They do not establish that aspartate treats human MS by excluding microbes from zinc.",
+          "refs": [
+            10,
+            11
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The opportunity is to connect the layers in the same setting: formulation, host zinc handling, microbial function, immune behavior, and disease outcome. If a benefit occurs without the predicted microbial change, the benefit may remain important while the microbial explanation loses support. That distinction helps a hypothesis become more precise rather than merely more persuasive.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "text": "Open the zinc–MS evidence ledger",
+          "url": "/metals/zinc#ms-evidence"
+        }
+      ],
+      "aliases": [
+        "disease-across-body-systems"
+      ],
+      "nav": "The MS hypothesis"
+    },
+    {
+      "id": "what-would-distinguish",
+      "title": "What would distinguish the explanations?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A credible causal account should survive alternatives. Diet, medication, inflammation, and baseline nutritional status can influence both microbial measurements and host outcomes. Direct host effects of a metal may operate alongside microbial effects. An intervention that changes both a community and a symptom has not, merely by changing both, shown that one caused the other.",
+          "refs": []
+        },
+        {
+          "type": "table",
+          "caption": "From an interesting observation to an explanatory mechanism",
+          "headers": [
+            "Observation",
+            "What it supports",
+            "What remains to be tested"
+          ],
+          "rows": [
+            {
+              "cells": [
+                "A disease-associated taxon or pathway",
+                "An association worth investigating in its measured setting.",
+                "Whether the relevant function is active, changes metal access, and contributes to disease."
+              ],
+              "refs": []
+            },
+            {
+              "cells": [
+                "A change in host absorption",
+                "A formulation-dependent difference in host uptake.",
+                "The chemical availability of residual intestinal metal and acquisition by microbes."
+              ],
+              "refs": []
+            },
+            {
+              "cells": [
+                "A changed microbiome after supplementation",
+                "An ecological response to that intervention.",
+                "Whether the change improves, worsens, or does not affect a meaningful host outcome."
+              ],
+              "refs": []
+            },
+            {
+              "cells": [
+                "A pathway and a clinical outcome both change",
+                "Compatibility with the proposed mechanism.",
+                "Whether that pathway mediates the benefit, rather than changing in parallel."
+              ],
+              "refs": []
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Clinical testing can also overturn an attractive strategy. A hepcidin-guided trial in young Gambian children reduced overall iron exposure but produced a worse hemoglobin response and failed its non-inferiority criterion. A plausible way to tailor an intervention still has to demonstrate its clinical value on the outcomes that matter.",
+          "refs": [
+            21
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The most informative research would pair metal speciation and host use with microbial activity and a prespecified host endpoint. Time matters: a single sample can miss redistribution or a transient change in access. So does a stated alternative explanation. If the hypothesized microbial pathway does not change, the interpretation should not quietly switch to another pathway after the outcome is known.",
+          "refs": []
+        }
+      ],
+      "aliases": [
+        "the-strength-of-the-evidence-and-how-to-"
+      ],
+      "nav": "Distinguishing explanations"
+    },
+    {
+      "id": "what-changes",
+      "title": "What this changes about the field",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The practical value of this framework is sharper discrimination. Before attributing a disease pattern to a metal, specify the exposure and the local pool. Before attributing it to a microbe, specify the function. Before claiming that a formulation solves the problem, establish what it changes for the host and the community.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "For exposure assessment, this creates a reason to investigate local chemical and microbial endpoints alongside systemic measurements. It does not establish that existing thresholds are necessarily inadequate or that a microbiome change is itself an adverse outcome. For clinical research, it creates a reason to study delivery and regulation alongside intake. It does not supply a supplement recommendation from a taxonomic report.",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "An atlas built on this approach should make the next question easier to see. Where is the relevant metal? In what form? Which host cells and organisms can access it? What function changes when that access changes? And what result would show that the proposed disease mechanism is wrong?",
+          "refs": []
+        },
+        {
+          "type": "paragraph",
+          "text": "The promise of microbial metallomics is to explain how these relationships combine. A successful explanation follows the metal far enough to connect chemistry to biological use—and follows the evidence far enough to connect that use to the host.",
+          "refs": []
+        },
+        {
+          "type": "link",
+          "text": "Start with the framework",
+          "url": "/start-here"
+        },
+        {
+          "type": "link",
+          "text": "Explore the compartments",
+          "url": "/metal-access"
+        },
+        {
+          "type": "link",
+          "text": "Find an element in the atlas",
+          "url": "/metals"
+        }
+      ],
+      "aliases": [
+        "implications-for-prevention-standards-an"
+      ],
+      "nav": "Implications for the field"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the metal–microbiome–disease axis?",
+      "answer": "It is a framework for studying reciprocal interactions among metal chemistry, microbial functions, host regulation, and disease. It distinguishes microbial mediation of an exposure effect, microbial modification of metal handling, and inflammation-driven changes in microbial access."
+    },
+    {
+      "question": "Does the framework prove that a metal causes disease through the microbiome?",
+      "answer": "No. Each proposed pathway needs evidence in a defined exposure, population, compartment, and outcome. Separate findings that a metal changes microbes and that microbes affect health motivate a hypothesis; they do not establish mediation."
+    },
+    {
+      "question": "Does low circulating metal mean every tissue is deficient?",
+      "answer": "No. Circulating measurements, stored metal, and local cellular availability describe different pools. Iron depletion and inflammatory restriction can also coexist. Interpreting a result requires its clinical and measurement context."
+    },
+    {
+      "question": "Does better absorption mean that a supplement bypasses microbes?",
+      "answer": "No. Host absorption, residual intestinal chemistry, and microbial acquisition are separate measurements. An absorption advantage can be useful without proving microbial exclusion or a disease-specific benefit."
+    },
+    {
+      "question": "Can a microbiome signature select the right supplement?",
+      "answer": "The studies discussed here do not establish a validated rule for selecting a formulation from a taxonomic signature. Such a rule would need microbial-function evidence and prospective validation against meaningful host outcomes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hepcidin regulates cellular iron efflux by binding to ferroportin and inducing its internalization",
+      "authors": "Nemeth E et al.",
+      "year": 2004,
+      "url": "https://doi.org/10.1126/science.1104742"
+    },
+    {
+      "title": "IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin",
+      "authors": "Nemeth E et al.",
+      "year": 2004,
+      "url": "https://doi.org/10.1172/jci20945"
+    },
+    {
+      "title": "Single values of serum transferrin receptor and transferrin receptor ferritin index can be used to detect true and functional iron deficiency in rheumatoid arthritis patients with anemia",
+      "authors": "Suominen P et al.",
+      "year": 2000,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10817554/"
+    },
+    {
+      "title": "Serum hepcidin concentrations correlate with ferritin in patients with inflammatory bowel disease",
+      "authors": "Mecklenburg I et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1016/j.crohns.2014.04.008"
+    },
+    {
+      "title": "Oral versus intravenous iron replacement therapy distinctly alters the gut microbiota and metabolome in patients with IBD",
+      "authors": "Lee T et al.",
+      "year": 2017,
+      "url": "https://doi.org/10.1136/gutjnl-2015-309940"
+    },
+    {
+      "title": "Effects of iron supplementation on dominant bacterial groups in the gut, faecal SCFA and gut inflammation: a randomised, placebo-controlled intervention trial in South African children",
+      "authors": "Dostal A et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1017/s0007114514001160"
+    },
+    {
+      "title": "Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants",
+      "authors": "Jaeggi T et al.",
+      "year": 2015,
+      "url": "https://doi.org/10.1136/gutjnl-2014-307720"
+    },
+    {
+      "title": "Preliminary Comparison of Fractional Absorption of Zinc Sulphate, Zinc Gluconate, and Zinc Aspartate after Oral Supplementation in Healthy Human Volunteers",
+      "authors": "Piacenza F, Giacconi R, Costarelli L, Malavolta M",
+      "year": 2023,
+      "url": "https://doi.org/10.3390/nu15081885"
+    },
+    {
+      "title": "Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than from zinc oxide",
+      "authors": "Wegmüller R, Tay F, Zeder C, Brnic M, Hurrell RF",
+      "year": 2014,
+      "url": "https://doi.org/10.3945/jn.113.181487"
+    },
+    {
+      "title": "Oral zinc aspartate treats experimental autoimmune encephalomyelitis",
+      "authors": "Schubert C, Guttek K, Grüngreiff K, Thielitz A, Bühling F, Reinhold A, Brocke S, Reinhold D",
+      "year": 2014,
+      "url": "https://doi.org/10.1007/s10534-014-9786-8"
+    },
+    {
+      "title": "Zinc sulphate: A reasonable choice for depression management in patients with multiple sclerosis: A randomized, double-blind, placebo-controlled clinical trial",
+      "authors": "Salari S, Khomand P, Arasteh M, Yousefzamani B, Hassanzadeh K",
+      "year": 2015,
+      "url": "https://doi.org/10.1016/j.pharep.2015.01.002"
+    },
+    {
+      "title": "Zinc sequestration by the neutrophil protein calprotectin enhances Salmonella growth in the inflamed gut",
+      "authors": "Liu JZ, Jellbauer S, Poe AJ, Ton V, Pesciaroli M, Kehl-Fie TE, Restrepo NA, Hosking MP, Edwards RA, Battistoni A, Pasquali P, Lane TE, Chazin WJ, Vogl T, Roth J, Skaar EP, Raffatellu M",
+      "year": 2012,
+      "url": "https://doi.org/10.1016/j.chom.2012.01.017"
+    },
+    {
+      "title": "A role for the ATP7A copper-transporting ATPase in macrophage bactericidal activity",
+      "authors": "White C, Lee J, Kambe T, Fritsche K, Petris MJ",
+      "year": 2009,
+      "url": "https://doi.org/10.1074/jbc.m109.070201"
+    },
+    {
+      "title": "The siderophore yersiniabactin binds copper to protect pathogens during infection",
+      "authors": "Chaturvedi KS et al.",
+      "year": 2012,
+      "url": "https://doi.org/10.1038/nchembio.1020"
+    },
+    {
+      "title": "Human gut microbes use multiple transporters to distinguish vitamin B12 analogs and compete in the gut",
+      "authors": "Degnan PH, Barry NA, Mok KC, Taga ME, and Goodman AL",
+      "year": 2014,
+      "url": "https://doi.org/10.1016/j.chom.2013.12.007"
+    },
+    {
+      "title": "Oral vitamin B12 supplement is delivered to the distal gut, altering the corrinoid profile and selectively depleting Bacteroides in C57BL/6 mice",
+      "authors": "Kelly CJ et al.",
+      "year": 2019,
+      "url": "https://doi.org/10.1080/19490976.2019.1597667"
+    },
+    {
+      "title": "Gut microbiome of multiple sclerosis patients and paired household healthy controls reveal associations with disease risk and course",
+      "authors": "iMSMS Consortium",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/j.cell.2022.08.021"
+    },
+    {
+      "title": "Deconfounded, quantitative microbiome profiling identifies robust multiple sclerosis markers and clinical covariate associations",
+      "authors": "Pauwels A, Devolder L, Falony G, D'haeseleer M, Nagels G, Van Remoortel A, Derrien M, D'hooghe M, Raes J",
+      "year": 2026,
+      "url": "https://doi.org/10.1080/19490976.2026.2681876"
+    },
+    {
+      "title": "Lower Serum Zinc Levels in Patients with Multiple Sclerosis Compared to Healthy Controls",
+      "authors": "Pawlitzki M, Uebelhör J, Sweeney-Reed CM, Stephanik H, Hoffmann J, Lux A, Reinhold D",
+      "year": 2018,
+      "url": "https://doi.org/10.3390/nu10080967"
+    },
+    {
+      "title": "ZIP3 is essential for the encephalitogenic function of pTh17 cells by regulating intracellular zinc levels",
+      "authors": "Drmić D, Wang L, Noyer L, Zhong L, Feske S",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.jtemb.2026.127819"
+    },
+    {
+      "title": "Hepcidin-guided screen-and-treat interventions for young children with iron-deficiency anaemia in The Gambia: an individually randomised, three-arm, double-blind, controlled, proof-of-concept, non-inferiority trial",
+      "authors": "Wegmüller R et al.",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/s2214-109x(22)00449-1"
+    },
+    {
+      "title": "Arsenic metabolism by human gut microbiota upon in vitro digestion of contaminated soils",
+      "authors": "Van de Wiele T, Gallawa CM, Kubachka KM et al.",
+      "year": 2010,
+      "url": "https://doi.org/10.1289/ehp.0901794"
+    },
+    {
+      "title": "The gut microbiome is required for full protection against acute arsenic toxicity in mouse models",
+      "authors": "Coryell M, McAlpine M, Pinkham NV et al.",
+      "year": 2018,
+      "url": "https://doi.org/10.1038/s41467-018-07803-9"
+    }
+  ]
+}

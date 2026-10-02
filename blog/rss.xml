@@ -2,7 +2,7 @@
 <rss version="2.0"><channel>
   <title>Microbial Metallomics — Blog</title>
   <link>https://microbialmetallomics.com/blog</link>
-  <description>The metal–microbiome–disease axis: how heavy-metal exposure reshapes the microbiome and drives disease.</description>
+  <description>Essays on metal chemistry, microbial functions, host regulation, and disease.</description>
   <language>en</language>
     <item>
       <title>Tampon Metals and the Vaginal Microbiome: The Blind Spot in the Risk Assessment</title>
@@ -11,10 +11,10 @@
       <description>A toxicological risk assessment found tampon metals pose negligible systemic risk. But bioavailable there means absorbed into the blood, and the vaginal microbial community on the tampon surface was never assessed.</description>
     </item>
     <item>
-      <title>The Metal-Microbiome-Disease Axis: How Heavy Metals May Drive Disease Through the Gut</title>
+      <title>The Metal–Microbiome–Disease Axis: Who Gets the Metal?</title>
       <link>https://microbialmetallomics.com/blog/metal-microbiome-disease-axis</link>
       <guid>https://microbialmetallomics.com/blog/metal-microbiome-disease-axis</guid>
-      <description>Heavy-metal exposure reshapes the gut microbiome, and a disrupted microbiome drives disease. Chain those two well-evidenced links together and you get a mechanistic hypothesis: metals can cause disease through the microbiome. Here is the whole case, link by link, with the strength of the evidence named at each step.</description>
+      <description>Metals change microbial ecology; microbes change metal chemistry; inflammation changes local metal access. Follow the mechanisms connecting exposure, nutritional immunity, and disease.</description>
     </item>
     <item>
       <title>Arsenic and the Gut Microbiome: A Two-Way Street</title>
