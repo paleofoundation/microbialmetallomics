@@ -1,0 +1,26 @@
+{
+  "/": {
+    "title": "Microbial Metallomics: Metals, Microbes & the Microbiome",
+    "description": "Explore how microbes acquire, use, and transform metals. A sourced field guide to metal biology, the microbiome, nutritional immunity, methods, and researchers."
+  },
+  "/science": {
+    "title": "Microbial Metallomics: Metal Homeostasis, Enzymes & Immunity",
+    "description": "How microbes acquire metals, deliver enzyme cofactors, avoid mismetallation, and compete with hosts. Explore the mechanisms and the research behind them."
+  },
+  "/metals": {
+    "title": "Metals & Microbes: The Microbial Metallomics Atlas",
+    "description": "Explore 62 sourced profiles covering 70 elements: microbial enzymes, metal resistance, transformation, host competition, and open research questions."
+  },
+  "/start-here": {
+    "title": "Start Here: Metal Availability & the Microbiome",
+    "description": "A framework for microbial metallomics: follow chemical form, compartments, and host–microbial competition to connect metal measurements with biological function."
+  },
+  "/metal-access": {
+    "title": "Metal Bioavailability: Host–Microbe Compartment Explorer",
+    "description": "Follow zinc, iron, copper, and cobalt through host and microbial compartments. Compare established findings with connections that research still needs to test."
+  },
+  "/metals/nickel": {
+    "title": "Nickel in Bacteria: Urease, Hydrogenases & Metal Trafficking",
+    "description": "How microbes acquire and use nickel in urease, [NiFe]-hydrogenases, and glyoxalase I. Explore primary studies, host interactions, and open research questions."
+  }
+}

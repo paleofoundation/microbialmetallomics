@@ -1,0 +1,486 @@
+{
+  "concepts": [
+    {
+      "url": "/glossary/nutritional-immunity",
+      "terms": [
+        "nutritional immunity"
+      ]
+    },
+    {
+      "url": "/glossary/siderophore",
+      "terms": [
+        "siderophore",
+        "siderophores"
+      ]
+    },
+    {
+      "url": "/glossary/mismetallation",
+      "terms": [
+        "mismetallation"
+      ]
+    },
+    {
+      "url": "/glossary/metallostasis",
+      "terms": [
+        "metallostasis"
+      ]
+    },
+    {
+      "url": "/glossary/metallome",
+      "terms": [
+        "metallome"
+      ]
+    },
+    {
+      "url": "/glossary/metalloproteome",
+      "terms": [
+        "metalloproteome"
+      ]
+    },
+    {
+      "url": "/glossary/metallochaperone",
+      "terms": [
+        "metallochaperone",
+        "metallochaperones"
+      ]
+    },
+    {
+      "url": "/glossary/metallophore",
+      "terms": [
+        "metallophore",
+        "metallophores"
+      ]
+    },
+    {
+      "url": "/glossary/calprotectin",
+      "terms": [
+        "calprotectin"
+      ]
+    },
+    {
+      "url": "/glossary/metalloregulation",
+      "terms": [
+        "metalloregulation"
+      ]
+    },
+    {
+      "url": "/glossary/metal-intoxication",
+      "terms": [
+        "metal intoxication"
+      ]
+    },
+    {
+      "url": "/glossary/metal-sparing",
+      "terms": [
+        "metal sparing",
+        "metal-sparing"
+      ]
+    },
+    {
+      "url": "/glossary/irving-williams-series",
+      "terms": [
+        "Irving–Williams series",
+        "Irving-Williams series"
+      ]
+    },
+    {
+      "url": "/glossary/dissimilatory-metal-reduction",
+      "terms": [
+        "dissimilatory metal reduction"
+      ]
+    },
+    {
+      "url": "/people/stephane-benoit#dmg-evidence",
+      "terms": [
+        "dimethylglyoxime",
+        "DMG"
+      ]
+    },
+    {
+      "url": "/blog/metal-microbiome-disease-axis",
+      "terms": [
+        "metal–microbiome–disease axis",
+        "metal-microbiome-disease axis"
+      ]
+    },
+    {
+      "url": "/metal-access",
+      "terms": [
+        "metal access"
+      ]
+    }
+  ],
+  "related": {
+    "/metals/nickel": [
+      {
+        "url": "/blog/nickel-gut-microbiome-disease",
+        "title": "Dietary nickel and the gut microbiome",
+        "description": "Follow the proposed connections between nickel handling and host outcomes."
+      },
+      {
+        "url": "/people/stephane-benoit#nickel-research-directions",
+        "title": "Nickel chelation and antimicrobial research",
+        "description": "Benoit’s DMG work and the enzyme biology behind the research direction."
+      },
+      {
+        "url": "/blog/tampon-metals-vaginal-microbiome-blind-spot",
+        "title": "Metals and the vaginal microbiome",
+        "description": "A criticism of what exposure assessment measures—and what it can miss."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/iron": [
+      {
+        "url": "/blog/dietary-iron-microbiome-enteric-infection",
+        "title": "Dietary iron and enteric infection",
+        "description": "Connect nutrient delivery with intestinal ecology and infection research."
+      },
+      {
+        "url": "/library/iron-fortification-kenyan-infant-microbiome",
+        "title": "Iron fortification in Kenyan infants",
+        "description": "Read the human trial, its microbial findings, and the studied setting."
+      },
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      },
+      {
+        "url": "/blog/metal-microbiome-disease-axis",
+        "title": "The metal–microbiome–disease axis",
+        "description": "The organizing argument: who gets the metal, in which compartment, and why it matters."
+      }
+    ],
+    "/metals/zinc": [
+      {
+        "url": "/glossary/calprotectin",
+        "title": "Calprotectin and metal withholding",
+        "description": "The host protein connecting inflammation with microbial metal competition."
+      },
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      },
+      {
+        "url": "/blog/metal-microbiome-disease-axis",
+        "title": "The metal–microbiome–disease axis",
+        "description": "The organizing argument: who gets the metal, in which compartment, and why it matters."
+      },
+      {
+        "url": "/microbiome",
+        "title": "Heavy metals and the gut microbiome",
+        "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      }
+    ],
+    "/metals/arsenic": [
+      {
+        "url": "/blog/arsenic-gut-microbiome-two-way",
+        "title": "Arsenic and the microbiome: a two-way interaction",
+        "description": "Follow microbial transformation and the resulting exposure question."
+      },
+      {
+        "url": "/microbiome",
+        "title": "Heavy metals and the gut microbiome",
+        "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/cadmium": [
+      {
+        "url": "/blog/cadmium-gut-microbiome-metabolic-disease",
+        "title": "Cadmium, the gut microbiome, and metabolic disease",
+        "description": "Read the evidence and the proposed disease connections."
+      },
+      {
+        "url": "/microbiome",
+        "title": "Heavy metals and the gut microbiome",
+        "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/mercury": [
+      {
+        "url": "/blog/mercury-methylmercury-microbiome",
+        "title": "Mercury, methylmercury, and microbial transformation",
+        "description": "Why chemical species and microbial metabolism matter together."
+      },
+      {
+        "url": "/microbiome",
+        "title": "Heavy metals and the gut microbiome",
+        "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/lead": [
+      {
+        "url": "/blog/lead-gut-microbiome-neurodevelopment",
+        "title": "Lead, the gut microbiome, and neurodevelopment",
+        "description": "Examine the exposure evidence and proposed microbial pathways."
+      },
+      {
+        "url": "/microbiome",
+        "title": "Heavy metals and the gut microbiome",
+        "description": "An entry point to exposure, essential nutrients, microbial functions, and disease."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/metals/copper": [
+      {
+        "url": "/glossary/mismetallation",
+        "title": "Mismetallation: the wrong metal in the wrong place",
+        "description": "Why metal occupancy can change an enzyme’s biological function."
+      },
+      {
+        "url": "/people/james-a-imlay",
+        "title": "James Imlay’s contribution",
+        "description": "Oxidative stress, enzyme damage, and the chemistry of mismetallation."
+      },
+      {
+        "url": "/people/stephane-benoit#dmg-evidence",
+        "title": "Nickel chelation and antimicrobial research",
+        "description": "How the surrounding metal environment changed the response to DMG in a Campylobacter study."
+      }
+    ],
+    "/metals/manganese": [
+      {
+        "url": "/glossary/calprotectin",
+        "title": "Calprotectin and metal withholding",
+        "description": "The host protein connecting inflammation with microbial metal competition."
+      },
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      }
+    ],
+    "/glossary/nutritional-immunity": [
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/metals/zinc",
+        "title": "Zinc: formulation, compartments, and competition",
+        "description": "How chemical form and host regulation change the zinc-access question."
+      },
+      {
+        "url": "/glossary/calprotectin",
+        "title": "Calprotectin and metal withholding",
+        "description": "The host protein connecting inflammation with microbial metal competition."
+      },
+      {
+        "url": "/library/iron-fortification-kenyan-infant-microbiome",
+        "title": "Iron fortification in Kenyan infants",
+        "description": "Read the human trial, its microbial findings, and the studied setting."
+      }
+    ],
+    "/glossary/calprotectin": [
+      {
+        "url": "/metals/zinc",
+        "title": "Zinc: formulation, compartments, and competition",
+        "description": "How chemical form and host regulation change the zinc-access question."
+      },
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      }
+    ],
+    "/glossary/mismetallation": [
+      {
+        "url": "/people/james-a-imlay",
+        "title": "James Imlay’s contribution",
+        "description": "Oxidative stress, enzyme damage, and the chemistry of mismetallation."
+      },
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/metals/zinc",
+        "title": "Zinc: formulation, compartments, and competition",
+        "description": "How chemical form and host regulation change the zinc-access question."
+      }
+    ],
+    "/glossary/siderophore": [
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/blog/dietary-iron-microbiome-enteric-infection",
+        "title": "Dietary iron and enteric infection",
+        "description": "Connect nutrient delivery with intestinal ecology and infection research."
+      },
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      }
+    ],
+    "/glossary/metallophore": [
+      {
+        "url": "/metals/nickel",
+        "title": "Nickel and microbial enzymes",
+        "description": "Urease, hydrogenases, glyoxalase I, uptake, and metal delivery."
+      },
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/blog/nickel-gut-microbiome-disease",
+        "title": "Dietary nickel and the gut microbiome",
+        "description": "Follow the proposed connections between nickel handling and host outcomes."
+      }
+    ],
+    "/glossary/metallochaperone": [
+      {
+        "url": "/metals/nickel",
+        "title": "Nickel and microbial enzymes",
+        "description": "Urease, hydrogenases, glyoxalase I, uptake, and metal delivery."
+      },
+      {
+        "url": "/glossary/mismetallation",
+        "title": "Mismetallation: the wrong metal in the wrong place",
+        "description": "Why metal occupancy can change an enzyme’s biological function."
+      }
+    ],
+    "/glossary/metal-intoxication": [
+      {
+        "url": "/glossary/mismetallation",
+        "title": "Mismetallation: the wrong metal in the wrong place",
+        "description": "Why metal occupancy can change an enzyme’s biological function."
+      },
+      {
+        "url": "/people/stephane-benoit#nickel-research-directions",
+        "title": "Nickel chelation and antimicrobial research",
+        "description": "Benoit’s DMG work and the enzyme biology behind the research direction."
+      }
+    ],
+    "/glossary/metallostasis": [
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/metals/zinc",
+        "title": "Zinc: formulation, compartments, and competition",
+        "description": "How chemical form and host regulation change the zinc-access question."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ],
+    "/glossary/metallome": [
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/blog/metal-microbiome-disease-axis",
+        "title": "The metal–microbiome–disease axis",
+        "description": "The organizing argument: who gets the metal, in which compartment, and why it matters."
+      }
+    ],
+    "/glossary/metalloproteome": [
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      },
+      {
+        "url": "/glossary/mismetallation",
+        "title": "Mismetallation: the wrong metal in the wrong place",
+        "description": "Why metal occupancy can change an enzyme’s biological function."
+      }
+    ],
+    "/glossary/metalloregulation": [
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/metals/zinc",
+        "title": "Zinc: formulation, compartments, and competition",
+        "description": "How chemical form and host regulation change the zinc-access question."
+      },
+      {
+        "url": "/metals/nickel",
+        "title": "Nickel and microbial enzymes",
+        "description": "Urease, hydrogenases, glyoxalase I, uptake, and metal delivery."
+      }
+    ],
+    "/glossary/metal-sparing": [
+      {
+        "url": "/glossary/nutritional-immunity",
+        "title": "Nutritional immunity",
+        "description": "How the host changes microbial access to essential nutrients."
+      },
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      }
+    ],
+    "/glossary/irving-williams-series": [
+      {
+        "url": "/glossary/mismetallation",
+        "title": "Mismetallation: the wrong metal in the wrong place",
+        "description": "Why metal occupancy can change an enzyme’s biological function."
+      },
+      {
+        "url": "/metals/nickel",
+        "title": "Nickel and microbial enzymes",
+        "description": "Urease, hydrogenases, glyoxalase I, uptake, and metal delivery."
+      }
+    ],
+    "/glossary/dissimilatory-metal-reduction": [
+      {
+        "url": "/metals/iron",
+        "title": "Iron: stores, availability, and microbial competition",
+        "description": "Distinguish depletion, inflammatory restriction, and the metal microbes can use."
+      },
+      {
+        "url": "/methods",
+        "title": "Methods for measuring the relevant metal pool",
+        "description": "Compare analytical tools for concentration, speciation, and location."
+      }
+    ]
+  }
+}

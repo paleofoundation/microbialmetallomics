@@ -2,16 +2,85 @@
 from pathlib import Path
 import re,json,html,hashlib
 from urllib.parse import urlsplit
+from html.parser import HTMLParser
+from datetime import date,datetime,timezone
+from xml.sax.saxutils import escape
+from link_site import refresh_links,registry
+from search_metadata import refresh_search_metadata
 ROOT=Path(__file__).resolve().parents[1]
 ORIGIN='https://microbialmetallomics.com'
+class PageMetadata(HTMLParser):
+ """Read metadata regardless of attribute order, quoting, or extra attributes."""
+ def __init__(self,source):
+  super().__init__(convert_charrefs=True)
+  self.meta={};self.canonical='';self.heading=[];self.structured=[]
+  self._heading=False;self._script=None
+  self.feed(source)
+ def handle_starttag(self,tag,attributes):
+  attrs=dict(attributes)
+  if tag=='meta':
+   key=(attrs.get('name') or attrs.get('property') or '').lower()
+   if key:self.meta.setdefault(key,[]).append(attrs.get('content',''))
+  elif tag=='link' and 'canonical' in (attrs.get('rel') or '').lower().split():
+   self.canonical=attrs.get('href','')
+  elif tag=='h1':self._heading=True
+  elif tag=='script' and (attrs.get('type') or '').lower()=='application/ld+json':self._script=[]
+ def handle_endtag(self,tag):
+  if tag=='h1':self._heading=False
+  elif tag=='script' and self._script is not None:
+   try:self.structured.append(json.loads(''.join(self._script)))
+   except (TypeError,ValueError):pass # The whole-site linter reports malformed JSON.
+   self._script=None
+ def handle_data(self,data):
+  if self._heading:self.heading.append(data)
+  if self._script is not None:self._script.append(data)
+ @property
+ def description(self):return next(iter(self.meta.get('description',[])),'')
+ @property
+ def title(self):return ' '.join(''.join(self.heading).split())
+ @property
+ def indexable(self):
+  directives=','.join(value.lower() for key in ['robots','googlebot','bingbot'] for value in self.meta.get(key,[]))
+  return not {'noindex','none'}.intersection(re.split(r'[\s,]+',directives))
+ def last_modified(self):
+  # Use page-level dates, never dates on cited publications or the build clock.
+  page_types={'WebPage','Article','BlogPosting','ScholarlyArticle','NewsArticle','CollectionPage','AboutPage','ProfilePage','FAQPage'}
+  nodes=[]
+  for data in self.structured:
+   candidates=data if isinstance(data,list) else [data]
+   for candidate in candidates:
+    if isinstance(candidate,dict):nodes.extend(candidate.get('@graph',[candidate]))
+  page_nodes=[]
+  for node in nodes:
+   if not isinstance(node,dict):continue
+   types=node.get('@type',[]);types=[types] if isinstance(types,str) else types
+   if not page_types.intersection(types):continue
+   identity=node.get('url') or node.get('mainEntityOfPage') or node.get('@id')
+   if isinstance(identity,dict):identity=identity.get('@id') or identity.get('url')
+   if identity and str(identity).split('#')[0].rstrip('/')!=self.canonical.rstrip('/'):continue
+   page_nodes.append(node)
+  for field,meta_name in [('dateModified','article:modified_time'),('datePublished','article:published_time')]:
+   dates=[]
+   for value in [*[node.get(field) for node in page_nodes],*self.meta.get(meta_name,[])]:
+    if not isinstance(value,str):continue
+    try:
+     parsed=datetime.fromisoformat(value.replace('Z','+00:00')) if 'T' in value else date.fromisoformat(value)
+     day=parsed.date() if isinstance(parsed,datetime) else parsed
+     if day<=datetime.now(timezone.utc).date():dates.append(day.isoformat())
+    except ValueError:continue
+   if dates:return max(dates)
+  return None
+
+def public_html():
+ return sorted(p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and not any(part.startswith('.') for part in p.relative_to(ROOT).parts))
+
 links=[('/start-here','Start here'),('/research','Research'),('/library','Paper Reviews'),('/topics','Topics'),('/people',"Who’s Who"),('/commentary','Commentary')]
 nav='<nav class="nav-links" aria-label="Primary">'+''.join('<a href="'+url+'">'+title+'</a>' for url,title in links)+'</nav>'
-mega='''<div class="mega-menu" id="mega-menu"><div class="wrap"><div class="mega-grid"><div class="mega-col"><h5>Read the field</h5><a href="/start-here"><b>Start here</b><span>The organizing thesis</span></a><a href="/metal-access"><b>Follow the metal</b><span>Form, compartment, and microbial access</span></a><a href="/science"><b>The Science</b><span>How microbes use and compete for metals</span></a><a href="/metals"><b>The Metals</b><span>Element-by-element profiles</span></a><a href="/glossary"><b>Glossary</b><span>Find a term and its meaning</span></a><a href="/blog"><b>Essays</b><span>The metal–microbiome–disease axis</span></a></div><div class="mega-col"><h5>Work with the evidence</h5><a href="/evidence"><b>Evidence explorer</b><span>Search, filter, and export the catalog</span></a><a href="/library"><b>Paper Reviews</b><span>Studies, read in context</span></a><a href="/commentary"><b>Critical Commentary</b><span>Close readings and open questions</span></a><a href="/methods"><b>Methods comparison</b><span>Match a tool to a question</span></a><a href="/evidence-guide"><b>Evidence guide</b><span>Design, inference, and publication status</span></a></div><div class="mega-col"><h5>People &amp; participation</h5><a href="/people"><b>Who’s Who</b><span>Researchers, expertise, and public contacts</span></a><a href="/projects"><b>Research questions</b><span>Proposed directions and missing measurements</span></a><a href="/contribute"><b>Contribute or correct</b><span>Prepare a sourced suggestion</span></a><a href="/reading-list"><b>Saved reading</b><span>Your list on this browser</span></a><a href="/about"><b>About this resource</b><span>Purpose and affiliations</span></a></div><div class="mega-col"><h5>Follow &amp; understand</h5><a href="/newsletter"><b>Follow the field</b><span>Ways to keep up with new writing</span></a><a href="/feeds"><b>RSS feeds</b><span>All writing or a selected section</span></a><a href="/updates"><b>Latest &amp; changes</b><span>New articles and site revisions</span></a><a href="/editorial"><b>Editorial standards</b><span>Sources, disclosures, and corrections</span></a><a href="/landscape"><b>Research Landscape</b><span>Journals, facilities, and milestones</span></a></div></div></div></div>'''
+mega='''<div class="mega-menu" id="mega-menu"><div class="wrap"><div class="mega-grid"><div class="mega-col"><h5>Read the field</h5><a href="/start-here"><b>Start here</b><span>The organizing thesis</span></a><a href="/metal-access"><b>Follow the metal</b><span>Form, compartment, and microbial access</span></a><a href="/science"><b>The Science</b><span>How microbes use and compete for metals</span></a><a href="/metals"><b>The Metals</b><span>Element-by-element profiles</span></a><a href="/glossary"><b>Glossary</b><span>Find a term and its meaning</span></a><a href="/faq"><b>Frequently asked questions</b><span>Answers about microbes and metals</span></a><a href="/blog"><b>Essays</b><span>The metal–microbiome–disease axis</span></a></div><div class="mega-col"><h5>Work with the evidence</h5><a href="/evidence"><b>Evidence explorer</b><span>Search, filter, and export the catalog</span></a><a href="/library"><b>Paper Reviews</b><span>Studies, read in context</span></a><a href="/commentary"><b>Critical Commentary</b><span>Close readings and open questions</span></a><a href="/methods"><b>Methods comparison</b><span>Match a tool to a question</span></a><a href="/evidence-guide"><b>Evidence guide</b><span>Design, inference, and publication status</span></a></div><div class="mega-col"><h5>People &amp; participation</h5><a href="/people"><b>Who’s Who</b><span>Researchers, expertise, and public contacts</span></a><a href="/projects"><b>Research questions</b><span>Proposed directions and missing measurements</span></a><a href="/contribute"><b>Contribute or correct</b><span>Prepare a sourced suggestion</span></a><a href="/reading-list"><b>Saved reading</b><span>Your list on this browser</span></a><a href="/about"><b>About this resource</b><span>Purpose and affiliations</span></a></div><div class="mega-col"><h5>Follow &amp; understand</h5><a href="/newsletter"><b>Follow the field</b><span>Ways to keep up with new writing</span></a><a href="/feeds"><b>RSS feeds</b><span>All writing or a selected section</span></a><a href="/updates"><b>Latest &amp; changes</b><span>New articles and site revisions</span></a><a href="/editorial"><b>Editorial standards</b><span>Sources, disclosures, and corrections</span></a><a href="/landscape"><b>Research Landscape</b><span>Journals, facilities, and milestones</span></a></div></div></div></div>'''
 footerlinks='<p class="utility-links"><a href="/about">About</a><a href="/editorial">Editorial standards</a><a href="/editorial#privacy">Privacy</a><a href="/contribute">Contribute / correct</a><a href="/feeds">RSS</a><a href="/updates">Updates</a><a href="/reading-list">Saved reading</a></p>'
 footercredit='<p class="project-credit">© 2026 Microbial Metallomics. A project associated with <a href="https://microbiomemedicine.com/">Microbiome Medicine</a> and <a href="https://www.wikibiome.com/">Wikibiome.com</a>.</p>'
 cat_hash=hashlib.sha256((ROOT/'assets/data/articles.json').read_bytes()).hexdigest()[:12]
-for p in ROOT.rglob('*.html'):
- if 'node_modules' in p.parts or any(part.startswith('.') for part in p.relative_to(ROOT).parts):continue
+for p in public_html():
  s=p.read_text()
  s=s.replace('<html lang="en">','<html lang="en-US">').replace('"inLanguage": "en"','"inLanguage": "en-US"')
  s=re.sub(r'<nav class="nav-links" aria-label="Primary">.*?</nav>',nav,s,flags=re.S)
@@ -37,18 +106,31 @@ for p in ROOT.rglob('*.html'):
  s=re.sub(r'(href|src)="(/assets/[^\"]+\.(?:css|js|json|csv)(?:\?[^\"]*)?)"',bust,s)
  s='\n'.join(line.rstrip() for line in s.splitlines())+'\n'
  p.write_text(s)
-# Preserve the original search records; update their author/category context and append new pages.
-p=ROOT/'search-index.json';index=json.loads(p.read_text());byurl={r['url']:r for r in index}
+refresh_links(ROOT)
+refresh_search_metadata(ROOT)
+# Normalize the device-local page before building discovery records.
+p=ROOT/'reading-list.html';s=p.read_text();s=re.sub(r'<meta name="robots" content="[^"]*">','<meta name="robots" content="noindex,follow">',s);p.write_text(s)
+# One attribute-order-independent inventory drives both search and the sitemap.
+pages={}
+for p in public_html():
+ metadata=PageMetadata(p.read_text());canonical=urlsplit(metadata.canonical)
+ if not metadata.indexable or canonical.scheme!='https' or canonical.netloc!=urlsplit(ORIGIN).netloc:continue
+ pages[canonical.path or '/']=(p,metadata)
+# Preserve useful section-anchor records and refresh every indexable page.
+_,_,legacy_destinations=registry(ROOT)
+p=ROOT/'search-index.json';index=[r for r in json.loads(p.read_text()) if urlsplit(r['url']).path in pages and r['url'] not in legacy_destinations]
+byurl={r['url']:r for r in index}
+for route,(p,metadata) in pages.items():
+ if not metadata.title:continue
+ existing=byurl.get(route,{})
+ kind='Researcher profile' if route.startswith('/people/') else ('Element profile' if route.startswith('/metals/') else ('Glossary' if route.startswith('/glossary/') else ('Guide' if p.stem in ['start-here','metal-access','evidence-guide','methods','editorial','about','projects'] else existing.get('kind','Section'))))
+ record={'kind':kind,'title':metadata.title,'url':route,'desc':metadata.description}
+ if route in byurl:byurl[route].update(record)
+ else:index.append(record);byurl[route]=record
+# Article author and topic context is richer than the search-result description.
 articles=json.loads((ROOT/'assets/data/articles.json').read_text())
 for r in articles:
  if r['url'] in byurl:byurl[r['url']].update({'kind':r['kind'],'title':r['title'],'desc':r['description']+' '+' '.join(r['authors'])+' '+' '.join(r['topics'])})
-for p in [*ROOT.glob('*.html'), *(ROOT/'metals').glob('*.html'), *(ROOT/'people').glob('*.html')]:
- if p.name in ['404.html','index.html']:continue
- route='/'+p.relative_to(ROOT).with_suffix('').as_posix();s=p.read_text();title=re.search(r'<h1[^>]*>(.*?)</h1>',s,re.S);desc=re.search(r'<meta name="description" content="([^"]*)"',s)
- if not title:continue
- record={'kind':'Researcher profile' if route.startswith('/people/') else ('Element profile' if route.startswith('/metals/') else ('Guide' if p.stem in ['start-here','metal-access','evidence-guide','methods','editorial','about','projects'] else 'Section')),'title':html.unescape(re.sub('<[^>]+>','',title.group(1))),'url':route,'desc':html.unescape(desc.group(1)) if desc else ''}
- if route in byurl:byurl[route].update(record)
- else:index.append(record);byurl[route]=record
 # Search includes element symbols, enzymes, organisms, and grouped lanthanide names.
 def readable_access(value):
  if isinstance(value,str):return value
@@ -72,13 +154,7 @@ if people_path.exists():
   route='/people/'+r['slug']
   if route in byurl:byurl[route]['desc']=' '.join([r['bio'],*r['topics'],readable_access(r.get('impact',{})),readable_access(r.get('spotlight',{})),readable_access(r.get('mechanisticCase',{}))])
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
-# Sitemap: all public pages with stable canonical URLs, excluding device-local reading list.
-from xml.sax.saxutils import escape
-urls=[]
-for p in ROOT.rglob('*.html'):
- if 'node_modules' in p.parts or any(part.startswith('.') for part in p.relative_to(ROOT).parts) or p.name in ['404.html','reading-list.html']:continue
- s=p.read_text();match=re.search(r'<link rel="canonical" href="([^"]+)"',s)
- if match and match.group(1).startswith(ORIGIN):urls.append(html.unescape(match.group(1)))
-(ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+escape(u)+'</loc></url>\n' for u in sorted(set(urls)))+'</urlset>\n')
-p=ROOT/'reading-list.html';s=p.read_text();s=re.sub(r'<meta name="robots" content="[^"]*">','<meta name="robots" content="noindex,follow">',s);p.write_text(s)
-print('Integrated navigation, profiles, tool assets, content feeds, metadata, and',len(index),'search entries.')
+# Sitemap: every indexable canonical page, with reliable page-level freshness only.
+entries={metadata.canonical:metadata.last_modified() for _,metadata in pages.values()}
+(ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+escape(url)+'</loc>'+('<lastmod>'+modified+'</lastmod>' if modified else '')+'</url>\n' for url,modified in sorted(entries.items()))+'</urlset>\n')
+print('Integrated navigation, profiles, tool assets, content feeds, metadata,',len(index),'search entries and',len(entries),'sitemap URLs.')

@@ -22,3 +22,14 @@
 .reference-backlinks{display:inline-flex;flex-wrap:wrap;gap:6px;margin-left:12px;font-size:.8125rem}
 .reference-backlinks a{padding:2px 4px;text-decoration:none;color:var(--patina)}
 @media print{.references,#references{display:block!important}.reference-backlinks{display:none!important}.reference-list>li{break-inside:avoid}.citation a{color:#000}.reference-list>li:target{background:none;outline:0}}
+/* Contextual links and curated reading paths are rendered as ordinary HTML. */
+a[data-context-link]{color:var(--patina);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.connected-reading{border-top:1px solid var(--line);padding-top:24px!important;margin:32px 0}
+.connected-reading h2{font-size:1.55rem;margin:0 0 20px}
+.connected-reading-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 30px}
+.connected-reading-grid a{display:block;color:var(--ink);text-decoration:none;border-left:2px solid var(--patina);padding-left:15px}
+.connected-reading-grid strong{display:block;font:600 1.05rem/1.5 var(--font-display);margin-bottom:7px}
+.connected-reading-grid span{display:block;font-size:.85rem;line-height:1.7;color:var(--ink-soft)}
+.connected-reading-grid a:hover strong{text-decoration:underline;text-underline-offset:3px}
+.connected-reading-grid a:focus-visible{outline:2px solid var(--patina);outline-offset:4px}
+@media(max-width:650px){.connected-reading-grid{grid-template-columns:1fr}}

@@ -21,5 +21,18 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.microbialmetallomics.com"
+        }
+      ],
+      "destination": "https://microbialmetallomics.com/:path*",
+      "permanent": true
+    }
   ]
 }
