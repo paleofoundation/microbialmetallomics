@@ -1,0 +1,43 @@
+/* Article notes sit alongside the header without narrowing the reading column. */
+.article-header-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 3.5rem;
+  align-items: end;
+}
+.article-header-main { min-width: 0; }
+.editorial-correction {
+  border-top: 1px solid var(--line-strong);
+  padding-top: 1rem;
+  color: var(--ink-soft);
+  font-size: .875rem;
+  line-height: 1.75;
+}
+.editorial-correction h2 {
+  margin: 0 0 .4rem;
+  color: var(--copper);
+  font: 700 .75rem/1.5 var(--font-body);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.editorial-correction time {
+  display: block;
+  margin-bottom: .75rem;
+  color: var(--ink-mute);
+  font-size: .8125rem;
+}
+.editorial-correction p { margin: 0; }
+.editorial-correction a {
+  color: var(--patina);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@media (max-width: 1000px) {
+  .article-header-layout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .editorial-correction { max-width: 42rem; }
+}
+@media print {
+  .article-header-layout { display: block; }
+  .editorial-correction { margin-top: 1.5rem; break-inside: avoid; }
+  .editorial-correction h2 { font-size: 9pt !important; }
+}
