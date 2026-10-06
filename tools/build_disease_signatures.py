@@ -6,6 +6,7 @@ from html import unescape
 import json
 import re
 from access_render import Citations, esc, render_blocks, claim_nodes
+from author_identity import site_author, author_schema, author_byline
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://microbialmetallomics.com'
@@ -26,7 +27,7 @@ def schema(data, route, hub=False):
             'name': data['title'], 'description': data['description'], 'url': url,
             'mainEntityOfPage': url, 'datePublished': data['published'], 'dateModified': data['updated'],
             'inLanguage': 'en-US', 'keywords': data['keywords'],
-            'author': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN + '/about'},
+            'author': author_schema(site_author(data['authorSlug'])) if data.get('authorSlug') else {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN + '/about'},
             'publisher': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN}}
     if not hub:
         page['citation'] = data['paper']['url'] if data.get('paper') else [s['url'] for s in data['sources']]
@@ -45,7 +46,7 @@ def schema(data, route, hub=False):
 def head(data, route, hub=False, structured=None):
     out = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', '', PREFIX, flags=re.S)
     out = re.sub(r'<title>.*?</title>', '<title>' + esc(data['title']) + ' | Microbial Metallomics</title>', out, flags=re.S)
-    for attr, key, value in [('name', 'description', data['description']), ('property', 'og:title', data['title']), ('property', 'og:description', data['description']), ('property', 'og:url', ORIGIN + route), ('name', 'twitter:title', data['title']), ('name', 'twitter:description', data['description'])]:
+    for attr, key, value in [('name', 'author', site_author(data['authorSlug'])['name'] if data.get('authorSlug') else 'Microbial Metallomics'), ('name', 'description', data['description']), ('property', 'og:title', data['title']), ('property', 'og:description', data['description']), ('property', 'og:url', ORIGIN + route), ('name', 'twitter:title', data['title']), ('name', 'twitter:description', data['description'])]:
         out = re.sub(r'<meta\b(?=[^>]*\b' + attr + '="' + re.escape(key) + '")[^>]*>', '<meta ' + attr + '="' + key + '" content="' + esc(value) + '">', out)
     out = re.sub(r'<link rel="canonical"[^>]*>', '<link rel="canonical" href="' + ORIGIN + route + '">', out)
     out = re.sub(r'<link\b[^>]*href="/assets/(?:metal-access|disease-signatures)\.css[^>]*>\s*', '', out)
@@ -69,8 +70,9 @@ def controls(data, route):
 def cite_panel(data, route):
     url = ORIGIN + route
     title = data['title'] + ('' if data['title'].endswith(('.', '?', '!')) else '.')
-    text = 'Microbial Metallomics. ' + title + ' ' + data['published'] + '. ' + url
-    payload = {'title': data['title'], 'date': data['published'], 'authors': ['Microbial Metallomics'], 'url': url}
+    name = site_author(data['authorSlug'])['name'] if data.get('authorSlug') else 'Microbial Metallomics'
+    text = name + '. ' + title + ' ' + data['published'] + '. ' + url
+    payload = {'title': data['title'], 'date': data['published'], 'authors': [name], 'url': url}
     return '<details class="citation-panel" id="cite-this-page" data-citation><summary>Cite this page</summary><p data-citation-text>' + esc(text) + '</p><div class="article-tools"><button class="text-action" data-citation-copy type="button">Copy citation</button><button class="text-action" data-citation-bibtex type="button">Download BibTeX</button><button class="text-action" data-citation-ris type="button">Download RIS</button></div><p class="tool-status" data-citation-status role="status"></p></details><script id="page-citation-data" type="application/json">' + json.dumps(payload, ensure_ascii=False) + '</script><p class="print-source">Published at ' + url + '</p>'
 
 
@@ -110,7 +112,7 @@ def render_review(data):
     paper = data['paper']
     source = '<div class="journal-source-link"><a href="' + esc(paper['url']) + '" target="_blank" rel="noopener noreferrer">Read the primary paper ↗</a><span>' + esc(paper['journal']) + ' · ' + str(paper['year']) + ' · DOI: ' + esc(paper['doi']) + '</span></div>'
     primary = '<div class="citation-box"><span class="lbl">Primary study</span><p>' + esc(paper['authors']) + '. <cite>' + esc(paper['title']) + '</cite>. ' + esc(paper['journal']) + ' (' + str(paper['year']) + ').</p></div>'
-    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/disease-signatures">Disease signatures</a><span>/</span><span>' + esc(data['shortTitle']) + '</span></nav><p class="eyebrow">Disease signatures · Paper review</p><h1>' + esc(data['title']) + '</h1><p class="article-lead">' + esc(data['deck']) + '</p><p class="signature-byline">Review and research synthesis by <a href="/about">Microbial Metallomics</a></p>' + controls(data, route) + source + '</div></section>'
+    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/disease-signatures">Disease signatures</a><span>/</span><span>' + esc(data['shortTitle']) + '</span></nav><p class="eyebrow">Disease signatures · Paper review</p><h1>' + esc(data['title']) + '</h1><p class="article-lead">' + esc(data['deck']) + '</p><p class="signature-byline">Review and research synthesis by ' + author_byline(site_author(data['authorSlug'])) + '</p>' + controls(data, route) + source + '</div></section>'
     article = '<div class="article-format">Source study: ' + esc(data['design']) + ' · ' + esc(data['setting']) + '. <a href="/evidence-guide#from-mechanism-to-hypothesis">Reading findings, mechanisms, and proposals</a></div>' + summary + primary + body + faq(data) + cite.references() + cite_panel(data, route)
     content = '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + article + '</article>' + sidebar(data) + '</div></main>'
     (ROOT / (route.lstrip('/') + '.html')).write_text(head(data, route) + content + SUFFIX)
