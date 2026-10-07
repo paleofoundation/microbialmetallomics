@@ -4,6 +4,10 @@
 
 Core thesis (the metal–microbiome–disease axis): heavy-metal exposure reshapes the gut microbiome, and microbiome disruption drives disease — so heavy-metal exposure can drive disease through this microbiome-mediated mechanistic pathway. See /blog/metal-microbiome-disease-axis.
 
+## Authorship
+
+[Karen Pendergrass](https://microbialmetallomics.com/people/karen-pendergrass) writes this site’s essays, reviews, and research syntheses on microbial metallomics, heavy metals, and the microbiome. Her verified ORCID is [0000-0002-2348-7259](https://orcid.org/0000-0002-2348-7259). Microbial Metallomics is the publisher. Named coauthors and the authors of cited research retain their own credits.
+
 ## Key concepts (each has a dedicated page under /glossary/)
 - [Calprotectin](https://microbialmetallomics.com/glossary/calprotectin): Calprotectin is an abundant neutrophil protein complex (an S100A8/S100A9 heterodimer) that helps defend the host by sequestering manganese and zinc from microbes, and is measured in stool as a biomarker of gut inflammation.
 - [Dissimilatory Metal Reduction](https://microbialmetallomics.com/glossary/dissimilatory-metal-reduction): Dissimilatory metal reduction is a form of anaerobic microbial respiration in which cells conserve energy by transferring respiratory electrons onto an oxidized metal, such as Fe(III), Mn(IV), or U(VI), used as the terminal electron acceptor.

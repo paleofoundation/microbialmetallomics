@@ -8,6 +8,7 @@ import json
 import re
 import argparse
 from access_render import Citations, esc, render_blocks
+from author_identity import site_author, author_schema, author_byline
 from build_disease_signatures import head, controls, chapters, faq, cite_panel, SUFFIX
 from check_host_series import EXPECTED, validate_article, release_scope
 
@@ -20,7 +21,7 @@ def metadata(d, route, collection, hub=False):
     page = {'@type': 'CollectionPage' if hub else 'Article', 'headline': d['title'], 'name': d['title'],
             'description': d['description'], 'url': ORIGIN + route, 'mainEntityOfPage': ORIGIN + route,
             'datePublished': d['published'], 'dateModified': d['updated'], 'inLanguage': 'en-US',
-            'author': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN + '/about'},
+            'author': author_schema(site_author(d.get('authorSlug', 'karen-pendergrass'))),
             'publisher': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN},
             'keywords': d['keywords'], 'image': {'@type': 'ImageObject', 'url': ORIGIN + '/assets/series-covers/' + (route.lstrip('/') if hub else d['slug']) + '.png', 'width': 1200, 'height': 630}}
     if hub:
@@ -88,7 +89,7 @@ def render_article(d, collection):
     assert set(cite.order) == set(range(1, len(d['sources']) + 1))
     references = source_provenance(cite.references(), cite).replace('Primary studies supporting the linked statements. The framework and proposed experiments are editorial synthesis, not a clinical guideline or a systematic review.', 'Sources supporting the numbered claims. This is a narrative research synthesis. Each study’s model and the limits of its interpretation are recorded in the evidence ledger; proposed experiments are editorial analysis.')
     related = '<section class="host-related"><h2>Continue the investigation</h2><div class="access-reading-links">' + ''.join('<a href="' + esc(r['url']) + '"><strong>' + esc(r['title']) + '</strong><span>' + esc(r['description']) + '</span></a>' for r in d['related']) + '</div></section>'
-    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="' + collection['route'] + '">' + esc(collection['title']) + '</a><span>/</span><span>' + esc(d['shortTitle']) + '</span></nav><p class="eyebrow">' + esc(collection['title']) + ' · Deep dive</p><h1>' + esc(d['title']) + '</h1><p class="article-lead">' + esc(d['deck']) + '</p><p class="signature-byline">Research synthesis by <a href="/about">Microbial Metallomics</a></p>' + controls(d, route) + '<div class="journal-source-link"><a href="#references">Explore the primary sources ↓</a><span>Narrative synthesis · ' + str(len(d['sources'])) + ' sources · model and compartment stated beside the claims</span></div></div></section>'
+    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="' + collection['route'] + '">' + esc(collection['title']) + '</a><span>/</span><span>' + esc(d['shortTitle']) + '</span></nav><p class="eyebrow">' + esc(collection['title']) + ' · Deep dive</p><h1>' + esc(d['title']) + '</h1><p class="article-lead">' + esc(d['deck']) + '</p><p class="signature-byline">Research synthesis by ' + author_byline(site_author(d.get('authorSlug', 'karen-pendergrass'))) + '</p>' + controls(d, route) + '<div class="journal-source-link"><a href="#references">Explore the primary sources ↓</a><span>Narrative synthesis · ' + str(len(d['sources'])) + ' sources · model and compartment stated beside the claims</span></div></div></section>'
     article = '<div class="article-format">Mechanisms, microbial counterstrategies, and experiments worth doing. <a href="/evidence-guide#from-mechanism-to-hypothesis">How this guide connects evidence and hypotheses</a></div>' + summary + body + note + ledger + faq(d) + references + cite_panel(d, route) + related
     out = page_head(d, route, collection) + '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + article + '</article>' + sidebar(d, collection) + '</div></main>' + page_suffix()
     (ROOT / (route.lstrip('/') + '.html')).write_text(out)

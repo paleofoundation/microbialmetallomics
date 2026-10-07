@@ -36,6 +36,7 @@ def refresh_search_metadata(root):
    head=re.sub(r'<title>.*?</title>','<title>'+escape(config['title'])+'</title>',head,flags=re.S)
    s=head+'</head>'+body
   def schema(match):
+   if 'id="site-identity"' in match.group(0):return match.group(0)
    data=json.loads(match.group(1));changed=False
    def visit(node):
     nonlocal changed

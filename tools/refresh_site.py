@@ -7,6 +7,7 @@ from datetime import date,datetime,timezone
 from xml.sax.saxutils import escape
 from link_site import refresh_links,registry
 from search_metadata import refresh_search_metadata
+from authorship import refresh_authorship
 ROOT=Path(__file__).resolve().parents[1]
 ORIGIN='https://microbialmetallomics.com'
 class PageMetadata(HTMLParser):
@@ -108,6 +109,7 @@ for p in public_html():
  p.write_text(s)
 refresh_links(ROOT)
 refresh_search_metadata(ROOT)
+refresh_authorship(ROOT)
 # Normalize the device-local page before building discovery records.
 p=ROOT/'reading-list.html';s=p.read_text();s=re.sub(r'<meta name="robots" content="[^"]*">','<meta name="robots" content="noindex,follow">',s);p.write_text(s)
 # One attribute-order-independent inventory drives both search and the sitemap.

@@ -11,7 +11,16 @@ def site_author(slug):
 
 def author_schema(person):
     url = 'https://microbialmetallomics.com/people/' + person['slug']
-    return {'@type': 'Person', '@id': url + '#person', 'name': person['name'], 'url': url}
+    identity = {'@type': 'Person', '@id': url + '#person', 'name': person['name'], 'url': url,
+                'description': person['bio'], 'jobTitle': person['role'],
+                'knowsAbout': person['topics'],
+                'sameAs': list(dict.fromkeys([person['source'],
+                    *[link['url'] for link in person.get('identityLinks', [])],
+                    *(['https://orcid.org/' + person['orcid']] if person.get('orcid') else [])]))}
+    if person.get('orcid'):
+        identity['identifier'] = {'@type': 'PropertyValue', 'propertyID': 'ORCID',
+                                  'value': person['orcid'], 'url': 'https://orcid.org/' + person['orcid']}
+    return identity
 
 
 def author_byline(person):

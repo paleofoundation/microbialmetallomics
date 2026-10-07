@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 import re, json, csv, io
 from xml.sax.saxutils import escape
+from authorship import refresh_authorship
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://microbialmetallomics.com'
@@ -61,6 +62,8 @@ def plain(value):
  return ' '.join(unescape(re.sub('<[^>]+>',' ',value or '')).split())
 
 def build():
+ refresh_authorship(ROOT)
+ author_urls={p['name']:ORIGIN+'/people/'+p['slug'] for p in json.loads((ROOT/'assets/data/people.json').read_text()) if p.get('siteAuthor')}
  records=[]
  for folder,kind in [('blog','Essay'),('library','Paper review'),('research','Original research')]:
   for file in sorted((ROOT/folder).glob('*.html')):
@@ -101,15 +104,17 @@ def build():
   row={k:record[k] for k in columns};row['authors']='; '.join(row['authors']);row['topics']='; '.join(row['topics']);row['url']=ORIGIN+row['url'];writer.writerow(row)
  (data/'reading-catalogue.csv').write_text(output.getvalue())
  feed=ROOT/'feeds';feed.mkdir(exist_ok=True)
- for name,items in [('all',records),('commentary',[r for r in records if r['kind']=='Critical Commentary']),('reviews',[r for r in records if r['kind'] in ['Paper review','Research synthesis']]),('research',[r for r in records if r['kind']=='Original research'])]:
-  pieces=['<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>', '<title>Microbial Metallomics — '+name.title()+'</title><link>'+ORIGIN+'</link><description>New writing, research summaries, and paper reviews from Microbial Metallomics.</description><language>en-US</language><atom:link href="'+ORIGIN+'/feeds/'+name+'.xml" rel="self" type="application/rss+xml"/>']
+ for name,items in [('all',records),('commentary',[r for r in records if r['kind']=='Critical Commentary']),('reviews',[r for r in records if r['kind'] in ['Paper review','Research synthesis']]),('research',[r for r in records if r['kind']=='Original research']),('blog',[r for r in records if r['url'].startswith('/blog/')])]:
+  feed_path='/blog/rss.xml' if name=='blog' else '/feeds/'+name+'.xml'
+  pieces=['<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel>', '<title>Microbial Metallomics — '+name.title()+'</title><link>'+ORIGIN+'</link><description>New writing, research summaries, and paper reviews from Microbial Metallomics.</description><language>en-US</language><atom:link href="'+ORIGIN+feed_path+'" rel="self" type="application/rss+xml"/>']
   for r in items:
    date=format_datetime(datetime.fromisoformat(r['date']).replace(tzinfo=timezone.utc)) if r['date'] else ''
-   pieces.append('<item><title>'+escape(r['title'])+'</title><link>'+ORIGIN+r['url']+'</link><guid isPermaLink="true">'+ORIGIN+r['url']+'</guid><description>'+escape((r['status']+' — ' if r['status'] else '')+r['description'])+'</description><category>'+escape(r['kind'])+'</category>'+('<category>'+escape(r['status'])+'</category>' if r['status'] else '')+('<pubDate>'+date+'</pubDate>' if date else '')+'</item>')
-  pieces.append('</channel></rss>');(feed/(name+'.xml')).write_text('\n'.join(pieces)+'\n')
- jsonfeed={'version':'https://jsonfeed.org/version/1.1','language':'en-US','title':'Microbial Metallomics','home_page_url':ORIGIN,'feed_url':ORIGIN+'/feeds/all.json','items':[{'id':ORIGIN+r['url'],'url':ORIGIN+r['url'],'title':r['title'],'content_text':(r['status']+' — ' if r['status'] else '')+r['description'],'date_published':r['date']+'T00:00:00Z','authors':[{'name':n} for n in r['authors']],'tags':[r['kind'],*([r['status']] if r['status'] else []),*r['topics']]} for r in records]}
+   creators=''.join('<dc:creator>'+escape(n)+'</dc:creator>' for n in r['authors'])
+   pieces.append('<item><title>'+escape(r['title'])+'</title><link>'+ORIGIN+r['url']+'</link><guid isPermaLink="true">'+ORIGIN+r['url']+'</guid>'+creators+'<description>'+escape((r['status']+' — ' if r['status'] else '')+r['description'])+'</description><category>'+escape(r['kind'])+'</category>'+('<category>'+escape(r['status'])+'</category>' if r['status'] else '')+('<pubDate>'+date+'</pubDate>' if date else '')+'</item>')
+  pieces.append('</channel></rss>');(ROOT/feed_path.lstrip('/')).write_text('\n'.join(pieces)+'\n')
+ jsonfeed={'version':'https://jsonfeed.org/version/1.1','language':'en-US','title':'Microbial Metallomics','home_page_url':ORIGIN,'feed_url':ORIGIN+'/feeds/all.json','items':[{'id':ORIGIN+r['url'],'url':ORIGIN+r['url'],'title':r['title'],'content_text':(r['status']+' — ' if r['status'] else '')+r['description'],'date_published':r['date']+'T00:00:00Z','authors':[{'name':n,'url':author_urls[n]} for n in r['authors']],'tags':[r['kind'],*([r['status']] if r['status'] else []),*r['topics']]} for r in records]}
  (feed/'all.json').write_text(json.dumps(jsonfeed,ensure_ascii=False,indent=2)+'\n')
- print('Generated',len(records),'article records, CSV, and five feeds.')
+ print('Generated',len(records),'article records, CSV, and six feeds.')
  return records
 
 if __name__=='__main__':build()

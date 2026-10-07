@@ -27,7 +27,7 @@ def schema(data, route, hub=False):
             'name': data['title'], 'description': data['description'], 'url': url,
             'mainEntityOfPage': url, 'datePublished': data['published'], 'dateModified': data['updated'],
             'inLanguage': 'en-US', 'keywords': data['keywords'],
-            'author': author_schema(site_author(data['authorSlug'])) if data.get('authorSlug') else {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN + '/about'},
+            'author': author_schema(site_author(data.get('authorSlug', 'karen-pendergrass'))),
             'publisher': {'@type': 'Organization', 'name': 'Microbial Metallomics', 'url': ORIGIN}}
     if not hub:
         page['citation'] = data['paper']['url'] if data.get('paper') else [s['url'] for s in data['sources']]
@@ -46,7 +46,7 @@ def schema(data, route, hub=False):
 def head(data, route, hub=False, structured=None):
     out = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', '', PREFIX, flags=re.S)
     out = re.sub(r'<title>.*?</title>', '<title>' + esc(data['title']) + ' | Microbial Metallomics</title>', out, flags=re.S)
-    for attr, key, value in [('name', 'author', site_author(data['authorSlug'])['name'] if data.get('authorSlug') else 'Microbial Metallomics'), ('name', 'description', data['description']), ('property', 'og:title', data['title']), ('property', 'og:description', data['description']), ('property', 'og:url', ORIGIN + route), ('name', 'twitter:title', data['title']), ('name', 'twitter:description', data['description'])]:
+    for attr, key, value in [('name', 'author', site_author(data.get('authorSlug', 'karen-pendergrass'))['name']), ('name', 'description', data['description']), ('property', 'og:title', data['title']), ('property', 'og:description', data['description']), ('property', 'og:url', ORIGIN + route), ('name', 'twitter:title', data['title']), ('name', 'twitter:description', data['description'])]:
         out = re.sub(r'<meta\b(?=[^>]*\b' + attr + '="' + re.escape(key) + '")[^>]*>', '<meta ' + attr + '="' + key + '" content="' + esc(value) + '">', out)
     out = re.sub(r'<link rel="canonical"[^>]*>', '<link rel="canonical" href="' + ORIGIN + route + '">', out)
     out = re.sub(r'<link\b[^>]*href="/assets/(?:metal-access|disease-signatures)\.css[^>]*>\s*', '', out)
@@ -70,7 +70,7 @@ def controls(data, route):
 def cite_panel(data, route):
     url = ORIGIN + route
     title = data['title'] + ('' if data['title'].endswith(('.', '?', '!')) else '.')
-    name = site_author(data['authorSlug'])['name'] if data.get('authorSlug') else 'Microbial Metallomics'
+    name = site_author(data.get('authorSlug', 'karen-pendergrass'))['name']
     text = name + '. ' + title + ' ' + data['published'] + '. ' + url
     payload = {'title': data['title'], 'date': data['published'], 'authors': [name], 'url': url}
     return '<details class="citation-panel" id="cite-this-page" data-citation><summary>Cite this page</summary><p data-citation-text>' + esc(text) + '</p><div class="article-tools"><button class="text-action" data-citation-copy type="button">Copy citation</button><button class="text-action" data-citation-bibtex type="button">Download BibTeX</button><button class="text-action" data-citation-ris type="button">Download RIS</button></div><p class="tool-status" data-citation-status role="status"></p></details><script id="page-citation-data" type="application/json">' + json.dumps(payload, ensure_ascii=False) + '</script><p class="print-source">Published at ' + url + '</p>'
@@ -124,7 +124,7 @@ def render_synthesis(data):
     summary = '<section id="article-summary" class="signature-summary"><p class="access-evidence-label">The working explanation</p><h2>' + esc(data['summaryTitle']) + '</h2><p>' + cite.cite(data['summary']) + '</p></section>'
     body = chapters(data, cite.cite)
     assert set(cite.order) == set(range(1, len(data['sources']) + 1)), data['slug']
-    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/disease-signatures">Disease signatures</a><span>/</span><span>' + esc(data['shortTitle']) + '</span></nav><p class="eyebrow">Disease signatures · Research synthesis</p><h1>' + esc(data['title']) + '</h1><p class="article-lead">' + esc(data['deck']) + '</p><p class="signature-byline">Research synthesis by <a href="/about">Microbial Metallomics</a></p>' + controls(data, route) + '</div></section>'
+    hero = '<section class="hero-band signature-hero"><div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/disease-signatures">Disease signatures</a><span>/</span><span>' + esc(data['shortTitle']) + '</span></nav><p class="eyebrow">Disease signatures · Research synthesis</p><h1>' + esc(data['title']) + '</h1><p class="article-lead">' + esc(data['deck']) + '</p><p class="signature-byline">Research synthesis by ' + author_byline(site_author(data.get('authorSlug', 'karen-pendergrass'))) + '</p>' + controls(data, route) + '</div></section>'
     references = cite.references().replace('Primary studies supporting the linked statements.', 'Primary studies and methodological sources supporting the linked statements; the originating framework is credited separately.')
     article = '<div class="article-format">Selected evidence synthesis · Human observations, experimental mechanisms, and intervention studies. <a href="/disease-signatures#triangulation">How we test convergence</a></div>' + summary + body + faq(data) + references + cite_panel(data, route)
     content = '<main id="main-content">' + hero + '<div class="wrap signature-layout"><article class="article-body access-prose">' + article + '</article>' + sidebar(data).replace('In this review', 'In this synthesis') + '</div></main>'
