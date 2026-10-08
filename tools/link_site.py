@@ -90,7 +90,10 @@ def registry(root):
  return data,entities,legacy
 
 def reading_block(items):
- return '<!-- connected-reading:start --><section class="connected-reading" aria-label="Related reading"><h2>Follow the connections</h2><div class="connected-reading-grid">'+''.join('<a href="'+escape(r['url'],quote=True)+'"><strong>'+escape(r['title'])+'</strong><span>'+escape(r['description'])+'</span></a>' for r in items)+'</div></section><!-- connected-reading:end -->\n'
+ def cards(rows):
+  return '<div class="connected-reading-grid">'+''.join('<a href="'+escape(r['url'],quote=True)+'"><strong>'+escape(r['title'])+'</strong><span>'+escape(r['description'])+'</span></a>' for r in rows)+'</div>'
+ more='<details class="reading-more"><summary>More related reading</summary>'+cards(items[3:])+'</details>' if len(items)>3 else ''
+ return '<!-- connected-reading:start --><section class="connected-reading" aria-label="Related reading"><h2>Follow the connections</h2>'+cards(items[:3])+more+'</section><!-- connected-reading:end -->\n'
 
 def refresh_links(root):
  data,entities,legacy=registry(root);report=[]

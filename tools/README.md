@@ -11,7 +11,7 @@ python3 tools/build_catalog.py
 python3 tools/refresh_site.py
 ```
 
-The first command updates the 57-page reading catalog, CSV export, RSS feeds, and JSON Feed from published article metadata. Design labels are explicitly maintained in `DESIGNS`; do not infer evidence strength from a topic or publication format. The catalog describes this site’s coverage, not a systematic review dataset.
+The first command updates the published reading catalog, CSV export, RSS feeds, and JSON Feed from published article metadata. Design labels are explicitly maintained in `DESIGNS`; do not infer evidence strength from a topic or publication format. The catalog describes this site’s coverage, not a systematic review dataset.
 
 The second command refreshes shared navigation, asset content hashes, search records, RSS discovery, and the sitemap. Vercel caches `/assets` immutably, so rerun this command after changing CSS, JavaScript, or catalog files.
 
@@ -38,7 +38,7 @@ python3 tools/refresh_site.py
 npm run check
 ```
 
-`build_access.py` creates Start here, Follow the metal, and the homepage thesis entry point. `build_metals.py` builds individual profiles, the searchable hub, and every homepage element tile. Optional profile access sections appear after exposure and chemical form, with matching contents links and their own stylesheet. Their text, including tables and claim cards, is included in atlas filtering. `refresh_site.py` runs last to update shared navigation, search records, sitemap entries, and asset hashes across all generated pages. If article metadata also changed, run `build_catalog.py` before this sequence.
+`build_access.py` creates Start here and Follow the metal. `build_metals.py` builds individual profiles and the searchable hub. The atlas controls and element results come before the longer explanatory material. The homepage is owned by `build_home.py`, which the final refresh calls automatically. Optional profile access sections appear after exposure and chemical form, with matching contents links and their own stylesheet. Their text, including tables and claim cards, is included in atlas filtering. `refresh_site.py` runs last to update shared navigation, search records, sitemap entries, and asset hashes across all generated pages. If article metadata also changed, run `build_catalog.py` before this sequence.
 
 Each sourced prose field contains text and per-profile 1-based source indices; the generators validate references and emit static superscript citations with return links. Access blocks share the renderers in `access_render.py`. Preserve stable section IDs and distinguish observations, model-specific causal evidence, and proposed connections. Review dates remain in data and machine-readable metadata; do not add visible review-date labels to these pages. Group labels are reading pathways rather than exclusive chemical or safety classifications. Verify each new source and keep study setting and limitations explicit.
 
@@ -83,13 +83,17 @@ The pathway now compares metal findings with disease-specific microbial findings
 
 `assets/data/disease-signatures/` owns the research pathway and its five paper reviews. Run `python3 tools/build_disease_signatures.py`, `python3 tools/build_catalog.py`, and `python3 tools/refresh_site.py`, then `npm run check`. The generator preserves source DOI links, article controls, numbered citations, FAQ metadata, and existing review section anchors. The collection distinguishes postmortem regional findings, spatial proof of concept, and prospective serum associations; it is not a systematic review or a diagnostic tool. Preserve cohort reuse, measurement units, and unresolved source discrepancies when updating findings. Keep hypotheses and discriminating experiments explicit.
 
-The homepage feature and library/evidence pathway cards are maintained in their HTML. Update static catalog fallback cards in library.html, evidence.html, and topics.html when review metadata changes. Shared navigation and reciprocal atlas links come from refresh_site.py and internal-links.json.
+The homepage feature is maintained in `tools/build_home.py`; library/evidence pathway cards are maintained in their HTML. Update static catalog fallback cards in library.html, evidence.html, and topics.html when review metadata changes. Shared navigation and reciprocal atlas links come from refresh_site.py and internal-links.json.
 
 ## Homepage editorial hierarchy
 
-Keep the featured essay and latest writing as the first content section below the masthead and navigation. The desktop lead uses two thirds for the essay and one third for latest writing; mobile stacks them in that order. Selected reading image cards follow, then the compact field introduction. New collections and explainers belong below the editorial lead.
+The homepage leads with a plain-language definition, site search, and three choices: Learn the basics, Explore a metal, and Find research. The featured essay and three recent articles follow, then four topic pathways and a short editorial/newsletter section. Keep the full atlas and detailed explanations on their dedicated pages. The former host-defense table and field figures remain on `/science#host-metal-strategies` and `/science#field-statistics`.
 
-`assets/homepage.css` owns these homepage additions. The three `assets/home-*.jpg` images are conceptual editorial illustrations, not study figures or measured metal maps. Retain the visible illustration label. `build_access.py` refreshes the `article[data-access-intro]` card inside the selected-reading grid; it must not insert a separate banner above the lead. Run `refresh_site.py` and `npm run check` after updates.
+`tools/build_home.py` renders this hierarchy from the published article catalog and its small editorial selection. `assets/homepage.css` styles it. The featured image is a conceptual illustration; retain its visible label. Run the catalog generator before `refresh_site.py` when adding writing. The access and metals generators must not inject duplicate homepage sections.
+
+`tools/reading_layout.py` runs before shared navigation and discovery. It moves complete source blocks without rewriting scientific prose, sources, anchors, or claim boundaries. Articles lead with their existing summary and up to three takeaways before sharing controls. Extra findings remain in the body. Researcher profiles show contribution, significance, and selected work before longer background. Directory controls and results precede contextual essays. `assets/reading.css` and `reading.js` provide the responsive layer, with native contents disclosures that work without JavaScript. Routine review-date strips stay out of the reading flow; correction notices and machine-readable dates remain.
+
+After layout or generator changes, run the relevant generators, `python3 tools/refresh_site.py`, and `npm run check`. Check homepage search, directory filters, article contents/citation return links, keyboard navigation, narrow screens, and no-JavaScript fallbacks in the browser. Repeating the refresh must not move content again or create duplicate summaries. Retain canonical URLs, static text and links, author identity, source distinctions, and matching structured data; homepage FAQ schema is removed because its FAQs now live on dedicated pages.
 
 ## Host defenses and unexpected metal biology
 
