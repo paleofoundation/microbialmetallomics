@@ -77,18 +77,50 @@
   var input = document.getElementById('search-input');
   var resBox = document.getElementById('search-results');
   var searchTrigger = null, inertElements = [];
+  var searchScope = null, searchStatus = null;
+  var searchEngine = window.MMSearch;
+
+  if (overlay && input && resBox && searchEngine) {
+    var modal = overlay.querySelector('.search-modal');
+    var searchTitle = document.createElement('h2');
+    searchTitle.className = 'search-heading'; searchTitle.textContent = 'Search the field';
+    searchTitle.id = 'search-heading'; modal.prepend(searchTitle);
+    modal.setAttribute('aria-labelledby', searchTitle.id); modal.removeAttribute('aria-label');
+    input.type = 'search'; input.placeholder = 'Try “iron gut” or “nickel urease”';
+    var toolbar = document.createElement('div'); toolbar.className = 'search-toolbar';
+    var scopeLabel = document.createElement('label'); scopeLabel.textContent = 'Look in';
+    searchScope = document.createElement('select'); searchScope.id = 'search-scope';
+    scopeLabel.htmlFor = searchScope.id;
+    [['all', 'Everything'], ['elements', 'Elements'], ['papers', 'Writing & papers'], ['people', 'Researchers'], ['terms', 'Glossary'], ['guides', 'Guides']].forEach(function (choice) {
+      var option = document.createElement('option'); option.value = choice[0]; option.textContent = choice[1]; searchScope.append(option);
+    });
+    searchStatus = document.createElement('span'); searchStatus.className = 'search-count';
+    searchStatus.setAttribute('role', 'status'); searchStatus.setAttribute('aria-live', 'polite'); searchStatus.setAttribute('aria-atomic', 'true');
+    toolbar.append(scopeLabel, searchScope, searchStatus); input.after(toolbar);
+    var examples = document.createElement('div'); examples.className = 'search-examples';
+    var exampleLabel = document.createElement('span'); exampleLabel.textContent = 'Try'; examples.append(exampleLabel);
+    ['iron gut', 'nickel urease', 'copper brain'].forEach(function (query) {
+      var button = document.createElement('button'); button.type = 'button'; button.textContent = query;
+      button.addEventListener('click', function () { input.value = query; searchScope.value = 'all'; render(query); input.focus(); });
+      examples.append(button);
+    });
+    toolbar.after(examples);
+    searchScope.addEventListener('change', function () { render(input.value); });
+  }
+
+  function announce(text) {
+    if (searchStatus) searchStatus.textContent = text;
+  }
 
   function loadIndex() {
     if (index) return Promise.resolve(index);
     if (indexRequest) return indexRequest;
-    indexRequest = fetch('/search-index.json').then(function (r) {
+    indexRequest = fetch(document.querySelector('meta[name="site-search"]')?.content || '/search-index.json').then(function (r) {
       if (!r.ok) throw new Error('Search index unavailable');
       return r.json();
     }).then(function (d) {
       if (!Array.isArray(d)) throw new Error('Invalid search index');
-      index = d.filter(function (item) {
-        return item && typeof item.title === 'string' && typeof item.kind === 'string' && typeof item.desc === 'string' && typeof item.url === 'string' && /^\/(?!\/)[a-z0-9/?#%&=._-]*$/i.test(item.url);
-      });
+      index = d.filter(searchEngine.safe);
       return index;
     }).finally(function () { indexRequest = null; });
     return indexRequest;
@@ -99,73 +131,99 @@
     var message = document.createElement('div');
     message.className = 'sr-empty'; message.textContent = text;
     resBox.replaceChildren(message);
+    announce(text);
+  }
+  function searchFailure() {
+    searchMessage('Search could not load. Browse the metals atlas or evidence explorer, or try again.');
+    var retry = document.createElement('button'); retry.type = 'button'; retry.className = 'search-retry'; retry.textContent = 'Try again';
+    retry.addEventListener('click', function () {
+      searchMessage('Loading search…');
+      loadIndex().then(function () { if (overlay.classList.contains('open')) render(input.value); }).catch(searchFailure);
+    });
+    resBox.append(retry);
+    browseLinks();
+  }
+  function browseLinks() {
+    var links = document.createElement('div'); links.className = 'search-browse';
+    [['/metals', 'Metals atlas'], ['/evidence', 'Evidence explorer'], ['/glossary', 'Glossary']].forEach(function (entry) {
+      var link = document.createElement('a'); link.href = entry[0]; link.textContent = entry[1] + ' →'; links.append(link);
+    });
+    resBox.append(links);
   }
   function openSearch(trigger) {
-    if (!overlay) return;
+    if (!overlay || !searchEngine) return;
     if (overlay.classList.contains('open')) { input?.focus(); return; }
     searchTrigger = trigger || document.activeElement;
     closeMenu();
     overlay.classList.add('open');
+    document.body.classList.add('search-open');
     overlay.setAttribute('aria-hidden', 'false');
     inertElements = Array.prototype.filter.call(document.body.children, function (element) {
       return element !== overlay && !element.contains(overlay) && !element.inert && !['SCRIPT', 'STYLE', 'LINK'].includes(element.tagName);
     });
     inertElements.forEach(function (element) { element.inert = true; });
+    if (searchScope) searchScope.value = 'all';
     if (input) { input.value = ''; input.focus(); }
     searchMessage('Loading search…');
     loadIndex().then(function () {
       if (overlay.classList.contains('open')) render(input ? input.value : '');
     }).catch(function () {
-      if (overlay.classList.contains('open')) searchMessage('Search could not load. Close search and try again. You can still browse the site from the menu.');
+      if (overlay.classList.contains('open')) searchFailure();
     });
   }
   function closeSearch() {
     if (!overlay || !overlay.classList.contains('open')) return;
     overlay.classList.remove('open'); overlay.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('search-open');
     inertElements.forEach(function (element) { element.inert = false; });
     inertElements = [];
     if (searchTrigger && searchTrigger.isConnected) searchTrigger.focus();
     searchTrigger = null;
   }
   function render(q) {
-    if (!resBox) return;
-    q = (q || '').trim().toLowerCase();
-    if (!q) {
-      results = (index || []).filter(function (x) { return x.kind === 'Glossary' || x.kind === 'Blog'; }).slice(0, 8);
-    } else {
-      results = (index || []).map(function (x) {
-        var t = x.title.toLowerCase(), d = (x.desc || '').toLowerCase();
-        var score = t.indexOf(q) === 0 ? 0 : (t.indexOf(q) > -1 ? 1 : (d.indexOf(q) > -1 ? 2 : 99));
-        return { x: x, s: score };
-      }).filter(function (o) { return o.s < 99; }).sort(function (a, b) { return a.s - b.s; }).slice(0, 12).map(function (o) { return o.x; });
+    if (!resBox || !searchEngine || !index) return;
+    q = (q || '').trim();
+    var all = searchEngine.search(index, q, searchScope ? searchScope.value : 'all');
+    results = all.slice(0, 18); sel = -1;
+    if (!results.length) {
+      searchMessage('No matches. Try fewer words or choose Everything in “Look in.”');
+      browseLinks(); return;
     }
-    sel = results.length ? 0 : -1;
-    if (!results.length) { searchMessage('No matches — try a metal, a term, or a topic.'); return; }
+    announce(!q && (!searchScope || searchScope.value === 'all') ? 'Suggested starting points' : all.length + (all.length === 1 ? ' result' : ' results') + (all.length > results.length ? ' · showing first ' + results.length : ''));
+    resBox.scrollTop = 0;
     resBox.replaceChildren.apply(resBox, results.map(function (r, i) {
       var link = document.createElement('a'); link.href = r.url;
-      if (i === sel) link.className = 'sel';
-      var kind = document.createElement('div'); kind.className = 'sr-kind'; kind.textContent = r.kind;
+      link.dataset.searchResult = String(i);
+      var kind = document.createElement('div'); kind.className = 'sr-kind'; kind.textContent = [r.kind, r.status, r.studyDesign].filter(Boolean).join(' · ');
       var title = document.createElement('div'); title.className = 'sr-title'; title.textContent = r.title;
-      link.append(kind, title);
+      var desc = document.createElement('p'); desc.className = 'sr-description'; desc.textContent = searchEngine.excerpt(r, q);
+      link.append(kind, title, desc);
+      link.addEventListener('focus', function () { sel = i; });
       return link;
     }));
   }
   function move(d) {
     if (!results.length) return;
-    sel = (sel + d + results.length) % results.length;
-    var links = resBox.querySelectorAll('a');
-    links.forEach(function (a, i) { a.classList.toggle('sel', i === sel); });
-    if (links[sel]) links[sel].scrollIntoView({ block: 'nearest' });
+    if (sel === 0 && d < 0) { sel = -1; input.focus(); return; }
+    sel = sel < 0 ? (d > 0 ? 0 : results.length - 1) : (sel + d + results.length) % results.length;
+    var links = resBox.querySelectorAll('[data-search-result]');
+    if (links[sel]) { links[sel].focus(); links[sel].scrollIntoView({ block: 'nearest' }); }
   }
   if (input) {
     input.addEventListener('input', function () { render(input.value); });
     input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && results.length) { e.preventDefault(); location.href = results[0].url; }
+    });
+    input.addEventListener('focus', function () { sel = -1; });
+  }
+  if (overlay) {
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) closeSearch(); });
+    overlay.addEventListener('keydown', function (e) {
+      if (e.target !== input && !e.target.closest('[data-search-result]')) return;
       if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
       else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
-      else if (e.key === 'Enter') { if (results[sel]) location.href = results[sel].url; }
     });
   }
-  if (overlay) overlay.addEventListener('click', function (e) { if (e.target === overlay) closeSearch(); });
 
   document.addEventListener('keydown', function (e) {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }

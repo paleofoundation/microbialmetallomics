@@ -91,6 +91,10 @@ Keep the featured essay and latest writing as the first content section below th
 
 `assets/homepage.css` owns these homepage additions. The three `assets/home-*.jpg` images are conceptual editorial illustrations, not study figures or measured metal maps. Retain the visible illustration label. `build_access.py` refreshes the `article[data-access-intro]` card inside the selected-reading grid; it must not insert a separate banner above the lead. Run `refresh_site.py` and `npm run check` after updates.
 
+The homepage reading paths at `#reading-paths` connect introductory pages, element profiles, and named paper reviews to a discriminating research question. They use native details/summary disclosure so the full paths work without JavaScript. Retain the research-tool links and the distinction between study findings and proposed mechanisms.
+
+Shared search uses `assets/search.js` for local relevance ranking and `assets/main.js` for the dialog. It matches separate query words, normalizes punctuation and accents, recognizes common element symbols, and filters by content type. Ranking expresses text relevance, never evidence strength. Result status and study-design labels come directly from the reading catalog. `refresh_site.py` installs the shared search script and hashes the completed index; run it after changes. `tests/search.test.cjs` exercises real-site queries, symbol aliases, result safety, and the source labels.
+
 ## Host defenses and unexpected metal biology
 
 `assets/data/host-defense/series.json` and `reviews/*.json` own the collection pages, long-form narrative syntheses, source provenance, and central-claim ledgers. `tools/build_host_series.py` renders the pages and a downloadable source-linked claims CSV. `tools/build_host_series_covers.py` uses Pillow to generate the 1200×630 typographic social covers. Run the catalog builder and discovery refresh after rendering, then `npm run check`.
