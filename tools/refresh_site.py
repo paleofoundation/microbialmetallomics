@@ -89,6 +89,7 @@ for p in public_html():
  s=re.sub(r'<div class="mega-menu" id="mega-menu">.*?(?=</header>)',mega+'\n',s,flags=re.S)
  if 'field-tools.css' not in s:s=s.replace('</head>','<link rel="stylesheet" href="/assets/field-tools.css">\n</head>')
  if 'field-tools.js' not in s:s=s.replace('</body>','<script src="/assets/field-tools.js" defer></script>\n</body>')
+ if '/assets/search.js' not in s:s=re.sub(r'(?=<script src="/assets/main\.js)', '<script src="/assets/search.js" defer></script>\n',s,count=1)
  s=re.sub(r'<meta name="reading-catalogue"[^>]*>\n?','',s)
  s=s.replace('</head>','<meta name="reading-catalogue" content="/assets/data/articles.json?v='+cat_hash+'">\n</head>')
  if 'rel="alternate" type="application/rss+xml"' not in s:s=s.replace('</head>','<link rel="alternate" type="application/rss+xml" title="Microbial Metallomics — all writing" href="/feeds/all.xml">\n</head>')
@@ -126,13 +127,13 @@ for route,(p,metadata) in pages.items():
  if not metadata.title:continue
  existing=byurl.get(route,{})
  kind='Researcher profile' if route.startswith('/people/') else ('Element profile' if route.startswith('/metals/') else ('Glossary' if route.startswith('/glossary/') else ('Guide' if p.stem in ['start-here','metal-access','evidence-guide','methods','editorial','about','projects'] else existing.get('kind','Section'))))
- record={'kind':kind,'title':metadata.title,'url':route,'desc':metadata.description}
+ record={'kind':kind,'title':metadata.title,'url':route,'desc':metadata.description,'summary':metadata.description}
  if route in byurl:byurl[route].update(record)
  else:index.append(record);byurl[route]=record
 # Article author and topic context is richer than the search-result description.
 articles=json.loads((ROOT/'assets/data/articles.json').read_text())
 for r in articles:
- if r['url'] in byurl:byurl[r['url']].update({'kind':r['kind'],'title':r['title'],'desc':r['description']+' '+' '.join(r['authors'])+' '+' '.join(r['topics'])})
+ if r['url'] in byurl:byurl[r['url']].update({'kind':r['kind'],'title':r['title'],'desc':r['description']+' '+' '.join(r['authors'])+' '+' '.join(r['topics']),'summary':r['description'],'status':r.get('status',''),'studyDesign':r.get('studyDesign','')})
 # Search includes element symbols, enzymes, organisms, and grouped lanthanide names.
 def readable_access(value):
  if isinstance(value,str):return value
@@ -143,6 +144,7 @@ metals_path=ROOT/'assets/data/metals.json'
 if metals_path.exists():
  for r in json.loads(metals_path.read_text()):
   if r['url'] in byurl:
+   byurl[r['url']]['elements']=[{'symbol':element['symbol'],'name':element['name']} for element in [r,*r.get('members',[])] if element.get('symbol') and element.get('name')]
    byurl[r['url']]['desc']=' '.join([r['symbol'],r['role'],r['summary']['text'],*r['tags'],*[study['system'] for study in r.get('studies',[])],*[m['name']+' '+m['symbol'] for m in r.get('members',[])]])
    if r.get('access'):byurl[r['url']]['desc']+=' '+readable_access(r['access'])
    if r.get('mechanismSpotlight'):byurl[r['url']]['desc']+=' '+readable_access(r['mechanismSpotlight'])
@@ -164,6 +166,11 @@ if people_path.exists():
     raise ValueError('Invalid profile portrait for '+r['slug']+': '+r['portrait'])
    profile_portraits[pages[route][1].canonical]=ORIGIN+portrait.path
 (ROOT/'search-index.json').write_text(json.dumps(index,ensure_ascii=False)+'\n')
+search_hash=hashlib.sha256((ROOT/'search-index.json').read_bytes()).hexdigest()[:12]
+for p in public_html():
+ s=re.sub(r'<meta name="site-search"[^>]*>\n?','',p.read_text())
+ s=s.replace('</head>','<meta name="site-search" content="/search-index.json?v='+search_hash+'">\n</head>')
+ p.write_text(s)
 # Sitemap: every indexable canonical page, with reliable page-level freshness only.
 entries={metadata.canonical:metadata.last_modified() for _,metadata in pages.values()}
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'+''.join('<url><loc>'+escape(url)+'</loc>'+('<lastmod>'+modified+'</lastmod>' if modified else '')+('<image:image><image:loc>'+escape(profile_portraits[url])+'</image:loc></image:image>' if url in profile_portraits else '')+'</url>\n' for url,modified in sorted(entries.items()))+'</urlset>\n')
